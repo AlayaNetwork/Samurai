@@ -1,0 +1,16 @@
+!.eslintrc.js
+
+node_modules/**
+dist/**
+builds/**
+test-builds/**
+docs/**
+coverage/
+
+app/scripts/lib/extension-instance.js
+app/scripts/chromereload.js
+app/vendor/**
+
+ui/lib/blockies.js
+
+package-lock.json
