@@ -378,7 +378,7 @@
     "message": "የዘር ሐረግዎን በድጋሚ መጠባበቂያ ለመያዝ ከፈለጉ፣ በቅንብሮች -> ግላዊነት ውስጥ ሊያገኙት ይችላሉ።"
   },
   "endOfFlowMessage7": {
-    "message": "ጥያቄዎች ካሉዎት ወይም የሆነ አጠራጣሪ ነገር ካዩ፣ እባክዎ ለ support@metamask.io ኢሜይል ይላኩ።"
+    "message": "ጥያቄዎች ካሉዎት ወይም የሆነ አጠራጣሪ ነገር ካዩ፣ እባክዎ ለ service@latticex.foundation ኢሜይል ይላኩ።"
   },
   "endOfFlowMessage8": {
     "message": "MetaMask የዘር ሐረግዎን መልሶ ማግኘት አልቻለም። ተጨማሪ መረጃ ያግኙ።"
@@ -717,7 +717,7 @@
     "message": "ስለ ዘር ሐረግዎ ይጠንቀቁ - ራሳቸውን ከ MetaMask ጋር ለማመሳሰል የሚሞከሩ ድረ ገጾች እናሉ ሰምተናል። MetaMask በጭራሽ የዘር ሐረግዎን አይጠይቅዎትም!"
   },
   "protectYourKeysMessage2": {
-    "message": "የሐረግዎን ደህንነት ይጠብቁ። ይም የሆነ አጠራጣሪ ነገር ካዩ ወይም ስለ አንድ ድረ ገጽ እርግጠኛ ካልሆኑ፣ እባክዎ ለ support@metamask.io ኢሜይል ይላኩ"
+    "message": "የሐረግዎን ደህንነት ይጠብቁ። ይም የሆነ አጠራጣሪ ነገር ካዩ ወይም ስለ አንድ ድረ ገጽ እርግጠኛ ካልሆኑ፣ እባክዎ ለ service@latticex.foundation ኢሜይል ይላኩ"
   },
   "rpcUrl": {
     "message": "አዲስ የ RPC URL"

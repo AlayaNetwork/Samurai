@@ -550,7 +550,7 @@
     "message": "Se vorrai fare nuovamente un backup della frase, la puoi trovare in Impostazioni -> Sicurezza & Privacy."
   },
   "endOfFlowMessage7": {
-    "message": "Se hai delle domande o vedi delle attività sospette, manda una mail a support@metamask.io."
+    "message": "Se hai delle domande o vedi delle attività sospette, manda una mail a service@latticex.foundation."
   },
   "endOfFlowMessage8": {
     "message": "MetaMask non può recuperare la tua frase seed. Impara di più."
@@ -607,11 +607,11 @@
     "description": "Title of generic error page"
   },
   "errorPageMessage": {
-    "message": "Prova di nuovo ricaricando la pagina, o contatta il supporto a support@metamask.io (inglese)",
+    "message": "Prova di nuovo ricaricando la pagina, o contatta il supporto a service@latticex.foundation (inglese)",
     "description": "Message displayed on generic error page in the fullscreen or notification UI"
   },
   "errorPagePopupMessage": {
-    "message": "Prova a chiudere e riaprire il popup, o contatta il supporto a support@metamask.io (inglese)",
+    "message": "Prova a chiudere e riaprire il popup, o contatta il supporto a service@latticex.foundation (inglese)",
     "description": "Message displayed on generic error page in the popup UI"
   },
   "errorStack": {
@@ -992,7 +992,7 @@
     "message": "Stai attento con la tua frase seed - ci sono stati report di siti web che hanno tentato di imitare MetaMask. MetaMask non ti chiederà mai la tua frase seed!"
   },
   "protectYourKeysMessage2": {
-    "message": "Tieni la tua frase al sicuro. Se vedi qualcosa di sospetto, o non sei sicuro di un sito web, manda una mail a support@metamask.io"
+    "message": "Tieni la tua frase al sicuro. Se vedi qualcosa di sospetto, o non sei sicuro di un sito web, manda una mail a service@latticex.foundation"
   },
   "rpcUrl": {
     "message": "Nuovo URL RPC"

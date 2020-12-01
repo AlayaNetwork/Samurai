@@ -225,23 +225,23 @@ export default class NetworksTab extends PureComponent {
       <div className="networks-tab__body">
         {this.renderSubHeader()}
         {this.renderNetworksTabContent()}
-        {!networkIsSelected && !networksTabIsInAddMode
-          ? (
-            <div className="networks-tab__add-network-button-wrapper">
-              <Button
-                type="primary"
-                onClick={(event) => {
-                  event.preventDefault()
-                  setSelectedSettingsRpcUrl(null)
-                  setNetworksTabAddMode(true)
-                }}
-              >
-                { this.context.t('addNetwork') }
-              </Button>
-            </div>
-          )
-          : null
-        }
+        {/*{!networkIsSelected && !networksTabIsInAddMode*/}
+        {/*  ? (*/}
+        {/*    <div className="networks-tab__add-network-button-wrapper">*/}
+        {/*      <Button*/}
+        {/*        type="primary"*/}
+        {/*        onClick={(event) => {*/}
+        {/*          event.preventDefault()*/}
+        {/*          setSelectedSettingsRpcUrl(null)*/}
+        {/*          setNetworksTabAddMode(true)*/}
+        {/*        }}*/}
+        {/*      >*/}
+        {/*        { this.context.t('addNetwork') }*/}
+        {/*      </Button>*/}
+        {/*    </div>*/}
+        {/*  )*/}
+        {/*  : null*/}
+        {/*}*/}
       </div>
     )
   }
