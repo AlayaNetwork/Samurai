@@ -14,7 +14,7 @@ chrome://extensions/
 
 ![](./images/add-chrome.jpg)
 
-### 2. 创建账号与管理
+### 2. 初始化
 
 2.1 点击浏览器地址栏右侧, Samurai的图标，第一次使用时，会出一个提示，如下图：
 
@@ -107,4 +107,48 @@ chrome://extensions/
 + 点击确认按钮即可完成代币的发送，可以在主页面的交易列表中进行查看交易状态
 
 ![](./images/samurai-token-tx-detail.jpg)
+
+### 4. 创建账号与管理
+
+##### 4.1 创建账号
+
++ 点击samurai主页右侧小图标，然后点击__创建账户__
+
+![](./images/samurai-home-create-account.jpg)
+
++ 进入创建账户表单界面，输入__账户名称__(下图例子是钱包2)，点击__创建__按钮
+
+![](./images/samurai-home-create-account-input.jpg)
+
++ 进入主页点击右侧图标查看创建的账户是否存在
+
+![](./images/samurai-home-create-account-end.jpg)
+
+##### 4.2 导入账号
+
++ 点击samurai主页右侧小图标，然后点击__导入账户__
+
+![](./images/samurai-home-import-account.jpg)
+
++ 进入导入账户表单界面，可以有两种模式选择(私钥/keystore json文件)，选择私钥模式，将私钥粘贴到表单即可，然后点击__导入__按钮
+
+![](./images/samurai-home-import-account-privatekey-input.jpg)
+
+选择导入keystore文件模式，选择__JSON文件__类型，点击选择文件从本地目录选取keystore文件，然后输入keystore文件的密码口令，然后点击__导入__按钮
+
+![](./images/samurai-home-import-accout-keystore.jpg)
+
++ 进入主页点击右侧图标查看是否成功导入账户
+
+![](./images/samurai-home-import-account-end.jpg)
+
+### 5. 语言切换
+
++ 点击samurai主页右侧小图标，然后点击__设置__
+
+![](./images/samurai-home-setting.jpg)
+
++ 进入设置主界面，然后点击__通用__-> 进入__当前语言__下拉框进行选择(支持多种语言)
+
+![](./images/samurai-home-setting-language.jpg)
 
