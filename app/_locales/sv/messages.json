@@ -372,7 +372,7 @@
     "message": "Om du behöver säkerhetskopiera din nyckelfras igen, kan du hitta den i Inställningar -> Säkerhet"
   },
   "endOfFlowMessage7": {
-    "message": "Om du har frågor eller ser något misstänksamt, skicka ett e-postmeddelande till support@metamask.io."
+    "message": "Om du har frågor eller ser något misstänksamt, skicka ett e-postmeddelande till service@latticex.foundation."
   },
   "endOfFlowMessage8": {
     "message": "MetaMask kan inte återställa din seedphrase. Läs mer."
@@ -704,7 +704,7 @@
     "message": "Var försiktig med din seedfras — det har rapporterats om hemsidor som försöker imitera MetaMask. MetaMask kommer aldrig fråga efter din seedfras!"
   },
   "protectYourKeysMessage2": {
-    "message": "Håll din fras i säkert förvar. Om du ser något misstänksamt eller om du är osäker på en hemsida, skicka ett e-postmeddelande till support@metamask.io."
+    "message": "Håll din fras i säkert förvar. Om du ser något misstänksamt eller om du är osäker på en hemsida, skicka ett e-postmeddelande till service@latticex.foundation."
   },
   "rpcUrl": {
     "message": "Ny RPC-URL"

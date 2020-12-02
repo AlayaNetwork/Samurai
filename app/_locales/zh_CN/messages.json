@@ -741,7 +741,7 @@
     "message": "请注意个人种子密语安全。报告显示有多个网站企图伪造 Samurai。Samurai 绝不会要求您提供个人种子密语！"
   },
   "protectYourKeysMessage2": {
-    "message": "请妥善保管您的密语。如果您发现任何可疑的地方，或无法确认网络安全性，请发送电子邮件至 support@metamask.io 进行咨询"
+    "message": "请妥善保管您的密语。如果您发现任何可疑的地方，或无法确认网络安全性，请发送电子邮件至 service@latticex.foundation 进行咨询"
   },
   "rpcUrl": {
     "message": "新增 RPC URL"

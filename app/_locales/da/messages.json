@@ -378,7 +378,7 @@
     "message": "Hvis du får brug for at lave en backup af din seedfrase igen, kan du finde det under Indstillinger -> Sikkerhed."
   },
   "endOfFlowMessage7": {
-    "message": "Hvis du har spørgsmål eller bemærker noget mistænkeligt, send en mail til support@metamask.io."
+    "message": "Hvis du har spørgsmål eller bemærker noget mistænkeligt, send en mail til service@latticex.foundation."
   },
   "endOfFlowMessage8": {
     "message": "MetaMask kan ikke gendanne din seed-sætning. Få mere at vide."
@@ -704,7 +704,7 @@
     "message": "Vær forsigtig med din backupsætning - der har været rapporter om websteder, der forsøger at efterligne MetaMask. MetaMask vil aldrig bede om din backupsætning!"
   },
   "protectYourKeysMessage2": {
-    "message": "Opbevar din frase et sikkert sted. Hvis du ser noget mistænkeligt, eller du er usikker på hjemmesiden, skriv en email til support@metamask.io"
+    "message": "Opbevar din frase et sikkert sted. Hvis du ser noget mistænkeligt, eller du er usikker på hjemmesiden, skriv en email til service@latticex.foundation"
   },
   "rpcUrl": {
     "message": "Ny RPC-URL"
