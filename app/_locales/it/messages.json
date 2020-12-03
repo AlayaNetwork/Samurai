@@ -26,7 +26,7 @@
     "description": "$1 is the number of accounts"
   },
   "connectedAccountsEmptyDescription": {
-    "message": "MetaMask non è connesso a questo sito. Per connetterti ad un sito web3, trova il pulsante di connessione."
+    "message": "Samurai non è connesso a questo sito. Per connetterti ad un sito web3, trova il pulsante di connessione."
   },
   "currentAccountNotConnected": {
     "message": "Il tuo account corrente non è connesso"
@@ -68,20 +68,20 @@
     "message": "Mostra Transazioni in Ingresso"
   },
   "showIncomingTransactionsDescription": {
-    "message": "Usa Etherscan per visualizzare le transazioni in ingresso nella lista delle transazioni"
+    "message": "Usa Alayascan per visualizzare le transazioni in ingresso nella lista delle transazioni"
   },
   "chartOnlyAvailableEth": {
-    "message": "Grafico disponibile solo per le reti Ethereum."
+    "message": "Grafico disponibile solo per le reti Alaya."
   },
   "connecting": {
     "message": "Connessione..."
   },
-  "connectWithMetaMask": {
-    "message": "Connetti con MetaMask"
+  "connectWithSamurai": {
+    "message": "Connetti con Samurai"
   },
   "connectTo": {
     "message": "Connettiti a $1",
-    "description": "$1 is the name/origin of a site/dapp that the user can connect to metamask"
+    "description": "$1 is the name/origin of a site/dapp that the user can connect to samurai"
   },
   "connectToAll": {
     "message": "Connettiti a tutti i tuoi $1",
@@ -179,7 +179,7 @@
     "message": "Aggiungi Token Suggeriti"
   },
   "addAcquiredTokens": {
-    "message": "Aggiungi i token che hai acquistato usando MetaMask"
+    "message": "Aggiungi i token che hai acquistato usando Samurai"
   },
   "alerts": {
     "message": "Avvisi"
@@ -214,7 +214,7 @@
     "message": "Importo:"
   },
   "appDescription": {
-    "message": "Ethereum Browser Extension",
+    "message": "Alaya Browser Extension",
     "description": "The description of the application"
   },
   "appName": {
@@ -249,7 +249,7 @@
     "message": "Timer di logout automatico (minuti)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Imposta il tempo di inattività dopo il quale MetaMask fa il log out automaticamente"
+    "message": "Imposta il tempo di inattività dopo il quale Samurai fa il log out automaticamente"
   },
   "average": {
     "message": "Media"
@@ -264,7 +264,7 @@
     "message": "Mantieni al sicuro il portafoglio e i fondi eseguendo il backup della frase di recupero."
   },
   "backupApprovalInfo": {
-    "message": "Questo codice è necessario per recuperare il tuo portafoglio nel caso in cui perdi il tuo dispositivo, dimentichi la tua password, debba reinstallare MetaMask o voglia accedere al tuo portafoglio su un altro dispositivo."
+    "message": "Questo codice è necessario per recuperare il tuo portafoglio nel caso in cui perdi il tuo dispositivo, dimentichi la tua password, debba reinstallare Samurai o voglia accedere al tuo portafoglio su un altro dispositivo."
   },
   "backupNow": {
     "message": "Esegui il backup ora"
@@ -301,13 +301,13 @@
     "message": "Il tuo Browser non è supportato..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask è progettato e realizzato in California."
+    "message": "Samurai è progettato e realizzato in California."
   },
   "buyWithWyre": {
-    "message": "Compra ETH con Wyre"
+    "message": "Compra ATP con Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre ti consente di usare la carta di credito per depositare ETH direttamente nel tuo account MetaMask."
+    "message": "Wyre ti consente di usare la carta di credito per depositare ATP direttamente nel tuo account Samurai."
   },
   "buyCoinSwitch": {
     "message": "Compra su CoinSwitch"
@@ -352,7 +352,7 @@
     "message": "Chiudi"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Devi usare MetaMask con Google Chrome per connettere il tuo Portafoglio Hardware"
+    "message": "Devi usare Samurai con Google Chrome per connettere il tuo Portafoglio Hardware"
   },
   "confirm": {
     "message": "Conferma"
@@ -385,7 +385,7 @@
     "message": "Connessione alla Rete di test Kovan"
   },
   "connectingToMainnet": {
-    "message": "Connessione alla Rete Ethereum Principale"
+    "message": "Connessione alla Rete Alaya Principale"
   },
   "connectingToRopsten": {
     "message": "Connessione alla Rete di test Ropsten"
@@ -469,7 +469,7 @@
     "message": "Limite Spesa Personalizzato"
   },
   "dataBackupFoundInfo": {
-    "message": "Alcuni dati sul tuo account sono state salvate durante una installazione precedente di MetaMask. Questi includono le impostazioni, i contatti, e i token. Vuoi ripristinare questi dati?"
+    "message": "Alcuni dati sul tuo account sono state salvate durante una installazione precedente di Samurai. Questi includono le impostazioni, i contatti, e i token. Vuoi ripristinare questi dati?"
   },
   "decimalsMustZerotoTen": {
     "message": "Il numero di decimali deve essere almeno 0, e non oltre 36."
@@ -478,7 +478,7 @@
     "message": "Precisione Decimali"
   },
   "defaultNetwork": {
-    "message": "La rete predefinita per transazioni in Ether è la Rete Ethereum Principale."
+    "message": "La rete predefinita per transazioni in ATP è la Rete Alaya Principale."
   },
   "delete": {
     "message": "Elimina"
@@ -490,16 +490,16 @@
     "message": "Deposita"
   },
   "depositEther": {
-    "message": "Deposita Ether"
+    "message": "Deposita ATP"
   },
   "details": {
     "message": "Dettagli"
   },
   "directDepositEther": {
-    "message": "Deposita Direttamente Ether"
+    "message": "Deposita Direttamente ATP"
   },
   "directDepositEtherExplainer": {
-    "message": "Se possiedi già degli Ether, questa è la via più veloce per aggiungere Ether al tuo portafoglio con un deposito diretto."
+    "message": "Se possiedi già degli ATP, questa è la via più veloce per aggiungere ATP al tuo portafoglio con un deposito diretto."
   },
   "done": {
     "message": "Finito"
@@ -544,7 +544,7 @@
     "message": "Non condividerla mai con nessuno."
   },
   "endOfFlowMessage5": {
-    "message": "Stai attento al phishing! MetaMask non ti chiederà mai spontaneamente la tua frase seed."
+    "message": "Stai attento al phishing! Samurai non ti chiederà mai spontaneamente la tua frase seed."
   },
   "endOfFlowMessage6": {
     "message": "Se vorrai fare nuovamente un backup della frase, la puoi trovare in Impostazioni -> Sicurezza & Privacy."
@@ -553,7 +553,7 @@
     "message": "Se hai delle domande o vedi delle attività sospette, manda una mail a service@latticex.foundation."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask non può recuperare la tua frase seed. Impara di più."
+    "message": "Samurai non può recuperare la tua frase seed. Impara di più."
   },
   "endOfFlowMessage9": {
     "message": "Scopri di più."
@@ -572,7 +572,7 @@
     "message": "Errore nella registrazione del nome ENS"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Nome ENS non trovato sulla rete attuale. Prova a passare alla rete principale di Ethereum."
+    "message": "Nome ENS non trovato sulla rete attuale. Prova a passare alla rete principale di Alaya."
   },
   "enterAnAlias": {
     "message": "Inserisci un alias"
@@ -603,7 +603,7 @@
     "description": "Displayed error name for debugging purposes. $1 is the error name"
   },
   "errorPageTitle": {
-    "message": "MetaMask ha riscontrato un errore",
+    "message": "Samurai ha riscontrato un errore",
     "description": "Title of generic error page"
   },
   "errorPageMessage": {
@@ -619,10 +619,10 @@
     "description": "Title for error stack, which is displayed for debugging purposes"
   },
   "ethereumPublicAddress": {
-    "message": "Indirizzo pubblico Ethereum "
+    "message": "Indirizzo pubblico Alaya "
   },
   "etherscanView": {
-    "message": "Vedi account su Etherscan"
+    "message": "Vedi account su Alayascan"
   },
   "estimatedProcessingTimes": {
     "message": "Tempi di Elaborazione Stimati"
@@ -691,7 +691,7 @@
     "message": "Prezzo del gas troppo basso"
   },
   "gasPriceInfoModalContent": {
-    "message": "Il prezzo del gas specifica il totale di Ether che sei disposto a pagare per ogni unità di gas."
+    "message": "Il prezzo del gas specifica il totale di ATP che sei disposto a pagare per ogni unità di gas."
   },
   "gasPriceNoDenom": {
     "message": "Prezzo del Gas"
@@ -711,11 +711,11 @@
     "message": "Conversione moneta, moneta primaria, lingua, icone blockie"
   },
   "getEther": {
-    "message": "Ottieni Ether"
+    "message": "Ottieni ATP"
   },
   "getEtherFromFaucet": {
-    "message": "Ottieni Get Ether da un faucet per $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Ottieni Get ATP da un faucet per $1",
+    "description": "Displays network name for ATP faucet"
   },
   "getHelp": {
     "message": "Aiuto."
@@ -736,7 +736,7 @@
     "message": "Connetti portafoglio hardware"
   },
   "hardwareWalletsMsg": {
-    "message": "Selezione un portafoglio hardware che vuoi utilizzare con MetaMask"
+    "message": "Selezione un portafoglio hardware che vuoi utilizzare con Samurai"
   },
   "havingTroubleConnecting": {
     "message": "Problemi di connessione?"
@@ -769,7 +769,7 @@
     "message": "Importa Account"
   },
   "importAccountMsg": {
-    "message": " Gli account importati non saranno associati alla frase seed originariamente creata con MetaMask. Scopri di più sugli account importati "
+    "message": " Gli account importati non saranno associati alla frase seed originariamente creata con Samurai. Scopri di più sugli account importati "
   },
   "importAccountSeedPhrase": {
     "message": "Importa un Account con una Frase Seed"
@@ -818,7 +818,7 @@
     "message": "Un token usa un simbolo già usato da un altro token, ciò può confondere o ingannare."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Rete non ETH, inserisci caratteri minuscoli"
+    "message": "Rete non ATP, inserisci caratteri minuscoli"
   },
   "invalidInput": {
     "message": "Input non valido."
@@ -894,7 +894,7 @@
     "message": "Tempo di inattività troppo lungo"
   },
   "mainnet": {
-    "message": "Rete Ethereum Principale"
+    "message": "Rete Alaya Principale"
   },
   "memorizePhrase": {
     "message": "Memorizza questa frase."
@@ -906,7 +906,7 @@
     "message": "Messaggio"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "Ora hai piu controllo sulle connessioni del tuo account in MetaMask."
+    "message": "Ora hai piu controllo sulle connessioni del tuo account in Samurai."
   },
   "metaMaskConnectStatusParagraphTwo": {
     "message": "Il bottone di stato della connessione mostra se il sito che stai visitando è connesso all'account corrente"
@@ -915,10 +915,10 @@
     "message": "Clicca per gestire i tuo account connessi."
   },
   "metamaskDescription": {
-    "message": "MetaMask è una cassaforte sicura per identità su Ethereum."
+    "message": "Samurai è una cassaforte sicura per identità su Alaya."
   },
   "metamaskVersion": {
-    "message": "versione di MetaMask"
+    "message": "versione di Samurai"
   },
   "mobileSyncText": {
     "message": "Per favore inserisci la password per confermare che sei te!"
@@ -930,20 +930,20 @@
     "message": "I miei account di portafoglio"
   },
   "myWalletAccountsDescription": {
-    "message": "Tutti gli account creati con MetaMask saranno automaticamente aggiunti a questa sezione."
+    "message": "Tutti gli account creati con Samurai saranno automaticamente aggiunti a questa sezione."
   },
   "mustSelectOne": {
     "message": "Devi selezionare almeno un token."
   },
   "needEtherInWallet": {
-    "message": "Per interagire con applicazioni decentralizzate con MetaMask, devi possedere Ether nel tuo portafoglio."
+    "message": "Per interagire con applicazioni decentralizzate con Samurai, devi possedere ATP nel tuo portafoglio."
   },
   "needImportFile": {
     "message": "Devi selezionare un file da importare.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Non puoi inviare una quantità di ETH negativa."
+    "message": "Non puoi inviare una quantità di ATP negativa."
   },
   "networkName": {
     "message": "Nome Rete"
@@ -979,8 +979,8 @@
   "newNetwork": {
     "message": "Nuova Rete"
   },
-  "newToMetaMask": {
-    "message": "Nuovo su MetaMask?"
+  "newToSamurai": {
+    "message": "Nuovo su Samurai?"
   },
   "noAlreadyHaveSeed": {
     "message": "No, ho già una frase seed"
@@ -989,7 +989,7 @@
     "message": "Proteggi le tue chiavi!"
   },
   "protectYourKeysMessage1": {
-    "message": "Stai attento con la tua frase seed - ci sono stati report di siti web che hanno tentato di imitare MetaMask. MetaMask non ti chiederà mai la tua frase seed!"
+    "message": "Stai attento con la tua frase seed - ci sono stati report di siti web che hanno tentato di imitare Samurai. Samurai non ti chiederà mai la tua frase seed!"
   },
   "protectYourKeysMessage2": {
     "message": "Tieni la tua frase al sicuro. Se vedi qualcosa di sospetto, o non sei sicuro di un sito web, manda una mail a service@latticex.foundation"
@@ -1001,7 +1001,7 @@
     "message": "Connettiti solo con siti di cui ti fidi."
   },
   "onlyAddTrustedNetworks": {
-    "message": "Una rete Ethereum malevola può mentire sullo stato della blockchain e registrare le tue azioni. Aggiungi solo reti fidate."
+    "message": "Una rete Alaya malevola può mentire sullo stato della blockchain e registrare le tue azioni. Aggiungi solo reti fidate."
   },
   "optionalChainId": {
     "message": "ChainID (opzionale)"
@@ -1020,7 +1020,7 @@
   },
   "nextNonceWarning": {
     "message": "Numero di transazione deve essere maggiore di $1",
-    "description": "The next nonce according to MetaMask's internal logic"
+    "description": "The next nonce according to Samurai's internal logic"
   },
   "noAddressForName": {
     "message": "Nessun indirizzo è stato impostato per questo nome."
@@ -1062,7 +1062,7 @@
     "message": "Participa in MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Participa in MetaMetrics per aiutarci a rendere MetaMask migliore"
+    "message": "Participa in MetaMetrics per aiutarci a rendere Samurai migliore"
   },
   "password": {
     "message": "Password"
@@ -1100,7 +1100,7 @@
     "message": "Moneta Primaria"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Seleziona ETH per privilegiare la visualizzazione dei valori nella moneta nativa della blockhain. Seleziona Fiat per privilegiare la visualizzazione dei valori nella moneta selezionata."
+    "message": "Seleziona ATP per privilegiare la visualizzazione dei valori nella moneta nativa della blockhain. Seleziona Fiat per privilegiare la visualizzazione dei valori nella moneta selezionata."
   },
   "privacyMsg": {
     "message": "Politica sulla Privacy"
@@ -1255,7 +1255,7 @@
     "message": "La tua frase di backup segreta rende facile fare il backup e ripristinare il tuo account."
   },
   "secretBackupPhraseWarning": {
-    "message": "ATTENZIONE: Non dire mai a nessuno questa frase di backup. Chiunque con questa frase può rubare i tuoi Ether per sempre."
+    "message": "ATTENZIONE: Non dire mai a nessuno questa frase di backup. Chiunque con questa frase può rubare i tuoi ATP per sempre."
   },
   "secretPhrase": {
     "message": "Inserisci la tua frase segreta di dodici parole per ripristinare la cassaforte."
@@ -1309,7 +1309,7 @@
     "message": "Invia Importo"
   },
   "sendETH": {
-    "message": "Invia ETH"
+    "message": "Invia ATP"
   },
   "sendTokens": {
     "message": "Invia Tokens"
@@ -1340,7 +1340,7 @@
     "message": "Seleziona un Account"
   },
   "selectAnAccountHelp": {
-    "message": "Selezione l'account da visualizzare in MetaMask"
+    "message": "Selezione l'account da visualizzare in Samurai"
   },
   "selectAHigherGasFee": {
     "message": "Seleziona un costo in gas maggiore per accelerare l'elaborazione della transazione.*"
@@ -1422,7 +1422,7 @@
     "message": "Cambia Reti"
   },
   "stateLogFileName": {
-    "message": "Log di Stato di MetaMask"
+    "message": "Log di Stato di Samurai"
   },
   "stateLogs": {
     "message": "Log di stato"
@@ -1455,7 +1455,7 @@
     "message": "3. Inizia a usare dApps e molto altro ancora!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Usa il tuo account hardware come utilizzeresti qualsiasi account Ethereum. Accedi alle dApps, invia Eth, compra e conserva token ERC20 e token non fungibili come CryptoKitties"
+    "message": "Usa il tuo account hardware come utilizzeresti qualsiasi account Alaya. Accedi alle dApps, invia ATP, compra e conserva token ERC20 e token non fungibili come CryptoKitties"
   },
   "storePhrase": {
     "message": "Conserva questa frase in un gestore di password come 1Password."
@@ -1491,19 +1491,19 @@
     "message": "Sincronizza con dispositivo mobile"
   },
   "syncWithMobileDesc": {
-    "message": "Puoi sincronizzare i tuoi account e le tue informazioni con il tuo dispositivo mobile. Apri l'app di MetaMask, vai su \"Impostazioni\" e tocca \"Sincronizza da Estensione sul Browser\""
+    "message": "Puoi sincronizzare i tuoi account e le tue informazioni con il tuo dispositivo mobile. Apri l'app di Samurai, vai su \"Impostazioni\" e tocca \"Sincronizza da Estensione sul Browser\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Se hai appena aperto l'app di MetaMask per la prima volta, segui i passaggi sul tuo telefono."
+    "message": "Se hai appena aperto l'app di Samurai per la prima volta, segui i passaggi sul tuo telefono."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Scansiona questo codice con l'app di MetaMask"
+    "message": "Scansiona questo codice con l'app di Samurai"
   },
   "syncWithMobileBeCareful": {
     "message": "Assicurati che nessun'altro stia guardando al tuo schermo quando scansioni questo codice"
   },
   "syncWithMobileComplete": {
-    "message": "I tuoi dati sono stati sincronizzati con successo. Goditi l'app di MetaMask!"
+    "message": "I tuoi dati sono stati sincronizzati con successo. Goditi l'app di Samurai!"
   },
   "terms": {
     "message": "Termini di Uso"
@@ -1588,7 +1588,7 @@
     "message": "Tempo Conferma Transazione"
   },
   "showTransactionTimeDescription": {
-    "message": "Seleziona per mostrare nella scheda attività una stima dei tempi di transazione per le transazioni in corso sulla rete Ethereum principale. Nota: la stima è approssimativa basata sulle condizioni della rete."
+    "message": "Seleziona per mostrare nella scheda attività una stima dei tempi di transazione per le transazioni in corso sulla rete Alaya principale. Nota: la stima è approssimativa basata sulle condizioni della rete."
   },
   "transfer": {
     "message": "Trasferisci"
@@ -1662,7 +1662,7 @@
     "message": "Rilevamento del Phishing"
   },
   "usePhishingDetectionDescription": {
-    "message": "Visualizza un avvertimento sui domini di phishing rivolto a utenti di Ethereum"
+    "message": "Visualizza un avvertimento sui domini di phishing rivolto a utenti di Alaya"
   },
   "userName": {
     "message": "Nome utente"
@@ -1680,7 +1680,7 @@
     "message": "Vedi su $1"
   },
   "viewOnEtherscan": {
-    "message": "Vedi su Etherscan"
+    "message": "Vedi su Alayascan"
   },
   "retryTransaction": {
     "message": "Retry Transaction"
@@ -1695,7 +1695,7 @@
     "message": "Bentornato!"
   },
   "welcome": {
-    "message": "Benvenuto nella Beta di MetaMask"
+    "message": "Benvenuto nella Beta di Samurai"
   },
   "whatsThis": {
     "message": "Cos'è?"

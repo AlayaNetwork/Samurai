@@ -22,7 +22,7 @@
     "message": "Halaga"
   },
   "appDescription": {
-    "message": "Ethereum Browser Extension",
+    "message": "Alaya Browser Extension",
     "description": "Ang deskripsyon ng application"
   },
   "attemptingConnect": {
@@ -74,22 +74,22 @@
     "message": "I-customize ang Gas"
   },
   "defaultNetwork": {
-    "message": "Ang default network para sa Ether transactions ay ang Main Net."
+    "message": "Ang default network para sa ATP transactions ay ang Main Net."
   },
   "deposit": {
     "message": "Deposito"
   },
   "depositEther": {
-    "message": "I-deposito ang Ether"
+    "message": "I-deposito ang ATP"
   },
   "details": {
     "message": "Detalye"
   },
   "directDepositEther": {
-    "message": "Direktang I-deposito ang Ether"
+    "message": "Direktang I-deposito ang ATP"
   },
   "directDepositEtherExplainer": {
-    "message": "Kung ika ay mayroon nang Ether, ang pinakamabilis na paraan upang makuha ang Ether sa iyong bagong wallet ay sa pamamagitan ng direktang deposito."
+    "message": "Kung ika ay mayroon nang ATP, ang pinakamabilis na paraan upang makuha ang ATP sa iyong bagong wallet ay sa pamamagitan ng direktang deposito."
   },
   "done": {
     "message": "Tapos na"
@@ -101,7 +101,7 @@
     "message": "I-enter ang password"
   },
   "etherscanView": {
-    "message": "Tingnan ang account sa Etherscan"
+    "message": "Tingnan ang account sa Alayascan"
   },
   "exportPrivateKey": {
     "message": "I-export ang Private Key"
@@ -124,11 +124,11 @@
     "message": "Ang gas limit ay hindi dabat bababa sa 21000"
   },
   "getEther": {
-    "message": "Kumuha ng Ether"
+    "message": "Kumuha ng ATP"
   },
   "getEtherFromFaucet": {
-    "message": "Kumuha ng Ether mula sa faucet para sa $1",
-    "description": "Ipinapakita ang pangalan ng network para sa Ether faucet"
+    "message": "Kumuha ng ATP mula sa faucet para sa $1",
+    "description": "Ipinapakita ang pangalan ng network para sa ATP faucet"
   },
   "here": {
     "message": "i-click ito",
@@ -173,7 +173,7 @@
     "message": "Aking mga Account"
   },
   "needEtherInWallet": {
-    "message": "Upang makipag-ugnayan sa decentralized applications gamit ang MetaMask, kakailanganin mo ng Ether sa iyong wallet."
+    "message": "Upang makipag-ugnayan sa decentralized applications gamit ang Samurai, kakailanganin mo ng ATP sa iyong wallet."
   },
   "needImportFile": {
     "message": "Dapat kang pumili ng file para i-import.",

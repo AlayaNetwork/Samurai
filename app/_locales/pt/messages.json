@@ -21,7 +21,7 @@
     "message": "Valor"
   },
   "appDescription": {
-    "message": "Extensão para o browser de Ethereum",
+    "message": "Extensão para o browser de Alaya",
     "description": "The description of the application"
   },
   "appName": {
@@ -47,7 +47,7 @@
     "message": "Usar Blockies Identicon"
   },
   "builtInCalifornia": {
-    "message": "MetaMask é desenhada e construída na California."
+    "message": "Samurai é desenhada e construída na California."
   },
   "buyCoinSwitch": {
     "message": "Comprar no CoinSwitch"
@@ -98,22 +98,22 @@
     "message": "Precisão em Decimais"
   },
   "defaultNetwork": {
-    "message": "A rede pré definida para transações em Ether é a Main Net."
+    "message": "A rede pré definida para transações em ATP é a Main Net."
   },
   "deposit": {
     "message": "Depósito"
   },
   "depositEther": {
-    "message": "Depositar Ether"
+    "message": "Depositar ATP"
   },
   "details": {
     "message": "Detalhes"
   },
   "directDepositEther": {
-    "message": "Depositar Diretamente Ether"
+    "message": "Depositar Diretamente ATP"
   },
   "directDepositEtherExplainer": {
-    "message": "Se já tem Ether, a forma mais rápida de ficar com Ether na sua carteira é através de depósito direto."
+    "message": "Se já tem ATP, a forma mais rápida de ficar com ATP na sua carteira é através de depósito direto."
   },
   "done": {
     "message": "Finalizado"
@@ -128,7 +128,7 @@
     "message": "Introduza palavra-passe"
   },
   "etherscanView": {
-    "message": "Ver conta no Etherscan"
+    "message": "Ver conta no Alayascan"
   },
   "exportPrivateKey": {
     "message": "Exportar Chave Privada"
@@ -157,11 +157,11 @@
     "message": "Preço Gas (GWEI)"
   },
   "getEther": {
-    "message": "Obter Ether"
+    "message": "Obter ATP"
   },
   "getEtherFromFaucet": {
-    "message": "Obter Ether de um faucet por $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Obter ATP de um faucet por $1",
+    "description": "Displays network name for ATP faucet"
   },
   "here": {
     "message": "aqui",
@@ -181,7 +181,7 @@
     "message": "Importar Conta"
   },
   "importAccountMsg": {
-    "message": "Contas importadas não irão ser associadas com a frase seed da conta criada originalmente pelo MetaMask. Saiba mais sobre contas importadas."
+    "message": "Contas importadas não irão ser associadas com a frase seed da conta criada originalmente pelo Samurai. Saiba mais sobre contas importadas."
   },
   "imported": {
     "message": "Importado",
@@ -234,13 +234,13 @@
     "message": "Sair"
   },
   "mainnet": {
-    "message": "Rede Principal de Ethereum"
+    "message": "Rede Principal de Alaya"
   },
   "message": {
     "message": "Mensagem"
   },
   "metamaskDescription": {
-    "message": "O MetaMask é um lugar seguro para guardar a sua identidade em em Ethereum."
+    "message": "O Samurai é um lugar seguro para guardar a sua identidade em em Alaya."
   },
   "myAccounts": {
     "message": "As minhas contas"
@@ -249,14 +249,14 @@
     "message": "Deve escolher no mínimo 1 token."
   },
   "needEtherInWallet": {
-    "message": "Para interagir com applicações descentralizadas usando MetaMask tem de ter Ether na sua carteira."
+    "message": "Para interagir com applicações descentralizadas usando Samurai tem de ter ATP na sua carteira."
   },
   "needImportFile": {
     "message": "Deve selecionar um ficheiro para importar.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Não é possível enviar valores negativos de ETH."
+    "message": "Não é possível enviar valores negativos de ATP."
   },
   "networks": {
     "message": "Redes"
@@ -355,7 +355,7 @@
     "message": "Enviar"
   },
   "sendETH": {
-    "message": "Enviar ETH"
+    "message": "Enviar ATP"
   },
   "sendTokens": {
     "message": "Enviar Tokens"
@@ -431,7 +431,7 @@
     "message": "Visite o nosso site"
   },
   "welcome": {
-    "message": "Bem-vindo ao MetaMask"
+    "message": "Bem-vindo ao Samurai"
   },
   "yourSigRequested": {
     "message": "A sua assinatura está a ser pedida"

@@ -1,6 +1,6 @@
 {
   "chartOnlyAvailableEth": {
-    "message": "Mostra només els disponibles a les xarxes Ethereum."
+    "message": "Mostra només els disponibles a les xarxes Alaya."
   },
   "contractInteraction": {
     "message": "Contractar Interacció"
@@ -72,13 +72,13 @@
     "message": "Afegir Fitxes Suggerides"
   },
   "addAcquiredTokens": {
-    "message": "Afegeix les fitxes que has adquirit fent servir MetaMask"
+    "message": "Afegeix les fitxes que has adquirit fent servir Samurai"
   },
   "amount": {
     "message": "Quantitat"
   },
   "appDescription": {
-    "message": "Un Moneder Ethereum al teu Navegador",
+    "message": "Un Moneder Alaya al teu Navegador",
     "description": "The description of the application"
   },
   "appName": {
@@ -110,7 +110,7 @@
     "message": "Temporitzador de tancament de sessió automàtic (minuts)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Configura el temps de repòs com minuts abans que MetaMask tanqui la sessió automàticament"
+    "message": "Configura el temps de repòs com minuts abans que Samurai tanqui la sessió automàticament"
   },
   "average": {
     "message": "Mitjana"
@@ -125,7 +125,7 @@
     "message": "Fes una còpia de seguretat del teu codi Secret de Recuperació per mantenir el teu moneder i els teus fons segurs."
   },
   "backupApprovalInfo": {
-    "message": "Aquest codi secret es requereix per recuperar el teu moneder en cas que perdis el dispositiu, oblidis la teva contrasenya, hagis de reinstal·lar MetaMask, o vulguis accedir al teu moneder des d'un altre dispositiu."
+    "message": "Aquest codi secret es requereix per recuperar el teu moneder en cas que perdis el dispositiu, oblidis la teva contrasenya, hagis de reinstal·lar Samurai, o vulguis accedir al teu moneder des d'un altre dispositiu."
   },
   "backupNow": {
     "message": "Fer còpia de seguretat ara"
@@ -153,13 +153,13 @@
     "message": "El teu navegador no és suportat..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask ha estat dissenyat i desenvolupat a Califòrnia."
+    "message": "Samurai ha estat dissenyat i desenvolupat a Califòrnia."
   },
   "buyWithWyre": {
-    "message": "Compra ETH amb Wyre"
+    "message": "Compra ATP amb Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre et permet utilitzar una targeta de crèdit per dipositar ETH directe al teu compte MetaMask."
+    "message": "Wyre et permet utilitzar una targeta de crèdit per dipositar ATP directe al teu compte Samurai."
   },
   "buyCoinSwitch": {
     "message": "Comprar a CoinSwitch"
@@ -201,7 +201,7 @@
     "message": "Tanca"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Necessites fer servir MetaMask amb Google Chrome per a connectar-te al teu Moneder Hardware."
+    "message": "Necessites fer servir Samurai amb Google Chrome per a connectar-te al teu Moneder Hardware."
   },
   "confirm": {
     "message": "Confirma"
@@ -231,7 +231,7 @@
     "message": "Conectant a la xarxa de Kovan Test"
   },
   "connectingToMainnet": {
-    "message": "Connectant a Xarxa Principal Ethereum"
+    "message": "Connectant a Xarxa Principal Alaya"
   },
   "connectingToRopsten": {
     "message": "Connectant a la xarxa de test Ropsten"
@@ -309,7 +309,7 @@
     "message": "Decimals de precisió"
   },
   "defaultNetwork": {
-    "message": "La xarxa per defecte per a les transaccions Ether és Main Net."
+    "message": "La xarxa per defecte per a les transaccions ATP és Main Net."
   },
   "delete": {
     "message": "Suprimeix"
@@ -321,16 +321,16 @@
     "message": "Depòsit"
   },
   "depositEther": {
-    "message": "Diposita Ether"
+    "message": "Diposita ATP"
   },
   "details": {
     "message": "Detalls"
   },
   "directDepositEther": {
-    "message": "Diposita Ether directament"
+    "message": "Diposita ATP directament"
   },
   "directDepositEtherExplainer": {
-    "message": "Si ja tens una mica d'Ether, la manera més ràpida de posar Ether al teu nou moneder és per dipòsit directe."
+    "message": "Si ja tens una mica d'ATP, la manera més ràpida de posar ATP al teu nou moneder és per dipòsit directe."
   },
   "done": {
     "message": "Fet"
@@ -369,7 +369,7 @@
     "message": "No comparteixis mai la frase amb ningú."
   },
   "endOfFlowMessage5": {
-    "message": "Estigues atent amb el phishing! MetaMask no et preguntarà mai espontàniament la teva frase de recuperació."
+    "message": "Estigues atent amb el phishing! Samurai no et preguntarà mai espontàniament la teva frase de recuperació."
   },
   "endOfFlowMessage6": {
     "message": "Si necessites fer una còpia de seguretat de la teva frase de recuperació una altra vegada, la pots trobar a Configuració-> Seguretat."
@@ -378,7 +378,7 @@
     "message": "Si mai tens preguntes o veus alguna cosa sospitosa, envia un correu a service@latticex.foundation."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask no pot recuperar la teva seedphrase. Descobreix per què."
+    "message": "Samurai no pot recuperar la teva seedphrase. Descobreix per què."
   },
   "endOfFlowMessage9": {
     "message": "Més informació."
@@ -390,7 +390,7 @@
     "message": "Error al registre de nom ENS"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "El nom ENS no s'ha trovat a la xarxa actual. Prova a cambiar a la xarxa principal d'Ethereum."
+    "message": "El nom ENS no s'ha trovat a la xarxa actual. Prova a cambiar a la xarxa principal d'Alaya."
   },
   "enterAnAlias": {
     "message": "Introdueix Àlies"
@@ -402,10 +402,10 @@
     "message": "Introdueix la contrasenya per continuar"
   },
   "ethereumPublicAddress": {
-    "message": "Adreça Pública d'Ethereum"
+    "message": "Adreça Pública d'Alaya"
   },
   "etherscanView": {
-    "message": "Veure compte a Etherscan"
+    "message": "Veure compte a Alayascan"
   },
   "estimatedProcessingTimes": {
     "message": "Temps de processament estimats"
@@ -457,7 +457,7 @@
     "message": "Preu del Gas Extremadament Baix"
   },
   "gasPriceInfoModalContent": {
-    "message": "El preu del gas especifica la quantitat d'Ether que estàs disposat a pagar per cada unitat de gas."
+    "message": "El preu del gas especifica la quantitat d'ATP que estàs disposat a pagar per cada unitat de gas."
   },
   "gasPriceNoDenom": {
     "message": "Preu del Gas"
@@ -466,11 +466,11 @@
     "message": "Conversió de divises, divisa principal, idioma, icones d'identificació única"
   },
   "getEther": {
-    "message": "Aconsegueix Ether"
+    "message": "Aconsegueix ATP"
   },
   "getEtherFromFaucet": {
-    "message": "Aconsegueix Ether d'una aixeta per $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Aconsegueix ATP d'una aixeta per $1",
+    "description": "Displays network name for ATP faucet"
   },
   "getHelp": {
     "message": "Aconsegueix ajuda."
@@ -488,7 +488,7 @@
     "message": "Connectar un moneder hardware"
   },
   "hardwareWalletsMsg": {
-    "message": "Selecciona una cartera de hardware que t'agradaria utilizar amb MetaMask"
+    "message": "Selecciona una cartera de hardware que t'agradaria utilizar amb Samurai"
   },
   "havingTroubleConnecting": {
     "message": "Problemes per connectar?"
@@ -517,7 +517,7 @@
     "message": "Importa compte"
   },
   "importAccountMsg": {
-    "message": "Els comptes importats no s'associaran amb la teva frase de recuperació creada originalment a MetaMask. Aprèn més sobre els comptes importats"
+    "message": "Els comptes importats no s'associaran amb la teva frase de recuperació creada originalment a Samurai. Aprèn més sobre els comptes importats"
   },
   "importAccountSeedPhrase": {
     "message": "Importa un Compte amb Phrase de Recuperació"
@@ -560,7 +560,7 @@
     "message": "Adreça de contracte coneguda"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "No hi ha xarxa ETH, posar en minúscules"
+    "message": "No hi ha xarxa ATP, posar en minúscules"
   },
   "invalidInput": {
     "message": "Entrada no vàlida."
@@ -615,7 +615,7 @@
     "message": "Tanca la sessió"
   },
   "mainnet": {
-    "message": "Xarxa Ethereum principal"
+    "message": "Xarxa Alaya principal"
   },
   "memorizePhrase": {
     "message": "Memoritza aquesta frase"
@@ -627,10 +627,10 @@
     "message": "Missatge"
   },
   "metamaskDescription": {
-    "message": "Conectant-te a Ethereum i la web descentralitzada."
+    "message": "Conectant-te a Alaya i la web descentralitzada."
   },
   "metamaskVersion": {
-    "message": "Versió MetaMask"
+    "message": "Versió Samurai"
   },
   "mobileSyncText": {
     "message": "Si us plau, introdueix la teva contrasenya per confirmar que ets tu!"
@@ -642,20 +642,20 @@
     "message": "Els meus Comptes de Moneder"
   },
   "myWalletAccountsDescription": {
-    "message": "Tots els teus comptes creats a MetaMask s'afegiran automàticament a aquesta secció."
+    "message": "Tots els teus comptes creats a Samurai s'afegiran automàticament a aquesta secció."
   },
   "mustSelectOne": {
     "message": "Has de seleccionar "
   },
   "needEtherInWallet": {
-    "message": "Per a interactuar amb aplicacions descentralitzades fent servir MetaMask, necessitaràs Ether al teu moneder."
+    "message": "Per a interactuar amb aplicacions descentralitzades fent servir Samurai, necessitaràs ATP al teu moneder."
   },
   "needImportFile": {
     "message": "Has de seleccionar un arxiu per a importar.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "No es poden enviar quantitats negatives de ETH."
+    "message": "No es poden enviar quantitats negatives de ATP."
   },
   "networkName": {
     "message": "Nom de la xarxa"
@@ -691,8 +691,8 @@
   "newNetwork": {
     "message": "Nova Xarxa"
   },
-  "newToMetaMask": {
-    "message": "Nou a MetaMask?"
+  "newToSamurai": {
+    "message": "Nou a Samurai?"
   },
   "noAlreadyHaveSeed": {
     "message": "No, ja tinc una frase de recuperació."
@@ -701,7 +701,7 @@
     "message": "Protegeix les Teves Claus!"
   },
   "protectYourKeysMessage1": {
-    "message": "Vigila amb la teva frase de recuperació  —s'han documentat casos de llocs web que intenten imitar MetaMask. MetaMask mai no et demanarà la frase de recuperació!"
+    "message": "Vigila amb la teva frase de recuperació  —s'han documentat casos de llocs web que intenten imitar Samurai. Samurai mai no et demanarà la frase de recuperació!"
   },
   "protectYourKeysMessage2": {
     "message": "Mantingues segura la teva frase. Si veus alguna cosa sospitosa, o no estàs segur d'un lloc web, envia un correu a service@latticex.foundation"
@@ -758,7 +758,7 @@
     "message": "Participar a MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Participa a MetaMetrics per ajudar-nos a fer MetaMask millor"
+    "message": "Participa a MetaMetrics per ajudar-nos a fer Samurai millor"
   },
   "password": {
     "message": "Contrasenya"
@@ -783,7 +783,7 @@
     "message": "Divisa principal"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Selecciona Natiu per a prioritzar la mostra de valors en la divisa nadiua de la cadena (p. ex. ETH). Selecciona Fiat per prioritzar la mostra de valors en la divisa fiduciària seleccionada."
+    "message": "Selecciona Natiu per a prioritzar la mostra de valors en la divisa nadiua de la cadena (p. ex. ATP). Selecciona Fiat per prioritzar la mostra de valors en la divisa fiduciària seleccionada."
   },
   "privacyMsg": {
     "message": "Política de privadesa"
@@ -922,7 +922,7 @@
     "message": "La teva frase de recuperació secreta facilita la còpia de seguretat i la recuperació del teu compte."
   },
   "secretBackupPhraseWarning": {
-    "message": "ATENCIÓ: No divulguis mai la teva frase de recuperació. Qualsevol amb aquesta frase pot utilitzar el teu Ether per sempre."
+    "message": "ATENCIÓ: No divulguis mai la teva frase de recuperació. Qualsevol amb aquesta frase pot utilitzar el teu ATP per sempre."
   },
   "secretPhrase": {
     "message": "Introdueix aquí la teva frase secreta de dotze paraules per a recuperar la teva caixa forta."
@@ -958,7 +958,7 @@
     "message": "Enviar Quantitat"
   },
   "sendETH": {
-    "message": "Envia ETH"
+    "message": "Envia ATP"
   },
   "sendTokens": {
     "message": "Enviar Fitxes"
@@ -979,7 +979,7 @@
     "message": "Selecciona un Compte"
   },
   "selectAnAccountHelp": {
-    "message": "Selecciona el compte que vols veure a MetaMask"
+    "message": "Selecciona el compte que vols veure a Samurai"
   },
   "selectAHigherGasFee": {
     "message": "Selecciona un preu de gas més alt per a accelerar el procès de la teva transacció.*"
@@ -1069,7 +1069,7 @@
     "message": "3. Comença a utilitzar dApps i altres!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Fes servir el teu compte de hardware com ho faries amb qualsevol compte Ethereum. Inicia sessió a DApps, envia Eth, compra i emmagatzema fitxes ERC20 i fitxes No Fungibles com CryptoKitties."
+    "message": "Fes servir el teu compte de hardware com ho faries amb qualsevol compte Alaya. Inicia sessió a DApps, envia ATP, compra i emmagatzema fitxes ERC20 i fitxes No Fungibles com CryptoKitties."
   },
   "storePhrase": {
     "message": "Guarda aquesta frase a un gestor de contrasenyes com Contrasenya 1"
@@ -1096,16 +1096,16 @@
     "message": "Pots sincronitzar els teus comptes i la teva informació amb el teu dispositiu mòbil. Obre l'app mòbil de MetaTask, ves a \"Configuració\" i \"Sincronitzar desde l"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Si acabes d'obrir l'app mòbil MetaMask per primer cop, tan sols has de seguir els passos del teu telèfon."
+    "message": "Si acabes d'obrir l'app mòbil Samurai per primer cop, tan sols has de seguir els passos del teu telèfon."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Escaneja aquest codi amb la teva aplicació mòbil de MetaMask"
+    "message": "Escaneja aquest codi amb la teva aplicació mòbil de Samurai"
   },
   "syncWithMobileBeCareful": {
     "message": "Assegura't que no hi ha ningú mirant la teva pantalla quan escanegis aquest codi"
   },
   "syncWithMobileComplete": {
-    "message": "Les teves dades s'han sincronitzat amb èxit. Disfruta de l'app mòbil de MetaMask!"
+    "message": "Les teves dades s'han sincronitzat amb èxit. Disfruta de l'app mòbil de Samurai!"
   },
   "terms": {
     "message": "Condicions d'ús"
@@ -1187,7 +1187,7 @@
     "message": "Torna-ho a provar"
   },
   "typePassword": {
-    "message": "Tecleja la teva contrasenya de MetaMask"
+    "message": "Tecleja la teva contrasenya de Samurai"
   },
   "unapproved": {
     "message": "Pendent d'aprovació"
@@ -1241,7 +1241,7 @@
     "message": "Mostra a $1"
   },
   "viewOnEtherscan": {
-    "message": "Veure a Etherscan"
+    "message": "Veure a Alayascan"
   },
   "visitWebSite": {
     "message": "Visita el nostre lloc web"
@@ -1253,7 +1253,7 @@
     "message": "Benvingut de nou!"
   },
   "welcome": {
-    "message": "Benvingut a MetaMask"
+    "message": "Benvingut a Samurai"
   },
   "writePhrase": {
     "message": "Escriu aquesta frase en un tros de paper i guarda'l en un lloc segur. Si vols més seguretat encara, escriu-la en diversos trossos de paper i guarda'ls cadascun a 2 - 3 llocs diferents."

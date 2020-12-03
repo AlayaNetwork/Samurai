@@ -1,6 +1,6 @@
 {
   "chartOnlyAvailableEth": {
-    "message": "Grafik hanya tersedia pada jaringan Ethereum."
+    "message": "Grafik hanya tersedia pada jaringan Alaya."
   },
   "contractInteraction": {
     "message": "Interaksi Kontrak"
@@ -76,13 +76,13 @@
     "message": "Tambah Token yang Disarankan"
   },
   "addAcquiredTokens": {
-    "message": "Tambahkan token yang sudah Anda peroleh menggunakan MetaMask"
+    "message": "Tambahkan token yang sudah Anda peroleh menggunakan Samurai"
   },
   "amount": {
     "message": "Jumlah"
   },
   "appDescription": {
-    "message": "Sebuah Dompet Ethereum di Peramban Anda",
+    "message": "Sebuah Dompet Alaya di Peramban Anda",
     "description": "The description of the application"
   },
   "approve": {
@@ -110,7 +110,7 @@
     "message": "Jangka Waktu Keluar-Otomatis (menit)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Atur waktu diam dalam menit sebelum MetaMask mengeluarkan Anda secara otomatis"
+    "message": "Atur waktu diam dalam menit sebelum Samurai mengeluarkan Anda secara otomatis"
   },
   "average": {
     "message": "Rata-rata"
@@ -125,7 +125,7 @@
     "message": "Cadangkan kode Pemulihan Rahasia guna mengamankan dompet dan dana Anda."
   },
   "backupApprovalInfo": {
-    "message": "Kode rahasia Anda diperlukan untuk memulihkan dompet jika perangkat hilang, lupa sandi, harus menginstal ulang MetaMask, atau ingin mengakses dompet Anda di perangkat lain."
+    "message": "Kode rahasia Anda diperlukan untuk memulihkan dompet jika perangkat hilang, lupa sandi, harus menginstal ulang Samurai, atau ingin mengakses dompet Anda di perangkat lain."
   },
   "backupNow": {
     "message": "Cadangkan sekarang"
@@ -153,13 +153,13 @@
     "message": "Peramban Anda tidak didukung..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask dirancang dan dibangun di California."
+    "message": "Samurai dirancang dan dibangun di California."
   },
   "buyWithWyre": {
-    "message": "Membeli ETH dengan Wyre"
+    "message": "Membeli ATP dengan Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre mengizinkan Anda menggunakan kartu kredit untuk mendepositkan ETH langsung ke akun  MetaMask."
+    "message": "Wyre mengizinkan Anda menggunakan kartu kredit untuk mendepositkan ATP langsung ke akun  Samurai."
   },
   "buyCoinSwitch": {
     "message": "Beli di CoinSwitch"
@@ -204,7 +204,7 @@
     "message": "Tutup"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Anda harus menggunakan MetaMask di Google Chrome untuk menyambung ke dompet Perangkat Keras Anda."
+    "message": "Anda harus menggunakan Samurai di Google Chrome untuk menyambung ke dompet Perangkat Keras Anda."
   },
   "confirm": {
     "message": "Konfirmasi"
@@ -234,7 +234,7 @@
     "message": "Menyambung ke Jaringan Tes Kovan"
   },
   "connectingToMainnet": {
-    "message": "Menghubungkan ke Jaringan Ethereum Utama"
+    "message": "Menghubungkan ke Jaringan Alaya Utama"
   },
   "connectingToRopsten": {
     "message": "Menghubungkan ke Jaringan Uji Coba Ropsten "
@@ -312,7 +312,7 @@
     "message": "Ketelitian Desimal"
   },
   "defaultNetwork": {
-    "message": "Jaringan default untuk transaksi Ether adalah Main Net."
+    "message": "Jaringan default untuk transaksi ATP adalah Main Net."
   },
   "delete": {
     "message": "Hapus"
@@ -324,10 +324,10 @@
     "message": "Detail"
   },
   "directDepositEther": {
-    "message": "Deposit Ether Langsung"
+    "message": "Deposit ATP Langsung"
   },
   "directDepositEtherExplainer": {
-    "message": "Jika Anda sudah memiliki Ether, cara tercepat mendapatkan Ether di dompet baru lewat deposit langsung."
+    "message": "Jika Anda sudah memiliki ATP, cara tercepat mendapatkan ATP di dompet baru lewat deposit langsung."
   },
   "done": {
     "message": "Selesai"
@@ -363,7 +363,7 @@
     "message": "Jangan pernah bagikan frasa dengan siapa pun."
   },
   "endOfFlowMessage5": {
-    "message": "Hati-hati terhadap phishing! MetaMask tidak akan pernah meminta frasa benih Anda secara spontan."
+    "message": "Hati-hati terhadap phishing! Samurai tidak akan pernah meminta frasa benih Anda secara spontan."
   },
   "endOfFlowMessage6": {
     "message": "Jika Anda perlu mencadangkan frase seed lagi, Anda dapat menemukannya dalam Pengaturan -> Keamanan."
@@ -372,7 +372,7 @@
     "message": "Jika Anda punya pertanyaan atau melihat sesuatu yang ganjil, kirimkan email ke service@latticex.foundation."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask tidak dapat memulihkan frasa seed Anda. Pelajari lebih lanjut."
+    "message": "Samurai tidak dapat memulihkan frasa seed Anda. Pelajari lebih lanjut."
   },
   "endOfFlowMessage9": {
     "message": "Pelajari lebih lanjut."
@@ -384,7 +384,7 @@
     "message": "Terjadi kesalahan dalam pendaftaran nama ENS"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Nama ENS tidak ditemukan pada jaringan saat ini. Cobalah beralih ke jaringan Ethereum utama."
+    "message": "Nama ENS tidak ditemukan pada jaringan saat ini. Cobalah beralih ke jaringan Alaya utama."
   },
   "enterAnAlias": {
     "message": "Masukkan alias"
@@ -396,10 +396,10 @@
     "message": "Masukkan sandi untuk melanjutkan"
   },
   "ethereumPublicAddress": {
-    "message": "Alamat Publik Ethereum "
+    "message": "Alamat Publik Alaya "
   },
   "etherscanView": {
-    "message": "Lihat akun di Etherscan"
+    "message": "Lihat akun di Alayascan"
   },
   "estimatedProcessingTimes": {
     "message": "Estimasi Waktu Pemrosesan"
@@ -451,7 +451,7 @@
     "message": "Harga Bensin Amat Rendah"
   },
   "gasPriceInfoModalContent": {
-    "message": "Harga gas menentukan jumlah Ether yang bersedia Anda bayarkan untuk setiap unit gas."
+    "message": "Harga gas menentukan jumlah ATP yang bersedia Anda bayarkan untuk setiap unit gas."
   },
   "gasPriceNoDenom": {
     "message": "Harga Bensin"
@@ -463,11 +463,11 @@
     "message": "Konversi mata uang, mata uang utama, bahasa, blockies identicon"
   },
   "getEther": {
-    "message": "Dapatkan Ether"
+    "message": "Dapatkan ATP"
   },
   "getEtherFromFaucet": {
-    "message": "Dapatkan Ether dari keran untuk $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Dapatkan ATP dari keran untuk $1",
+    "description": "Displays network name for ATP faucet"
   },
   "getHelp": {
     "message": "Dapatkan Bantuan."
@@ -488,7 +488,7 @@
     "message": "Hubungkan dompet peranti keras"
   },
   "hardwareWalletsMsg": {
-    "message": "Pilih dompet hardware yang ingin Anda pakai dengan MetaMask"
+    "message": "Pilih dompet hardware yang ingin Anda pakai dengan Samurai"
   },
   "havingTroubleConnecting": {
     "message": "Kesulitan menghubungkan?"
@@ -517,7 +517,7 @@
     "message": "Impor Akun"
   },
   "importAccountMsg": {
-    "message": "Akun impor tidak akan dihubungkan dengan frasa benih akun MetaMask yang diciptakan pertama kali. Pelajari lebih lanjut tentang akun impor"
+    "message": "Akun impor tidak akan dihubungkan dengan frasa benih akun Samurai yang diciptakan pertama kali. Pelajari lebih lanjut tentang akun impor"
   },
   "importAccountSeedPhrase": {
     "message": "Impor Akun dengan Frasa Benih"
@@ -560,7 +560,7 @@
     "message": "Alamat kontrak dikenal."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Bukan jaringan ETH, tetapkan ke huruf kecil"
+    "message": "Bukan jaringan ATP, tetapkan ke huruf kecil"
   },
   "invalidInput": {
     "message": "Input tidak sah."
@@ -615,7 +615,7 @@
     "message": "Keluar"
   },
   "mainnet": {
-    "message": "Jaringan Ethereum Utama"
+    "message": "Jaringan Alaya Utama"
   },
   "memorizePhrase": {
     "message": "Ingatlah frasa ini."
@@ -624,10 +624,10 @@
     "message": "Pesan"
   },
   "metamaskDescription": {
-    "message": "Menghubungkan Anda ke Ethereum dan Web Terdesentralisasi."
+    "message": "Menghubungkan Anda ke Alaya dan Web Terdesentralisasi."
   },
   "metamaskVersion": {
-    "message": "Versi MetaMask"
+    "message": "Versi Samurai"
   },
   "mobileSyncText": {
     "message": "Harap masukkan sandi untuk mengonfirmasi ini memang Anda!"
@@ -639,20 +639,20 @@
     "message": "Akun Dompet Saya"
   },
   "myWalletAccountsDescription": {
-    "message": "Semua akun Anda yang dibuat oleh MetaMask otomatis akan ditambahkan ke bagian ini."
+    "message": "Semua akun Anda yang dibuat oleh Samurai otomatis akan ditambahkan ke bagian ini."
   },
   "mustSelectOne": {
     "message": "Harus memilih setidaknya 1 token."
   },
   "needEtherInWallet": {
-    "message": "Untuk berinteraksi dengan aplikasi terdesentralisasi menggunakan MetaMask, Anda memerlukan adanya Ether di dompet Anda."
+    "message": "Untuk berinteraksi dengan aplikasi terdesentralisasi menggunakan Samurai, Anda memerlukan adanya ATP di dompet Anda."
   },
   "needImportFile": {
     "message": "Anda harus memilih berkas untuk diimpor.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Tidak dapat mengirim nominal negatif ETH."
+    "message": "Tidak dapat mengirim nominal negatif ATP."
   },
   "networkName": {
     "message": "Nama Jaringan"
@@ -688,8 +688,8 @@
   "newNetwork": {
     "message": "Jaringan Baru"
   },
-  "newToMetaMask": {
-    "message": "Baru di MetaMask?"
+  "newToSamurai": {
+    "message": "Baru di Samurai?"
   },
   "noAlreadyHaveSeed": {
     "message": "Tidak, saya sudah memiliki frasa seed"
@@ -698,7 +698,7 @@
     "message": "Lindungi Kunci Anda!"
   },
   "protectYourKeysMessage1": {
-    "message": "Berhati-hatilah dengan frasa seed Anda — terdapat laporan tentang website yang coba mengimitasi MetaMask. MetaMask tidak akan pernah meminta frasa seed Anda!"
+    "message": "Berhati-hatilah dengan frasa seed Anda — terdapat laporan tentang website yang coba mengimitasi Samurai. Samurai tidak akan pernah meminta frasa seed Anda!"
   },
   "protectYourKeysMessage2": {
     "message": "Jaga keamanan frasa Anda. Jika Anda menemukan sesuatu yang mencurigakan, atau ragu dengan sebuah situs web, kirim surel ke service@latticex.foundation"
@@ -755,7 +755,7 @@
     "message": "Berpartisipasilah di MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Berpartisipasilah dalam MetaMetrics guna membantu kami menjadikan MetaMask lebih baik"
+    "message": "Berpartisipasilah dalam MetaMetrics guna membantu kami menjadikan Samurai lebih baik"
   },
   "password": {
     "message": "Sandi"
@@ -783,7 +783,7 @@
     "message": "Mata Uang Utama"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Pilih asli untuk memprioritaskan menampilkan nilai dalam mata uang asli dari rantai (cth: ETH). Pilih Fiat untuk memprioritaskan menampilkan nilai dalam mata uang fiat pilihan Anda."
+    "message": "Pilih asli untuk memprioritaskan menampilkan nilai dalam mata uang asli dari rantai (cth: ATP). Pilih Fiat untuk memprioritaskan menampilkan nilai dalam mata uang fiat pilihan Anda."
   },
   "privacyMsg": {
     "message": "Kebijakan Privasi"
@@ -925,7 +925,7 @@
     "message": "Frasa cadangan rahasia Anda akan memudahkan untuk membuat cadangan dan memulihkan akun Anda."
   },
   "secretBackupPhraseWarning": {
-    "message": "PERINGATAN: Jangan pernah mengungkap frasa cadangan Anda. Siapa saja dapat mengambil Ether Anda selamanya dengan frasa ini."
+    "message": "PERINGATAN: Jangan pernah mengungkap frasa cadangan Anda. Siapa saja dapat mengambil ATP Anda selamanya dengan frasa ini."
   },
   "secretPhrase": {
     "message": "Masukkan frasa dua belas kata rahasia Anda di sini untuk memulihkan lemari besi Anda."
@@ -961,7 +961,7 @@
     "message": "Nominal Kirim"
   },
   "sendETH": {
-    "message": "Kirim ETH"
+    "message": "Kirim ATP"
   },
   "sendTokens": {
     "message": "Kirim Token"
@@ -982,7 +982,7 @@
     "message": "Pilih Akun"
   },
   "selectAnAccountHelp": {
-    "message": "Pilih akun untuk dilihat di MetaMask"
+    "message": "Pilih akun untuk dilihat di Samurai"
   },
   "selectAHigherGasFee": {
     "message": "Pilih biaya gas yang lebih tinggi untuk mempercepat proses transaksi Anda.*"
@@ -1072,7 +1072,7 @@
     "message": "3. Mulai gunakan dApps dan lainnya!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Gunakan akun peranti keras Anda seperti layaknya akun Ethereum. Masuklah ke dApps, kirim Eth, beli dan simpan token ERC20 dan token Non-Fungible seperti CryptoKitties."
+    "message": "Gunakan akun peranti keras Anda seperti layaknya akun Alaya. Masuklah ke dApps, kirim ATP, beli dan simpan token ERC20 dan token Non-Fungible seperti CryptoKitties."
   },
   "storePhrase": {
     "message": "Simpan frasa ini dalam manajer sandi seperti 1Password."
@@ -1096,19 +1096,19 @@
     "message": "Sinkronkan dengan seluler"
   },
   "syncWithMobileDesc": {
-    "message": "Anda dapat menyinkronkan akun dan informasi Anda dengan perangkat seluler. Buka aplikasi seluler MetaMask, pilih \"Pengaturan\" lalu ketuk \"Sinkronkan dari Ekstensi Peramban\""
+    "message": "Anda dapat menyinkronkan akun dan informasi Anda dengan perangkat seluler. Buka aplikasi seluler Samurai, pilih \"Pengaturan\" lalu ketuk \"Sinkronkan dari Ekstensi Peramban\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Jika Anda baru saja membuka aplikasi MetaMask Mobile untuk pertama kali, ikuti langkah-langkah pada ponsel Anda."
+    "message": "Jika Anda baru saja membuka aplikasi Samurai Mobile untuk pertama kali, ikuti langkah-langkah pada ponsel Anda."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Pindai kode ini dengan aplikasi ponsel MetaMask "
+    "message": "Pindai kode ini dengan aplikasi ponsel Samurai "
   },
   "syncWithMobileBeCareful": {
     "message": "Pastikan tidak ada yang melihat ke layar ketika kode ini Anda pindai"
   },
   "syncWithMobileComplete": {
-    "message": "Data Anda telah berhasil disinkronkan. Nikmati aplikasi mobile MetaMask!"
+    "message": "Data Anda telah berhasil disinkronkan. Nikmati aplikasi mobile Samurai!"
   },
   "terms": {
     "message": "Syarat Penggunaan"
@@ -1190,7 +1190,7 @@
     "message": "Coba lagi"
   },
   "typePassword": {
-    "message": "Ketik kata sandi MetaMask Anda"
+    "message": "Ketik kata sandi Samurai Anda"
   },
   "unapproved": {
     "message": "Tak disetujui"
@@ -1244,7 +1244,7 @@
     "message": "Lihat di $1"
   },
   "viewOnEtherscan": {
-    "message": "Lihat di Etherscan"
+    "message": "Lihat di Alayascan"
   },
   "visitWebSite": {
     "message": "Kunjungi website kami"
@@ -1256,7 +1256,7 @@
     "message": "Selamat Datang Kembali!"
   },
   "welcome": {
-    "message": "Selamat Datang di MetaMask"
+    "message": "Selamat Datang di Samurai"
   },
   "writePhrase": {
     "message": "Tuliskan frasa ini di selembar kertas dan simpan di tempat aman. Jika ingin lebih aman, tulislah di beberapa lembar kertas dan simpan masing-masing kertas di 2 - 3 lokasi berbeda."

@@ -1,6 +1,6 @@
 {
   "chartOnlyAvailableEth": {
-    "message": "Tabel on saadaval vaid Ethereumi võrkudes."
+    "message": "Tabel on saadaval vaid Alayai võrkudes."
   },
   "contractInteraction": {
     "message": "Lepingu suhtlus"
@@ -72,13 +72,13 @@
     "message": "Lisa soovitatud lube"
   },
   "addAcquiredTokens": {
-    "message": "Lisage load, mis olete MetaMaskiga saanud"
+    "message": "Lisage load, mis olete Samuraiiga saanud"
   },
   "amount": {
     "message": "Summa"
   },
   "appDescription": {
-    "message": "Ethereumi rahakott teie lehitsejas",
+    "message": "Alayai rahakott teie lehitsejas",
     "description": "The description of the application"
   },
   "appName": {
@@ -110,7 +110,7 @@
     "message": "Automaatse väljalogimise taimer (minutites)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Seadistage jõudeolek minutites, enne kui MetaMask automaatselt välja logib"
+    "message": "Seadistage jõudeolek minutites, enne kui Samurai automaatselt välja logib"
   },
   "average": {
     "message": "Keskmine"
@@ -125,7 +125,7 @@
     "message": "Varundage oma salajane taastamisvõti, et oma rahakott ja vahendid turvalisena hoida."
   },
   "backupApprovalInfo": {
-    "message": "See salakood on vajalik teie rahakoti taastamiseks, kui kaotate oma seadme, unustate parooli, peate MetaMaski uuesti alla laadima, või kui soovite avada oma rahakoti mõnel teisel seadmel."
+    "message": "See salakood on vajalik teie rahakoti taastamiseks, kui kaotate oma seadme, unustate parooli, peate Samuraii uuesti alla laadima, või kui soovite avada oma rahakoti mõnel teisel seadmel."
   },
   "backupNow": {
     "message": "Varunda kohe"
@@ -153,13 +153,13 @@
     "message": "Teie lehitsejat ei toetata..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask on projekteeritud ja loodud Californias."
+    "message": "Samurai on projekteeritud ja loodud Californias."
   },
   "buyWithWyre": {
-    "message": "Ostke ETH-d Wyre'iga"
+    "message": "Ostke ATP-d Wyre'iga"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre võimaldab kasutada krediitkaarti, et teha ETH sissemakse otse MetaMaski kontole."
+    "message": "Wyre võimaldab kasutada krediitkaarti, et teha ATP sissemakse otse Samuraii kontole."
   },
   "buyCoinSwitch": {
     "message": "Osta CoinSwitchil"
@@ -204,7 +204,7 @@
     "message": "Sule"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Riistvararahakoti ühendamiseks peate kasutama MetaMaski Google Chrome'is."
+    "message": "Riistvararahakoti ühendamiseks peate kasutama Samuraii Google Chrome'is."
   },
   "confirm": {
     "message": "Kinnita"
@@ -234,7 +234,7 @@
     "message": "Ühendamine Kovani testvõrguga"
   },
   "connectingToMainnet": {
-    "message": "Ühenduse loomine peamise Etherumi võrguga"
+    "message": "Ühenduse loomine peamise ATPumi võrguga"
   },
   "connectingToRopsten": {
     "message": "Ühendamine Ropsteni testvõrguga"
@@ -372,7 +372,7 @@
     "message": "Ärge jagage fraasi mitte kellegagi."
   },
   "endOfFlowMessage5": {
-    "message": "Olge ettevaatlik andmepüügi osas! MetaMask ei küsi kunagi spontaanselt teie seemnefraasi."
+    "message": "Olge ettevaatlik andmepüügi osas! Samurai ei küsi kunagi spontaanselt teie seemnefraasi."
   },
   "endOfFlowMessage6": {
     "message": "Kui peate oma seemnefraasi uuesti varundama, leiate selle valikust Settings (Seaded) -> Security (Turvalisus)."
@@ -381,7 +381,7 @@
     "message": "Kui teil on küsimusi või näete midagi kahtlast, kirjutage meile service@latticex.foundation."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask ei saa teie seemnefraasi taastada. Lisateave."
+    "message": "Samurai ei saa teie seemnefraasi taastada. Lisateave."
   },
   "endOfFlowMessage9": {
     "message": "Lisateave."
@@ -393,7 +393,7 @@
     "message": "Tõrge ENS-i nime registreerimisel"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "ENS-i nime ei leitud praegusest võrgust. Proovige lülituda peamisele Ethereumi võrgule."
+    "message": "ENS-i nime ei leitud praegusest võrgust. Proovige lülituda peamisele Alayai võrgule."
   },
   "enterAnAlias": {
     "message": "Sisestage alias"
@@ -405,10 +405,10 @@
     "message": "Jätkamiseks sisestage parool"
   },
   "ethereumPublicAddress": {
-    "message": "Ethereumi avalik aadress"
+    "message": "Alayai avalik aadress"
   },
   "etherscanView": {
-    "message": "Vaadake kontot Etherscanil"
+    "message": "Vaadake kontot Alayascanil"
   },
   "estimatedProcessingTimes": {
     "message": "Eeldatavad töötlemisajad"
@@ -476,7 +476,7 @@
   },
   "getEtherFromFaucet": {
     "message": "Hankige kraanist eetrit $1eest",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for ATP faucet"
   },
   "getHelp": {
     "message": "Küsige abi."
@@ -497,7 +497,7 @@
     "message": "Ühendage riistvara rahakott"
   },
   "hardwareWalletsMsg": {
-    "message": "Valige riistvara rahakott, mida soovite MetaMaskis kasutada"
+    "message": "Valige riistvara rahakott, mida soovite Samuraiis kasutada"
   },
   "havingTroubleConnecting": {
     "message": "Kas ühendamisel esineb probleeme?"
@@ -526,7 +526,7 @@
     "message": "Impordi konto"
   },
   "importAccountMsg": {
-    "message": "Imporditud kontosid ei seostata teie ainulaadse MetaMaski konto seemnefraasiga. Lugege imporditud kontode kohta lähemalt"
+    "message": "Imporditud kontosid ei seostata teie ainulaadse Samuraii konto seemnefraasiga. Lugege imporditud kontode kohta lähemalt"
   },
   "importAccountSeedPhrase": {
     "message": "Impordi seemnefraasiga konto"
@@ -569,7 +569,7 @@
     "message": "Teadaolev lepinguaadress."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Kehtetu ETH-võrk, kasutage väiketähti"
+    "message": "Kehtetu ATP-võrk, kasutage väiketähti"
   },
   "invalidInput": {
     "message": "Vigane sisend."
@@ -621,7 +621,7 @@
     "message": "Logi välja"
   },
   "mainnet": {
-    "message": "Ethereumi põhivõrk"
+    "message": "Alayai põhivõrk"
   },
   "memorizePhrase": {
     "message": "Jätke fraas meelde."
@@ -633,10 +633,10 @@
     "message": "Sõnum"
   },
   "metamaskDescription": {
-    "message": "Teid ühendatakse Ethereumi ja detsentraliseeritud võrguga."
+    "message": "Teid ühendatakse Alayai ja detsentraliseeritud võrguga."
   },
   "metamaskVersion": {
-    "message": "MetaMaski versioon"
+    "message": "Samuraii versioon"
   },
   "mobileSyncText": {
     "message": "Sisestage parool, et saaksime teid tuvastada!"
@@ -648,20 +648,20 @@
     "message": "Minu rahakotikontod"
   },
   "myWalletAccountsDescription": {
-    "message": "Sellesse jaotisesse lisatakse automaatselt kõik teie MetaMaski kontod."
+    "message": "Sellesse jaotisesse lisatakse automaatselt kõik teie Samuraii kontod."
   },
   "mustSelectOne": {
     "message": "Peate valima vähemalt 1 loa."
   },
   "needEtherInWallet": {
-    "message": "Selleks, et suhelda MetaMaski abil detsentraliseeritud rakendustega, peab teil rahakotis eetrit olema."
+    "message": "Selleks, et suhelda Samuraii abil detsentraliseeritud rakendustega, peab teil rahakotis eetrit olema."
   },
   "needImportFile": {
     "message": "Peate importimiseks faili valima.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Negatiivset ETHi summat ei saa saata."
+    "message": "Negatiivset ATPi summat ei saa saata."
   },
   "networkName": {
     "message": "Võrgu nimi"
@@ -697,8 +697,8 @@
   "newNetwork": {
     "message": "Uus võrk"
   },
-  "newToMetaMask": {
-    "message": "Pole MetaMaski varem kasutanud?"
+  "newToSamurai": {
+    "message": "Pole Samuraii varem kasutanud?"
   },
   "noAlreadyHaveSeed": {
     "message": "Ei, mul on juba seemnefraas"
@@ -707,7 +707,7 @@
     "message": "Kaitske oma võtmeid!"
   },
   "protectYourKeysMessage1": {
-    "message": "Kaitske oma seemnefraasi. Meid on teavitatud veebilehtedest, mis püüavad MetaMaski jäljendada. MetaMask ei küsi teilt kunagi teie seemnefraasi!"
+    "message": "Kaitske oma seemnefraasi. Meid on teavitatud veebilehtedest, mis püüavad Samuraii jäljendada. Samurai ei küsi teilt kunagi teie seemnefraasi!"
   },
   "protectYourKeysMessage2": {
     "message": "Kaitske oma seemnefraasi. Kui näete midagi kahtlast või pole veebilehe ehtsuses kindel, saatke e-kiri aadressile service@latticex.foundation"
@@ -764,7 +764,7 @@
     "message": "Osalege MetaMetricsis"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Osalege MetaMetricsis, et aidata meil MetaMaski paremaks teha"
+    "message": "Osalege MetaMetricsis, et aidata meil Samuraii paremaks teha"
   },
   "password": {
     "message": "Parool"
@@ -792,7 +792,7 @@
     "message": "Põhivaluuta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Valige omavääring, et prioriseerida vääringu kuvamist ahela omavääringus (nt ETH). Valige Fiat, et prioriseerida vääringu kuvamist valitud fiat-vääringus."
+    "message": "Valige omavääring, et prioriseerida vääringu kuvamist ahela omavääringus (nt ATP). Valige Fiat, et prioriseerida vääringu kuvamist valitud fiat-vääringus."
   },
   "privacyMsg": {
     "message": "privaatsuspoliitika"
@@ -970,7 +970,7 @@
     "message": "Saatke kogus"
   },
   "sendETH": {
-    "message": "Saada ETH"
+    "message": "Saada ATP"
   },
   "sendTokens": {
     "message": "Saada lube"
@@ -991,7 +991,7 @@
     "message": "Valige konto"
   },
   "selectAnAccountHelp": {
-    "message": "Valige konto, mida MetaMaskis vaadata"
+    "message": "Valige konto, mida Samuraiis vaadata"
   },
   "selectAHigherGasFee": {
     "message": "Valige suurem gaasihind, et kiirendada tehingu töötlemist.*"
@@ -1081,7 +1081,7 @@
     "message": "3. Hakake kasutama dAppse ja muud!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Kasutage oma riistvarakontot nagu mis tahes teist Ethereumi kontot. Logige dAppsi, saatke Eth-d, ostke ja hoiustage ERC20 lube ning asendamatuid lube nagu CryptoKitties."
+    "message": "Kasutage oma riistvarakontot nagu mis tahes teist Alayai kontot. Logige dAppsi, saatke ATP-d, ostke ja hoiustage ERC20 lube ning asendamatuid lube nagu CryptoKitties."
   },
   "storePhrase": {
     "message": "Salvestage see fraas paroolihaldurisse, nagu 1Password."
@@ -1105,19 +1105,19 @@
     "message": "Mobiiliga sünkroonimine"
   },
   "syncWithMobileDesc": {
-    "message": "Saate sünkroonida oma kontod ja teabe oma mobiiliseadmega. Avage MetaMaski mobiilirakendus, avage \"Settings\" (Seaded) ja puudutage valikut \"Sync from Browser Extension\" (Sünkroonimine lehitseja laiendusest)"
+    "message": "Saate sünkroonida oma kontod ja teabe oma mobiiliseadmega. Avage Samuraii mobiilirakendus, avage \"Settings\" (Seaded) ja puudutage valikut \"Sync from Browser Extension\" (Sünkroonimine lehitseja laiendusest)"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Järgige MetaMaski mobiilirakenduse esmakordsel avamisel telefonis esitatud samme."
+    "message": "Järgige Samuraii mobiilirakenduse esmakordsel avamisel telefonis esitatud samme."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Skanneerige see kood MetaMaski mobiilirakendusega"
+    "message": "Skanneerige see kood Samuraii mobiilirakendusega"
   },
   "syncWithMobileBeCareful": {
     "message": "Veenduge, et keegi teine ei vaata selle koodi skannimisel teie ekraani"
   },
   "syncWithMobileComplete": {
-    "message": "Teie andmed on edukalt sünkroonitud. Nautige MetaMaski mobiilirakendust!"
+    "message": "Teie andmed on edukalt sünkroonitud. Nautige Samuraii mobiilirakendust!"
   },
   "terms": {
     "message": "Teenusetingimused"
@@ -1208,7 +1208,7 @@
     "message": "Proovi uuesti"
   },
   "typePassword": {
-    "message": "Sisestage oma MetaMaski parool"
+    "message": "Sisestage oma Samuraii parool"
   },
   "unapproved": {
     "message": "Kinnitamata"
@@ -1262,7 +1262,7 @@
     "message": "Vaata $1"
   },
   "viewOnEtherscan": {
-    "message": "Kuva Etherscanil"
+    "message": "Kuva Alayascanil"
   },
   "visitWebSite": {
     "message": "Külastage meie veebilehte"
@@ -1274,7 +1274,7 @@
     "message": "Tere tulemast tagasi!"
   },
   "welcome": {
-    "message": "Tere tulemast MetaMaski"
+    "message": "Tere tulemast Samuraii"
   },
   "writePhrase": {
     "message": "Kirjutage see fraas paberile ja hoidke seda turvalises kohas. Veel suurema turvalisuse tagamiseks kirjutage see mitmele paberile ja hoidke neid 2–3 erinevas kohas."

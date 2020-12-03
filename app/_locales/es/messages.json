@@ -1,6 +1,6 @@
 {
   "chartOnlyAvailableEth": {
-    "message": "Tabla solo disponible en redes Ethereum."
+    "message": "Tabla solo disponible en redes Alaya."
   },
   "contractInteraction": {
     "message": "Interacción con contrato"
@@ -69,13 +69,13 @@
     "message": "Agregar tokens propuestos"
   },
   "addAcquiredTokens": {
-    "message": "Agregar los tokens que has adquirido usando MetaMask"
+    "message": "Agregar los tokens que has adquirido usando Samurai"
   },
   "amount": {
     "message": "Cantidad"
   },
   "appDescription": {
-    "message": "Extensión del navegador para Ethereum",
+    "message": "Extensión del navegador para Alaya",
     "description": "The description of the application"
   },
   "appName": {
@@ -107,7 +107,7 @@
     "message": "Temporizador Auto-Cierre (minutos)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Establece el tiempo de inactividad en minutos antes de que MetaMask cierre la sesión automáticamente."
+    "message": "Establece el tiempo de inactividad en minutos antes de que Samurai cierre la sesión automáticamente."
   },
   "average": {
     "message": "Promedio"
@@ -134,7 +134,7 @@
     "message": "Tu navegador no está admitido..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask fue diseñado y construido en California"
+    "message": "Samurai fue diseñado y construido en California"
   },
   "buyCoinSwitch": {
     "message": "Comprar en CoinSwitch"
@@ -164,7 +164,7 @@
     "message": "Cerrar"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Hay que usar MetaMask en Google Chrome para poder conectarse con tu Monedero Físico."
+    "message": "Hay que usar Samurai en Google Chrome para poder conectarse con tu Monedero Físico."
   },
   "confirm": {
     "message": "Confirmar"
@@ -191,7 +191,7 @@
     "message": "Conectando a la red de test Kovan"
   },
   "connectingToMainnet": {
-    "message": "Conectando a la red principal de Ethereum (Main Net)"
+    "message": "Conectando a la red principal de Alaya (Main Net)"
   },
   "connectingToRopsten": {
     "message": "Conectando a la red de test Ropsten"
@@ -269,7 +269,7 @@
     "message": "Decimales de precisión"
   },
   "defaultNetwork": {
-    "message": "La red por defecto para las transacciones de Ether es MainNet (red principal)"
+    "message": "La red por defecto para las transacciones de ATP es MainNet (red principal)"
   },
   "delete": {
     "message": "Eliminar"
@@ -281,16 +281,16 @@
     "message": "Depositar"
   },
   "depositEther": {
-    "message": "Depositar Ether"
+    "message": "Depositar ATP"
   },
   "details": {
     "message": "Detalles"
   },
   "directDepositEther": {
-    "message": "Depositar Ether directamente"
+    "message": "Depositar ATP directamente"
   },
   "directDepositEtherExplainer": {
-    "message": "Si posees Ether, la forma más rápida de transferirlo a tu nueva billetera es depositándolo directamente"
+    "message": "Si posees ATP, la forma más rápida de transferirlo a tu nueva billetera es depositándolo directamente"
   },
   "done": {
     "message": "Completo"
@@ -314,7 +314,7 @@
     "message": "Editar Contacto"
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask no puede recuperar tu seedphrase. Saber más."
+    "message": "Samurai no puede recuperar tu seedphrase. Saber más."
   },
   "endOfFlowMessage9": {
     "message": "Saber más."
@@ -326,7 +326,7 @@
     "message": "Introducir contraseña para seguir"
   },
   "etherscanView": {
-    "message": "Ver la cuenta en Etherscan"
+    "message": "Ver la cuenta en Alayascan"
   },
   "estimatedProcessingTimes": {
     "message": "Tiempo Previsto de procesamiento"
@@ -385,11 +385,11 @@
     "message": "Conversión de divisas, divisa principal, idioma, blockies identicon"
   },
   "getEther": {
-    "message": "Conseguir Ether"
+    "message": "Conseguir ATP"
   },
   "getEtherFromFaucet": {
-    "message": "Obtenga Ether de un faucet (grifo) por $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Obtenga ATP de un faucet (grifo) por $1",
+    "description": "Displays network name for ATP faucet"
   },
   "getHelp": {
     "message": "Pedir ayuda."
@@ -401,7 +401,7 @@
     "message": "Conectarle un monedero físico"
   },
   "hardwareWalletsMsg": {
-    "message": "Seleccionar un monedero físico que quieres usar con MetaMask"
+    "message": "Seleccionar un monedero físico que quieres usar con Samurai"
   },
   "havingTroubleConnecting": {
     "message": "¿Tienes problemas para hacer la conexión?"
@@ -430,7 +430,7 @@
     "message": "Importar cuenta"
   },
   "importAccountMsg": {
-    "message": "Las cuentas importadas no serán asociadas con tu cuenta original creada con tu MetaMask. Aprende más acerca de importar cuentas."
+    "message": "Las cuentas importadas no serán asociadas con tu cuenta original creada con tu Samurai. Aprende más acerca de importar cuentas."
   },
   "importWallet": {
     "message": "Importar Wallet"
@@ -464,7 +464,7 @@
     "message": "Dirección del destinatario invalida"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "No es una red ETH, convertirlo a minúscula"
+    "message": "No es una red ATP, convertirlo a minúscula"
   },
   "invalidInput": {
     "message": "Entrada inválida"
@@ -513,16 +513,16 @@
     "message": "Cerrar sesión"
   },
   "mainnet": {
-    "message": "Red principal de Ethereum (Main Net)"
+    "message": "Red principal de Alaya (Main Net)"
   },
   "message": {
     "message": "Mensaje"
   },
   "metamaskDescription": {
-    "message": "MetaMask es una identidad segura en Ethereum"
+    "message": "Samurai es una identidad segura en Alaya"
   },
   "metamaskVersion": {
-    "message": "Versión de MetaMask"
+    "message": "Versión de Samurai"
   },
   "myAccounts": {
     "message": "Mis cuentas"
@@ -531,14 +531,14 @@
     "message": "Debe seleccionar al menos un (1) token"
   },
   "needEtherInWallet": {
-    "message": "Para interactuar con una aplicación descentralizada usando MetaMask, necesitas tener Ether en tu billetera"
+    "message": "Para interactuar con una aplicación descentralizada usando Samurai, necesitas tener ATP en tu billetera"
   },
   "needImportFile": {
     "message": "Debes seleccionar un archivo para importar",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "No se pueden mandar cantidades negativas de ETH"
+    "message": "No se pueden mandar cantidades negativas de ATP"
   },
   "networks": {
     "message": "Redes"
@@ -630,7 +630,7 @@
     "message": "Moneda principal"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Seleccionar nativa para prioritizar el que se muestren los valores en la moneda nativa de la cadena (p.ej. ETH). Seleccionar Fíat para prioritzar el que se muestren los valores en la moneda fíat seleccionada."
+    "message": "Seleccionar nativa para prioritizar el que se muestren los valores en la moneda nativa de la cadena (p.ej. ATP). Seleccionar Fíat para prioritzar el que se muestren los valores en la moneda fíat seleccionada."
   },
   "privacyMsg": {
     "message": "Política de privacidad"
@@ -775,7 +775,7 @@
     "message": "Mandar cantidad"
   },
   "sendETH": {
-    "message": "Enviar Ether"
+    "message": "Enviar ATP"
   },
   "sendTokens": {
     "message": "Enviar tokens"
@@ -796,7 +796,7 @@
     "message": "Seleccionar una Cuenta"
   },
   "selectAnAccountHelp": {
-    "message": "Seleccionar la cuenta que quiere ver en MetaMask"
+    "message": "Seleccionar la cuenta que quiere ver en Samurai"
   },
   "selectAHigherGasFee": {
     "message": "Seleccione una comisión de gas más elevada para agilizar el procesamiento de tu transacción.*"
@@ -874,7 +874,7 @@
     "message": "3. Empezar a usar dApps y más!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Usa tu cuenta física igual que harías con cualquier cuenta de Ethereum. Regístrate con dApps, manda Eth, compra y almacena tokens de ERC20 y otros tokens no-fungibles, como CryptoKitties."
+    "message": "Usa tu cuenta física igual que harías con cualquier cuenta de Alaya. Regístrate con dApps, manda ATP, compra y almacena tokens de ERC20 y otros tokens no-fungibles, como CryptoKitties."
   },
   "submitted": {
     "message": "Enviado"
@@ -1004,7 +1004,7 @@
     "message": "Mirar cuenta"
   },
   "viewOnEtherscan": {
-    "message": "Ver en Etherscan"
+    "message": "Ver en Alayascan"
   },
   "visitWebSite": {
     "message": "Visita nuestro sitio web"
@@ -1016,7 +1016,7 @@
     "message": "¡Bienvenido de nuevo!"
   },
   "welcome": {
-    "message": "Bienvenido a MetaMask"
+    "message": "Bienvenido a Samurai"
   },
   "yesLetsTry": {
     "message": "Sí, probemos"

@@ -1,6 +1,6 @@
 {
   "chartOnlyAvailableEth": {
-    "message": "チャートはEthereumネットワークでのみ利用可能です。"
+    "message": "チャートはAlayaネットワークでのみ利用可能です。"
   },
   "contractInteraction": {
     "message": "コントラクトへのアクセス"
@@ -69,13 +69,13 @@
     "message": "推奨トークンを追加"
   },
   "addAcquiredTokens": {
-    "message": "MetaMaskで獲得したトークンを追加する"
+    "message": "Samuraiで獲得したトークンを追加する"
   },
   "amount": {
     "message": "金額"
   },
   "appDescription": {
-    "message": "Ethereumのブラウザ・エクステンション",
+    "message": "Alayaのブラウザ・エクステンション",
     "description": "The description of the application"
   },
   "appName": {
@@ -107,7 +107,7 @@
     "message": "自動ログアウト(分)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "MetaMaskが自動的にログアウトするまでのアイドル時間を分単位で設定します。"
+    "message": "Samuraiが自動的にログアウトするまでのアイドル時間を分単位で設定します。"
   },
   "average": {
     "message": "平均"
@@ -185,7 +185,7 @@
     "message": "Etherを直接入金"
   },
   "directDepositEtherExplainer": {
-    "message": "既にEtherをお持ちなら、MetaMaskの新しいウォレットにEtherを送信することができます。"
+    "message": "既にEtherをお持ちなら、Samuraiの新しいウォレットにEtherを送信することができます。"
   },
   "done": {
     "message": "完了"
@@ -200,7 +200,7 @@
     "message": "パスワードを入力"
   },
   "etherscanView": {
-    "message": "Etherscanでアカウントを確認"
+    "message": "Alayascanでアカウントを確認"
   },
   "exportPrivateKey": {
     "message": "秘密鍵のエクスポート"
@@ -233,7 +233,7 @@
   },
   "getEtherFromFaucet": {
     "message": "フォーセットで $1のEtherを得ることができます。",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for ATP faucet"
   },
   "here": {
     "message": "ここ",
@@ -253,7 +253,7 @@
     "message": "アカウントのインポート"
   },
   "importAccountMsg": {
-    "message": "追加したアカウントはMetaMaskのアカウントパスフレーズとは関連付けられません。インポートしたアカウントについての詳細は"
+    "message": "追加したアカウントはSamuraiのアカウントパスフレーズとは関連付けられません。インポートしたアカウントについての詳細は"
   },
   "imported": {
     "message": "インポート完了",
@@ -303,7 +303,7 @@
     "message": "ログアウト"
   },
   "mainnet": {
-    "message": "Ethereumメインネットワーク"
+    "message": "Alayaメインネットワーク"
   },
   "message": {
     "message": "メッセージ"
@@ -315,7 +315,7 @@
     "message": "一つ以上のトークンを選択してください。"
   },
   "needEtherInWallet": {
-    "message": "MetaMaskで分散型アプリケーションを使用するためには、このウォレットにEtherが必要です。"
+    "message": "Samuraiで分散型アプリケーションを使用するためには、このウォレットにEtherが必要です。"
   },
   "needImportFile": {
     "message": "インポートするファイルを選択してください。",
@@ -415,7 +415,7 @@
     "message": "送信"
   },
   "sendETH": {
-    "message": "ETHの送信"
+    "message": "ATPの送信"
   },
   "sendTokens": {
     "message": "トークンを送信"
@@ -479,7 +479,7 @@
     "message": "アカウントを見る"
   },
   "viewOnEtherscan": {
-    "message": "Etherscan で見る"
+    "message": "Alayascan で見る"
   },
   "walletSeed": {
     "message": "ウォレットのパスフレーズ"
@@ -488,7 +488,7 @@
     "message": "おかえりなさい!"
   },
   "welcome": {
-    "message": "MetaMask ベータ版へようこそ!"
+    "message": "Samurai ベータ版へようこそ!"
   },
   "yourSigRequested": {
     "message": "あなたの署名がリクエストされています。"

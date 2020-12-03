@@ -30,13 +30,13 @@
     "message": "Ajoute Token Yo Sikjere W"
   },
   "addAcquiredTokens": {
-    "message": "Ajoute tokens yo ou te achte lè l sèvi avèk MetaMask"
+    "message": "Ajoute tokens yo ou te achte lè l sèvi avèk Samurai"
   },
   "amount": {
     "message": "Kantite lajan"
   },
   "appDescription": {
-    "message": "Ekstansyon Navigatè Ethereum",
+    "message": "Ekstansyon Navigatè Alaya",
     "description": "The description of the application"
   },
   "appName": {
@@ -74,7 +74,7 @@
     "message": "Navigatè ou a pa sipòte..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask fèt e bati nan California."
+    "message": "Samurai fèt e bati nan California."
   },
   "buyCoinSwitch": {
     "message": "Achte sou CoinSwitch"
@@ -98,7 +98,7 @@
     "message": "Fèmen"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Ou bezwen sèvi ak MetaMask sou Google Chrome yo nan lòd yo konekte sou Hardware Wallet."
+    "message": "Ou bezwen sèvi ak Samurai sou Google Chrome yo nan lòd yo konekte sou Hardware Wallet."
   },
   "confirm": {
     "message": "Konfime"
@@ -119,7 +119,7 @@
     "message": "Konekte nan Kovan Tès Rezo a"
   },
   "connectingToMainnet": {
-    "message": "Konekte ak Prensipal Ethereum Rezo a"
+    "message": "Konekte ak Prensipal Alaya Rezo a"
   },
   "connectingToRopsten": {
     "message": "Konekte ak Ropsten Tès Rezo a"
@@ -170,22 +170,22 @@
     "message": "Presizyon desimal la"
   },
   "defaultNetwork": {
-    "message": "Dfo rezo a pou tranzaksyon Ether se Mainnet."
+    "message": "Dfo rezo a pou tranzaksyon ATP se Mainnet."
   },
   "deposit": {
     "message": "Depo"
   },
   "depositEther": {
-    "message": "Depo Ether"
+    "message": "Depo ATP"
   },
   "details": {
     "message": "Detay yo"
   },
   "directDepositEther": {
-    "message": "Dirèkteman Depo Ether"
+    "message": "Dirèkteman Depo ATP"
   },
   "directDepositEtherExplainer": {
-    "message": "Si ou deja gen kèk Ether, fason ki pi rapid yo ka resevwa Ether nan nouvo Wallet ou pa depo dirèk."
+    "message": "Si ou deja gen kèk ATP, fason ki pi rapid yo ka resevwa ATP nan nouvo Wallet ou pa depo dirèk."
   },
   "done": {
     "message": "Fini"
@@ -212,7 +212,7 @@
     "message": "Mete modpas pou kontinye"
   },
   "etherscanView": {
-    "message": "Gade kont sou Etherscan"
+    "message": "Gade kont sou Alayascan"
   },
   "expandView": {
     "message": "Elaji Wè"
@@ -253,11 +253,11 @@
     "message": "Pri gaz (GWEI)"
   },
   "getEther": {
-    "message": "Jwenn Ether"
+    "message": "Jwenn ATP"
   },
   "getEtherFromFaucet": {
-    "message": "Jwenn Ether nan yon tiyo pou $1 la",
-    "description": "Displays network name for Ether faucet"
+    "message": "Jwenn ATP nan yon tiyo pou $1 la",
+    "description": "Displays network name for ATP faucet"
   },
   "getHelp": {
     "message": "Jwenn èd."
@@ -272,7 +272,7 @@
     "message": "Materyèl Wallet konekte"
   },
   "hardwareWalletsMsg": {
-    "message": "Chwazi yon Materyèl Wallet ou ta renmen itilize ak MetaMask"
+    "message": "Chwazi yon Materyèl Wallet ou ta renmen itilize ak Samurai"
   },
   "havingTroubleConnecting": {
     "message": "Èske w gen pwoblèm pou konekte?"
@@ -298,7 +298,7 @@
     "message": "Pòte Kont"
   },
   "importAccountMsg": {
-    "message": " Kont pòte pa pral asosye avèk orijinal ou te kreye nan kont MetaMask seed fraz. Aprann plis sou kont enpòte "
+    "message": " Kont pòte pa pral asosye avèk orijinal ou te kreye nan kont Samurai seed fraz. Aprann plis sou kont enpòte "
   },
   "imported": {
     "message": "Pòte",
@@ -369,16 +369,16 @@
     "message": "Dekonekte"
   },
   "mainnet": {
-    "message": "Prensipal Ethereum Rezo a"
+    "message": "Prensipal Alaya Rezo a"
   },
   "message": {
     "message": "Mesaje"
   },
   "metamaskDescription": {
-    "message": "MetaMask sekirize idantite pou Ethereum."
+    "message": "Samurai sekirize idantite pou Alaya."
   },
   "metamaskVersion": {
-    "message": "MetaMask Vèsyon"
+    "message": "Samurai Vèsyon"
   },
   "myAccounts": {
     "message": "Kont mwen"
@@ -387,14 +387,14 @@
     "message": "Ou dwe chwazi omwen 1 token."
   },
   "needEtherInWallet": {
-    "message": "Pou kominike avèk aplikasyon desantralize ou dwe itilize MetaMask, ou pral bezwen Ether nan Wallet ou."
+    "message": "Pou kominike avèk aplikasyon desantralize ou dwe itilize Samurai, ou pral bezwen ATP nan Wallet ou."
   },
   "needImportFile": {
     "message": "Ou dwe chwazi yon dosye pou enpòte.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Pa ka voye kantite lajan negatif ETH."
+    "message": "Pa ka voye kantite lajan negatif ATP."
   },
   "networks": {
     "message": "Rezo"
@@ -468,7 +468,7 @@
     "message": "Lajan ou itilize pi plis la"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Chwazi ETH pou bay priyorite montre valè nan ETH. Chwazi Fiat priyorite montre valè nan lajan ou chwazi a."
+    "message": "Chwazi ATP pou bay priyorite montre valè nan ATP. Chwazi Fiat priyorite montre valè nan lajan ou chwazi a."
   },
   "privacyMsg": {
     "message": "Règleman sou enfòmasyon prive"
@@ -595,7 +595,7 @@
     "message": "Voye"
   },
   "sendETH": {
-    "message": "Voye ETH"
+    "message": "Voye ATP"
   },
   "sendTokens": {
     "message": "Voye Tokens"
@@ -616,7 +616,7 @@
     "message": "Chwazi yon kont"
   },
   "selectAnAccountHelp": {
-    "message": "Chwazi kont pou wè nan MetaMask"
+    "message": "Chwazi kont pou wè nan Samurai"
   },
   "selectHdPath": {
     "message": "Chwazi chemen HD"
@@ -676,7 +676,7 @@
     "message": "3. Kòmanse itilize dApps ak plis ankò!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Sèvi ak kont materyèl ou menm jan ou t ap fè pou kont Etherum. Ouvri sesyon an nan dApps, voye Eth, achte ak stòke ERC20 tokens ak e ki pake chanje tokens tankou CryptoKitties."
+    "message": "Sèvi ak kont materyèl ou menm jan ou t ap fè pou kont ATPum. Ouvri sesyon an nan dApps, voye ATP, achte ak stòke ERC20 tokens ak e ki pake chanje tokens tankou CryptoKitties."
   },
   "submitted": {
     "message": "Te Soumèt"
@@ -776,7 +776,7 @@
     "message": "Wè Kont"
   },
   "viewOnEtherscan": {
-    "message": "Wè sou Etherscan"
+    "message": "Wè sou Alayascan"
   },
   "visitWebSite": {
     "message": "Vizite sit entènèt nou an"
@@ -788,7 +788,7 @@
     "message": "Bon Retou!"
   },
   "welcome": {
-    "message": "Byenveni nan MetaMask"
+    "message": "Byenveni nan Samurai"
   },
   "yesLetsTry": {
     "message": "Wi, ann eseye"

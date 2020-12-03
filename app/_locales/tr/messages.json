@@ -21,7 +21,7 @@
     "message": "Tutar"
   },
   "appDescription": {
-    "message": "Ethereum Tarayıcı Uzantısı",
+    "message": "Alaya Tarayıcı Uzantısı",
     "description": "The description of the application"
   },
   "appName": {
@@ -50,7 +50,7 @@
     "message": "Blockies Identicon kullan"
   },
   "builtInCalifornia": {
-    "message": "MetaMask California'da tasarlandı ve yaratıldı"
+    "message": "Samurai California'da tasarlandı ve yaratıldı"
   },
   "buyCoinSwitch": {
     "message": "CoinSwitch'de satın al"
@@ -77,7 +77,7 @@
     "message": "Kovan Test Ağına bağlanıyor"
   },
   "connectingToMainnet": {
-    "message": "Main Ethereum Ağına bağlanıyor"
+    "message": "Main Alaya Ağına bağlanıyor"
   },
   "connectingToRopsten": {
     "message": "Ropsten Test Ağına bağlanıyor"
@@ -134,10 +134,10 @@
     "message": "Ayrıntılar"
   },
   "directDepositEther": {
-    "message": "Direk Ether Yatırma"
+    "message": "Direk ATP Yatırma"
   },
   "directDepositEtherExplainer": {
-    "message": "Eğer çoktan Etheriniz varsa, yeni hesabınıza Ether aktarmanın en kolay yolu direk yatırmadır."
+    "message": "Eğer çoktan ATPiniz varsa, yeni hesabınıza ATP aktarmanın en kolay yolu direk yatırmadır."
   },
   "done": {
     "message": "Bitti"
@@ -155,7 +155,7 @@
     "message": "Parolanızı girin"
   },
   "etherscanView": {
-    "message": "Hesabı Etherscan üzerinde izle"
+    "message": "Hesabı Alayascan üzerinde izle"
   },
   "exportPrivateKey": {
     "message": "Özel anahtarı ver"
@@ -187,8 +187,8 @@
     "message": "Ether Al"
   },
   "getEtherFromFaucet": {
-    "message": "Musluktan $1 karşılığı Ether alın",
-    "description": "Displays network name for Ether faucet"
+    "message": "Musluktan $1 karşılığı ATP alın",
+    "description": "Displays network name for ATP faucet"
   },
   "here": {
     "message": "burada",
@@ -208,7 +208,7 @@
     "message": "Hesap Al"
   },
   "importAccountMsg": {
-    "message": " Alınan hesaplar orjinal kaynakifadenizle yarattığınız MetaMask hesabınızla ilişkilendirilmez. Alınan hesaplar ile ilgili daha fazla bilgi edinin "
+    "message": " Alınan hesaplar orjinal kaynakifadenizle yarattığınız Samurai hesabınızla ilişkilendirilmez. Alınan hesaplar ile ilgili daha fazla bilgi edinin "
   },
   "imported": {
     "message": "Alındı",
@@ -270,13 +270,13 @@
     "message": "Çıkış"
   },
   "mainnet": {
-    "message": "Main Ethereum Ağı"
+    "message": "Main Alaya Ağı"
   },
   "message": {
     "message": "Mesaj"
   },
   "metamaskDescription": {
-    "message": "MetaMask Ethereum için güvenli bir kimlik kasasıdır."
+    "message": "Samurai Alaya için güvenli bir kimlik kasasıdır."
   },
   "myAccounts": {
     "message": "Hesaplarım"
@@ -285,14 +285,14 @@
     "message": "En az bir jeton seçilmeli"
   },
   "needEtherInWallet": {
-    "message": "MetaMask kullanarak merkezi olamayan uygulamalarla etkileşmek için cüzdanınızda Ether bulunmalıdır."
+    "message": "Samurai kullanarak merkezi olamayan uygulamalarla etkileşmek için cüzdanınızda ATP bulunmalıdır."
   },
   "needImportFile": {
     "message": "Almak için bir dosya seçmelisiniz.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Negatif ETH miktarları gönderilemez."
+    "message": "Negatif ATP miktarları gönderilemez."
   },
   "networks": {
     "message": "Ağlar"
@@ -397,7 +397,7 @@
     "message": "Gönder"
   },
   "sendETH": {
-    "message": "ETH Gönder"
+    "message": "ATP Gönder"
   },
   "sendTokens": {
     "message": "Jeton Gönder"
@@ -497,7 +497,7 @@
     "message": "Cüzdan Kaynağı"
   },
   "welcome": {
-    "message": "MetaMask'ya Hoşgeldiniz"
+    "message": "Samurai'ya Hoşgeldiniz"
   },
   "yourSigRequested": {
     "message": "İmzanız isteniyor"

@@ -1,6 +1,6 @@
 {
   "chartOnlyAvailableEth": {
-    "message": "Graf je k dispozícii iba v sieťach Ethereum."
+    "message": "Graf je k dispozícii iba v sieťach Alaya."
   },
   "contractInteraction": {
     "message": "Zmluvná interakcia"
@@ -72,13 +72,13 @@
     "message": "Pridať navrhované tokeny"
   },
   "addAcquiredTokens": {
-    "message": "Pridajte tokeny, ktoré ste získali pomocou MetaMask"
+    "message": "Pridajte tokeny, ktoré ste získali pomocou Samurai"
   },
   "amount": {
     "message": "Částka"
   },
   "appDescription": {
-    "message": "Ethereum rozšíření prohlížeče",
+    "message": "Alaya rozšíření prohlížeče",
     "description": "The description of the application"
   },
   "appName": {
@@ -107,7 +107,7 @@
     "message": "Časovač automatického odhlásenia (minúty)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Nastavte čas nečinnosti v minútach skôr, než sa MetaMask automaticky odhlási"
+    "message": "Nastavte čas nečinnosti v minútach skôr, než sa Samurai automaticky odhlási"
   },
   "average": {
     "message": "Priemerný"
@@ -122,7 +122,7 @@
     "message": "Zálohujte si svoj tajný kód na obnovenie, aby bola vaša peňaženka a prostriedky bezpečné."
   },
   "backupApprovalInfo": {
-    "message": "Tento tajný kód je potrebný na obnovenie peňaženky v prípade straty zariadenia, zabudnutia hesla, preinštalovania MetaMask alebo prístupu k peňaženke na inom zariadení."
+    "message": "Tento tajný kód je potrebný na obnovenie peňaženky v prípade straty zariadenia, zabudnutia hesla, preinštalovania Samurai alebo prístupu k peňaženke na inom zariadení."
   },
   "backupNow": {
     "message": "Zálohovať teraz"
@@ -147,13 +147,13 @@
     "message": "Váš prehliadač nie je podporovaný..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask je navržen a vytvořen v Kalifornii."
+    "message": "Samurai je navržen a vytvořen v Kalifornii."
   },
   "buyWithWyre": {
-    "message": "Kúpte ETH s Wyre"
+    "message": "Kúpte ATP s Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre vám umožňuje použiť kreditnú kartu na vloženie depozitu ETH priamo na váš účet MetaMask."
+    "message": "Wyre vám umožňuje použiť kreditnú kartu na vloženie depozitu ATP priamo na váš účet Samurai."
   },
   "buyCoinSwitch": {
     "message": "Kúpiť na CoinSwitch"
@@ -195,7 +195,7 @@
     "message": "Zavrieť"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Ak sa chcete pripojiť k svojej hardvérovej peňaženke, musíte v Google Chrome použiť MetaMask."
+    "message": "Ak sa chcete pripojiť k svojej hardvérovej peňaženke, musíte v Google Chrome použiť Samurai."
   },
   "confirm": {
     "message": "Potvrdit"
@@ -225,7 +225,7 @@
     "message": "Připojuji se k Kovan Test Network"
   },
   "connectingToMainnet": {
-    "message": "Připojuji se k Main Ethereum Network"
+    "message": "Připojuji se k Main Alaya Network"
   },
   "connectingToRopsten": {
     "message": "Připojuji se k Ropsten Test Network"
@@ -303,7 +303,7 @@
     "message": "Počet desetinných míst přesnosti"
   },
   "defaultNetwork": {
-    "message": "Výchozí síť pro Etherové transakce je Main Net."
+    "message": "Výchozí síť pro ATPové transakce je Main Net."
   },
   "delete": {
     "message": "Odstrániť"
@@ -315,16 +315,16 @@
     "message": "Vklad"
   },
   "depositEther": {
-    "message": "Vložit Ether"
+    "message": "Vložit ATP"
   },
   "details": {
     "message": "Podrobnosti"
   },
   "directDepositEther": {
-    "message": "Vložit Ether přímo"
+    "message": "Vložit ATP přímo"
   },
   "directDepositEtherExplainer": {
-    "message": "Pokud už vlastníte nějaký Ether, nejrychleji ho dostanete do peněženky přímým vkladem."
+    "message": "Pokud už vlastníte nějaký ATP, nejrychleji ho dostanete do peněženky přímým vkladem."
   },
   "done": {
     "message": "Hotovo"
@@ -363,7 +363,7 @@
     "message": "Nikdy nezdieľajte frázu s niekým iným."
   },
   "endOfFlowMessage5": {
-    "message": "Dávajte pozor na phishing! MetaMask nikdy nebude spontánne požadovať vašu seed frázu."
+    "message": "Dávajte pozor na phishing! Samurai nikdy nebude spontánne požadovať vašu seed frázu."
   },
   "endOfFlowMessage6": {
     "message": "Ak potrebujete backup frázu znova zálohovať, nájdete ju v časti Nastavenia -> Zabezpečenie."
@@ -372,7 +372,7 @@
     "message": "Ak budete mať nejaké otázky alebo niečo zaujímavé, pošlite email na service@latticex.foundation."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask nemôže obnoviť vašu seed frázu. Zistiť viac."
+    "message": "Samurai nemôže obnoviť vašu seed frázu. Zistiť viac."
   },
   "endOfFlowMessage9": {
     "message": "Dozvedieť sa viac."
@@ -384,7 +384,7 @@
     "message": "Chyba pri registrácii názvu ENS"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Názov ENS sa nenašiel v aktuálnej sieti. Skúste sa prepnúť na hlavnú sieť Ethereum."
+    "message": "Názov ENS sa nenašiel v aktuálnej sieti. Skúste sa prepnúť na hlavnú sieť Alaya."
   },
   "enterAnAlias": {
     "message": "Zadať alias"
@@ -396,10 +396,10 @@
     "message": "Pokračujte zadaním hesla"
   },
   "ethereumPublicAddress": {
-    "message": "Verejná adresa Ethereum"
+    "message": "Verejná adresa Alaya"
   },
   "etherscanView": {
-    "message": "Prohlédněte si účet na Etherscan"
+    "message": "Prohlédněte si účet na Alayascan"
   },
   "estimatedProcessingTimes": {
     "message": "Odhadovaný čas spracovania"
@@ -455,7 +455,7 @@
     "message": "Cena za GAS je mimoriadne nízka"
   },
   "gasPriceInfoModalContent": {
-    "message": "Cena za GAS určuje množstvo Ether, ktoré ste ochotní zaplatiť za každú jednotku GAS."
+    "message": "Cena za GAS určuje množstvo ATP, ktoré ste ochotní zaplatiť za každú jednotku GAS."
   },
   "gasPriceNoDenom": {
     "message": "Cena GAS"
@@ -467,11 +467,11 @@
     "message": "Prevod mien, primárna mena, jazyk, identifikácia blokov"
   },
   "getEther": {
-    "message": "Získejte Ether"
+    "message": "Získejte ATP"
   },
   "getEtherFromFaucet": {
-    "message": "Získejte Ether z faucetu za $1.",
-    "description": "Displays network name for Ether faucet"
+    "message": "Získejte ATP z faucetu za $1.",
+    "description": "Displays network name for ATP faucet"
   },
   "getHelp": {
     "message": "Získajte pomoc."
@@ -492,7 +492,7 @@
     "message": "Pripojiť hardvérovú peňaženku"
   },
   "hardwareWalletsMsg": {
-    "message": "Vyberte hardvérovú peňaženku, ktorú chcete používať s MetaMask"
+    "message": "Vyberte hardvérovú peňaženku, ktorú chcete používať s Samurai"
   },
   "havingTroubleConnecting": {
     "message": "Máte problémy s pripojením?"
@@ -514,7 +514,7 @@
     "message": "Import účtu"
   },
   "importAccountMsg": {
-    "message": "Importované účty nebudou spojeny s vaší původní MetaMaskovou klíčovou frází. Zjistěte více o importovaných účtech "
+    "message": "Importované účty nebudou spojeny s vaší původní Samuraiovou klíčovou frází. Zjistěte více o importovaných účtech "
   },
   "importAccountSeedPhrase": {
     "message": "Importovať účet so seed frázou"
@@ -557,7 +557,7 @@
     "message": "Známe kontaktné adresy."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Nie sieť ETH, nastaviť malé písmená"
+    "message": "Nie sieť ATP, nastaviť malé písmená"
   },
   "invalidInput": {
     "message": "Neplatný vstup."
@@ -612,10 +612,10 @@
     "message": "Zpráva"
   },
   "metamaskDescription": {
-    "message": "MetaMask je bezpečný osobní trezor pro Ethereum."
+    "message": "Samurai je bezpečný osobní trezor pro Alaya."
   },
   "metamaskVersion": {
-    "message": "Verzia MetaMask"
+    "message": "Verzia Samurai"
   },
   "mobileSyncText": {
     "message": "Zadajte svoje heslo a potvrďte, že ste to vy!"
@@ -627,20 +627,20 @@
     "message": "Účty v Mojej peňaženke"
   },
   "myWalletAccountsDescription": {
-    "message": "Do tejto sekcie sa automaticky pridajú všetky vaše účty vytvorené pomocou MetaMask."
+    "message": "Do tejto sekcie sa automaticky pridajú všetky vaše účty vytvorené pomocou Samurai."
   },
   "mustSelectOne": {
     "message": "Musíte zvolit aspoň 1 token."
   },
   "needEtherInWallet": {
-    "message": "Potřebujete Ether v peněžence, abyste mohli pomocí MetaMasku interagovat s decentralizovanými aplikacemi."
+    "message": "Potřebujete ATP v peněžence, abyste mohli pomocí Samuraiu interagovat s decentralizovanými aplikacemi."
   },
   "needImportFile": {
     "message": "Musíte zvolit soubor k importu.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Nelze odeslat zápornou částku ETH."
+    "message": "Nelze odeslat zápornou částku ATP."
   },
   "networkName": {
     "message": "Názov siete"
@@ -676,8 +676,8 @@
   "newNetwork": {
     "message": "Nová sieť"
   },
-  "newToMetaMask": {
-    "message": "Ste noví na MetaMask?"
+  "newToSamurai": {
+    "message": "Ste noví na Samurai?"
   },
   "noAlreadyHaveSeed": {
     "message": "Nie, už mám seed frázu"
@@ -686,7 +686,7 @@
     "message": "Chráňte si svoje kľúče!"
   },
   "protectYourKeysMessage1": {
-    "message": "Pri seed fráze buďte opatrní – vyskytli sa správy o webových stránkach, ktoré sa snažia napodobniť MetaMask. MetaMask nikdy nebude žiadať vašu seed frázu!"
+    "message": "Pri seed fráze buďte opatrní – vyskytli sa správy o webových stránkach, ktoré sa snažia napodobniť Samurai. Samurai nikdy nebude žiadať vašu seed frázu!"
   },
   "protectYourKeysMessage2": {
     "message": "Držte svoju frázu v bezpečí. Ak zbadáte niečo podozrivé alebo si nie ste istí webom, pošlite email na adresu service@latticex.foundation"
@@ -743,7 +743,7 @@
     "message": "Zúčastnite sa na MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Zúčastnite sa na MetaMetrics a pomôžte nám vylepšiť MetaMask"
+    "message": "Zúčastnite sa na MetaMetrics a pomôžte nám vylepšiť Samurai"
   },
   "password": {
     "message": "Heslo"
@@ -771,7 +771,7 @@
     "message": "Primárna mena"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Vyberte natívne, ak chcete priorizovať zobrazovanie hodnôt v natívnej mene reťazca (napr. ETH). Ak chcete priorizovať zobrazovanie hodnôt vo svojej vybranej mene fiat, zvoľte možnosť Fiat."
+    "message": "Vyberte natívne, ak chcete priorizovať zobrazovanie hodnôt v natívnej mene reťazca (napr. ATP). Ak chcete priorizovať zobrazovanie hodnôt vo svojej vybranej mene fiat, zvoľte možnosť Fiat."
   },
   "privacyMsg": {
     "message": "Zásady ochrany osobních údajů"
@@ -907,7 +907,7 @@
     "message": "Vaša tajná backup fráza uľahčuje zálohovanie a obnovenie vášho účtu."
   },
   "secretBackupPhraseWarning": {
-    "message": "UPOZORNENIE: Nikdy nezverejňujte svoju backup frázu. Každý, kto má túto frázu, môže navždy vziať váš Ether."
+    "message": "UPOZORNENIE: Nikdy nezverejňujte svoju backup frázu. Každý, kto má túto frázu, môže navždy vziať váš ATP."
   },
   "secretPhrase": {
     "message": "Zadejte svých 12 slov tajné fráze k obnovení trezoru."
@@ -943,7 +943,7 @@
     "message": "Poslať sumu"
   },
   "sendETH": {
-    "message": "Odeslat ETH"
+    "message": "Odeslat ATP"
   },
   "sendTokens": {
     "message": "Odeslat tokeny"
@@ -964,7 +964,7 @@
     "message": "Vybrať účet"
   },
   "selectAnAccountHelp": {
-    "message": "Vyberte účet, ktorý chcete zobraziť v MetaMask"
+    "message": "Vyberte účet, ktorý chcete zobraziť v Samurai"
   },
   "selectAHigherGasFee": {
     "message": "Ak chcete urýchliť spracovanie transakcie, vyberte vyšší poplatok GAS.*"
@@ -1054,7 +1054,7 @@
     "message": "3. Začať používať dApps a ďalšie!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Použite svoj hardvérový účet, ako keby ste použili akýkoľvek účet Ethereum. Prihláste sa do Dapps, pošlite Eth, nakupujte a ukladajte tokeny ERC20 a nezameniteľné tokeny ako CryptoKitties."
+    "message": "Použite svoj hardvérový účet, ako keby ste použili akýkoľvek účet Alaya. Prihláste sa do Dapps, pošlite ATP, nakupujte a ukladajte tokeny ERC20 a nezameniteľné tokeny ako CryptoKitties."
   },
   "storePhrase": {
     "message": "Túto frázu uložte do správcu hesiel ako 1Password."
@@ -1075,19 +1075,19 @@
     "message": "Synchronizácia s mobilom"
   },
   "syncWithMobileDesc": {
-    "message": "Svoje účty a informácie môžete synchronizovať so svojim mobilným zariadením. Otvorte mobilnú aplikáciu MetaMask, prejdite na „Nastavenia“ a kliknite na „Synchronizovať z rozšírenia prehliadača“."
+    "message": "Svoje účty a informácie môžete synchronizovať so svojim mobilným zariadením. Otvorte mobilnú aplikáciu Samurai, prejdite na „Nastavenia“ a kliknite na „Synchronizovať z rozšírenia prehliadača“."
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Ak otvoríte mobilnú aplikáciu MetaMask prvýkrát, postupujte podľa pokynov v telefóne."
+    "message": "Ak otvoríte mobilnú aplikáciu Samurai prvýkrát, postupujte podľa pokynov v telefóne."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Naskenujte tento kód pomocou mobilnej aplikácie MetaMask"
+    "message": "Naskenujte tento kód pomocou mobilnej aplikácie Samurai"
   },
   "syncWithMobileBeCareful": {
     "message": "Pri skenovaní tohto kódu sa uistite, že sa nikto iný nedíva na vašu obrazovku"
   },
   "syncWithMobileComplete": {
-    "message": "Vaše údaje boli úspešne synchronizované. Užite si mobilnú aplikáciu MetaMask!"
+    "message": "Vaše údaje boli úspešne synchronizované. Užite si mobilnú aplikáciu Samurai!"
   },
   "terms": {
     "message": "Podmínky použití"
@@ -1229,7 +1229,7 @@
     "message": "Zobraziť na $1"
   },
   "viewOnEtherscan": {
-    "message": "Zobraziť na Etherscan"
+    "message": "Zobraziť na Alayascan"
   },
   "visitWebSite": {
     "message": "Navštivte naši stránku"
@@ -1241,7 +1241,7 @@
     "message": "Vitajte späť!"
   },
   "welcome": {
-    "message": "Vitajte v MetaMask"
+    "message": "Vitajte v Samurai"
   },
   "writePhrase": {
     "message": "Túto frázu si zapíšte na papier a uložte na bezpečnom mieste. Kvôli vyššej bezpečnosti si ho môžete napísať na niekoľko papierov a uložiť na 2 – 3 rôzne miesta."

@@ -1,6 +1,6 @@
 {
   "chartOnlyAvailableEth": {
-    "message": "Skema kun tilgængeligt på Ethereum-netværk."
+    "message": "Skema kun tilgængeligt på Alaya-netværk."
   },
   "contractInteraction": {
     "message": "Kontraktinteraktion"
@@ -72,13 +72,13 @@
     "message": "Tilføj foreslåede tokens"
   },
   "addAcquiredTokens": {
-    "message": "Tilføj de tokens du har erhvervet ved hjælp af MetaMask"
+    "message": "Tilføj de tokens du har erhvervet ved hjælp af Samurai"
   },
   "amount": {
     "message": "Beløb"
   },
   "appDescription": {
-    "message": "En Ethereum-pung i din browser",
+    "message": "En Alaya-pung i din browser",
     "description": "The description of the application"
   },
   "appName": {
@@ -110,7 +110,7 @@
     "message": "Timer for automatisk udlogning (minutter)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Indstil den passive tid i minutter, før MetaMask automatisk logger dig ud"
+    "message": "Indstil den passive tid i minutter, før Samurai automatisk logger dig ud"
   },
   "average": {
     "message": "Gennemsnit"
@@ -125,7 +125,7 @@
     "message": "Sikkerhedskopiér din Hemmelige Gendannelseskode for at holde din tegnebog og dine penge sikre."
   },
   "backupApprovalInfo": {
-    "message": "Den hemmelige kode er påkrævet for at gendanne din pung, hvis du mister din enhed, glemmer dit kodeord, er nødt til at geninstallere MetaMask eller ønsker adgang til din pung fra en anden enhed."
+    "message": "Den hemmelige kode er påkrævet for at gendanne din pung, hvis du mister din enhed, glemmer dit kodeord, er nødt til at geninstallere Samurai eller ønsker adgang til din pung fra en anden enhed."
   },
   "backupNow": {
     "message": "Backup nu"
@@ -153,13 +153,13 @@
     "message": "Din browser er ikke understøttet..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask er designet og bygget i Californien."
+    "message": "Samurai er designet og bygget i Californien."
   },
   "buyWithWyre": {
-    "message": "Køb ETH med Wyre"
+    "message": "Køb ATP med Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre lader dig bruge et kreditkort til at indbetale ETH på din MetaMask-konto."
+    "message": "Wyre lader dig bruge et kreditkort til at indbetale ATP på din Samurai-konto."
   },
   "buyCoinSwitch": {
     "message": "Køb på CoinSwitch"
@@ -204,7 +204,7 @@
     "message": "Luk"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Du skal bruge MetaMask i Google Chrome for at forbinde med din Hardware Wallet."
+    "message": "Du skal bruge Samurai i Google Chrome for at forbinde med din Hardware Wallet."
   },
   "confirm": {
     "message": "Bekræft"
@@ -234,7 +234,7 @@
     "message": "Forbinder til Kovan Testnetværk"
   },
   "connectingToMainnet": {
-    "message": "Forbinder til dit Primære Ethereum Netværk"
+    "message": "Forbinder til dit Primære Alaya Netværk"
   },
   "connectingToRopsten": {
     "message": "Forbinder til Ropsten-testnetværk"
@@ -312,7 +312,7 @@
     "message": "Decimalpræcision"
   },
   "defaultNetwork": {
-    "message": "Standardnetværket for Ether-transaktioner er Main Net."
+    "message": "Standardnetværket for ATP-transaktioner er Main Net."
   },
   "delete": {
     "message": "Slet"
@@ -324,16 +324,16 @@
     "message": "Indbetal"
   },
   "depositEther": {
-    "message": "Indbetal Ether"
+    "message": "Indbetal ATP"
   },
   "details": {
     "message": "Detaljer"
   },
   "directDepositEther": {
-    "message": "Indskyd Ether direkte"
+    "message": "Indskyd ATP direkte"
   },
   "directDepositEtherExplainer": {
-    "message": "Hvis du allerede har Ether, er den hurtigste måde at få Ether i din nye tegnebog ved direkte indbetaling."
+    "message": "Hvis du allerede har ATP, er den hurtigste måde at få ATP i din nye tegnebog ved direkte indbetaling."
   },
   "done": {
     "message": "Færdig"
@@ -372,7 +372,7 @@
     "message": "Del aldrig frasen med nogen."
   },
   "endOfFlowMessage5": {
-    "message": "Vær varsom med phishing! MetaMask vil aldrig spontant bede om din seedfrase."
+    "message": "Vær varsom med phishing! Samurai vil aldrig spontant bede om din seedfrase."
   },
   "endOfFlowMessage6": {
     "message": "Hvis du får brug for at lave en backup af din seedfrase igen, kan du finde det under Indstillinger -> Sikkerhed."
@@ -381,7 +381,7 @@
     "message": "Hvis du har spørgsmål eller bemærker noget mistænkeligt, send en mail til service@latticex.foundation."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask kan ikke gendanne din seed-sætning. Få mere at vide."
+    "message": "Samurai kan ikke gendanne din seed-sætning. Få mere at vide."
   },
   "endOfFlowMessage9": {
     "message": "Lær mere. "
@@ -393,7 +393,7 @@
     "message": "Fejl i ENS-navneregistrering"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "ENS-navn ikke fundet for det nuværende netværk. Prøv at skifte til Ethereums hovednetværk."
+    "message": "ENS-navn ikke fundet for det nuværende netværk. Prøv at skifte til Alayas hovednetværk."
   },
   "enterAnAlias": {
     "message": "Indtast et alias"
@@ -405,10 +405,10 @@
     "message": "Indtast adgangskode for at fortsætte"
   },
   "ethereumPublicAddress": {
-    "message": "Offentlig Ethereum-adresse"
+    "message": "Offentlig Alaya-adresse"
   },
   "etherscanView": {
-    "message": "Se konto på Etherscan"
+    "message": "Se konto på Alayascan"
   },
   "estimatedProcessingTimes": {
     "message": "Estimerede behandlingstider"
@@ -460,7 +460,7 @@
     "message": "Ekstremt Lav Brændstofspris"
   },
   "gasPriceInfoModalContent": {
-    "message": "Brændstofpris specificerer den mængde Ether, du er villig til at betale for hver brændstofenhed."
+    "message": "Brændstofpris specificerer den mængde ATP, du er villig til at betale for hver brændstofenhed."
   },
   "gasPriceNoDenom": {
     "message": "Brændstofpris"
@@ -472,11 +472,11 @@
     "message": "Valutakonvertering, primær valuta, sprog, blockies-identicon"
   },
   "getEther": {
-    "message": "Hent Ether"
+    "message": "Hent ATP"
   },
   "getEtherFromFaucet": {
-    "message": "Hent Ether fra en hane til $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Hent ATP fra en hane til $1",
+    "description": "Displays network name for ATP faucet"
   },
   "getHelp": {
     "message": "Få hjælp"
@@ -494,7 +494,7 @@
     "message": "Tilslut en hardware-tegnebog"
   },
   "hardwareWalletsMsg": {
-    "message": "Vælg en hardware-pung du vil bruge med MetaMask"
+    "message": "Vælg en hardware-pung du vil bruge med Samurai"
   },
   "havingTroubleConnecting": {
     "message": "Har du problemer med at oprette forbindelse?"
@@ -523,7 +523,7 @@
     "message": "Importer konto"
   },
   "importAccountMsg": {
-    "message": "Importerede konti vil ikke blive forbundet med din oprindeligt oprettede seed-sætning for din MetaMask-konto. Få mere at vide om importerede konti"
+    "message": "Importerede konti vil ikke blive forbundet med din oprindeligt oprettede seed-sætning for din Samurai-konto. Få mere at vide om importerede konti"
   },
   "importAccountSeedPhrase": {
     "message": "Importér en Konto med Seedfrase"
@@ -566,7 +566,7 @@
     "message": "Kendte kontaktadresser."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Ikke ETH-netværk, sat til små bogstaver"
+    "message": "Ikke ATP-netværk, sat til små bogstaver"
   },
   "invalidInput": {
     "message": "Ugyldigt input."
@@ -618,7 +618,7 @@
     "message": "Log ud"
   },
   "mainnet": {
-    "message": "Hovednetværk for Ethereum"
+    "message": "Hovednetværk for Alaya"
   },
   "memorizePhrase": {
     "message": "Husk denne sætning."
@@ -630,7 +630,7 @@
     "message": "Besked"
   },
   "metamaskDescription": {
-    "message": "Som forbinder dig til Ethereum og de decentraliserede internet."
+    "message": "Som forbinder dig til Alaya og de decentraliserede internet."
   },
   "mobileSyncText": {
     "message": "Indtast din adgangskode for at bekræfte, at det er dig!"
@@ -642,20 +642,20 @@
     "message": "Mine Pungkonti"
   },
   "myWalletAccountsDescription": {
-    "message": "Alle dine MetaMask-oprettede konti føjes automatisk til dette afsnit."
+    "message": "Alle dine Samurai-oprettede konti føjes automatisk til dette afsnit."
   },
   "mustSelectOne": {
     "message": "Skal vælge mindst 1 token."
   },
   "needEtherInWallet": {
-    "message": "Du skal have Ether i din tegnebog for at interagere med decentraliserede applikationer, der bruger MetaMask."
+    "message": "Du skal have ATP i din tegnebog for at interagere med decentraliserede applikationer, der bruger Samurai."
   },
   "needImportFile": {
     "message": "Du skal vælge en fil, der skal importeres.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Kan ikke sende en negativ mængde ETH."
+    "message": "Kan ikke sende en negativ mængde ATP."
   },
   "networkName": {
     "message": "Netværksnavn"
@@ -691,8 +691,8 @@
   "newNetwork": {
     "message": "Nyt Netværk"
   },
-  "newToMetaMask": {
-    "message": "Ny på MetaMask?"
+  "newToSamurai": {
+    "message": "Ny på Samurai?"
   },
   "noAlreadyHaveSeed": {
     "message": "Nej, jeg har allerede en seedfrase"
@@ -701,7 +701,7 @@
     "message": "Beskyt dine nøgler!"
   },
   "protectYourKeysMessage1": {
-    "message": "Vær forsigtig med din backupsætning - der har været rapporter om websteder, der forsøger at efterligne MetaMask. MetaMask vil aldrig bede om din backupsætning!"
+    "message": "Vær forsigtig med din backupsætning - der har været rapporter om websteder, der forsøger at efterligne Samurai. Samurai vil aldrig bede om din backupsætning!"
   },
   "protectYourKeysMessage2": {
     "message": "Opbevar din frase et sikkert sted. Hvis du ser noget mistænkeligt, eller du er usikker på hjemmesiden, skriv en email til service@latticex.foundation"
@@ -755,7 +755,7 @@
     "message": "Deltag i MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Deltag i MetaMetrics for at hjælpe os med at gøre MetaMask bedre"
+    "message": "Deltag i MetaMetrics for at hjælpe os med at gøre Samurai bedre"
   },
   "password": {
     "message": "Adgangskode"
@@ -783,7 +783,7 @@
     "message": "Primær Valuta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Vælg lokal for fortrinsvis at vise værdier i kædens (f.eks. ETH) lokale valuta. Vælg Fiat for fortrinsvis at vise værdier i din valgte fiat valuta."
+    "message": "Vælg lokal for fortrinsvis at vise værdier i kædens (f.eks. ATP) lokale valuta. Vælg Fiat for fortrinsvis at vise værdier i din valgte fiat valuta."
   },
   "privacyMsg": {
     "message": "Privatlivspolitik"
@@ -925,7 +925,7 @@
     "message": "Din hemmelige backup-sætning gør det nemt at lave backup og gendanne din konto."
   },
   "secretBackupPhraseWarning": {
-    "message": "ADVARSEL: Afslør aldrig din backup-frase. Enhver med denne frase kan tage din Ether for altid."
+    "message": "ADVARSEL: Afslør aldrig din backup-frase. Enhver med denne frase kan tage din ATP for altid."
   },
   "secretPhrase": {
     "message": "Indtast din hemmelige tolv ord lange sætning for at gendanne din vault."
@@ -958,13 +958,13 @@
     "message": "Send Beløb"
   },
   "sendETH": {
-    "message": "Vælg ETH"
+    "message": "Vælg ATP"
   },
   "sendTokens": {
     "message": "Send tokens"
   },
   "sentEther": {
-    "message": "sendte ether"
+    "message": "sendte ATP"
   },
   "sentTokens": {
     "message": "afsendte tokens"
@@ -979,7 +979,7 @@
     "message": "Vælg en Konto"
   },
   "selectAnAccountHelp": {
-    "message": "Vælg kontoen der skal vises i MetaMask"
+    "message": "Vælg kontoen der skal vises i Samurai"
   },
   "selectAHigherGasFee": {
     "message": "Vælg et højere Gas-gebyr, for at gøre behandlingen af din transaktion hurtigere.*"
@@ -1069,7 +1069,7 @@
     "message": "3. Begynd at bruge dApps og mere!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Brug din hardwarekonto som du ville gøre med enhver Ethereum-konto. Log ind på dApps, send Eth, køb og opbevar ERC20-tokens og ikke-ombyttelige tokens som CryptoKitties."
+    "message": "Brug din hardwarekonto som du ville gøre med enhver Alaya-konto. Log ind på dApps, send ATP, køb og opbevar ERC20-tokens og ikke-ombyttelige tokens som CryptoKitties."
   },
   "storePhrase": {
     "message": "Gem denne sætning i en adgangskodeadministrator som 1Password."
@@ -1090,19 +1090,19 @@
     "message": "Synkroniser med mobil"
   },
   "syncWithMobileDesc": {
-    "message": "Du kan synkronisere dine konti og informationer med din mobilenhed. Åbn MetaMask-mobilappen, gå til \"Indstillinger\" og tryk på \"Synkroniser fra browserudvidelse\""
+    "message": "Du kan synkronisere dine konti og informationer med din mobilenhed. Åbn Samurai-mobilappen, gå til \"Indstillinger\" og tryk på \"Synkroniser fra browserudvidelse\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Hvis du netop har åbnet MetaMask-mobilappen for første gang, skal du blot følge trinnene på din telefon."
+    "message": "Hvis du netop har åbnet Samurai-mobilappen for første gang, skal du blot følge trinnene på din telefon."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Scan denne kode med din MetaMask-mobilapp"
+    "message": "Scan denne kode med din Samurai-mobilapp"
   },
   "syncWithMobileBeCareful": {
     "message": "Sørg for at der ikke er nogen der kigger på din skærm, når du scanner denne kode"
   },
   "syncWithMobileComplete": {
-    "message": "Dine data er blevet synkroniseret korrekt. Nyd MetaMask-mobilappen!"
+    "message": "Dine data er blevet synkroniseret korrekt. Nyd Samurai-mobilappen!"
   },
   "terms": {
     "message": "Brugsbetingelser"
@@ -1187,7 +1187,7 @@
     "message": "Prøv igen"
   },
   "typePassword": {
-    "message": "Skriv din MetaMask-adgangskode"
+    "message": "Skriv din Samurai-adgangskode"
   },
   "unapproved": {
     "message": "Ikke godkendt"
@@ -1241,7 +1241,7 @@
     "message": "Se på $1"
   },
   "viewOnEtherscan": {
-    "message": "Se på Etherscan"
+    "message": "Se på Alayascan"
   },
   "visitWebSite": {
     "message": "Besøg vores webside"
@@ -1253,7 +1253,7 @@
     "message": "Velkommen tilbage!"
   },
   "welcome": {
-    "message": "Velkommen til MetaMask"
+    "message": "Velkommen til Samurai"
   },
   "writePhrase": {
     "message": "Skriv denne sætning på et stykke papir, og opbevar den et sikkert sted. Hvis du vil have endnu mere sikkerhed, skal du skrive den ned på flere papirstykker og opbevare hver på 2 - 3 forskellige placeringer."

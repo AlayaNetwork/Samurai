@@ -1,6 +1,6 @@
 {
   "chartOnlyAvailableEth": {
-    "message": "Grafic disponibil numai pe rețelele Ethereum."
+    "message": "Grafic disponibil numai pe rețelele Alaya."
   },
   "contractInteraction": {
     "message": "Interacțiune contract"
@@ -72,13 +72,13 @@
     "message": "Adăugați indicativele sugerate"
   },
   "addAcquiredTokens": {
-    "message": "Adăugați token-urile pe care le-ați achiziționat folosind MetaMask"
+    "message": "Adăugați token-urile pe care le-ați achiziționat folosind Samurai"
   },
   "amount": {
     "message": "Sumă"
   },
   "appDescription": {
-    "message": "Un portofel Ethereum în browserul dvs.",
+    "message": "Un portofel Alaya în browserul dvs.",
     "description": "The description of the application"
   },
   "appName": {
@@ -110,7 +110,7 @@
     "message": "Temporizator deconectare automată (minute)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Setați perioada de inactivitate în minute înainte ca MetaMask să se deconecteze automat"
+    "message": "Setați perioada de inactivitate în minute înainte ca Samurai să se deconecteze automat"
   },
   "average": {
     "message": "Mediu"
@@ -125,7 +125,7 @@
     "message": "Creați o copie de rezervă a codului de recuperare secret pentru a vă menține portofelul și fondurile în siguranță."
   },
   "backupApprovalInfo": {
-    "message": "Acest cod secret este necesar pentru recuperarea portofelului în cazul în care pierdeți dispozitivul, uitați parola, trebuie să reinstalați MetaMask sau vreți să accesați portofelul de pe alt dispozitiv."
+    "message": "Acest cod secret este necesar pentru recuperarea portofelului în cazul în care pierdeți dispozitivul, uitați parola, trebuie să reinstalați Samurai sau vreți să accesați portofelul de pe alt dispozitiv."
   },
   "backupNow": {
     "message": "Creați o copie de rezervă acum"
@@ -153,13 +153,13 @@
     "message": "Browserul dvs. nu este compatibil..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask este concepută și creată în California."
+    "message": "Samurai este concepută și creată în California."
   },
   "buyWithWyre": {
-    "message": "Cumpărați ETH cu Wyre"
+    "message": "Cumpărați ATP cu Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre vă permite să folosiți un card de credit pentru a depune ETH direct în contul dvs. MetaMask."
+    "message": "Wyre vă permite să folosiți un card de credit pentru a depune ATP direct în contul dvs. Samurai."
   },
   "buyCoinSwitch": {
     "message": "Cumpărați pe CoinSwitch"
@@ -204,7 +204,7 @@
     "message": "Închide"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Trebuie să folosiți MetaMask în Google Chrome pentru a vă conecta la portofelul hardware."
+    "message": "Trebuie să folosiți Samurai în Google Chrome pentru a vă conecta la portofelul hardware."
   },
   "confirm": {
     "message": "Confirmați"
@@ -234,7 +234,7 @@
     "message": "Se conectează la rețeaua de test Kovan"
   },
   "connectingToMainnet": {
-    "message": "Se conectează la rețeaua Ethereum principală"
+    "message": "Se conectează la rețeaua Alaya principală"
   },
   "connectingToRopsten": {
     "message": "Se conectează la rețeaua de test Ropsten"
@@ -312,7 +312,7 @@
     "message": "Zecimale de precizie"
   },
   "defaultNetwork": {
-    "message": "Rețeaua implicită pentru tranzacțiile cu Ether este Main Net."
+    "message": "Rețeaua implicită pentru tranzacțiile cu ATP este Main Net."
   },
   "delete": {
     "message": "Șterge"
@@ -324,16 +324,16 @@
     "message": "Depunere"
   },
   "depositEther": {
-    "message": "Depuneți Ether"
+    "message": "Depuneți ATP"
   },
   "details": {
     "message": "Detalii"
   },
   "directDepositEther": {
-    "message": "Depuneți direct Ether"
+    "message": "Depuneți direct ATP"
   },
   "directDepositEtherExplainer": {
-    "message": "Dacă deja aveți Ether, cel mai rapid mod de a avea Ether în portofelul nou prin depunere directă."
+    "message": "Dacă deja aveți ATP, cel mai rapid mod de a avea ATP în portofelul nou prin depunere directă."
   },
   "done": {
     "message": "Efectuat"
@@ -372,7 +372,7 @@
     "message": "Nu comunicați niciodată fraza cuiva."
   },
   "endOfFlowMessage5": {
-    "message": "Aveți grijă la phishing! MetaMask nu vă va cere niciodată în mod spontan expresia sursă."
+    "message": "Aveți grijă la phishing! Samurai nu vă va cere niciodată în mod spontan expresia sursă."
   },
   "endOfFlowMessage6": {
     "message": "Dacă trebuie să vă salvați din nou fraza seed, puteți să o găsiți în Setări -> Securitate."
@@ -381,7 +381,7 @@
     "message": "Dacă aveți întrebări sau vedeți ceva suspect, trimiteți un e-mail la service@latticex.foundation."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask nu vă poate recupera expresia sursă. Aflați mai multe."
+    "message": "Samurai nu vă poate recupera expresia sursă. Aflați mai multe."
   },
   "endOfFlowMessage9": {
     "message": "Aflați mai multe."
@@ -393,7 +393,7 @@
     "message": "Eroare la înregistrarea numelui ENS"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Numele ENS nu s-a găsit pe rețeaua curentă. Încercați să comutați la Rețeaua Ethereum principală."
+    "message": "Numele ENS nu s-a găsit pe rețeaua curentă. Încercați să comutați la Rețeaua Alaya principală."
   },
   "enterAnAlias": {
     "message": "Introduceți un alias"
@@ -405,10 +405,10 @@
     "message": "Introduceți parola pentru a continua"
   },
   "ethereumPublicAddress": {
-    "message": "Adresa publică Ethereum"
+    "message": "Adresa publică Alaya"
   },
   "etherscanView": {
-    "message": "Vizualizare cont pe Etherscan"
+    "message": "Vizualizare cont pe Alayascan"
   },
   "estimatedProcessingTimes": {
     "message": "Timpi estimativi de procesare"
@@ -460,7 +460,7 @@
     "message": "Prețul gaz este foarte scăzut"
   },
   "gasPriceInfoModalContent": {
-    "message": "Prețul în gas indică suma Ether pe care doriți să o plătiți pentru fiecare unitate gas."
+    "message": "Prețul în gas indică suma ATP pe care doriți să o plătiți pentru fiecare unitate gas."
   },
   "gasPriceNoDenom": {
     "message": "Preț gas"
@@ -469,11 +469,11 @@
     "message": "Schimb valutar, moneda principală, limba, blockies identicon"
   },
   "getEther": {
-    "message": "Obțineți Ether"
+    "message": "Obțineți ATP"
   },
   "getEtherFromFaucet": {
-    "message": "Obțineți Ether de la un robinet pentru $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Obțineți ATP de la un robinet pentru $1",
+    "description": "Displays network name for ATP faucet"
   },
   "getHelp": {
     "message": "Obțineți ajutor."
@@ -491,7 +491,7 @@
     "message": "Conectați un portofel hardware"
   },
   "hardwareWalletsMsg": {
-    "message": "Selectați un portofel hardware pe care doriți să îl folosiți cu MetaMask"
+    "message": "Selectați un portofel hardware pe care doriți să îl folosiți cu Samurai"
   },
   "havingTroubleConnecting": {
     "message": "Aveți probleme cu conectarea?"
@@ -520,7 +520,7 @@
     "message": "Importare cont"
   },
   "importAccountMsg": {
-    "message": "Conturile importate nu vor fi asociate cu seedphrase-ul contului dumneavoastră MetaMask creat inițial. Aflați mai multe despre conturile importate"
+    "message": "Conturile importate nu vor fi asociate cu seedphrase-ul contului dumneavoastră Samurai creat inițial. Aflați mai multe despre conturile importate"
   },
   "importAccountSeedPhrase": {
     "message": "Importați un cont cu fraza seed"
@@ -563,7 +563,7 @@
     "message": "Adresa cunoscută din contract."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Nu este rețea ETH, setați pe minuscule"
+    "message": "Nu este rețea ATP, setați pe minuscule"
   },
   "invalidInput": {
     "message": "Intrare nevalidă."
@@ -618,7 +618,7 @@
     "message": "Deconectați-vă"
   },
   "mainnet": {
-    "message": "Rețeaua Ethereum principală"
+    "message": "Rețeaua Alaya principală"
   },
   "memorizePhrase": {
     "message": "Memorați această expresie."
@@ -630,10 +630,10 @@
     "message": "Mesaj"
   },
   "metamaskDescription": {
-    "message": "Vă conectăm la Ethereum și la Internetul descentralizat."
+    "message": "Vă conectăm la Alaya și la Internetul descentralizat."
   },
   "metamaskVersion": {
-    "message": "Versiune MetaMask"
+    "message": "Versiune Samurai"
   },
   "mobileSyncText": {
     "message": "Vă rugăm introduceți parola pentru a vă confirma identitatea!"
@@ -645,20 +645,20 @@
     "message": "Conturi My Wallet"
   },
   "myWalletAccountsDescription": {
-    "message": "Toate conturile dvs. create pe MetaMask vor fi adăugate automat la această secțiune."
+    "message": "Toate conturile dvs. create pe Samurai vor fi adăugate automat la această secțiune."
   },
   "mustSelectOne": {
     "message": "Trebuie să selectați cel puțin 1 simbol."
   },
   "needEtherInWallet": {
-    "message": "Pentru a interacționa cu aplicațiile descentralizate prin intermediul MetaMask, trebuie să aveți Ether în portofel."
+    "message": "Pentru a interacționa cu aplicațiile descentralizate prin intermediul Samurai, trebuie să aveți ATP în portofel."
   },
   "needImportFile": {
     "message": "Trebuie să selectați un fișier pentru importare.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Nu se pot trimite sume negative de ETH."
+    "message": "Nu se pot trimite sume negative de ATP."
   },
   "networkName": {
     "message": "Numele rețelei"
@@ -694,8 +694,8 @@
   "newNetwork": {
     "message": "Rețea nouă"
   },
-  "newToMetaMask": {
-    "message": "Nefamiliarizat cu MetaMask?"
+  "newToSamurai": {
+    "message": "Nefamiliarizat cu Samurai?"
   },
   "noAlreadyHaveSeed": {
     "message": "Nu, am deja o expresie sursă"
@@ -704,7 +704,7 @@
     "message": "Protejați-vă cheile!"
   },
   "protectYourKeysMessage1": {
-    "message": "Aveți grijă cu expresia dvs. sursă – au existat raportări despre site-uri web care încearcă să imite MetaMask. MetaMask nu vă va cere niciodată expresia sursă!"
+    "message": "Aveți grijă cu expresia dvs. sursă – au existat raportări despre site-uri web care încearcă să imite Samurai. Samurai nu vă va cere niciodată expresia sursă!"
   },
   "protectYourKeysMessage2": {
     "message": "Aveți grijă de fraza dvs. Dacă vedeți ceva care este în neregulă sau aveți dubii cu privire la un site, trimiteți un mesaj la service@latticex.foundation"
@@ -761,7 +761,7 @@
     "message": "Participați la MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Alăturați-vă MetaMetrics pentru a ne ajuta să îmbunătățim MetaMask."
+    "message": "Alăturați-vă MetaMetrics pentru a ne ajuta să îmbunătățim Samurai."
   },
   "password": {
     "message": "Parolă"
@@ -789,7 +789,7 @@
     "message": "Moneda principală"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Selectați nativ pentru a prioritiza valorile afișate în moneda nativă a lanțului (ex. ETH). Selectați Fiat pentru a prioritiza valorile afișate în moneda selectată fiat."
+    "message": "Selectați nativ pentru a prioritiza valorile afișate în moneda nativă a lanțului (ex. ATP). Selectați Fiat pentru a prioritiza valorile afișate în moneda selectată fiat."
   },
   "privacyMsg": {
     "message": "Politica de Confidențialitate"
@@ -931,7 +931,7 @@
     "message": "Expresia dvs. secretă de rezervă înlesnește crearea unei copii de rezervă a contului dvs. și restabilirea acestuia."
   },
   "secretBackupPhraseWarning": {
-    "message": "ATENȚIE: Nu dezvăluiți niciodată expresia dvs. de rezervă. Oricine are această expresie vă poate lua Ether-ul pentru totdeauna."
+    "message": "ATENȚIE: Nu dezvăluiți niciodată expresia dvs. de rezervă. Oricine are această expresie vă poate lua ATP-ul pentru totdeauna."
   },
   "secretPhrase": {
     "message": "Introduceți aici expresia dvs. secretă din 12 cuvinte pentru a restabili seiful."
@@ -967,7 +967,7 @@
     "message": "Suma trimisă"
   },
   "sendETH": {
-    "message": "Trimitere ETH"
+    "message": "Trimitere ATP"
   },
   "sendTokens": {
     "message": "Trimiteți indicative"
@@ -988,7 +988,7 @@
     "message": "Selectați un cont"
   },
   "selectAnAccountHelp": {
-    "message": "Selectați contul de vizualizat în MetaMask"
+    "message": "Selectați contul de vizualizat în Samurai"
   },
   "selectAHigherGasFee": {
     "message": "Selectați o taxă gas mai mare pentru a accelera procesarea tranzacției.*"
@@ -1078,7 +1078,7 @@
     "message": "3. Începeți să folosiți dApps și altele!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Folosiți-vă contul hardware la fel ca pe orice cont Ethereum. Conectați-vă la dApps, trimiteți Eth, cumpărați și stocați tokenuri ERC20 și tokenuri non-fungibile precum CryptoKitties."
+    "message": "Folosiți-vă contul hardware la fel ca pe orice cont Alaya. Conectați-vă la dApps, trimiteți ATP, cumpărați și stocați tokenuri ERC20 și tokenuri non-fungibile precum CryptoKitties."
   },
   "storePhrase": {
     "message": "Păstrați această expresie într-un program de gestionare a parolelor cum ar fi 1Password."
@@ -1102,19 +1102,19 @@
     "message": "Sincronizați cu mobilul"
   },
   "syncWithMobileDesc": {
-    "message": "Vă puteți sincroniza conturile și informațiile cu dispozitivul dvs. mobil. Deschideți aplicația mobilă MetaMask, mergeți la „Setări” și atingeți „Sincronizare de la extensia de browser”"
+    "message": "Vă puteți sincroniza conturile și informațiile cu dispozitivul dvs. mobil. Deschideți aplicația mobilă Samurai, mergeți la „Setări” și atingeți „Sincronizare de la extensia de browser”"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Dacă deschideți aplicația pentru mobil MetaMask pentru prima oară, urmați pașii afișați pe telefonul dvs."
+    "message": "Dacă deschideți aplicația pentru mobil Samurai pentru prima oară, urmați pașii afișați pe telefonul dvs."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Scanați acest cod folosind aplicația dvs. mobilă MetaMask"
+    "message": "Scanați acest cod folosind aplicația dvs. mobilă Samurai"
   },
   "syncWithMobileBeCareful": {
     "message": "Asigurați-vă că nimeni altcineva nu poate vedea ecranul dvs. când scanați acest cod"
   },
   "syncWithMobileComplete": {
-    "message": "Datele dvs. au fost sincronizate cu succes. Bucurați-vă de aplicația mobilă MetaMask!"
+    "message": "Datele dvs. au fost sincronizate cu succes. Bucurați-vă de aplicația mobilă Samurai!"
   },
   "terms": {
     "message": "Termeni și condiții"
@@ -1199,7 +1199,7 @@
     "message": "Încearcă din nou"
   },
   "typePassword": {
-    "message": "Scrieți parola dvs. pentru MetaMask"
+    "message": "Scrieți parola dvs. pentru Samurai"
   },
   "unapproved": {
     "message": "Neaprobat"
@@ -1253,7 +1253,7 @@
     "message": "Vizualizați la $1"
   },
   "viewOnEtherscan": {
-    "message": "Vizualizați pe Etherscan"
+    "message": "Vizualizați pe Alayascan"
   },
   "visitWebSite": {
     "message": "Accesați site-ul nostru"
@@ -1265,7 +1265,7 @@
     "message": "Bine ai revenit!"
   },
   "welcome": {
-    "message": "Bun venit la MetaMask"
+    "message": "Bun venit la Samurai"
   },
   "writePhrase": {
     "message": "Scrieți această expresie pe o bucată de hârtie și păstrați-o într-un loc sigur. Dacă vreți și mai multă securitate, notați-o pe mai multe bucăți de hârtie și păstrați-le în 2 - 3 locuri diferite."

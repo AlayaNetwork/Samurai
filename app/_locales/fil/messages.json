@@ -1,6 +1,6 @@
 {
   "chartOnlyAvailableEth": {
-    "message": "Available lang ang chart sa mga Ethereum network."
+    "message": "Available lang ang chart sa mga Alaya network."
   },
   "contractInteraction": {
     "message": "Paggamit sa Contract"
@@ -66,13 +66,13 @@
     "message": "Magdagdag ng Mga Iminungkahing Token"
   },
   "addAcquiredTokens": {
-    "message": "Idagdag ang mga token na nakuha mo gamit ang MetaMask"
+    "message": "Idagdag ang mga token na nakuha mo gamit ang Samurai"
   },
   "amount": {
     "message": "Halaga"
   },
   "appDescription": {
-    "message": "Isang Ethereum Wallet sa iyong Browser",
+    "message": "Isang Alaya Wallet sa iyong Browser",
     "description": "The description of the application"
   },
   "appName": {
@@ -101,7 +101,7 @@
     "message": "Auto-Logout Timer (minuto)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "I-set ang idle time na minuto bago awtomatikong mag-log out ang MetaMask"
+    "message": "I-set ang idle time na minuto bago awtomatikong mag-log out ang Samurai"
   },
   "back": {
     "message": "Bumalik"
@@ -113,7 +113,7 @@
     "message": "I-back up ang iyong Secret Recovery code para panatilihing secure ang iyong wallet at pondo."
   },
   "backupApprovalInfo": {
-    "message": "Ang secret code na ito ay kinakailangan para ma-recover ang iyong wallet kung sakaling mawawala mo ang iyong device, nakalimutan mo ang iyong password, kailangan mong i-install ulit ang MetaMask, o gusto mong i-access ang iyong wallet sa ibang device."
+    "message": "Ang secret code na ito ay kinakailangan para ma-recover ang iyong wallet kung sakaling mawawala mo ang iyong device, nakalimutan mo ang iyong password, kailangan mong i-install ulit ang Samurai, o gusto mong i-access ang iyong wallet sa ibang device."
   },
   "backupNow": {
     "message": "I-back up ngayon"
@@ -138,13 +138,13 @@
     "message": "Hindi sinusuportahan ang iyong Browser..."
   },
   "builtInCalifornia": {
-    "message": "Ang MetaMask ay dinisenyo at binuo sa California."
+    "message": "Ang Samurai ay dinisenyo at binuo sa California."
   },
   "buyWithWyre": {
-    "message": "Bumili ng ETH gamit ang Wyre"
+    "message": "Bumili ng ATP gamit ang Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Binibigyang-daan ka ng Wyre na gumamit ng credit card para magdeposito ng ETH nang direkta sa iyong MetaMask account."
+    "message": "Binibigyang-daan ka ng Wyre na gumamit ng credit card para magdeposito ng ATP nang direkta sa iyong Samurai account."
   },
   "buyCoinSwitch": {
     "message": "Bilhin sa CoinSwitch"
@@ -180,7 +180,7 @@
     "message": "Isara"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Kailangan mong gamitin ang MetaMask sa Google Chrome upang makakonekta sa iyong Hardware Wallet."
+    "message": "Kailangan mong gamitin ang Samurai sa Google Chrome upang makakonekta sa iyong Hardware Wallet."
   },
   "confirm": {
     "message": "Kumpirmahin"
@@ -210,7 +210,7 @@
     "message": "Kumokonekta sa Kovan Test Network"
   },
   "connectingToMainnet": {
-    "message": "Kumokonekta sa Main Ethereum Network"
+    "message": "Kumokonekta sa Main Alaya Network"
   },
   "connectingToRopsten": {
     "message": "Kumokonekta sa Ropsten Test Network"
@@ -285,7 +285,7 @@
     "message": "Bilang ng Decimal"
   },
   "defaultNetwork": {
-    "message": "Ang default na network para sa mga transaksyon ng Ether ay Main Net."
+    "message": "Ang default na network para sa mga transaksyon ng ATP ay Main Net."
   },
   "delete": {
     "message": "I-delete"
@@ -297,16 +297,16 @@
     "message": "Deposito"
   },
   "depositEther": {
-    "message": "Magdeposito ng Ether"
+    "message": "Magdeposito ng ATP"
   },
   "details": {
     "message": "Mga Detalye"
   },
   "directDepositEther": {
-    "message": "Direktang Magdeposito ng Ether"
+    "message": "Direktang Magdeposito ng ATP"
   },
   "directDepositEtherExplainer": {
-    "message": "Kung mayroon ka nang Ether, ang pinakamabilis na paraan para magkaroon ng Ether sa iyong bagong wallet ay sa pamamagitan ng direkang deposito."
+    "message": "Kung mayroon ka nang ATP, ang pinakamabilis na paraan para magkaroon ng ATP sa iyong bagong wallet ay sa pamamagitan ng direkang deposito."
   },
   "done": {
     "message": "Tapos na"
@@ -345,7 +345,7 @@
     "message": "Huwag ibahagi ang parirala sa kahit sino."
   },
   "endOfFlowMessage5": {
-    "message": "Mag-ingat sa phishing! Hindi ka basta-basta hihilingin ng MetaMask ang iyong seed phrase."
+    "message": "Mag-ingat sa phishing! Hindi ka basta-basta hihilingin ng Samurai ang iyong seed phrase."
   },
   "endOfFlowMessage6": {
     "message": "Kung kailangan mong i-back up ulit ang iyong seed phrase, makikita mo ito sa Mga Setting -> Seguridad."
@@ -354,7 +354,7 @@
     "message": "Kung may mga tanong ka o nakakita ka ng kahina-hinalang bagay, i-email ang service@latticex.foundation."
   },
   "endOfFlowMessage8": {
-    "message": "Hindi ma-recover ng MetaMask ang iyong seedphrase. Alamin pa."
+    "message": "Hindi ma-recover ng Samurai ang iyong seedphrase. Alamin pa."
   },
   "endOfFlowMessage9": {
     "message": "Matuto pa."
@@ -366,7 +366,7 @@
     "message": "May error sa pagrerehistro ng ENS name"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Hindi nakita ang ENS name sa kasalukuyang network. Subukang lumipat sa Main Ethereum Network."
+    "message": "Hindi nakita ang ENS name sa kasalukuyang network. Subukang lumipat sa Main Alaya Network."
   },
   "enterAnAlias": {
     "message": "Maglagay ng alias"
@@ -378,7 +378,7 @@
     "message": "Ilagay ang password para magpatuloy"
   },
   "etherscanView": {
-    "message": "Tingnan ang account sa Etherscan"
+    "message": "Tingnan ang account sa Alayascan"
   },
   "estimatedProcessingTimes": {
     "message": "Tinatantiyang Tagal ng Pagproseso"
@@ -430,7 +430,7 @@
     "message": "Napakababa ng Presyo ng Gas"
   },
   "gasPriceInfoModalContent": {
-    "message": "Tinutukoy ng presyo ng gas ang halaga ng Ether na handa kang ibayad para sa bawat unit ng gas."
+    "message": "Tinutukoy ng presyo ng gas ang halaga ng ATP na handa kang ibayad para sa bawat unit ng gas."
   },
   "gasPriceNoDenom": {
     "message": "Presyo ng Gas"
@@ -442,11 +442,11 @@
     "message": "Pagpapapalit ng currency, pangunahing currency, wika, blockies identicon"
   },
   "getEther": {
-    "message": "Kumuha ng Ether"
+    "message": "Kumuha ng ATP"
   },
   "getEtherFromFaucet": {
-    "message": "Kumuha ng Ether mula sa isang faucet para sa $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Kumuha ng ATP mula sa isang faucet para sa $1",
+    "description": "Displays network name for ATP faucet"
   },
   "getHelp": {
     "message": "Humingi ng Tulong."
@@ -464,7 +464,7 @@
     "message": "Magkonekta ng hardware wallet"
   },
   "hardwareWalletsMsg": {
-    "message": "Pumili ng hardware wallet na gusto mong gamitin sa MetaMask"
+    "message": "Pumili ng hardware wallet na gusto mong gamitin sa Samurai"
   },
   "havingTroubleConnecting": {
     "message": "May problema ka ba sa pagkonekta?"
@@ -487,7 +487,7 @@
     "message": "Mag-import ng Account"
   },
   "importAccountMsg": {
-    "message": " Ang mga na-import na account ay hindi iuugnay sa orihinal na seedphrase na ginawa ng iyong MetaMask account. Matuto pa tungkol sa mga na-import na account "
+    "message": " Ang mga na-import na account ay hindi iuugnay sa orihinal na seedphrase na ginawa ng iyong Samurai account. Matuto pa tungkol sa mga na-import na account "
   },
   "importAccountSeedPhrase": {
     "message": "Mag-import ng Account gamit ang Seed Phrase"
@@ -530,7 +530,7 @@
     "message": "Kilalang address ng contract."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Hindi ito isang ETH network, i-set sa lowercase"
+    "message": "Hindi ito isang ATP network, i-set sa lowercase"
   },
   "invalidInput": {
     "message": "Hindi valid ang input."
@@ -581,10 +581,10 @@
     "message": "Mensahe"
   },
   "metamaskDescription": {
-    "message": "Kinokonekta ka sa Ethereum at sa Decentralized Web."
+    "message": "Kinokonekta ka sa Alaya at sa Decentralized Web."
   },
   "metamaskVersion": {
-    "message": "Bersyon ng MetaMask"
+    "message": "Bersyon ng Samurai"
   },
   "mobileSyncText": {
     "message": "Pakilagay ang iyong password para kumpirmahing ikaw ito!"
@@ -596,20 +596,20 @@
     "message": "Mga Wallet Account Ko"
   },
   "myWalletAccountsDescription": {
-    "message": "Ang lahat ng iyong account na ginawa sa MetaMask ay awtomatikong idadagdag sa seksyong ito."
+    "message": "Ang lahat ng iyong account na ginawa sa Samurai ay awtomatikong idadagdag sa seksyong ito."
   },
   "mustSelectOne": {
     "message": "Dapat pumili ng kahit 1 token."
   },
   "needEtherInWallet": {
-    "message": "Para gumamit ng mga decentralized na application gamit ang MetaMask, mangangailangan ka ng Ether sa iyong wallet."
+    "message": "Para gumamit ng mga decentralized na application gamit ang Samurai, mangangailangan ka ng ATP sa iyong wallet."
   },
   "needImportFile": {
     "message": "Dapat kang pumili ng file na ii-import.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Hindi makakapagpadala ng mga negative na halaga ng ETH."
+    "message": "Hindi makakapagpadala ng mga negative na halaga ng ATP."
   },
   "networkName": {
     "message": "Pangalan ng Network"
@@ -641,8 +641,8 @@
   "newNetwork": {
     "message": "Bagong Network"
   },
-  "newToMetaMask": {
-    "message": "Bago ka ba sa MetaMask?"
+  "newToSamurai": {
+    "message": "Bago ka ba sa Samurai?"
   },
   "noAlreadyHaveSeed": {
     "message": "Hindi, may seed phrase na ako"
@@ -651,7 +651,7 @@
     "message": "Protektahan Ang Iyong Mga Key!"
   },
   "protectYourKeysMessage1": {
-    "message": "Mag-ingat sa iyong seed phrase — may mga ulat na may mga website na nagpapanggap bilang MetaMask. Hindi kailanman hihilingin ng MetaMask ang iyong seed phrase!"
+    "message": "Mag-ingat sa iyong seed phrase — may mga ulat na may mga website na nagpapanggap bilang Samurai. Hindi kailanman hihilingin ng Samurai ang iyong seed phrase!"
   },
   "protectYourKeysMessage2": {
     "message": "Panatilihing ligtas ang iyong parirala. Kung may makikita kang kahina-hinala, o hindi ka sigurado tungkol sa isang website, mag-email sa service@latticex.foundation"
@@ -708,7 +708,7 @@
     "message": "Makilahok sa MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Makilahok sa MetaMetrics para tulungan kaming mas pagandahin ang MetaMask"
+    "message": "Makilahok sa MetaMetrics para tulungan kaming mas pagandahin ang Samurai"
   },
   "passwordsDontMatch": {
     "message": "Hindi Nagtutugma Ang Mga Password"
@@ -733,7 +733,7 @@
     "message": "Pangunahing Currency"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Piliin ang native para bigyang priyoridad ang pagpapakita ng mga halaga sa native currency ng chain (hal. ETH). Piliin ang Fiat para bigyang priyoridad ang pagpapakita ng mga halaga sa napili mong fiat currency."
+    "message": "Piliin ang native para bigyang priyoridad ang pagpapakita ng mga halaga sa native currency ng chain (hal. ATP). Piliin ang Fiat para bigyang priyoridad ang pagpapakita ng mga halaga sa napili mong fiat currency."
   },
   "privacyMsg": {
     "message": "Patakaran sa Privacy"
@@ -856,7 +856,7 @@
     "message": "Pinapadali ng iyong secret backup phrase na i-back up at i-restore ang iyong account."
   },
   "secretBackupPhraseWarning": {
-    "message": "BABALA: Huwag ibunyag ang iyong backup phrase. Mananakaw ng kahit sinong may ganitong parirala ang iyong Ether at hindi na ito maibabalik."
+    "message": "BABALA: Huwag ibunyag ang iyong backup phrase. Mananakaw ng kahit sinong may ganitong parirala ang iyong ATP at hindi na ito maibabalik."
   },
   "secretPhrase": {
     "message": "Ilagay ang iyong lihim na pariralang may labindalawang salita para ma-restore ang iyong vault."
@@ -892,7 +892,7 @@
     "message": "Magpadala ng Halaga"
   },
   "sendETH": {
-    "message": "Magpadala ng ETH"
+    "message": "Magpadala ng ATP"
   },
   "sendTokens": {
     "message": "Magpadala ng Mga Token"
@@ -913,7 +913,7 @@
     "message": "Pumili ng Account"
   },
   "selectAnAccountHelp": {
-    "message": "Piliin ang account na titingnan sa MetaMask"
+    "message": "Piliin ang account na titingnan sa Samurai"
   },
   "selectAHigherGasFee": {
     "message": "Pumili ng mas mataas na gas fee para pabilisin ang pagproseso ng iyong transaksyon.*"
@@ -997,7 +997,7 @@
     "message": "3. Magsimula gamit ang dApps at higit pa!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Gamitin ang iyong hardware account tulad ng anumang Ethereum account. Mag-log in sa dApps, magpadala ng Eth, bumili at mag-store ng mga ERC20 token at mga Non-Fungible token tulad ng CryptoKitties."
+    "message": "Gamitin ang iyong hardware account tulad ng anumang Alaya account. Mag-log in sa dApps, magpadala ng ATP, bumili at mag-store ng mga ERC20 token at mga Non-Fungible token tulad ng CryptoKitties."
   },
   "storePhrase": {
     "message": "I-store ang pariralang ito sa isang password manager tulad ng 1Password."
@@ -1021,19 +1021,19 @@
     "message": "I-sync sa mobile"
   },
   "syncWithMobileDesc": {
-    "message": "Maaari mong i-sync ang iyong mga account at impormasyon sa iyong mobile device. Buksan ang MetaMask mobile app, pumunta sa \"Settings\" at mag-tap sa \"Sync from Browser Extension\""
+    "message": "Maaari mong i-sync ang iyong mga account at impormasyon sa iyong mobile device. Buksan ang Samurai mobile app, pumunta sa \"Settings\" at mag-tap sa \"Sync from Browser Extension\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Kung bubuksan mo ang MetaMask Mobile app sa unang pagkakataon, sundin lang ang mga hakbang sa iyong telepono."
+    "message": "Kung bubuksan mo ang Samurai Mobile app sa unang pagkakataon, sundin lang ang mga hakbang sa iyong telepono."
   },
   "syncWithMobileScanThisCode": {
-    "message": "I-scan ang code na ito sa iyong MetaMask mobile app"
+    "message": "I-scan ang code na ito sa iyong Samurai mobile app"
   },
   "syncWithMobileBeCareful": {
     "message": "Tiyaking walang ibang taong tumitingin sa iyong screen kapag sina-scan mo ang code na ito"
   },
   "syncWithMobileComplete": {
-    "message": "Matagumpay na na-sync ang iyong data. I-enjoy ang MetaMask mobile app!"
+    "message": "Matagumpay na na-sync ang iyong data. I-enjoy ang Samurai mobile app!"
   },
   "terms": {
     "message": "Mga Tuntunin ng Paggamit"
@@ -1115,7 +1115,7 @@
     "message": "Subukang muli"
   },
   "typePassword": {
-    "message": "I-type ang iyong password sa MetaMask"
+    "message": "I-type ang iyong password sa Samurai"
   },
   "unapproved": {
     "message": "Hindi inaprubahan"
@@ -1166,7 +1166,7 @@
     "message": "Tingnan sa $1"
   },
   "viewOnEtherscan": {
-    "message": "Tingnan sa Etherscan"
+    "message": "Tingnan sa Alayascan"
   },
   "visitWebSite": {
     "message": "Bisitahin ang aming web site"
@@ -1175,7 +1175,7 @@
     "message": "Welcome Ulit!"
   },
   "welcome": {
-    "message": "Welcome sa MetaMask"
+    "message": "Welcome sa Samurai"
   },
   "writePhrase": {
     "message": "Isulat ang pariralang ito sa isang piraso ng papel at itago ito sa isang secure na lokasyon. Kung gusto mo ng higit pang seguridad, isulat ito sa maraming piraso ng papel at itago ang bawat isa sa 2 - 3 iba't ibang lokasyon."

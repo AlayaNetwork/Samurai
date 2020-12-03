@@ -72,7 +72,7 @@
     "message": "הוסף/י אסימונים מוצעים"
   },
   "addAcquiredTokens": {
-    "message": "הוספת הטוקנים שהשגת באמצעות MetaMask"
+    "message": "הוספת הטוקנים שהשגת באמצעות Samurai"
   },
   "amount": {
     "message": "כמות"
@@ -110,7 +110,7 @@
     "message": "טיימר התנתקות אוטומטית (דקות)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "הגדר/י את זמן היעדר הפעילות בדקות לפני ש-MetaMask יתנתק אוטומטית."
+    "message": "הגדר/י את זמן היעדר הפעילות בדקות לפני ש-Samurai יתנתק אוטומטית."
   },
   "average": {
     "message": "ממוצע"
@@ -125,7 +125,7 @@
     "message": "גבה/י את קוד השחזור הסודי שלך כדי לשמור את בטיחות הארנק והכספים שלך."
   },
   "backupApprovalInfo": {
-    "message": "קוד סודי זה נדרש כדי לשחזר את הארנק שלך במקרה שתאבד/י את מכשירך, תשכח/י את הססמה, תצטרכ/י להתקין מחדש את MetaMask או שתרצה/י לגשת לארנק שלך במכשיר אחר."
+    "message": "קוד סודי זה נדרש כדי לשחזר את הארנק שלך במקרה שתאבד/י את מכשירך, תשכח/י את הססמה, תצטרכ/י להתקין מחדש את Samurai או שתרצה/י לגשת לארנק שלך במכשיר אחר."
   },
   "backupNow": {
     "message": "צור גיבוי כעת"
@@ -153,13 +153,13 @@
     "message": "הדפדפן שלך אינו נתמך..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask תוכנן ונבנה בקליפורניה."
+    "message": "Samurai תוכנן ונבנה בקליפורניה."
   },
   "buyWithWyre": {
     "message": "רכישת את'ר עם Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre מאפשרת לך להשתמש בכרטיס אשראי כדי להפקיד ETH ישירות בחשבון ה-MetaMask שלך."
+    "message": "Wyre מאפשרת לך להשתמש בכרטיס אשראי כדי להפקיד ATP ישירות בחשבון ה-Samurai שלך."
   },
   "buyCoinSwitch": {
     "message": "רכישה ב-CoinSwitch"
@@ -204,7 +204,7 @@
     "message": "סגירה"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "עליך להשתמש ב-MetaMask בגוגל כרום כדי להתחבר לארנק החומרה שלך."
+    "message": "עליך להשתמש ב-Samurai בגוגל כרום כדי להתחבר לארנק החומרה שלך."
   },
   "confirm": {
     "message": "אישור"
@@ -312,7 +312,7 @@
     "message": "רמת דיוק עשרוני"
   },
   "defaultNetwork": {
-    "message": "רשת ברירת המחדל לעסקאות Ether היא Main Net."
+    "message": "רשת ברירת המחדל לעסקאות ATP היא Main Net."
   },
   "delete": {
     "message": "מחיקה"
@@ -372,7 +372,7 @@
     "message": "לעולם אל תשתפ/י את הצירוף עם אף אחד."
   },
   "endOfFlowMessage5": {
-    "message": "היזהר/י מהתחזות! MetaMask לעולם לא יבקש באופן ספונטני את צירוף הגרעין שלך."
+    "message": "היזהר/י מהתחזות! Samurai לעולם לא יבקש באופן ספונטני את צירוף הגרעין שלך."
   },
   "endOfFlowMessage6": {
     "message": "אם עליך לגבות את צירוף הגרעין שלך שוב, תוכל/י למצוא זאת בהגדרות -> אבטחה."
@@ -381,7 +381,7 @@
     "message": "אם יש לך שאלות או שנתקלת במשהו חשוד, שלח/י מייל ל- service@latticex.foundation."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask לא הצליח לשחזר את ה-seedphrase שלך. למד/י עוד."
+    "message": "Samurai לא הצליח לשחזר את ה-seedphrase שלך. למד/י עוד."
   },
   "endOfFlowMessage9": {
     "message": "למד עוד."
@@ -408,7 +408,7 @@
     "message": "כתובת אתריום ציבורית"
   },
   "etherscanView": {
-    "message": "הצג חשבון ב- Etherscan"
+    "message": "הצג חשבון ב- Alayascan"
   },
   "estimatedProcessingTimes": {
     "message": "זמני עיבוד משוערים"
@@ -480,7 +480,7 @@
   },
   "getEtherFromFaucet": {
     "message": "השג/י את'ר מברז (faucet) עבור ה-$1",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for ATP faucet"
   },
   "getHelp": {
     "message": "בקש/י עזרה."
@@ -501,7 +501,7 @@
     "message": "חבר ארנק חומרה"
   },
   "hardwareWalletsMsg": {
-    "message": "בחר/י ארנק חומרה שבו תרצה להשתמש עם MetaMask"
+    "message": "בחר/י ארנק חומרה שבו תרצה להשתמש עם Samurai"
   },
   "havingTroubleConnecting": {
     "message": "חווה קשיים בהתחברות?"
@@ -530,7 +530,7 @@
     "message": "יבא חשבון"
   },
   "importAccountMsg": {
-    "message": "חשבונות מיובאים לא ישויכו לצירוף הגרעין (seed) שנוצר במקור עבור חשבון ה-MetaMask שלך. למד/י עוד על חשבונות מיובאים"
+    "message": "חשבונות מיובאים לא ישויכו לצירוף הגרעין (seed) שנוצר במקור עבור חשבון ה-Samurai שלך. למד/י עוד על חשבונות מיובאים"
   },
   "importAccountSeedPhrase": {
     "message": "יבא חשבון באמצעות Seed Phrase"
@@ -573,7 +573,7 @@
     "message": "כתובת חוזה ידועה."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "לא רשת ETH, מוגדר במצב אותיות קטנות"
+    "message": "לא רשת ATP, מוגדר במצב אותיות קטנות"
   },
   "invalidInput": {
     "message": "קלט לא תקין."
@@ -643,7 +643,7 @@
     "message": "מחבר אותך לאתריום ולרשת המבוזרת."
   },
   "metamaskVersion": {
-    "message": "גרסת MetaMask"
+    "message": "גרסת Samurai"
   },
   "mobileSyncText": {
     "message": "נא להזין את הססמה שלך כדי לאשר שזה/זו אכן את/ה!"
@@ -655,20 +655,20 @@
     "message": "חשבונות הארנק שלי"
   },
   "myWalletAccountsDescription": {
-    "message": "כל חשבונותיך שנוצרו ב-MetaMask יתווספו אוטומטית לחלק זה."
+    "message": "כל חשבונותיך שנוצרו ב-Samurai יתווספו אוטומטית לחלק זה."
   },
   "mustSelectOne": {
     "message": "חובה לבחור לפחות אסימון אחד."
   },
   "needEtherInWallet": {
-    "message": "כדי לתקשר עם אפליקציות מבוזרות באמצעות MetaMask, צריך להיות לך את'ר בארנק."
+    "message": "כדי לתקשר עם אפליקציות מבוזרות באמצעות Samurai, צריך להיות לך את'ר בארנק."
   },
   "needImportFile": {
     "message": "יש לבחור קובץ לייצוא.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "לא ניתן לשלוח סכומים שליליים של ETH."
+    "message": "לא ניתן לשלוח סכומים שליליים של ATP."
   },
   "networkName": {
     "message": "שם רשת"
@@ -704,8 +704,8 @@
   "newNetwork": {
     "message": "רשת חדשה"
   },
-  "newToMetaMask": {
-    "message": "חדש/ה ב- MetaMask?"
+  "newToSamurai": {
+    "message": "חדש/ה ב- Samurai?"
   },
   "noAlreadyHaveSeed": {
     "message": "לא, כבר יש לי צירוף גרעין"
@@ -714,7 +714,7 @@
     "message": "הגנ/י על המפתחות שלך!"
   },
   "protectYourKeysMessage1": {
-    "message": "יש לנקוט זהירות בנוגע לצירוף הגרעין שלך - היו דיווחים על אתרים שמנסים להתחזות ל-MetaMask .MetaMask לעולם לא תבקש את צירוף הגרעין שלך!"
+    "message": "יש לנקוט זהירות בנוגע לצירוף הגרעין שלך - היו דיווחים על אתרים שמנסים להתחזות ל-Samurai .Samurai לעולם לא תבקש את צירוף הגרעין שלך!"
   },
   "protectYourKeysMessage2": {
     "message": "יש לשמור את ה-seedphrase שלך במקום בטוח. אם את/ה רואה משהו חשוד, או שאינך בטוח/ה בנוע לאתר, שלח/י אימייל לכתובת service@latticex.foundation"
@@ -771,7 +771,7 @@
     "message": "קח/י חלק ב- MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "קח/י חלק ב-MetaMetrics כדי לעזור לנו לשפר את MetaMask"
+    "message": "קח/י חלק ב-MetaMetrics כדי לעזור לנו לשפר את Samurai"
   },
   "password": {
     "message": "סיסמה"
@@ -799,7 +799,7 @@
     "message": "מטבע ראשי"
   },
   "primaryCurrencySettingDescription": {
-    "message": "בחר/י 'מקומי' כדי לתעדף הצגת ערכים במטבע המקומי של הצ'יין (למשל ETH). בחר/י פיאט כדי לתעדף הצגת ערכים במטבע הפיאט שבחרת."
+    "message": "בחר/י 'מקומי' כדי לתעדף הצגת ערכים במטבע המקומי של הצ'יין (למשל ATP). בחר/י פיאט כדי לתעדף הצגת ערכים במטבע הפיאט שבחרת."
   },
   "privacyMsg": {
     "message": "מדיניות הפרטיות"
@@ -974,7 +974,7 @@
     "message": "שלח סכום"
   },
   "sendETH": {
-    "message": "שלח/י ETH"
+    "message": "שלח/י ATP"
   },
   "sendTokens": {
     "message": "שלח טוקנים"
@@ -995,7 +995,7 @@
     "message": "בחר חשבון"
   },
   "selectAnAccountHelp": {
-    "message": "בחר את החשבון לצפייה ב- MetaMask"
+    "message": "בחר את החשבון לצפייה ב- Samurai"
   },
   "selectAHigherGasFee": {
     "message": "בחר/י בעמלת דלק גבוהה יותר כדי להאיץ את עיבוד העסקה שלך. *"
@@ -1109,19 +1109,19 @@
     "message": "סנכרן עם הנייד"
   },
   "syncWithMobileDesc": {
-    "message": "באפשרותך לסנכרן את החשבונות והמידע שלך עם המכשיר הנייד שלך. יש לפתוח את האפליקציה לנייד של MetaMask, לעבור אל \"הגדרות\" וללחוץ על \"סנכרון מהרחבה לדפדפן\""
+    "message": "באפשרותך לסנכרן את החשבונות והמידע שלך עם המכשיר הנייד שלך. יש לפתוח את האפליקציה לנייד של Samurai, לעבור אל \"הגדרות\" וללחוץ על \"סנכרון מהרחבה לדפדפן\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "אם את/ה פותח/ת  את אפליקציית MetaMask Mobile בפעם הראשונה, פשוט בצע/י את השלבים בטלפון שלך."
+    "message": "אם את/ה פותח/ת  את אפליקציית Samurai Mobile בפעם הראשונה, פשוט בצע/י את השלבים בטלפון שלך."
   },
   "syncWithMobileScanThisCode": {
-    "message": "יש לסרוק קוד QR זה באמצעות אפליקציית MetaMask לטלפון נייד"
+    "message": "יש לסרוק קוד QR זה באמצעות אפליקציית Samurai לטלפון נייד"
   },
   "syncWithMobileBeCareful": {
     "message": "ודא/י כי איש אינו מסתכל על המסך שלך בזמן סריקת קוד זה"
   },
   "syncWithMobileComplete": {
-    "message": "הנתונים שלך סונכרנו בהצלחה. תיהנה/י מאפליקציית MetaMask לטלפונים ניידים! "
+    "message": "הנתונים שלך סונכרנו בהצלחה. תיהנה/י מאפליקציית Samurai לטלפונים ניידים! "
   },
   "terms": {
     "message": "תנאי שימוש"
@@ -1212,7 +1212,7 @@
     "message": "ניסיון חוזר"
   },
   "typePassword": {
-    "message": "נא להקליד את סיסמת MetaMask שלך"
+    "message": "נא להקליד את סיסמת Samurai שלך"
   },
   "unapproved": {
     "message": "לא אושר"
@@ -1266,7 +1266,7 @@
     "message": "הצג ב- $1"
   },
   "viewOnEtherscan": {
-    "message": "הצג ב-Etherscan"
+    "message": "הצג ב-Alayascan"
   },
   "visitWebSite": {
     "message": "בקר/י באתר שלנו"
@@ -1278,7 +1278,7 @@
     "message": "ברוך שובך!"
   },
   "welcome": {
-    "message": "ברוכים הבאים ל- MetaMask"
+    "message": "ברוכים הבאים ל- Samurai"
   },
   "writePhrase": {
     "message": "יש לכתוב צירוף זה על פיסת נייר ולשמור במקום מאובטח. אם הנך מעוניינ/ת ביותר אבטחה, רשמ/י אותו על גבי מספר פיסות נייר ואחסני כל אחת מהן ב- 2-3 מקומות שונים."
