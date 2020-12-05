@@ -110,7 +110,7 @@
     "message": "자동 로그아웃 타이머 (분)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "MetaMask가 자동으로 로그아웃되기 전 유휴 시간을 분 단위로 설정하세요"
+    "message": "Samurai가 자동으로 로그아웃되기 전 유휴 시간을 분 단위로 설정하세요"
   },
   "average": {
     "message": "평균"
@@ -125,7 +125,7 @@
     "message": "비밀 복구 코드를 백업하여 월렛과 자금을 안전하게 유지하세요."
   },
   "backupApprovalInfo": {
-    "message": "이 비밀 코드는 기기를 분실해서 월렛을 복구해야 하거나, 비밀번호를 잊어버리거나, MetaMask를 재설치해야 하거나, 다른 기기에서 월렛에 접속하고 싶은 경우에  필요합니다."
+    "message": "이 비밀 코드는 기기를 분실해서 월렛을 복구해야 하거나, 비밀번호를 잊어버리거나, Samurai를 재설치해야 하거나, 다른 기기에서 월렛에 접속하고 싶은 경우에  필요합니다."
   },
   "backupNow": {
     "message": "지금 백업하기"
@@ -153,10 +153,10 @@
     "message": "메타마스크는 캘리포니아에서 디자인되고 만들어졌습니다."
   },
   "buyWithWyre": {
-    "message": "Wyre로 ETH 구매"
+    "message": "Wyre로 ATP 구매"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre는 신용 카드를 사용하여 ETH을 바로 MetaMask 계정에 입금할 수 있게 해줍니다."
+    "message": "Wyre는 신용 카드를 사용하여 ATP을 바로 Samurai 계정에 입금할 수 있게 해줍니다."
   },
   "buyCoinSwitch": {
     "message": "코인 스위치 구입"
@@ -405,7 +405,7 @@
     "message": "이더리움 공개 주소"
   },
   "etherscanView": {
-    "message": "이더스캔에서 계정보기"
+    "message": "Alayascan에서 계정 확인"
   },
   "estimatedProcessingTimes": {
     "message": "예상 처리 시간"
@@ -477,7 +477,7 @@
   },
   "getEtherFromFaucet": {
     "message": "파우셋에서 $1에 달하는 이더를 얻으세요.",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for ATP faucet"
   },
   "getHelp": {
     "message": "도움말"
@@ -567,7 +567,7 @@
     "message": "알려진 계약 주소."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "ETH 네트워크 아님, 소문자로 설정"
+    "message": "ATP 네트워크 아님, 소문자로 설정"
   },
   "invalidInput": {
     "message": "올바르지 않은 입력값"
@@ -652,7 +652,7 @@
     "message": "나의 월렛 계정"
   },
   "myWalletAccountsDescription": {
-    "message": "MetaMask가 생성한 모든 계정이 이 섹션에 자동으로 추가됩니다."
+    "message": "Samurai가 생성한 모든 계정이 이 섹션에 자동으로 추가됩니다."
   },
   "mustSelectOne": {
     "message": "적어도 하나의 토큰을 선택하세요."
@@ -701,7 +701,7 @@
   "newNetwork": {
     "message": "새 네트워크"
   },
-  "newToMetaMask": {
+  "newToSamurai": {
     "message": "메타마스크를 처음 사용하시나요?"
   },
   "noAlreadyHaveSeed": {
@@ -711,7 +711,7 @@
     "message": "키를 보호하세요!"
   },
   "protectYourKeysMessage1": {
-    "message": "시드 문구에 주의하세요 - MetaMask를 모방하려고 한 웹사이트들이 신고됐습니다. MetaMask는 절대로 시드 문구를 묻지 않습니다!"
+    "message": "시드 문구에 주의하세요 - Samurai를 모방하려고 한 웹사이트들이 신고됐습니다. Samurai는 절대로 시드 문구를 묻지 않습니다!"
   },
   "protectYourKeysMessage2": {
     "message": "시드 문구를 안전하게 유지하세요. 수상한 점을 발견하거나, 웹사이트에 확신이 들지 않으면 service@latticex.foundation로 이메일을 보내 주세요"
@@ -793,7 +793,7 @@
     "message": "주 화폐"
   },
   "primaryCurrencySettingDescription": {
-    "message": "체인의 고유 통화 값으로 우선 표기하시려면 네이티브를 선택하세요. (예: ETH) 설정하신 Fiat 통화 값으로 우선 표기하시려면 Fiat을 선택하세요."
+    "message": "체인의 고유 통화 값으로 우선 표기하시려면 네이티브를 선택하세요. (예: ATP) 설정하신 Fiat 통화 값으로 우선 표기하시려면 Fiat을 선택하세요."
   },
   "privacyMsg": {
     "message": "개인정보 보호 정책"
@@ -971,7 +971,7 @@
     "message": "전송 수량"
   },
   "sendETH": {
-    "message": "ETH 보내기"
+    "message": "ATP 보내기"
   },
   "sendTokens": {
     "message": "토큰 전송"
@@ -1106,19 +1106,19 @@
     "message": "모바일과 동기화"
   },
   "syncWithMobileDesc": {
-    "message": "모바일 기기와 계정 및 정보를 동기화할 수 있습니다. MetaMask 모바일 앱을 열고, \"설정\"으로 간 다음 \"브라우저 확장 프로그램에서 동기화\"를 누르세요"
+    "message": "모바일 기기와 계정 및 정보를 동기화할 수 있습니다. Samurai 모바일 앱을 열고, \"설정\"으로 간 다음 \"브라우저 확장 프로그램에서 동기화\"를 누르세요"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "처음으로 MetaMask 모바일 앱을 여시는 경우, 전화에 나온 과정을 따르세요."
+    "message": "처음으로 Samurai 모바일 앱을 여시는 경우, 전화에 나온 과정을 따르세요."
   },
   "syncWithMobileScanThisCode": {
-    "message": "MetaMask 모바일 앱으로 이 코드를 스캔하세요"
+    "message": "Samurai 모바일 앱으로 이 코드를 스캔하세요"
   },
   "syncWithMobileBeCareful": {
     "message": "이 코드를 스캔할 때 귀하의 화면을 보는 사람이 없는 것을 확인하세요"
   },
   "syncWithMobileComplete": {
-    "message": "데이터가 성공적으로 동기화됐습니다. MetaMask 모바일 앱을 즐겁게 사용하세요!"
+    "message": "데이터가 성공적으로 동기화됐습니다. Samurai 모바일 앱을 즐겁게 사용하세요!"
   },
   "terms": {
     "message": "사용 지침"
@@ -1263,7 +1263,7 @@
     "message": "$1에 보기"
   },
   "viewOnEtherscan": {
-    "message": "이더스캔에서 보기"
+    "message": "Alayascan에서보기"
   },
   "visitWebSite": {
     "message": "웹사이트 방문"

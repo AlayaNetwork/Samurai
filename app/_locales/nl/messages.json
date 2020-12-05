@@ -18,7 +18,7 @@
     "message": "Bedrag"
   },
   "appDescription": {
-    "message": "Ethereum Browser-extensie",
+    "message": "Alaya Browser-extensie",
     "description": "The description of the application"
   },
   "appName": {
@@ -44,7 +44,7 @@
     "message": "Gebruik Blockies Identicon"
   },
   "builtInCalifornia": {
-    "message": "MetaMask is ontworpen en gebouwd in Californië."
+    "message": "Samurai is ontworpen en gebouwd in Californië."
   },
   "buyCoinSwitch": {
     "message": "Koop op CoinSwitch"
@@ -95,19 +95,19 @@
     "message": "Decimalen van precisie"
   },
   "defaultNetwork": {
-    "message": "Het standaardnetwerk voor Ether-transacties is Main Net."
+    "message": "Het standaardnetwerk voor ATP-transacties is Main Net."
   },
   "deposit": {
     "message": "Storting"
   },
   "depositEther": {
-    "message": "Stort Ether"
+    "message": "Stort ATP"
   },
   "directDepositEther": {
-    "message": "Directe Ether storten"
+    "message": "Directe ATP storten"
   },
   "directDepositEtherExplainer": {
-    "message": "Als je al wat Ether hebt, de snelste manier om Ether in je nieuwe portemonnee te krijgen door een directe storting."
+    "message": "Als je al wat ATP hebt, de snelste manier om ATP in je nieuwe portemonnee te krijgen door een directe storting."
   },
   "done": {
     "message": "Gedaan"
@@ -122,7 +122,7 @@
     "message": "Voer wachtwoord in"
   },
   "etherscanView": {
-    "message": "Bekijk account op Etherscan"
+    "message": "Bekijk account op Alayascan"
   },
   "exportPrivateKey": {
     "message": "Exporteer privésleutel"
@@ -151,11 +151,11 @@
     "message": "Gasprijs (GWEI)"
   },
   "getEther": {
-    "message": "Krijg Ether"
+    "message": "Krijg ATP"
   },
   "getEtherFromFaucet": {
-    "message": "Haal Ether uit een kraan voor de $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Haal ATP uit een kraan voor de $1",
+    "description": "Displays network name for ATP faucet"
   },
   "here": {
     "message": "hier",
@@ -175,7 +175,7 @@
     "message": "Account importeren"
   },
   "importAccountMsg": {
-    "message": " Geïmporteerde accounts worden niet gekoppeld aan de seedphrase van uw oorspronkelijk gemaakte MetaMask-account. Meer informatie over geïmporteerde accounts"
+    "message": " Geïmporteerde accounts worden niet gekoppeld aan de seedphrase van uw oorspronkelijk gemaakte Samurai-account. Meer informatie over geïmporteerde accounts"
   },
   "imported": {
     "message": "geïmporteerde",
@@ -234,7 +234,7 @@
     "message": "Bericht"
   },
   "metamaskDescription": {
-    "message": "MetaMask is een veilige identiteitskluis voor Ethereum."
+    "message": "Samurai is een veilige identiteitskluis voor Alaya."
   },
   "myAccounts": {
     "message": "Mijn accounts"
@@ -243,14 +243,14 @@
     "message": "Moet ten minste één token selecteren."
   },
   "needEtherInWallet": {
-    "message": "Om te communiceren met gedecentraliseerde applicaties met MetaMask, heb je Ether nodig in je portemonnee."
+    "message": "Om te communiceren met gedecentraliseerde applicaties met Samurai, heb je ATP nodig in je portemonnee."
   },
   "needImportFile": {
     "message": "U moet een bestand selecteren om te importeren.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Kan geen negatieve hoeveelheden ETH verzenden."
+    "message": "Kan geen negatieve hoeveelheden ATP verzenden."
   },
   "networks": {
     "message": "netwerken"
@@ -345,7 +345,7 @@
     "message": "Sturen"
   },
   "sendETH": {
-    "message": "Verzend ETH"
+    "message": "Verzend ATP"
   },
   "sendTokens": {
     "message": "Stuur tokens"
@@ -421,7 +421,7 @@
     "message": "Bezoek onze website"
   },
   "welcome": {
-    "message": "Welkom bij MetaMask"
+    "message": "Welkom bij Samurai"
   },
   "yourSigRequested": {
     "message": "Uw handtekening wordt aangevraagd"

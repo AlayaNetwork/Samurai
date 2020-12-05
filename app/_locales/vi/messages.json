@@ -18,7 +18,7 @@
     "message": "Số lượng"
   },
   "appDescription": {
-    "message": "Tính năng Ethereum cho trình duyệt",
+    "message": "Tính năng Alaya cho trình duyệt",
     "description": "The description of the application"
   },
   "appName": {
@@ -80,22 +80,22 @@
     "message": "Tùy chỉnh RPC"
   },
   "defaultNetwork": {
-    "message": "Mạng lưới mặc định dùng cho các giao dịch Ether là Main Net (tiền ETH thật)."
+    "message": "Mạng lưới mặc định dùng cho các giao dịch ATP là Main Net (tiền ATP thật)."
   },
   "deposit": {
     "message": "Ký gửi/nạp tiền"
   },
   "depositEther": {
-    "message": "Ký gửi Ether"
+    "message": "Ký gửi ATP"
   },
   "details": {
     "message": "Chi tiết"
   },
   "directDepositEther": {
-    "message": "Ký gửi Ether trực tiếp"
+    "message": "Ký gửi ATP trực tiếp"
   },
   "directDepositEtherExplainer": {
-    "message": "Nếu bạn đã có sẵn vài Ether, cách nhanh nhất để thêm Ether vào ví tiền mới của bạn là bằng ký gửi trực tiếp."
+    "message": "Nếu bạn đã có sẵn vài ATP, cách nhanh nhất để thêm ATP vào ví tiền mới của bạn là bằng ký gửi trực tiếp."
   },
   "done": {
     "message": "Hoàn tất"
@@ -107,7 +107,7 @@
     "message": "Nhập mật khẩu"
   },
   "etherscanView": {
-    "message": "Xem tài khoản trên Etherscan"
+    "message": "Xem tài khoản trên Alayascan"
   },
   "exportPrivateKey": {
     "message": "Xuất mã khóa cá nhân"
@@ -136,11 +136,11 @@
     "message": "Giá ga (GWEI)"
   },
   "getEther": {
-    "message": "Lấy Ether"
+    "message": "Lấy ATP"
   },
   "getEtherFromFaucet": {
-    "message": "Lấy Ether từ vòi với giá $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Lấy ATP từ vòi với giá $1",
+    "description": "Displays network name for ATP faucet"
   },
   "here": {
     "message": "tại đây",
@@ -189,7 +189,7 @@
     "message": "Thoát"
   },
   "mainnet": {
-    "message": "Mạng Ethereum MainNet (tiền ETH thật)"
+    "message": "Mạng Alaya MainNet (tiền ATP thật)"
   },
   "message": {
     "message": "Tin nhắn"
@@ -198,7 +198,7 @@
     "message": "Tài khoản của tôi"
   },
   "needEtherInWallet": {
-    "message": "Để tương tác với các ứng dụng phân tán bằng MetaMask, bạn sẽ phải cần có Ether trong ví của bạn."
+    "message": "Để tương tác với các ứng dụng phân tán bằng Samurai, bạn sẽ phải cần có ATP trong ví của bạn."
   },
   "needImportFile": {
     "message": "Bạn phải chọn một tập tin để nhập.",
@@ -289,7 +289,7 @@
     "message": "Yêu cầu chữ ký"
   },
   "testFaucet": {
-    "message": "Vòi nhận tiền ETH ảo để thử nghiệm"
+    "message": "Vòi nhận tiền ATP ảo để thử nghiệm"
   },
   "to": {
     "message": "Đến"

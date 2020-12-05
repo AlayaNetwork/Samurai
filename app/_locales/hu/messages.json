@@ -1,6 +1,6 @@
 {
   "chartOnlyAvailableEth": {
-    "message": "A diagram csak Ethereum hálózatokon érhető el"
+    "message": "A diagram csak Alaya hálózatokon érhető el"
   },
   "contractInteraction": {
     "message": "Szerződéses interakció"
@@ -76,13 +76,13 @@
     "message": "Javasolt tokenek hozzáadása"
   },
   "addAcquiredTokens": {
-    "message": "Adja hozzá MetaMask-kal a kapott érméket"
+    "message": "Adja hozzá Samurai-kal a kapott érméket"
   },
   "amount": {
     "message": "Összeg"
   },
   "appDescription": {
-    "message": "Ethereum tárca a böngészőjében",
+    "message": "Alaya tárca a böngészőjében",
     "description": "The description of the application"
   },
   "approve": {
@@ -110,7 +110,7 @@
     "message": "Automatikus kijelentkezés időzítő (perc)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Adja meg a MetaMask automatikus kijelentkezéséig tartó tétlen állapot idejét percekben "
+    "message": "Adja meg a Samurai automatikus kijelentkezéséig tartó tétlen állapot idejét percekben "
   },
   "average": {
     "message": "Átlag"
@@ -125,7 +125,7 @@
     "message": "Készíts biztonsági másolatot titkos helyreállítási kódodról, hogy pénztárcád és pénzalapod biztosítva legyen."
   },
   "backupApprovalInfo": {
-    "message": "Ez a titkos kód a tárca helyreállításához szükséges, ha elveszíti eszközét, elfelejti jelszavát, újra kell telepítenie a MetaMask alkalmazást, vagy ha a tárcájához egy másik eszközről szeretne hozzáférni."
+    "message": "Ez a titkos kód a tárca helyreállításához szükséges, ha elveszíti eszközét, elfelejti jelszavát, újra kell telepítenie a Samurai alkalmazást, vagy ha a tárcájához egy másik eszközről szeretne hozzáférni."
   },
   "backupNow": {
     "message": "Készíts biztonsági mentést most"
@@ -153,13 +153,13 @@
     "message": "Az ön böngészője nem támogatott..."
   },
   "builtInCalifornia": {
-    "message": "A MetaMaskot Kaliforniában tervezték és hozták létre."
+    "message": "A Samuraiot Kaliforniában tervezték és hozták létre."
   },
   "buyWithWyre": {
-    "message": "Vásároljon ETH-t a Wyre-rel"
+    "message": "Vásároljon ATP-t a Wyre-rel"
   },
   "buyWithWyreDescription": {
-    "message": "A Wyre segítségével egyensen a MetaMaks fiókjában tehet letétbe ETH-t."
+    "message": "A Wyre segítségével egyensen a MetaMaks fiókjában tehet letétbe ATP-t."
   },
   "buyCoinSwitch": {
     "message": "Vegye meg a CoinSwitchen"
@@ -204,7 +204,7 @@
     "message": "Bezárás"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "A MetaMask-ot Google Chrome-mal kell használnia a Hardveres pénztárcához való csatlakozáshoz."
+    "message": "A Samurai-ot Google Chrome-mal kell használnia a Hardveres pénztárcához való csatlakozáshoz."
   },
   "confirm": {
     "message": "Megerősítés"
@@ -234,7 +234,7 @@
     "message": "Csatlakozás a Kovan teszthálózathoz"
   },
   "connectingToMainnet": {
-    "message": "Csatlakozás a fő Ethereum hálózathoz"
+    "message": "Csatlakozás a fő Alaya hálózathoz"
   },
   "connectingToRopsten": {
     "message": "Csatlakozás a Ropsten teszthálózathoz"
@@ -312,7 +312,7 @@
     "message": "A pontosság tizedesjegyei"
   },
   "defaultNetwork": {
-    "message": "Az Ether tranzakciók alapértelmezett hálózata a Main Net."
+    "message": "Az ATP tranzakciók alapértelmezett hálózata a Main Net."
   },
   "delete": {
     "message": "Törlés"
@@ -333,7 +333,7 @@
     "message": "Fizess be ethert közvetlenül"
   },
   "directDepositEtherExplainer": {
-    "message": "Amennyiben már rendelkezik némi Ether-rel, a közvetlen letéttel gyorsan elhelyezheti azt új pénztárcájában."
+    "message": "Amennyiben már rendelkezik némi ATP-rel, a közvetlen letéttel gyorsan elhelyezheti azt új pénztárcájában."
   },
   "done": {
     "message": "Kész"
@@ -372,7 +372,7 @@
     "message": "Soha ne ossza meg senkivel a mondatot."
   },
   "endOfFlowMessage5": {
-    "message": "Vigyázzon az adathalászokkal! A MetaMask soha nem kéri spontán módon a seed mondatot."
+    "message": "Vigyázzon az adathalászokkal! A Samurai soha nem kéri spontán módon a seed mondatot."
   },
   "endOfFlowMessage6": {
     "message": "Ha ismét biztonsági másolatot kell készítenie a seed mondatról, megtalálja azt a Beállítások -> Biztonság menüben."
@@ -381,7 +381,7 @@
     "message": "Ha bármilyen kérdése van, vagy valami gyanús dolgot tapasztal, írjon a service@latticex.foundation címre."
   },
   "endOfFlowMessage8": {
-    "message": "A MetaMask nem tudta helyreállítani a seed mondatot. Tudjon meg többet."
+    "message": "A Samurai nem tudta helyreállítani a seed mondatot. Tudjon meg többet."
   },
   "endOfFlowMessage9": {
     "message": "Bővebb információk."
@@ -393,7 +393,7 @@
     "message": "Hiba történt az ENS név regisztrációjakor"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "ENS név nem található a jelenlegi hálózaton. Próbálj váltani Ethereum főhálózatra."
+    "message": "ENS név nem található a jelenlegi hálózaton. Próbálj váltani Alaya főhálózatra."
   },
   "enterAnAlias": {
     "message": "Adjon meg álnevet"
@@ -405,10 +405,10 @@
     "message": "A folytatáshoz adja meg a jelszót"
   },
   "ethereumPublicAddress": {
-    "message": "Ethereum nyilvános címe"
+    "message": "Alaya nyilvános címe"
   },
   "etherscanView": {
-    "message": "Fiók megtekintése Etherscanen"
+    "message": "Fiók megtekintése Alayascanen"
   },
   "estimatedProcessingTimes": {
     "message": "Becsült feldolgozási idők"
@@ -460,7 +460,7 @@
     "message": "Üzemanyag ár Különösen alacsony"
   },
   "gasPriceInfoModalContent": {
-    "message": "A gáz ára meghatározza, hogy ön mennyi Ethert hajlandó fizetni minden egyes gázegységért."
+    "message": "A gáz ára meghatározza, hogy ön mennyi ATPt hajlandó fizetni minden egyes gázegységért."
   },
   "gasPriceNoDenom": {
     "message": "Gázár"
@@ -475,8 +475,8 @@
     "message": "Ether beszerzése"
   },
   "getEtherFromFaucet": {
-    "message": "Szerezzen Ethert pénzcsapból a(z) $1-ért",
-    "description": "Displays network name for Ether faucet"
+    "message": "Szerezzen ATPt pénzcsapból a(z) $1-ért",
+    "description": "Displays network name for ATP faucet"
   },
   "getHelp": {
     "message": "Segítség kérése"
@@ -497,7 +497,7 @@
     "message": "Hardveres tárca csatlakoztatása"
   },
   "hardwareWalletsMsg": {
-    "message": "Válassza ki a MetaMask-kal használni kívánt hardveres pénztárcát"
+    "message": "Válassza ki a Samurai-kal használni kívánt hardveres pénztárcát"
   },
   "havingTroubleConnecting": {
     "message": "Gond van a csatlakozással?"
@@ -526,7 +526,7 @@
     "message": "Fiók importálása"
   },
   "importAccountMsg": {
-    "message": "Az importált fiókot nem társítjuk az eredetileg létrehozott MetaMask-fiók seed mondatához. További információ az importált fiókokról"
+    "message": "Az importált fiókot nem társítjuk az eredetileg létrehozott Samurai-fiók seed mondatához. További információ az importált fiókokról"
   },
   "importAccountSeedPhrase": {
     "message": "Fiók importálása seed mondat segítségével"
@@ -569,7 +569,7 @@
     "message": "Ismert szerződéses cím."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Nem ETH hálózat, állítsa kisbetűre"
+    "message": "Nem ATP hálózat, állítsa kisbetűre"
   },
   "invalidInput": {
     "message": "Érvénytelen bevitel."
@@ -624,7 +624,7 @@
     "message": "Kilépés"
   },
   "mainnet": {
-    "message": "Fő Ethereum hálózat"
+    "message": "Fő Alaya hálózat"
   },
   "memorizePhrase": {
     "message": "Jegyezze meg ezt a szakaszt."
@@ -636,10 +636,10 @@
     "message": "Üzenet"
   },
   "metamaskDescription": {
-    "message": "Csatlakozás az Ethereumhoz és a decentralizált hálózathoz."
+    "message": "Csatlakozás az Alayahoz és a decentralizált hálózathoz."
   },
   "metamaskVersion": {
-    "message": "MetaMask verzió"
+    "message": "Samurai verzió"
   },
   "mobileSyncText": {
     "message": "Kérünk írd be jelszavad, hogy igazold kiléted!"
@@ -651,20 +651,20 @@
     "message": "Saját tárca fiókjai"
   },
   "myWalletAccountsDescription": {
-    "message": "Az összes MetaMask által létrehozott fiókot automatikusan hozzáadja a munkamenethez."
+    "message": "Az összes Samurai által létrehozott fiókot automatikusan hozzáadja a munkamenethez."
   },
   "mustSelectOne": {
     "message": "Legalább 1 tokent ki kell választania."
   },
   "needEtherInWallet": {
-    "message": "Ha a MetaMaskon keresztül szeretne interakcióba lépni decentralizált alkalmazással, ahhoz a tárcájában Ethernek kell lennie."
+    "message": "Ha a Samuraion keresztül szeretne interakcióba lépni decentralizált alkalmazással, ahhoz a tárcájában ATPnek kell lennie."
   },
   "needImportFile": {
     "message": "Ki kell választania az importálni kívánt fájlt.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Nem lehet negatív mennyiségű ETH-t küldeni."
+    "message": "Nem lehet negatív mennyiségű ATP-t küldeni."
   },
   "networkName": {
     "message": "Hálózat neve"
@@ -700,8 +700,8 @@
   "newNetwork": {
     "message": "Új hálózat"
   },
-  "newToMetaMask": {
-    "message": "Új a MetaMask-on?"
+  "newToSamurai": {
+    "message": "Új a Samurai-on?"
   },
   "noAlreadyHaveSeed": {
     "message": "Nem, már rendelkezem gyarapítási fázissal"
@@ -710,7 +710,7 @@
     "message": "Védje kulcsait!"
   },
   "protectYourKeysMessage1": {
-    "message": "Vigyázzod a gyarapítási fázissal - olyan oldalakat jelentettek, amelyek a MetaMask-ot utánozzák. A MetaMask soha nem kéri el a gyarapítási fázisát."
+    "message": "Vigyázzod a gyarapítási fázissal - olyan oldalakat jelentettek, amelyek a Samurai-ot utánozzák. A Samurai soha nem kéri el a gyarapítási fázisát."
   },
   "protectYourKeysMessage2": {
     "message": "Őrizze biztonságos helyen a mondatot. Ha bármilyen gyanús dolgot tapasztal, vagy bizonytalan egy weboldalt illetően, írjon a service@latticex.foundation címre."
@@ -767,7 +767,7 @@
     "message": "Vegyen részt a MetaMetrics-ben"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Vegyél részt a MetaMetricsben, hogy segíts a MetaMask fejlesztésében."
+    "message": "Vegyél részt a MetaMetricsben, hogy segíts a Samurai fejlesztésében."
   },
   "password": {
     "message": "Jelszó"
@@ -795,7 +795,7 @@
     "message": "Elsődleges pénznem"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Válaszd a helyit, hogy az értékek elsősorban a helyi pénznemben jelenjenek meg (pl. ETH). Válaszd a Fiatot, hogy az értékek elsősorban a választott fiat pénznemben jelenjenek meg."
+    "message": "Válaszd a helyit, hogy az értékek elsősorban a helyi pénznemben jelenjenek meg (pl. ATP). Válaszd a Fiatot, hogy az értékek elsősorban a választott fiat pénznemben jelenjenek meg."
   },
   "privacyMsg": {
     "message": "Adatvédelmi szabályzat"
@@ -937,7 +937,7 @@
     "message": "Titkos biztonsági szókapcsolatoddal könnyedén készíthetsz biztonsági mentést és helyreállíthatod fiókodat."
   },
   "secretBackupPhraseWarning": {
-    "message": "FIGYELEM: Senkise se adja meg a biztonsági szakaszát. Ennek tulajdonosa örökre elviheti Ether-jeit."
+    "message": "FIGYELEM: Senkise se adja meg a biztonsági szakaszát. Ennek tulajdonosa örökre elviheti ATP-jeit."
   },
   "secretPhrase": {
     "message": "Tárolód helyreállításához írd be titkos tizenkét szavas szókapcsolatodat ide."
@@ -973,7 +973,7 @@
     "message": "Összeg küldése"
   },
   "sendETH": {
-    "message": "ETH küldése"
+    "message": "ATP küldése"
   },
   "sendTokens": {
     "message": "Token küldése"
@@ -994,7 +994,7 @@
     "message": "Válasszon fiókot"
   },
   "selectAnAccountHelp": {
-    "message": "Válássza ki a MetaMask-ban megtekinteni kívánt fiókot"
+    "message": "Válássza ki a Samurai-ban megtekinteni kívánt fiókot"
   },
   "selectAHigherGasFee": {
     "message": "Válasszon magasabb gázdíjat az ügylet feldolgozásának gyorsításához.*"
@@ -1084,7 +1084,7 @@
     "message": "3. Kezdje el használni a dApps-t és másokat!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Használja hardveres fiókját úgy, mint bármilyen Ethereum fiókot. Jelentkezzen be a dAppsba, küldjön Ethet, vásároljon és tároljon ERC20 tokeneket és nem helyettesíthető tokeneket, például CryptoKitties-t."
+    "message": "Használja hardveres fiókját úgy, mint bármilyen Alaya fiókot. Jelentkezzen be a dAppsba, küldjön ATPet, vásároljon és tároljon ERC20 tokeneket és nem helyettesíthető tokeneket, például CryptoKitties-t."
   },
   "storePhrase": {
     "message": "Tárolja a mondatot jelszókezelőben, például az 1Passwordben."
@@ -1108,19 +1108,19 @@
     "message": "Szinkronizálás mobillal"
   },
   "syncWithMobileDesc": {
-    "message": "Szinkronizálhatja fiókjait és adatait a mobilkészülékkel. Nyissa meg a MetaMask mobilalkalmazást, lépjen a \"Beállítások\" elemre, majd koppintson a \"Szinkronizálás a böngésző bővítményéből\" elemre."
+    "message": "Szinkronizálhatja fiókjait és adatait a mobilkészülékkel. Nyissa meg a Samurai mobilalkalmazást, lépjen a \"Beállítások\" elemre, majd koppintson a \"Szinkronizálás a böngésző bővítményéből\" elemre."
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Ha most először nyitja meg a MetaMask mobilalkalmazást, kövesse a telefonon megadott lépéseket."
+    "message": "Ha most először nyitja meg a Samurai mobilalkalmazást, kövesse a telefonon megadott lépéseket."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Olvasd be ezt a kódot MetaMask mobilalkalmazásoddal"
+    "message": "Olvasd be ezt a kódot Samurai mobilalkalmazásoddal"
   },
   "syncWithMobileBeCareful": {
     "message": "Győződjön meg arról, hogy senki nem látja a képernyőt, amikor beolvassa ezt a kódot"
   },
   "syncWithMobileComplete": {
-    "message": "Adatai szinkronizálása sikerült. Élvezze a MetaMask mobilalkalmazást!"
+    "message": "Adatai szinkronizálása sikerült. Élvezze a Samurai mobilalkalmazást!"
   },
   "terms": {
     "message": "Használati feltételek"
@@ -1208,7 +1208,7 @@
     "message": "Újra"
   },
   "typePassword": {
-    "message": "Írd be MetaMask jelszavadat"
+    "message": "Írd be Samurai jelszavadat"
   },
   "unapproved": {
     "message": "Jóvá nem hagyott"
@@ -1262,7 +1262,7 @@
     "message": "Megtekintés $1-kor"
   },
   "viewOnEtherscan": {
-    "message": "Nézze meg Etherscanen"
+    "message": "Nézze meg Alayascanen"
   },
   "visitWebSite": {
     "message": "Látogass el weboldalunkra"
@@ -1274,7 +1274,7 @@
     "message": "Üdvözöljük újra!"
   },
   "welcome": {
-    "message": "Üdvözöljük a MetaMaskban"
+    "message": "Üdvözöljük a Samuraiban"
   },
   "writePhrase": {
     "message": "Írd le ezt a szókapcsolatot egy darab papírra és őrizd meg egy biztonságos helyen. Ha még nagyobb biztonságra törekszel, írd le több darab papírra, és tartsd őket 2-3 különböző helyen."

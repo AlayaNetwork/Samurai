@@ -1,6 +1,6 @@
 {
   "chartOnlyAvailableEth": {
-    "message": "Tableau disponible uniquement sur les réseaux Ethereum."
+    "message": "Tableau disponible uniquement sur les réseaux Alaya."
   },
   "contractInteraction": {
     "message": "Interaction avec un contrat"
@@ -72,13 +72,13 @@
     "message": "Ajouter les jetons suggérés"
   },
   "addAcquiredTokens": {
-    "message": "Ajouter les jetons que vous avez acquis par l'intermédiaire de MetaMask"
+    "message": "Ajouter les jetons que vous avez acquis par l'intermédiaire de Samurai"
   },
   "amount": {
     "message": "Montant"
   },
   "appDescription": {
-    "message": "Extension Ethereum pour navigateur",
+    "message": "Extension Alaya pour navigateur",
     "description": "The description of the application"
   },
   "appName": {
@@ -107,7 +107,7 @@
     "message": "Minuterie de déconnexion automatique (minutes)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Réglez le temps d'inactivité en minutes avant que MetaMask ne se déconnecte automatiquement."
+    "message": "Réglez le temps d'inactivité en minutes avant que Samurai ne se déconnecte automatiquement."
   },
   "average": {
     "message": "Moyen"
@@ -122,7 +122,7 @@
     "message": "Sauvegardez votre code de récupération secret pour garder votre portefeuille et vos fonds en sécurité."
   },
   "backupApprovalInfo": {
-    "message": "Ce code secret est requis pour récupérer votre portefeuille si jamais vous perdez votre appareil, oubliez votre mot de passe, devez réinstaller MetaMask ou souhaitez accéder à votre portefeuille depuis un autre appareil."
+    "message": "Ce code secret est requis pour récupérer votre portefeuille si jamais vous perdez votre appareil, oubliez votre mot de passe, devez réinstaller Samurai ou souhaitez accéder à votre portefeuille depuis un autre appareil."
   },
   "backupNow": {
     "message": "Sauvegarder maintenant"
@@ -147,13 +147,13 @@
     "message": "Votre navigateur internet n'est pas supporté..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask est designé et developpé en Californie."
+    "message": "Samurai est designé et developpé en Californie."
   },
   "buyWithWyre": {
-    "message": "Acheter ETH avec Wyre"
+    "message": "Acheter ATP avec Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre vous permet d'utiliser une carte de crédit pour déposer ETH directement sur votre compte MetaMask."
+    "message": "Wyre vous permet d'utiliser une carte de crédit pour déposer ATP directement sur votre compte Samurai."
   },
   "buyCoinSwitch": {
     "message": "Acheter sur CoinSwitch"
@@ -192,7 +192,7 @@
     "message": "Fermer"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Pour connecter votre portefeuille hardware, vous devez utiliser MetaMask pour Google Chrome."
+    "message": "Pour connecter votre portefeuille hardware, vous devez utiliser Samurai pour Google Chrome."
   },
   "confirm": {
     "message": "Confirmer"
@@ -222,7 +222,7 @@
     "message": "Connexion au réseau de test Kovan"
   },
   "connectingToMainnet": {
-    "message": "Connexion au réseau principal Ethereum"
+    "message": "Connexion au réseau principal Alaya"
   },
   "connectingToRopsten": {
     "message": "Connexion au réseau de test Ropsten"
@@ -300,7 +300,7 @@
     "message": "Décimales de précision"
   },
   "defaultNetwork": {
-    "message": "Le réseau par défaut pour les transactions Ether est le \"Réseau principal Ethereum\"."
+    "message": "Le réseau par défaut pour les transactions ATP est le \"Réseau principal Alaya\"."
   },
   "delete": {
     "message": "Supprimer"
@@ -321,7 +321,7 @@
     "message": "Dépôt direct d'Ether"
   },
   "directDepositEtherExplainer": {
-    "message": "Si vous avez déjà de l'Ether, le moyen le plus rapide d'obtenir des Ether dans votre nouveau portefeuille est par dépôt direct."
+    "message": "Si vous avez déjà de l'Ether, le moyen le plus rapide d'obtenir des ATP dans votre nouveau portefeuille est par dépôt direct."
   },
   "done": {
     "message": "Terminé"
@@ -360,7 +360,7 @@
     "message": "Ne partagez jamais cette phrase avec qui que ce soit."
   },
   "endOfFlowMessage5": {
-    "message": "Attention à l'hameçonnage ! MetaMask ne vous demandera jamais spontanément votre phrase de départ."
+    "message": "Attention à l'hameçonnage ! Samurai ne vous demandera jamais spontanément votre phrase de départ."
   },
   "endOfFlowMessage6": {
     "message": "Si vous avez besoin de sauvegarder à nouveau votre phrase de départ, vous pouvez la trouver dans Paramètres -> Sécurité."
@@ -369,7 +369,7 @@
     "message": "Si vous avez des questions ou remarquez quelque chose de suspect, envoyez un e-mail à : service@latticex.foundation."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask ne peut pas récupérer votre phrase de départ. Renseignez-vous davantage."
+    "message": "Samurai ne peut pas récupérer votre phrase de départ. Renseignez-vous davantage."
   },
   "endOfFlowMessage9": {
     "message": "En savoir plus."
@@ -381,7 +381,7 @@
     "message": "Erreur dans l'enregistrement du nom ENS"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Nom ENS non trouvé sur le réseau actuel. Essayez de passer au réseau Ethereum principal."
+    "message": "Nom ENS non trouvé sur le réseau actuel. Essayez de passer au réseau Alaya principal."
   },
   "enterAnAlias": {
     "message": "Saisissez un pseudonyme"
@@ -393,10 +393,10 @@
     "message": "Entrez votre mot de passe pour continuer"
   },
   "ethereumPublicAddress": {
-    "message": "Adresse publique d'Ethereum"
+    "message": "Adresse publique d'Alaya"
   },
   "etherscanView": {
-    "message": "Afficher le compte sur Etherscan"
+    "message": "Afficher le compte sur Alayascan"
   },
   "estimatedProcessingTimes": {
     "message": "Délais de traitement estimés"
@@ -464,11 +464,11 @@
     "message": "Conversion de devise, devise principale, langue, blockies identicon"
   },
   "getEther": {
-    "message": "Obtenir des Ether"
+    "message": "Obtenir des ATP"
   },
   "getEtherFromFaucet": {
     "message": "Obtenir de l'Ether d'une faucet pour $1",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for ATP faucet"
   },
   "getHelp": {
     "message": "Obtenir de l'aide."
@@ -486,7 +486,7 @@
     "message": "Connecter un portefeuille hardware"
   },
   "hardwareWalletsMsg": {
-    "message": "Selectionnez le portefeuille hardware que vous voulez utiliser avec MetaMask"
+    "message": "Selectionnez le portefeuille hardware que vous voulez utiliser avec Samurai"
   },
   "havingTroubleConnecting": {
     "message": "Un problème de connection ?"
@@ -515,7 +515,7 @@
     "message": "Importer un compte"
   },
   "importAccountMsg": {
-    "message": " Les comptes importés ne seront pas associés avec votre phrase Seed que vous avez créé au départ dans MetaMask. Obtenir plus d'information sur les comptes importés"
+    "message": " Les comptes importés ne seront pas associés avec votre phrase Seed que vous avez créé au départ dans Samurai. Obtenir plus d'information sur les comptes importés"
   },
   "importAccountSeedPhrase": {
     "message": "Importez un compte avec une phrase mnémotechnique"
@@ -552,7 +552,7 @@
     "message": "Adresse contractuelle connue."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Pas de réseau ETH, régler en minuscules"
+    "message": "Pas de réseau ATP, régler en minuscules"
   },
   "invalidInput": {
     "message": "Saisie non valide."
@@ -616,7 +616,7 @@
     "message": "Déconnexion"
   },
   "mainnet": {
-    "message": "Réseau principal Ethereum"
+    "message": "Réseau principal Alaya"
   },
   "memorizePhrase": {
     "message": "Mémorisez cette phrase."
@@ -625,10 +625,10 @@
     "message": "note"
   },
   "metamaskDescription": {
-    "message": "MetaMask est un coffre sécurisé pour votre identité sur Ethereum."
+    "message": "Samurai est un coffre sécurisé pour votre identité sur Alaya."
   },
   "metamaskVersion": {
-    "message": "Version de MetaMask"
+    "message": "Version de Samurai"
   },
   "mobileSyncText": {
     "message": "Veuillez entrer votre mot de passe pour confirmer que c'est bien vous !"
@@ -640,13 +640,13 @@
     "message": "Mes comptes de portefeuille"
   },
   "myWalletAccountsDescription": {
-    "message": "Tous vos comptes MetaMask créés seront automatiquement ajoutés à cette section."
+    "message": "Tous vos comptes Samurai créés seront automatiquement ajoutés à cette section."
   },
   "mustSelectOne": {
     "message": "Vous devez selectionner au moins 1 jeton."
   },
   "needEtherInWallet": {
-    "message": "Pour interagir avec des applications décentralisées à l'aide de MetaMask, vous avez besoin d'Ether dans votre portefeuille."
+    "message": "Pour interagir avec des applications décentralisées à l'aide de Samurai, vous avez besoin d'Ether dans votre portefeuille."
   },
   "needImportFile": {
     "message": "Vous devez sélectionner un fichier à importer.",
@@ -689,8 +689,8 @@
   "newNetwork": {
     "message": "Nouveau réseau"
   },
-  "newToMetaMask": {
-    "message": "Nouveau sur MetaMask ?"
+  "newToSamurai": {
+    "message": "Nouveau sur Samurai ?"
   },
   "noAlreadyHaveSeed": {
     "message": "Non, j'ai déjà une phrase mnémotechnique"
@@ -699,7 +699,7 @@
     "message": "Protégez vos clés !"
   },
   "protectYourKeysMessage1": {
-    "message": "Soyez prudent avec votre phrase mnémotechnique — on nous a signalé des sites web qui tentaient d'imiter MetaMask. MetaMask ne vous demandera jamais votre phrase mnémotechnique !"
+    "message": "Soyez prudent avec votre phrase mnémotechnique — on nous a signalé des sites web qui tentaient d'imiter Samurai. Samurai ne vous demandera jamais votre phrase mnémotechnique !"
   },
   "protectYourKeysMessage2": {
     "message": "Ne dévoilez pas votre phrase. Si vous remarquez quelque chose de suspect ou que vous avez un doute à propos d'un site web, envoyez un e-mail à : service@latticex.foundation"
@@ -756,7 +756,7 @@
     "message": "Participer à MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Participez à MetaMetrics pour nous aider à améliorer MetaMask"
+    "message": "Participez à MetaMetrics pour nous aider à améliorer Samurai"
   },
   "password": {
     "message": "Mot de passe"
@@ -784,7 +784,7 @@
     "message": "Devise principale"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Sélectionnez « natif » pour donner la priorité à l'affichage des valeurs dans la devise native de la chaîne (par ex. ETH). Sélectionnez « fiduciaire » pour donner la priorité à l'affichage des valeurs dans la devise de votre choix."
+    "message": "Sélectionnez « natif » pour donner la priorité à l'affichage des valeurs dans la devise native de la chaîne (par ex. ATP). Sélectionnez « fiduciaire » pour donner la priorité à l'affichage des valeurs dans la devise de votre choix."
   },
   "privacyMsg": {
     "message": "Politique de Confidentialité"
@@ -926,7 +926,7 @@
     "message": "Votre phrase de sauvegarde secrète facilite la sauvegarde et la restauration de votre compte."
   },
   "secretBackupPhraseWarning": {
-    "message": "AVERTISSEMENT : ne révélez jamais votre phrase de sauvegarde. N'importe qui avec cette phrase peut voler votre Ether pour toujours."
+    "message": "AVERTISSEMENT : ne révélez jamais votre phrase de sauvegarde. N'importe qui avec cette phrase peut voler votre ATP pour toujours."
   },
   "secretPhrase": {
     "message": "Entrez vos 12 mots secrets de votre phrase Seed pour restaurer votre coffre."
@@ -962,7 +962,7 @@
     "message": "Envoyer le montant"
   },
   "sendETH": {
-    "message": "Envoyer des ETH"
+    "message": "Envoyer des ATP"
   },
   "sendTokens": {
     "message": "Envoyer des jetons"
@@ -983,7 +983,7 @@
     "message": "Selectionner un compte"
   },
   "selectAnAccountHelp": {
-    "message": "Selectionner le compte à afficher dans MetaMask"
+    "message": "Selectionner le compte à afficher dans Samurai"
   },
   "selectAHigherGasFee": {
     "message": "Choisissez des frais d'essence plus élevés pour accélérer le traitement de votre transaction*."
@@ -1073,7 +1073,7 @@
     "message": "3. Vous pouvez maintenant utiliser des dApps et autres... !"
   },
   "step3HardwareWalletMsg": {
-    "message": "Utilisez ce compte de votre portefeuille hardware comme n'importe quel compte Ethereum. Connectez vous à des dApps, envoyez de l'Eth, achetez et conservez des jetons ERC20 et Non-Fungible comme CryptoKitties."
+    "message": "Utilisez ce compte de votre portefeuille hardware comme n'importe quel compte Alaya. Connectez vous à des dApps, envoyez de l'Eth, achetez et conservez des jetons ERC20 et Non-Fungible comme CryptoKitties."
   },
   "storePhrase": {
     "message": "Stockez cette phrase dans un gestionnaire de mots de passe comme 1Password."
@@ -1097,19 +1097,19 @@
     "message": "Synchroniser avec le mobile"
   },
   "syncWithMobileDesc": {
-    "message": "Vous pouvez synchroniser vos comptes et vos informations avec votre appareil mobile. Ouvrez l'application mobile MetaMask, allez dans « Paramètres » et appuyez sur « Synchroniser depuis l'extension de navigateur »"
+    "message": "Vous pouvez synchroniser vos comptes et vos informations avec votre appareil mobile. Ouvrez l'application mobile Samurai, allez dans « Paramètres » et appuyez sur « Synchroniser depuis l'extension de navigateur »"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Si vous ouvrez l'application MetaMask Mobile pour la première fois, suivez simplement les étapes dans votre téléphone."
+    "message": "Si vous ouvrez l'application Samurai Mobile pour la première fois, suivez simplement les étapes dans votre téléphone."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Scannez ce code avec votre application mobile MetaMask"
+    "message": "Scannez ce code avec votre application mobile Samurai"
   },
   "syncWithMobileBeCareful": {
     "message": "Assurez-vous que personne d'autre ne regarde votre écran lorsque vous scannez ce code."
   },
   "syncWithMobileComplete": {
-    "message": "Vos données ont été synchronisées avec succès. Profitez de l'application mobile MetaMask !"
+    "message": "Vos données ont été synchronisées avec succès. Profitez de l'application mobile Samurai !"
   },
   "terms": {
     "message": "Conditions d'Utilisation"
@@ -1248,7 +1248,7 @@
     "message": "Afficher à $1"
   },
   "viewOnEtherscan": {
-    "message": "Voir sur Etherscan"
+    "message": "Voir sur Alayascan"
   },
   "visitWebSite": {
     "message": "Visitez notre site web"
@@ -1260,7 +1260,7 @@
     "message": "Bienvenue à nouveau !"
   },
   "welcome": {
-    "message": "Bienvenue dans la Beta de MetaMask"
+    "message": "Bienvenue dans la Beta de Samurai"
   },
   "writePhrase": {
     "message": "Écrivez cette phrase sur une feuille de papier et rangez-la dans un endroit sûr. Si vous voulez encore plus de sécurité, notez-la sur plusieurs feuilles de papier et rangez-les dans deux ou trois endroits différents."

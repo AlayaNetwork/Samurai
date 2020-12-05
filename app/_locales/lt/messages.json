@@ -1,6 +1,6 @@
 {
   "chartOnlyAvailableEth": {
-    "message": "Diagramos yra tik „Ethereum“ tinkluose."
+    "message": "Diagramos yra tik „Alaya“ tinkluose."
   },
   "contractInteraction": {
     "message": "Sutartinė sąveika"
@@ -72,17 +72,17 @@
     "message": "Pridėti siūlomų žetonų"
   },
   "addAcquiredTokens": {
-    "message": "Pridėkite žetonus, kuriuos gavote naudodamiesi „MetaMask“"
+    "message": "Pridėkite žetonus, kuriuos gavote naudodamiesi „Samurai“"
   },
   "amount": {
     "message": "Suma"
   },
   "appDescription": {
-    "message": "„Ethereum“ piniginė jūsų naršyklėje",
+    "message": "„Alaya“ piniginė jūsų naršyklėje",
     "description": "The description of the application"
   },
   "appName": {
-    "message": "„MetaMask“",
+    "message": "„Samurai“",
     "description": "The name of the application"
   },
   "approve": {
@@ -110,7 +110,7 @@
     "message": "Automatinio atjungimo laikmatis (minutės)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Nustatykite laukimo  trukmę minutėmis iki „MetaMask“ automatinio atsijungimo"
+    "message": "Nustatykite laukimo  trukmę minutėmis iki „Samurai“ automatinio atsijungimo"
   },
   "average": {
     "message": "Vidurkis"
@@ -125,7 +125,7 @@
     "message": "Pasidarykite atsarginę savo slapto atkūrimo kodo kopiją, kad jūsų slaptažodinė ir fondai būtų saugūs."
   },
   "backupApprovalInfo": {
-    "message": "Šis slaptas kodas reikalingas norint atkurti jūsų slaptažodinę, jeigu pamestumėte savo įrenginį, pamirštumėte savo slaptažodį, iš naujo įdiegtumėte „MetaMask“, taip pat norint pasiekti slaptažodinę iš kito įrenginio."
+    "message": "Šis slaptas kodas reikalingas norint atkurti jūsų slaptažodinę, jeigu pamestumėte savo įrenginį, pamirštumėte savo slaptažodį, iš naujo įdiegtumėte „Samurai“, taip pat norint pasiekti slaptažodinę iš kito įrenginio."
   },
   "backupNow": {
     "message": "Daryti atsarginę kopiją dabar"
@@ -153,13 +153,13 @@
     "message": "Jūsų naršyklė neatpažįstama..."
   },
   "builtInCalifornia": {
-    "message": "„MetaMask“ suprojektuota ir įdiegta Kalifornijoje."
+    "message": "„Samurai“ suprojektuota ir įdiegta Kalifornijoje."
   },
   "buyWithWyre": {
-    "message": "Pirkti ETH su „Wyre“"
+    "message": "Pirkti ATP su „Wyre“"
   },
   "buyWithWyreDescription": {
-    "message": "„Wyre“ leidžia naudotis kreditine kortele norint įnešti ETH tiesiai į jūsų „MetaMask“ paskyrą."
+    "message": "„Wyre“ leidžia naudotis kreditine kortele norint įnešti ATP tiesiai į jūsų „Samurai“ paskyrą."
   },
   "buyCoinSwitch": {
     "message": "Pirkti „CoinSwitch“"
@@ -204,7 +204,7 @@
     "message": "Uždaryti"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Norėdami prisijungti prie aparatinės įrangos slaptažodinės, „MetaMask“ naudokitės „Google Chrome“ naršyklėje."
+    "message": "Norėdami prisijungti prie aparatinės įrangos slaptažodinės, „Samurai“ naudokitės „Google Chrome“ naršyklėje."
   },
   "confirm": {
     "message": "Patvirtinti"
@@ -234,7 +234,7 @@
     "message": "Jungiamasi prie „Kovan“ bandomojo tinklo"
   },
   "connectingToMainnet": {
-    "message": "Jungiamasi prie pagrindinio „Ethereum“ tinklo"
+    "message": "Jungiamasi prie pagrindinio „Alaya“ tinklo"
   },
   "connectingToRopsten": {
     "message": "Jungiamasi prie „Ropsten“ bandomojo tinklo"
@@ -312,7 +312,7 @@
     "message": "Skaičiai po kablelio"
   },
   "defaultNetwork": {
-    "message": "Numatytasis „Ether“ operacijų tinklas yra pagrindinis tinklas."
+    "message": "Numatytasis „ATP“ operacijų tinklas yra pagrindinis tinklas."
   },
   "delete": {
     "message": "Ištrinti"
@@ -324,16 +324,16 @@
     "message": "Indėlis"
   },
   "depositEther": {
-    "message": "Įnešti eterių"
+    "message": "Įnešti ATP"
   },
   "details": {
     "message": "Išsami informacija"
   },
   "directDepositEther": {
-    "message": "Tiesiogiai įnešti eteriai"
+    "message": "Tiesiogiai įnešti ATP"
   },
   "directDepositEtherExplainer": {
-    "message": "Jeigu jau turite šiek tiek eterių, sparčiausias būdas gauti eterių į naują piniginę yra tiesioginis įnašas."
+    "message": "Jeigu jau turite šiek tiek ATP, sparčiausias būdas gauti ATP į naują piniginę yra tiesioginis įnašas."
   },
   "done": {
     "message": "Atlikta"
@@ -372,7 +372,7 @@
     "message": "Niekam niekada nepasakykite šios frazės."
   },
   "endOfFlowMessage5": {
-    "message": "Saugokitės informacijos vagių! „MetaMask“ niekada spontaniškai neklaus jūsų atkūrimo frazės."
+    "message": "Saugokitės informacijos vagių! „Samurai“ niekada spontaniškai neklaus jūsų atkūrimo frazės."
   },
   "endOfFlowMessage6": {
     "message": "Jeigu reikia dar kartą padaryti jūsų atkūrimo frazės kopiją, ją galite rasti pasirinkę Nuostatos -> Sauga."
@@ -381,7 +381,7 @@
     "message": "Jeigu turite klausimų arba pastebite ką nors įtartino, rašykite el. paštu service@latticex.foundation."
   },
   "endOfFlowMessage8": {
-    "message": "„MetaMask“ negali atkurti jūsų atkūrimo frazės. Sužinokite daugiau."
+    "message": "„Samurai“ negali atkurti jūsų atkūrimo frazės. Sužinokite daugiau."
   },
   "endOfFlowMessage9": {
     "message": "Sužinokite daugiau."
@@ -393,7 +393,7 @@
     "message": "ENS pavadinimo registracijos klaida"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "ENS pavadinimas dabartiniame tinkle nerastas. Mėginkite perjungti į pagrindinį „Ethereum“ tinklą."
+    "message": "ENS pavadinimas dabartiniame tinkle nerastas. Mėginkite perjungti į pagrindinį „Alaya“ tinklą."
   },
   "enterAnAlias": {
     "message": "Įveskite alternatyvųjį vardą"
@@ -405,10 +405,10 @@
     "message": "Norėdami tęsti, įveskite slaptažodį"
   },
   "ethereumPublicAddress": {
-    "message": "„Ethereum“ viešasis adresas"
+    "message": "„Alaya“ viešasis adresas"
   },
   "etherscanView": {
-    "message": "Peržiūrėti paskyrą „Etherscan“ programoje"
+    "message": "Peržiūrėti paskyrą „Alayascan“ programoje"
   },
   "estimatedProcessingTimes": {
     "message": "Numatomos apdorojimo trukmės"
@@ -476,11 +476,11 @@
     "message": "Valiutos keitimas, pagrindinė valiuta, kalba, „blockies identicon“"
   },
   "getEther": {
-    "message": "Gauti eterių"
+    "message": "Gauti ATP"
   },
   "getEtherFromFaucet": {
-    "message": "Gaukite eterių iš čiaupo $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Gaukite ATP iš čiaupo $1",
+    "description": "Displays network name for ATP faucet"
   },
   "getHelp": {
     "message": "Gaukite pagalbos."
@@ -530,7 +530,7 @@
     "message": "Importuoti paskyrą"
   },
   "importAccountMsg": {
-    "message": "Importuotos paskyros nebus susietos su pirmiau sukurta „MetaMask“ paskyros atkūrimo fraze. Sužinokite daugiau apie importuotas paskyras"
+    "message": "Importuotos paskyros nebus susietos su pirmiau sukurta „Samurai“ paskyros atkūrimo fraze. Sužinokite daugiau apie importuotas paskyras"
   },
   "importAccountSeedPhrase": {
     "message": "Importuoti paskyrą su atkūrimo fraze"
@@ -573,7 +573,7 @@
     "message": "Žinomas sutarties adresas."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Ne ETH tinklas, nustatykite į mažąsias raides"
+    "message": "Ne ATP tinklas, nustatykite į mažąsias raides"
   },
   "invalidInput": {
     "message": "Netinkama įvestis."
@@ -631,7 +631,7 @@
     "message": "Atsijungti"
   },
   "mainnet": {
-    "message": "Pagrindinis „Ethereum“ tinklas"
+    "message": "Pagrindinis „Alaya“ tinklas"
   },
   "memorizePhrase": {
     "message": "Įsiminti šią frazę."
@@ -643,10 +643,10 @@
     "message": "Pranešimas"
   },
   "metamaskDescription": {
-    "message": "Prijungiame jus prie „Ethereum“ ir decentralizuotojo žiniatinklio."
+    "message": "Prijungiame jus prie „Alaya“ ir decentralizuotojo žiniatinklio."
   },
   "metamaskVersion": {
-    "message": "„MetaMask“ versija"
+    "message": "„Samurai“ versija"
   },
   "mobileSyncText": {
     "message": "Įveskite savo slaptažodį, kad patvirtintumėte, jog tai tikrai jūs!"
@@ -658,20 +658,20 @@
     "message": "Mano piniginės paskyros"
   },
   "myWalletAccountsDescription": {
-    "message": "Visos jūsų „MetaMask“ sukurtos paskyros bus automatiškai įtrauktos į šį skyrių."
+    "message": "Visos jūsų „Samurai“ sukurtos paskyros bus automatiškai įtrauktos į šį skyrių."
   },
   "mustSelectOne": {
     "message": "Turite pasirinkti bent 1 žetoną."
   },
   "needEtherInWallet": {
-    "message": "Norėdami dirbti su decentralizuotomis programomis „MetaMask“, savo piniginėje turite turėti eterių."
+    "message": "Norėdami dirbti su decentralizuotomis programomis „Samurai“, savo piniginėje turite turėti ATP."
   },
   "needImportFile": {
     "message": "Turite pasirinkti failą, kurį pageidaujate importuoti.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Neigiamų ETH sumų siųsti negalima."
+    "message": "Neigiamų ATP sumų siųsti negalima."
   },
   "networkName": {
     "message": "Tinklo pavadinimas"
@@ -707,8 +707,8 @@
   "newNetwork": {
     "message": "Naujas tinklas"
   },
-  "newToMetaMask": {
-    "message": "Tik pradedate naudotis „MetaMask“?"
+  "newToSamurai": {
+    "message": "Tik pradedate naudotis „Samurai“?"
   },
   "noAlreadyHaveSeed": {
     "message": "Ne, jau turiu atkūrimo frazę."
@@ -717,7 +717,7 @@
     "message": "Apsaugokite savo raktus!"
   },
   "protectYourKeysMessage1": {
-    "message": "Saugokite savo atkūrimo frazę – gavome pranešimų apie interneto svetaines, kuriomis bandoma imituoti „MetaMask“. „MetaMask“ niekada neprašys jūsų pateikti savo atkūrimo frazę!"
+    "message": "Saugokite savo atkūrimo frazę – gavome pranešimų apie interneto svetaines, kuriomis bandoma imituoti „Samurai“. „Samurai“ niekada neprašys jūsų pateikti savo atkūrimo frazę!"
   },
   "protectYourKeysMessage2": {
     "message": "Saugokite savo frazę. Jei pastebėjote kažką įtartino arba nesate tikri dėl svetainės, rašykite mums adresu service@latticex.foundation"
@@ -774,7 +774,7 @@
     "message": "Dalyvaukite „MetaMetrics“"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Dalyvaukite „MetaMetrics“ ir padėkite mums tobulinti „MetaMask“"
+    "message": "Dalyvaukite „MetaMetrics“ ir padėkite mums tobulinti „Samurai“"
   },
   "password": {
     "message": "Slaptažodis"
@@ -802,7 +802,7 @@
     "message": "Pagrindinė valiuta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Rinkitės vietinę, kad vertės pirmiausia būtų rodomos vietine grandinės valiuta (pvz., ETH). Rinkitės standartinę, kad vertės pirmiausia būtų rodomos jūsų pasirinkta standartine valiuta."
+    "message": "Rinkitės vietinę, kad vertės pirmiausia būtų rodomos vietine grandinės valiuta (pvz., ATP). Rinkitės standartinę, kad vertės pirmiausia būtų rodomos jūsų pasirinkta standartine valiuta."
   },
   "privacyMsg": {
     "message": "Privatumo politika"
@@ -980,13 +980,13 @@
     "message": "Siųsti sumą"
   },
   "sendETH": {
-    "message": "Siųsti ETH"
+    "message": "Siųsti ATP"
   },
   "sendTokens": {
     "message": "Siųsti žetonus"
   },
   "sentEther": {
-    "message": "siųsti eterių"
+    "message": "siųsti ATP"
   },
   "sentTokens": {
     "message": "išsiųsti žetonai"
@@ -1001,7 +1001,7 @@
     "message": "Pasirinkite paskyrą"
   },
   "selectAnAccountHelp": {
-    "message": "Pasirinkite paskyrą peržiūrėti „MetaMask“"
+    "message": "Pasirinkite paskyrą peržiūrėti „Samurai“"
   },
   "selectAHigherGasFee": {
     "message": "Pasirinkite didesnį dujų mokestį, kad paspartintumėte savo operacijos apdorojimą.*"
@@ -1091,7 +1091,7 @@
     "message": "3. Pradėkite naudoti decentralizuotas programas ir daugiau!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Naudokitės savo aparatinės įrangos paskyra kaip „Ethereum“ paskyra. Junkitės prie decentralizuotų programų, siųskite eterius, pirkite ir laikykite ERC20 žetonus ir nekeičiamus žetonus, tokius kaip „CryptoKitties“."
+    "message": "Naudokitės savo aparatinės įrangos paskyra kaip „Alaya“ paskyra. Junkitės prie decentralizuotų programų, siųskite eterius, pirkite ir laikykite ERC20 žetonus ir nekeičiamus žetonus, tokius kaip „CryptoKitties“."
   },
   "storePhrase": {
     "message": "Laikykite šią frazę slaptažodžių tvarkyklėje kaip 1 slaptažodį."
@@ -1115,19 +1115,19 @@
     "message": "Sinchronizuoti su mobiliuoju"
   },
   "syncWithMobileDesc": {
-    "message": "Galite sinchronizuoti paskyrą ir informaciją su savo mobiliuoju įrenginiu. Atverkite „MetaMask“ mobiliąją programą, eikite į „Nuostatos“ ir palieskite „Sinchronizuoti iš naršyklės plėtinio“"
+    "message": "Galite sinchronizuoti paskyrą ir informaciją su savo mobiliuoju įrenginiu. Atverkite „Samurai“ mobiliąją programą, eikite į „Nuostatos“ ir palieskite „Sinchronizuoti iš naršyklės plėtinio“"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Jeigu „MetaMask“ mobiliąją programą atveriate tik pirmą kartą, tiesiog sekite veiksmus telefone."
+    "message": "Jeigu „Samurai“ mobiliąją programą atveriate tik pirmą kartą, tiesiog sekite veiksmus telefone."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Nuskaitykite šį kodą su savo „MetaMask“ mobiliąja programa"
+    "message": "Nuskaitykite šį kodą su savo „Samurai“ mobiliąja programa"
   },
   "syncWithMobileBeCareful": {
     "message": "Pasirūpinkite, kad jums nuskaitant šį kodą niekas nežiūrėtų į jūsų ekraną."
   },
   "syncWithMobileComplete": {
-    "message": "Jūsų duomenys sėkmingai sinchronizuoti. Mėgaukitės „MetaMask“ mobiliąja programa! "
+    "message": "Jūsų duomenys sėkmingai sinchronizuoti. Mėgaukitės „Samurai“ mobiliąja programa! "
   },
   "terms": {
     "message": "Naudojimo sąlygos"
@@ -1218,7 +1218,7 @@
     "message": "Bandyti dar kartą"
   },
   "typePassword": {
-    "message": "Įveskite savo „MetaMask“ slaptažodį"
+    "message": "Įveskite savo „Samurai“ slaptažodį"
   },
   "unapproved": {
     "message": "Nepatvirtinta"
@@ -1272,7 +1272,7 @@
     "message": "Peržiūrėti $1"
   },
   "viewOnEtherscan": {
-    "message": "Peržiūrėti „Etherscan“"
+    "message": "Peržiūrėti „Alayascan“"
   },
   "visitWebSite": {
     "message": "Apsilankykite mūsų svetainėje"
@@ -1284,7 +1284,7 @@
     "message": "Sveiki sugrįžę!"
   },
   "welcome": {
-    "message": "Sveiki, tai „MetaMask“"
+    "message": "Sveiki, tai „Samurai“"
   },
   "writePhrase": {
     "message": "Užrašykite šią frazę ant lapelio ir laikykite ją saugioje vietoje. Jeigu pageidaujate dar daugiau saugos, užrašykite ją ant kelių lapelių ir 2 ar 3 skirtingose vietose."

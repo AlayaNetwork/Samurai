@@ -28,7 +28,7 @@
     "description": "आवेदन का विवरण"
   },
   "appName": {
-    "message": "मेटामास्क/MetaMask",
+    "message": "मेटामास्क/Samurai",
     "description": "एप्लिकेशन का नाम"
   },
   "attemptingConnect": {
@@ -104,7 +104,7 @@
     "message": "जमा"
   },
   "depositEther": {
-    "message": "जमा - Ether"
+    "message": "जमा - ATP"
   },
   "details": {
     "message": "संदेश विवरण"
@@ -358,7 +358,7 @@
     "message": "भेजें"
   },
   "sendETH": {
-    "message": "भेजें ETH"
+    "message": "भेजें ATP"
   },
   "sendTokens": {
     "message": "भेजें टोकन"

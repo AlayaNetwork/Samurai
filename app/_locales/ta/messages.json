@@ -149,7 +149,7 @@
     "message": "கடவுச்சொற்கள் பொருந்தாதே"
   },
   "etherscanView": {
-    "message": "Etherscan கணக்கைப் பார்க்கவும்"
+    "message": "Alayascan கணக்கைப் பார்க்கவும்"
   },
   "exportPrivateKey": {
     "message": "தனியார் விசை ஐ ஏற்றுமதி செய்க"
@@ -286,7 +286,7 @@
     "description": "பயனர் ஒரு கணக்கு முக்கியம் மற்றும் தொடர ஒரு கோப்பு சேர்க்க வேண்டும்"
   },
   "negativeETH": {
-    "message": "ETH எதிர்மறை அளவுகளை அனுப்ப முடியாது."
+    "message": "ATP எதிர்மறை அளவுகளை அனுப்ப முடியாது."
   },
   "networks": {
     "message": "நெட்வொர்க்ஸ்"
@@ -400,7 +400,7 @@
     "message": "அனுப்பு"
   },
   "sendETH": {
-    "message": "ETH ஐ அனுப்பு"
+    "message": "ATP ஐ அனுப்பு"
   },
   "sendTokens": {
     "message": "டோக்கன்களை அனுப்பவும்"

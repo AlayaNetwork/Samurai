@@ -1,12 +1,12 @@
 {
   "chartOnlyAvailableEth": {
-    "message": "Grafiks pieejams vienīgi Ethereum tīklos."
+    "message": "Grafiks pieejams vienīgi Alaya tīklos."
   },
   "contractInteraction": {
     "message": "Līguma mijiedarbības"
   },
   "appName": {
-    "message": "Alaya-MetaMask",
+    "message": "Alaya-Samurai",
     "description": "The name of the application"
   },
   "reject": {
@@ -76,13 +76,13 @@
     "message": "Pievienot ieteiktos marķierus"
   },
   "addAcquiredTokens": {
-    "message": "Pievienojiet marķierus, ko ieguvāt, izmantojot MetaMask"
+    "message": "Pievienojiet marķierus, ko ieguvāt, izmantojot Samurai"
   },
   "amount": {
     "message": "Apjoms"
   },
   "appDescription": {
-    "message": "Ethereum maks pārlūkā",
+    "message": "Alaya maks pārlūkā",
     "description": "The description of the application"
   },
   "approve": {
@@ -110,7 +110,7 @@
     "message": "Automātiskās izrakstīšanās taimeris (minūtes)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Iestatiet bezdarbības laiku minūtēs, pēc kura MetaMask veiks automātisku izrakstīšanu"
+    "message": "Iestatiet bezdarbības laiku minūtēs, pēc kura Samurai veiks automātisku izrakstīšanu"
   },
   "average": {
     "message": "Vidēji"
@@ -125,7 +125,7 @@
     "message": "Dublējiet savu slepeno atgūšanas kodu, lai maks un līdzekļi atrastos drošībā."
   },
   "backupApprovalInfo": {
-    "message": "Šis slepenais kods ir nepieciešams, lai atjaunotu jūsu maku, ja pazaudējat ierīci, aizmirstat paroli, jāpārinstalē MetaMask vai vēlaties piekļūt makam no citas ierīces."
+    "message": "Šis slepenais kods ir nepieciešams, lai atjaunotu jūsu maku, ja pazaudējat ierīci, aizmirstat paroli, jāpārinstalē Samurai vai vēlaties piekļūt makam no citas ierīces."
   },
   "backupNow": {
     "message": "Dublēt tagad"
@@ -153,13 +153,13 @@
     "message": "Jūsu pārlūkprogramma netiek atbalstīta..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask ir izstrādāta un izveidota Kalifornijā."
+    "message": "Samurai ir izstrādāta un izveidota Kalifornijā."
   },
   "buyWithWyre": {
-    "message": "Pirkt ETH ar Wyre"
+    "message": "Pirkt ATP ar Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre ļauj noguldīt ETH tieši jūsu MetaMask kontā, izmantojot kredītkarti."
+    "message": "Wyre ļauj noguldīt ATP tieši jūsu Samurai kontā, izmantojot kredītkarti."
   },
   "buyCoinSwitch": {
     "message": "Pirkt CoinSwitch"
@@ -204,7 +204,7 @@
     "message": "Aizvērt"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "MetaMask ir jāpalaiž pārlūkprogrammā Google Chrome, lai varētu pievienot aparatūras maku."
+    "message": "Samurai ir jāpalaiž pārlūkprogrammā Google Chrome, lai varētu pievienot aparatūras maku."
   },
   "confirm": {
     "message": "Apstiprināt"
@@ -234,7 +234,7 @@
     "message": "Savienojas ar Kovan testa tīklu"
   },
   "connectingToMainnet": {
-    "message": "Savienojas ar galveno Ethereum tīklu"
+    "message": "Savienojas ar galveno Alaya tīklu"
   },
   "connectingToRopsten": {
     "message": "Pieslēdzas Ropsten testa tīklam"
@@ -312,7 +312,7 @@
     "message": "Decimāldaļu precizitāte"
   },
   "defaultNetwork": {
-    "message": "Galvenais Ether darījumu tīkls ir Main Net."
+    "message": "Galvenais ATP darījumu tīkls ir Main Net."
   },
   "delete": {
     "message": "Dzēst"
@@ -324,16 +324,16 @@
     "message": "Iemaksa"
   },
   "depositEther": {
-    "message": "Noguldīt Ether"
+    "message": "Noguldīt ATP"
   },
   "details": {
     "message": "Informācija"
   },
   "directDepositEther": {
-    "message": "Tiešā Ether iemaksa"
+    "message": "Tiešā ATP iemaksa"
   },
   "directDepositEtherExplainer": {
-    "message": "Ja jums jau ir Ether, tad visātrāk Ether savā makā varat saņemt ar tiešo iemaksu."
+    "message": "Ja jums jau ir ATP, tad visātrāk ATP savā makā varat saņemt ar tiešo iemaksu."
   },
   "done": {
     "message": "Pabeigts"
@@ -372,7 +372,7 @@
     "message": "Nekad neizpaudiet šo frāzi citiem cilvēkiem."
   },
   "endOfFlowMessage5": {
-    "message": "Uzmanieties no pikšķerēšanas! MetaMask nekad pēkšņi nelūgs norādīt atkopšanas frāzi."
+    "message": "Uzmanieties no pikšķerēšanas! Samurai nekad pēkšņi nelūgs norādīt atkopšanas frāzi."
   },
   "endOfFlowMessage6": {
     "message": "Ja nepieciešams atkārtoti dublēt atkopšanas frāzi, varat to atrast, dodoties uz Iestatījumi -> Drošība."
@@ -381,7 +381,7 @@
     "message": "Ja jums rodas kādi jautājumi vai pamanāt ko aizdomīgu, rakstiet uz service@latticex.foundation."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask nevar atjaunot jūsu atkopšanas frāzi. Uzzināt vairāk."
+    "message": "Samurai nevar atjaunot jūsu atkopšanas frāzi. Uzzināt vairāk."
   },
   "endOfFlowMessage9": {
     "message": "Uzzināt vairāk."
@@ -393,7 +393,7 @@
     "message": "Kļūda ENS vārda reģistrācijā"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Šajā tīklā ENS nosaukums nav atrasts. Pamēģiniet pārslēgties uz galveno Ethereum tīklu."
+    "message": "Šajā tīklā ENS nosaukums nav atrasts. Pamēģiniet pārslēgties uz galveno Alaya tīklu."
   },
   "enterAnAlias": {
     "message": "Ievadiet segvārdu"
@@ -405,10 +405,10 @@
     "message": "Ievadiet paroli, lai turpinātu"
   },
   "ethereumPublicAddress": {
-    "message": "Ethereum publiskā adrese"
+    "message": "Alaya publiskā adrese"
   },
   "etherscanView": {
-    "message": "Skatīt kontu ar Etherscan"
+    "message": "Skatīt kontu ar Alayascan"
   },
   "estimatedProcessingTimes": {
     "message": "Aprēķinātais apstrādes laiks"
@@ -460,7 +460,7 @@
     "message": "Ārkārtīgi zema Gas cena"
   },
   "gasPriceInfoModalContent": {
-    "message": "Gas cena norāda Ether summu, ko vēlaties maksāt par katru Gas vienību."
+    "message": "Gas cena norāda ATP summu, ko vēlaties maksāt par katru Gas vienību."
   },
   "gasPriceNoDenom": {
     "message": "Gas cena"
@@ -472,11 +472,11 @@
     "message": "Valūtas konvertēšana, galvenā valūta, valoda, bloku identifikators"
   },
   "getEther": {
-    "message": "Saņemt Ether"
+    "message": "Saņemt ATP"
   },
   "getEtherFromFaucet": {
-    "message": "Vai vēlaties $1 iegūt Ether no krāna?",
-    "description": "Displays network name for Ether faucet"
+    "message": "Vai vēlaties $1 iegūt ATP no krāna?",
+    "description": "Displays network name for ATP faucet"
   },
   "getHelp": {
     "message": "Saņemt palīdzību."
@@ -497,7 +497,7 @@
     "message": "Pieslēdziet aparatūras maku"
   },
   "hardwareWalletsMsg": {
-    "message": "Atlasiet aparatūras maku lietošanai ar MetaMask"
+    "message": "Atlasiet aparatūras maku lietošanai ar Samurai"
   },
   "havingTroubleConnecting": {
     "message": "Neizdodas pieslēgties?"
@@ -526,7 +526,7 @@
     "message": "Importēt kontu"
   },
   "importAccountMsg": {
-    "message": "Importētie konti netiks piesaistīti sākotnēji izveidotā MetaMask konta atkopšanas frāzei. Uzziniet vairāk par importētajiem kontiem"
+    "message": "Importētie konti netiks piesaistīti sākotnēji izveidotā Samurai konta atkopšanas frāzei. Uzziniet vairāk par importētajiem kontiem"
   },
   "importAccountSeedPhrase": {
     "message": "Importēt kontu ar atkopšanas frāzi"
@@ -569,7 +569,7 @@
     "message": "Zināmā līguma adrese."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Nav ETH tīkls, iestatīti mazie burti"
+    "message": "Nav ATP tīkls, iestatīti mazie burti"
   },
   "invalidInput": {
     "message": "Nederīga ievadītā vērtība."
@@ -627,7 +627,7 @@
     "message": "Izrakstīties"
   },
   "mainnet": {
-    "message": "Galvenais Ethereum tīkls"
+    "message": "Galvenais Alaya tīkls"
   },
   "memorizePhrase": {
     "message": "Iegaumējiet šo frāzi."
@@ -639,10 +639,10 @@
     "message": "Ziņojums"
   },
   "metamaskDescription": {
-    "message": "Veido savienojumu ar Ethereum un decentralizēto tīmekli."
+    "message": "Veido savienojumu ar Alaya un decentralizēto tīmekli."
   },
   "metamaskVersion": {
-    "message": "MetaMask versija"
+    "message": "Samurai versija"
   },
   "mobileSyncText": {
     "message": "Lūdzu, ievadiet paroli, lai apstiprinātu, ka tas esat jūs."
@@ -654,20 +654,20 @@
     "message": "Mana maka konti"
   },
   "myWalletAccountsDescription": {
-    "message": "Visi jūsu izveidotie MetaMask konti tiks automātiski pievienoti šajā sadaļā."
+    "message": "Visi jūsu izveidotie Samurai konti tiks automātiski pievienoti šajā sadaļā."
   },
   "mustSelectOne": {
     "message": "Jāatlasa vismaz 1 marķieris."
   },
   "needEtherInWallet": {
-    "message": "Lai izmantotu decentralizētas lietotnes ar MetaMask, jūsu makā jābūt Ether."
+    "message": "Lai izmantotu decentralizētas lietotnes ar Samurai, jūsu makā jābūt ATP."
   },
   "needImportFile": {
     "message": "Jums jāatlasa fails, ko importēt",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Nav iespējams nosūtīt negatīvu ETH summu."
+    "message": "Nav iespējams nosūtīt negatīvu ATP summu."
   },
   "networkName": {
     "message": "Tīkla nosaukums"
@@ -703,8 +703,8 @@
   "newNetwork": {
     "message": "Jauns tīkls"
   },
-  "newToMetaMask": {
-    "message": "Nepazīstat MetaMask?"
+  "newToSamurai": {
+    "message": "Nepazīstat Samurai?"
   },
   "noAlreadyHaveSeed": {
     "message": "Nē, man jau ir atkopšanas frāze"
@@ -713,7 +713,7 @@
     "message": "Sargājiet savas atslēgas!"
   },
   "protectYourKeysMessage1": {
-    "message": "Rīkojieties uzmanīgi ar sēklas frāzi — saņemti ziņojumi par tīmekļa vietnēm, kas mēģina imitēt MetaMask. MetaMask nekad nelūgs norādīt sēklas frāzi."
+    "message": "Rīkojieties uzmanīgi ar sēklas frāzi — saņemti ziņojumi par tīmekļa vietnēm, kas mēģina imitēt Samurai. Samurai nekad nelūgs norādīt sēklas frāzi."
   },
   "protectYourKeysMessage2": {
     "message": "Glabājiet frāzi drošībā. Ja kaut kas šķiet aizdomīgs vai neesat pārliecināti par tīmekļa vietni, rakstiet e-pastu uz service@latticex.foundation"
@@ -798,7 +798,7 @@
     "message": "Primārā valūta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Atlasīt vietējo, lai piešķirtu attēlotajām vērtībām prioritātes ķēdes vietējā vērtībā (piemēram, ETH). Atlasiet Fiat, lai piešķirtu augstāku prioritāti vērtībām jūsu atlasītajā fiat valūtā."
+    "message": "Atlasīt vietējo, lai piešķirtu attēlotajām vērtībām prioritātes ķēdes vietējā vērtībā (piemēram, ATP). Atlasiet Fiat, lai piešķirtu augstāku prioritāti vērtībām jūsu atlasītajā fiat valūtā."
   },
   "privacyMsg": {
     "message": "Privātuma politika"
@@ -940,7 +940,7 @@
     "message": "Ar slepeno atgūšanas frāzi ir vieglāk dublēt un atjaunot kontu."
   },
   "secretBackupPhraseWarning": {
-    "message": "BRĪDINĀJUMS! Nekādā gadījumā neizpaudiet savu rezerves frāzi. Ikviens, kam pieejama šī frāze, var uz visiem laikiem pārņemt jūsu Ether."
+    "message": "BRĪDINĀJUMS! Nekādā gadījumā neizpaudiet savu rezerves frāzi. Ikviens, kam pieejama šī frāze, var uz visiem laikiem pārņemt jūsu ATP."
   },
   "secretPhrase": {
     "message": "Ievadiet šeit slepeno divpadsmit vārdu frāzi, lai atjaunotu savu seifu."
@@ -976,7 +976,7 @@
     "message": "Nosūtītā summa"
   },
   "sendETH": {
-    "message": "Sūtīt ETH"
+    "message": "Sūtīt ATP"
   },
   "sendTokens": {
     "message": "Nosūtīt marķierus"
@@ -997,7 +997,7 @@
     "message": "Atlasiet kontu"
   },
   "selectAnAccountHelp": {
-    "message": "Atlasiet kontu, ko skatīt MetaMask"
+    "message": "Atlasiet kontu, ko skatīt Samurai"
   },
   "selectAHigherGasFee": {
     "message": "Atlasiet lielāku maksu par Gas, lai paātrinātu darījuma apstrādi.*"
@@ -1087,7 +1087,7 @@
     "message": "3. Sāciet izmantot dApps un citas funkcijas!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Lietojiet aparatūras kontu līdzīgi citiem Ethereum kontiem. Pierakstieties dApps, sūtiet Eth, pērciet un glabājiet ERC20 žetonus un neatvietojamos žetonus, piemēram, CryptoKitties."
+    "message": "Lietojiet aparatūras kontu līdzīgi citiem Alaya kontiem. Pierakstieties dApps, sūtiet ATP, pērciet un glabājiet ERC20 žetonus un neatvietojamos žetonus, piemēram, CryptoKitties."
   },
   "storePhrase": {
     "message": "Saglabājiet šo frāzi paroļu pārvaldniekā, piemēram, 1Password."
@@ -1111,19 +1111,19 @@
     "message": "Sinhronizēt ar tālruni"
   },
   "syncWithMobileDesc": {
-    "message": "Jūs varat sinhronizēt savus kontus un informāciju ar mobilo ierīci. Atveriet MetaMask mobilo lietotni, ejiet uz \"Iestatījumi\" un pieskarieties pie \"Sinhronizēt no pārlūka paplašinājuma\""
+    "message": "Jūs varat sinhronizēt savus kontus un informāciju ar mobilo ierīci. Atveriet Samurai mobilo lietotni, ejiet uz \"Iestatījumi\" un pieskarieties pie \"Sinhronizēt no pārlūka paplašinājuma\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Ja esat pirmoreiz atvēris MetaMask mobilo lietotni, vienkārši sekojiet norādēm tālrunī."
+    "message": "Ja esat pirmoreiz atvēris Samurai mobilo lietotni, vienkārši sekojiet norādēm tālrunī."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Noskenējiet šo kodu ar MetaMask mobilo lietotni"
+    "message": "Noskenējiet šo kodu ar Samurai mobilo lietotni"
   },
   "syncWithMobileBeCareful": {
     "message": "Pārliecinieties, ka neviens cits neskatās jūsu ekrānā, kad skenējat šo kodu."
   },
   "syncWithMobileComplete": {
-    "message": "Jūsu dati sekmīgi sinhronizēti. Patīkamu MetaMask mobilās lietotnes lietošanu!"
+    "message": "Jūsu dati sekmīgi sinhronizēti. Patīkamu Samurai mobilās lietotnes lietošanu!"
   },
   "terms": {
     "message": "Lietošanas noteikumi"
@@ -1214,7 +1214,7 @@
     "message": "Mēģināt vēlreiz"
   },
   "typePassword": {
-    "message": "Ievadiet savu MetaMask paroli"
+    "message": "Ievadiet savu Samurai paroli"
   },
   "unapproved": {
     "message": "Nav apstiprināts"
@@ -1268,7 +1268,7 @@
     "message": "Skatīt $1"
   },
   "viewOnEtherscan": {
-    "message": "Skatīt Etherscan"
+    "message": "Skatīt Alayascan"
   },
   "visitWebSite": {
     "message": "Apmeklējiet mūsu tīmekļa vietni"
@@ -1280,7 +1280,7 @@
     "message": "Ar atgriešanos!"
   },
   "welcome": {
-    "message": "Laipni lūgti MetaMask"
+    "message": "Laipni lūgti Samurai"
   },
   "writePhrase": {
     "message": "Pierakstiet šo frāzi uz lapiņas, un noglabājiet to drošā vietā! Ja vēlaties stiprināt drošību, pierakstiet to uz vairākām lapiņām un glabājiet tās 2–3 dažādās vietās."

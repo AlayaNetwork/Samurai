@@ -1,6 +1,6 @@
 {
   "chartOnlyAvailableEth": {
-    "message": "ቻርት የሚገኘው በ Ethereum አውታረ መረቦች ላይ ብቻ ነው።"
+    "message": "ቻርት የሚገኘው በ Alaya አውታረ መረቦች ላይ ብቻ ነው።"
   },
   "contractInteraction": {
     "message": "የግንኙነት ተግባቦት"
@@ -72,13 +72,13 @@
     "message": "የተጠቆሙ ተለዋጭ ስሞችን አክል"
   },
   "addAcquiredTokens": {
-    "message": "MetaMask በመጠቀም የገዟቸውን ተለዋጭ ስሞች ያክሉ"
+    "message": "Samurai በመጠቀም የገዟቸውን ተለዋጭ ስሞች ያክሉ"
   },
   "amount": {
     "message": "ሰርዝ "
   },
   "appDescription": {
-    "message": "በማሰሺያዎ ውስጥ የ Ethereum ቋት",
+    "message": "በማሰሺያዎ ውስጥ የ Alaya ቋት",
     "description": "The description of the application"
   },
   "appName": {
@@ -110,7 +110,7 @@
     "message": "በራስ ሰር ዘግቶ መውጫ ሰዓት ቆጣሪ (ደቂቃ)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "MetaMask በራስ ሰር መንገድ ዘግቶ ከመውጣቱ በፊት የቦዘነ ጊዜን በደቂቃዎች ሙላ"
+    "message": "Samurai በራስ ሰር መንገድ ዘግቶ ከመውጣቱ በፊት የቦዘነ ጊዜን በደቂቃዎች ሙላ"
   },
   "average": {
     "message": "አማካይ"
@@ -125,7 +125,7 @@
     "message": "የቋትዎንና የገነዘብዎን ደህንነት ለማስጠበቅ ሚስጥራዊ የማስመለሻ ኮድዎን መጠባበቂያ ይያዙ።"
   },
   "backupApprovalInfo": {
-    "message": "መሳሪያዎ ቢጠፋ፣ የይለፍ ቃልዎን ቢረሱ፣ MetaMask እንደገና መጫን ቢያስፈልግዎ ወይም በሌላ መሳሪያ ወደ ቋትዎ ለመድረስ ቢፈልጉ ይህ ሚስጥራዊ ኮድ ቋትዎን መልሶ ለማግኘት ያስፈልጋል።"
+    "message": "መሳሪያዎ ቢጠፋ፣ የይለፍ ቃልዎን ቢረሱ፣ Samurai እንደገና መጫን ቢያስፈልግዎ ወይም በሌላ መሳሪያ ወደ ቋትዎ ለመድረስ ቢፈልጉ ይህ ሚስጥራዊ ኮድ ቋትዎን መልሶ ለማግኘት ያስፈልጋል።"
   },
   "backupNow": {
     "message": "አሁን መጠባበቂያ ያዝ"
@@ -156,10 +156,10 @@
     "message": "Samurai በhenንዘን ውስጥ የተነደፈ እና የተመረተ"
   },
   "buyWithWyre": {
-    "message": "ETH በ Wyre ይግዙ"
+    "message": "ATP በ Wyre ይግዙ"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre ክሬዲት ካርድ ተጠቅመው ETH በቀጥታ በ MetaMask መለያዎ ላይ እንዲያስቀምጡ ያስችልዎታል።"
+    "message": "Wyre ክሬዲት ካርድ ተጠቅመው ATP በቀጥታ በ Samurai መለያዎ ላይ እንዲያስቀምጡ ያስችልዎታል።"
   },
   "buyCoinSwitch": {
     "message": "በ CoinSwitch ላይ ይግዙ"
@@ -204,7 +204,7 @@
     "message": "ዝጋ"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "ከሃርድዌርዎ ቋት ጋር ለመገናኘት MetaMask በ Google Chrome ላይ መጠቀም አለብዎት።"
+    "message": "ከሃርድዌርዎ ቋት ጋር ለመገናኘት Samurai በ Google Chrome ላይ መጠቀም አለብዎት።"
   },
   "confirm": {
     "message": "አረጋግጥ"
@@ -234,7 +234,7 @@
     "message": "ከ Kovan የሙከራ አውታረ መረብ መገናኘት"
   },
   "connectingToMainnet": {
-    "message": "ከዋናው የ Ethereum አውታረ መረብ ጋር መገናኘት"
+    "message": "ከዋናው የ Alaya አውታረ መረብ ጋር መገናኘት"
   },
   "connectingToRopsten": {
     "message": "ከ Ropsten የሙከራ አውታረ መረብ ጋር በመገናኘት ላይ"
@@ -312,7 +312,7 @@
     "message": "የትክክለኛነት አስርዮሽ"
   },
   "defaultNetwork": {
-    "message": "የ Ether ግብይቶች ንቡር አውታረ መረብ Main Net ነው።"
+    "message": "የ ATP ግብይቶች ንቡር አውታረ መረብ Main Net ነው።"
   },
   "delete": {
     "message": "ሰርዝ"
@@ -324,16 +324,16 @@
     "message": "ማጠራቀም"
   },
   "depositEther": {
-    "message": "Ether አስቀምጥ"
+    "message": "ATP አስቀምጥ"
   },
   "details": {
     "message": "ዝርዝሮች"
   },
   "directDepositEther": {
-    "message": "Ether በቀጥታ ያስቀምጡ"
+    "message": "ATP በቀጥታ ያስቀምጡ"
   },
   "directDepositEtherExplainer": {
-    "message": "ቀደም ሲል የተወሰነ Ether ካለዎት፣ በአዲሱ ቋትዎ Ether ለማግኘት ፈጣኑ መንገድ ቀጥተኛ ተቀማጭ ነው።"
+    "message": "ቀደም ሲል የተወሰነ ATP ካለዎት፣ በአዲሱ ቋትዎ ATP ለማግኘት ፈጣኑ መንገድ ቀጥተኛ ተቀማጭ ነው።"
   },
   "done": {
     "message": "ተጠናቅቋል"
@@ -372,7 +372,7 @@
     "message": "ሐረጉን በጭራሽ ከሌላ ሰው ጋር አይጋሩ።"
   },
   "endOfFlowMessage5": {
-    "message": "አጭበርባሪ ነገሮችን ይጠንቀቁ! MetaMask በድንገት የዘር ሐረግዎን በጭራሽ አይጠይቅዎትም።"
+    "message": "አጭበርባሪ ነገሮችን ይጠንቀቁ! Samurai በድንገት የዘር ሐረግዎን በጭራሽ አይጠይቅዎትም።"
   },
   "endOfFlowMessage6": {
     "message": "የዘር ሐረግዎን በድጋሚ መጠባበቂያ ለመያዝ ከፈለጉ፣ በቅንብሮች -> ግላዊነት ውስጥ ሊያገኙት ይችላሉ።"
@@ -381,7 +381,7 @@
     "message": "ጥያቄዎች ካሉዎት ወይም የሆነ አጠራጣሪ ነገር ካዩ፣ እባክዎ ለ service@latticex.foundation ኢሜይል ይላኩ።"
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask የዘር ሐረግዎን መልሶ ማግኘት አልቻለም። ተጨማሪ መረጃ ያግኙ።"
+    "message": "Samurai የዘር ሐረግዎን መልሶ ማግኘት አልቻለም። ተጨማሪ መረጃ ያግኙ።"
   },
   "endOfFlowMessage9": {
     "message": "ተጨማሪ ይማሩ"
@@ -393,7 +393,7 @@
     "message": "በ ENS የስም ምዝገባ ላይ የተፈጠረ ስህተት"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "የ ENS ስም በአሁኑ ኔትወርክ ላይ አልተገኘም። ወደ ዋናው የ Ethereum አውታረ መረብ ለመቀየር ይሞክሩ።"
+    "message": "የ ENS ስም በአሁኑ ኔትወርክ ላይ አልተገኘም። ወደ ዋናው የ Alaya አውታረ መረብ ለመቀየር ይሞክሩ።"
   },
   "enterAnAlias": {
     "message": "ተለዋጭ ስም ያስገቡ"
@@ -405,10 +405,10 @@
     "message": "ለመቀጠል የይለፍ ቃል ያስገቡ"
   },
   "ethereumPublicAddress": {
-    "message": "Ethereum ሕዝባዊ አድራሻ"
+    "message": "Alaya ሕዝባዊ አድራሻ"
   },
   "etherscanView": {
-    "message": "መለያውን በ Etherscan ላይ ይመልከቱ"
+    "message": "መለያውን በ Alayascan ላይ ይመልከቱ"
   },
   "estimatedProcessingTimes": {
     "message": "የሚገመት የክወና ጊዜያት"
@@ -464,7 +464,7 @@
     "message": "የነዳጅ ዋጋ እጅግ በጣም ዝቅ ያለ ነው"
   },
   "gasPriceInfoModalContent": {
-    "message": "የነዳጅ ዋጋ እርስዎ ለእያንዳንዱ የነዳጅ መጠን መክፈል የሚፈልጉትን የ Ether መጠን ይገልጻል።"
+    "message": "የነዳጅ ዋጋ እርስዎ ለእያንዳንዱ የነዳጅ መጠን መክፈል የሚፈልጉትን የ ATP መጠን ይገልጻል።"
   },
   "gasPriceNoDenom": {
     "message": "የነዳጅ ዋጋ"
@@ -476,11 +476,11 @@
     "message": "የገንዘብ ልወጣ፣ ተቀዳሚ የገንዘብ ዓይነት፣ ቋንቋ፣ blockies identicon"
   },
   "getEther": {
-    "message": "Ether ያግኙ"
+    "message": "ATP ያግኙ"
   },
   "getEtherFromFaucet": {
-    "message": "Ether ከቧንቧ በ$1ያግኙ",
-    "description": "Displays network name for Ether faucet"
+    "message": "ATP ከቧንቧ በ$1ያግኙ",
+    "description": "Displays network name for ATP faucet"
   },
   "getHelp": {
     "message": "እገዛ ያግኙ።"
@@ -501,7 +501,7 @@
     "message": "ከሃርድዌር ቋት ጋር ይገናኙ"
   },
   "hardwareWalletsMsg": {
-    "message": "ከ MetaMask ጋር ሊጠቀሙበት የሚፈልጉትን የሃርድዌር ቋት ይምረጡ"
+    "message": "ከ Samurai ጋር ሊጠቀሙበት የሚፈልጉትን የሃርድዌር ቋት ይምረጡ"
   },
   "havingTroubleConnecting": {
     "message": "ግንኙነት መፍጠር ላይ ተቸግረዋል?"
@@ -530,7 +530,7 @@
     "message": "መለያ አስመጣ"
   },
   "importAccountMsg": {
-    "message": "የመጡ መለያዎች በመጀመሪያ ከተፈጠረው የእርስዎ MetaMask መለያ የዘር ሐረግ ጋር አይዛመዱም። ስለሚመጡ መለያዎቸ ተጨማሪ መረጃ ያግኙ"
+    "message": "የመጡ መለያዎች በመጀመሪያ ከተፈጠረው የእርስዎ Samurai መለያ የዘር ሐረግ ጋር አይዛመዱም። ስለሚመጡ መለያዎቸ ተጨማሪ መረጃ ያግኙ"
   },
   "importAccountSeedPhrase": {
     "message": "መለያን በዘር ሐረግ አስመጣ"
@@ -573,7 +573,7 @@
     "message": "የሚታወቅ የግንኙነት አድራሻ።"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "ETH አውታረ መረብ አይደለም፣ ወደ ትናንሽ ፊደላት ቀይር"
+    "message": "ATP አውታረ መረብ አይደለም፣ ወደ ትናንሽ ፊደላት ቀይር"
   },
   "invalidInput": {
     "message": "ልክ ያልሆነ ግቤት።"
@@ -628,7 +628,7 @@
     "message": "ዘግተህ ውጣ"
   },
   "mainnet": {
-    "message": "ዋነኛ የ Ethereum አውታረ መረብ "
+    "message": "ዋነኛ የ Alaya አውታረ መረብ "
   },
   "memorizePhrase": {
     "message": "ይህን ሐረግ ያስታውሱ።"
@@ -640,10 +640,10 @@
     "message": "መልዕክት"
   },
   "metamaskDescription": {
-    "message": "ከ Ethereum እና ያልተማከለ መረብ ጋር እርስዎን ማገናኘት።"
+    "message": "ከ Alaya እና ያልተማከለ መረብ ጋር እርስዎን ማገናኘት።"
   },
   "metamaskVersion": {
-    "message": "የ MetaMask ስሪት"
+    "message": "የ Samurai ስሪት"
   },
   "mobileSyncText": {
     "message": "እርስዎ መሆንዎትን ለማረጋገጥ እባከዎ የይለፍ ቃልዎን ያስገቡ!"
@@ -655,20 +655,20 @@
     "message": "የቋት መለያዎቼ"
   },
   "myWalletAccountsDescription": {
-    "message": "በ MetaMask የተፈጠሩ መለያዎችዎ በሙሉ በራስ ሰር መንገድ ወደዚህ ክፍል ይታከላሉ።"
+    "message": "በ Samurai የተፈጠሩ መለያዎችዎ በሙሉ በራስ ሰር መንገድ ወደዚህ ክፍል ይታከላሉ።"
   },
   "mustSelectOne": {
     "message": "ቢያንስ 1 ተለዋጭ ስም መምረጥ አለብዎ።"
   },
   "needEtherInWallet": {
-    "message": "MetaMask በመጠቀም ያልተማከሉ መተግበሪያዎች ጋር ግንኙነት ለማድረግ፣ በቋትዎ ውስጥ Ether ያስፈልግዎታል።"
+    "message": "Samurai በመጠቀም ያልተማከሉ መተግበሪያዎች ጋር ግንኙነት ለማድረግ፣ በቋትዎ ውስጥ ATP ያስፈልግዎታል።"
   },
   "needImportFile": {
     "message": "የሚያስመጡትን ፋይል መምረጥ አለብዎት።",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "አሉታዊ የ ETH መጠኖችን መላክ አይቻልም።"
+    "message": "አሉታዊ የ ATP መጠኖችን መላክ አይቻልም።"
   },
   "networkName": {
     "message": "የአውታረ መረብ ስም"
@@ -705,7 +705,7 @@
     "message": "አዲስ አውታረ መረብ"
   },
   "newToMetaMask": {
-    "message": "ለ MetaMask አዲስ ነዎት?"
+    "message": "ለ Samurai አዲስ ነዎት?"
   },
   "noAlreadyHaveSeed": {
     "message": "የለም፣ ቀደም ሲል ጀምሮ የዘር ሐረግ አለኝ"
@@ -714,7 +714,7 @@
     "message": "ቁልፎችዎን ይጠብቁ!"
   },
   "protectYourKeysMessage1": {
-    "message": "ስለ ዘር ሐረግዎ ይጠንቀቁ - ራሳቸውን ከ MetaMask ጋር ለማመሳሰል የሚሞከሩ ድረ ገጾች እናሉ ሰምተናል። MetaMask በጭራሽ የዘር ሐረግዎን አይጠይቅዎትም!"
+    "message": "ስለ ዘር ሐረግዎ ይጠንቀቁ - ራሳቸውን ከ Samurai ጋር ለማመሳሰል የሚሞከሩ ድረ ገጾች እናሉ ሰምተናል። Samurai በጭራሽ የዘር ሐረግዎን አይጠይቅዎትም!"
   },
   "protectYourKeysMessage2": {
     "message": "የሐረግዎን ደህንነት ይጠብቁ። ይም የሆነ አጠራጣሪ ነገር ካዩ ወይም ስለ አንድ ድረ ገጽ እርግጠኛ ካልሆኑ፣ እባክዎ ለ service@latticex.foundation ኢሜይል ይላኩ"
@@ -799,7 +799,7 @@
     "message": "ተቀዳሚ የገንዘብ ዓይነት"
   },
   "primaryCurrencySettingDescription": {
-    "message": "ዋጋዎች በራሳቸው የሰንሰለት ገንዘብ ዓይነት (ለምሳሌ ETH) በቅድሚያ እንዲታዪ ይምረጡ። ዋጋዎች በተመረጠ የፊያት ገንዘብ ዓይነት እንዲታዩ ደግሞ ፊያትን ይምረጡ።"
+    "message": "ዋጋዎች በራሳቸው የሰንሰለት ገንዘብ ዓይነት (ለምሳሌ ATP) በቅድሚያ እንዲታዪ ይምረጡ። ዋጋዎች በተመረጠ የፊያት ገንዘብ ዓይነት እንዲታዩ ደግሞ ፊያትን ይምረጡ።"
   },
   "privacyMsg": {
     "message": "የግለኝነት መጠበቂያ ህግ"
@@ -941,7 +941,7 @@
     "message": "ሚስጥራዊ የመጠባበቂያ ሐረግዎ መለያዎን መጠባበቂያ ለመያዝና ወደነበረበት ለመመለስ ቀላል ያደርገዋል።"
   },
   "secretBackupPhraseWarning": {
-    "message": "ማስጠንቀቂያ፡ የመጠባበቂያ ምዕራፍዎን በጭራሽ አይግለጹ። ይህን ሐረገ የያዘ ማንኛውም ሰው የእርስዎን Ether እስከወዲያኛው ሊወስደው ይችላል።"
+    "message": "ማስጠንቀቂያ፡ የመጠባበቂያ ምዕራፍዎን በጭራሽ አይግለጹ። ይህን ሐረገ የያዘ ማንኛውም ሰው የእርስዎን ATP እስከወዲያኛው ሊወስደው ይችላል።"
   },
   "secretPhrase": {
     "message": "ካዝናዎን ወደነበረበት ለመመለስ ሚስጥራዊ ባለ አስራ ሁለት ቃል ሐረግዎን ያስገቡ።"
@@ -977,13 +977,13 @@
     "message": "መጠኑን ላክ"
   },
   "sendETH": {
-    "message": "ETH ላክ"
+    "message": "ATP ላክ"
   },
   "sendTokens": {
     "message": "ተለዋጭ ስሞችን ላክ"
   },
   "sentEther": {
-    "message": "የተላከ ether"
+    "message": "የተላከ ATP"
   },
   "sentTokens": {
     "message": "የተላኩ ተለዋጭ ስሞች"
@@ -998,7 +998,7 @@
     "message": "መለያ ይምረጡ"
   },
   "selectAnAccountHelp": {
-    "message": "መለያውን በ MetaMask ለማየት ይምረጡ"
+    "message": "መለያውን በ Samurai ለማየት ይምረጡ"
   },
   "selectAHigherGasFee": {
     "message": "የግብይትዎን ክዋኔ ለማቀላጠፍ የበለጠ የነዳጅ ዋጋ ይምረጡ።*"
@@ -1088,7 +1088,7 @@
     "message": "3. dApps እና ሌሎችን መጠቀም ይጀምሩ!"
   },
   "step3HardwareWalletMsg": {
-    "message": "የሐርድዌር መለያዎን ከየትኛውም የ Ethereum መለያ ጋር በሚጠቀሙት መንገድ ይጠቀሙ። ወደ dApps በመለያ ይግቡ፣ Eth ይላኩ፣ የ ERC20 ተለዋጭ ስሞችና እንደ CryptoKitties ያሉ የማይለወጡ ተለዋጭ ስሞችን ይግዙና ያከማቹ።"
+    "message": "የሐርድዌር መለያዎን ከየትኛውም የ Alaya መለያ ጋር በሚጠቀሙት መንገድ ይጠቀሙ። ወደ dApps በመለያ ይግቡ፣ ATP ይላኩ፣ የ ERC20 ተለዋጭ ስሞችና እንደ CryptoKitties ያሉ የማይለወጡ ተለዋጭ ስሞችን ይግዙና ያከማቹ።"
   },
   "storePhrase": {
     "message": "ይህን ሐረግ እንደ 1Password ባለ የይለፍ ቃል አስተዳዳሪ ውስጥ ያስቀምጡ።"
@@ -1112,19 +1112,19 @@
     "message": "ከሞባይል ጋር አሳምር"
   },
   "syncWithMobileDesc": {
-    "message": "መለያዎችዎንና መረጃዎችዎን ከሞባይል መሳሪያዎ ጋር ያሳምሩ። የ MetaMask የሞባይል መተግበሪያን ይክፈቱ፣ ወደ \"ቅንብሮች\" ይሂዱና \"ከማሰሺያ ቅጥያ አሳምር\" የሚለውን ይንኩ"
+    "message": "መለያዎችዎንና መረጃዎችዎን ከሞባይል መሳሪያዎ ጋር ያሳምሩ። የ Samurai የሞባይል መተግበሪያን ይክፈቱ፣ ወደ \"ቅንብሮች\" ይሂዱና \"ከማሰሺያ ቅጥያ አሳምር\" የሚለውን ይንኩ"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "የ MetaMask የሞባይል መተግበሪያን ለመጀመሪያ ጊዜ ገና እየከፈቱ ከሆነ፣ በስልክዎ ላይ ያሉትን ቅደም ተከተሎች ብቻ ይከተሉ።"
+    "message": "የ Samurai የሞባይል መተግበሪያን ለመጀመሪያ ጊዜ ገና እየከፈቱ ከሆነ፣ በስልክዎ ላይ ያሉትን ቅደም ተከተሎች ብቻ ይከተሉ።"
   },
   "syncWithMobileScanThisCode": {
-    "message": "ይህን ኮድ በ MetaMask የሞባይል መተግበሪያዎ ስካን ያድርጉ"
+    "message": "ይህን ኮድ በ Samurai የሞባይል መተግበሪያዎ ስካን ያድርጉ"
   },
   "syncWithMobileBeCareful": {
     "message": "ይህን ኮድ ስካን ሲያደርጉ ሌላ ሰው የእርስዎን ማያ እየተመለከተ አለመሆኑን ያረጋግጡ"
   },
   "syncWithMobileComplete": {
-    "message": "ውሂብዎ በሚገባ ተሳምሯል። በ MetaMask የሞባይል መተግበሪያ ይደሰቱ!"
+    "message": "ውሂብዎ በሚገባ ተሳምሯል። በ Samurai የሞባይል መተግበሪያ ይደሰቱ!"
   },
   "terms": {
     "message": "የአጠቃቀም ደንቦች"
@@ -1215,7 +1215,7 @@
     "message": "እንደገና ሞክር"
   },
   "typePassword": {
-    "message": "የ MetaMask የይለፍ ቃልዎን ይጻፉ"
+    "message": "የ Samurai የይለፍ ቃልዎን ይጻፉ"
   },
   "unapproved": {
     "message": "ያልተፈቀደ"
@@ -1269,7 +1269,7 @@
     "message": "በ $1ይመልከቱ"
   },
   "viewOnEtherscan": {
-    "message": "በ Etherscan ላይ ይመልከቱ"
+    "message": "በ Alayascan ላይ ይመልከቱ"
   },
   "visitWebSite": {
     "message": "ድረ ገጻችንን ይጎብኙ"
@@ -1281,7 +1281,7 @@
     "message": "እንኳን በደህና ተመለሱ"
   },
   "welcome": {
-    "message": "ወደ MetaMask እንኳን ደህና መጡ"
+    "message": "ወደ Samurai እንኳን ደህና መጡ"
   },
   "writePhrase": {
     "message": "ይህን ሐረግ በቁራጭ ወረቀት ላይ ይጻፉና ደህንነቱ በተጠበቀ ቦታ ያስቀምጡት። የበለጠ ደህንነት ካስፈለገዎ፣ በተለያዩ ቁርጥራጭ ወረቀቶች ላይ ይጻፉትና እያንዳንዳንቸውን በ2-3 የተለያዩ ቦታዎች ያስቀምጡት።"

@@ -1,6 +1,6 @@
 {
   "chartOnlyAvailableEth": {
-    "message": "Grafikon dostupan jedino na mrežama Ethereum."
+    "message": "Grafikon dostupan jedino na mrežama Alaya."
   },
   "contractInteraction": {
     "message": "Ugovorna interakcija"
@@ -72,13 +72,13 @@
     "message": "Dodajte sugerisane tokene"
   },
   "addAcquiredTokens": {
-    "message": "Dodajte stečene tokene koristeći MetaMask."
+    "message": "Dodajte stečene tokene koristeći Samurai."
   },
   "amount": {
     "message": "Iznos"
   },
   "appDescription": {
-    "message": "Ethereum novčanik u vašem pregledaču",
+    "message": "Alaya novčanik u vašem pregledaču",
     "description": "The description of the application"
   },
   "appName": {
@@ -110,7 +110,7 @@
     "message": "Tajmer za automatsko odjavljivanje (u minutama)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Podesite vreme mirovanja u minutima pre nego što se MetaMask automatski odjavi. "
+    "message": "Podesite vreme mirovanja u minutima pre nego što se Samurai automatski odjavi. "
   },
   "average": {
     "message": "Prosečno"
@@ -125,7 +125,7 @@
     "message": "Napravite rezervnu kopiju tajnog kôda za oporavak da bi vaš novčanik i sredstva bili bezbedni."
   },
   "backupApprovalInfo": {
-    "message": "Potreban je tajni kôd za oporavak vašeg novčanika u slučaju da izgubite uređaj, zaboravite lozinku, morate ponovo da instalirate MetaMask ili želite da pristupite novčaniku sa drugog uređaja."
+    "message": "Potreban je tajni kôd za oporavak vašeg novčanika u slučaju da izgubite uređaj, zaboravite lozinku, morate ponovo da instalirate Samurai ili želite da pristupite novčaniku sa drugog uređaja."
   },
   "backupNow": {
     "message": "Napravite rezervu sad"
@@ -153,13 +153,13 @@
     "message": "Vaš pregledač nije podržan..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask je dizajniran i izgrađen u Kaliforniji."
+    "message": "Samurai je dizajniran i izgrađen u Kaliforniji."
   },
   "buyWithWyre": {
-    "message": "Kupite ETH preko servisa Wyre"
+    "message": "Kupite ATP preko servisa Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre vam dozvoljava da koristite kreditnu karticu kako biste deponovali ETH pravo na vaš MetaMask nalog."
+    "message": "Wyre vam dozvoljava da koristite kreditnu karticu kako biste deponovali ATP pravo na vaš Samurai nalog."
   },
   "buyCoinSwitch": {
     "message": "Kupujte na CoinSwitch"
@@ -201,7 +201,7 @@
     "message": "Затвори"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Da biste se povezali sa Vašim hardverskim novčanikom morate da koristite MetaMask na Google Chrome-u."
+    "message": "Da biste se povezali sa Vašim hardverskim novčanikom morate da koristite Samurai na Google Chrome-u."
   },
   "confirm": {
     "message": "Потврди"
@@ -231,7 +231,7 @@
     "message": "Povezuje se na test mrežu Kovan"
   },
   "connectingToMainnet": {
-    "message": "Povezuje se na glavnu Ethereum mrežu"
+    "message": "Povezuje se na glavnu Alaya mrežu"
   },
   "connectingToRopsten": {
     "message": "Povezuje se na Ropsten Test mrežu"
@@ -309,7 +309,7 @@
     "message": "Decimale preciznosti"
   },
   "defaultNetwork": {
-    "message": "Podrazumevana mreža za Ether transakcije je Main Net."
+    "message": "Podrazumevana mreža za ATP transakcije je Main Net."
   },
   "delete": {
     "message": "Избриши"
@@ -321,16 +321,16 @@
     "message": "Depozit"
   },
   "depositEther": {
-    "message": "Dajte depozit Ether-u"
+    "message": "Dajte depozit ATP-u"
   },
   "details": {
     "message": "Детаљи"
   },
   "directDepositEther": {
-    "message": "Direktno deponujte Ether"
+    "message": "Direktno deponujte ATP"
   },
   "directDepositEtherExplainer": {
-    "message": "Ako već imate neki Ether, najbrži način da preuzmete Ether u svoj novi novčanik jeste direktnim deponovanjem."
+    "message": "Ako već imate neki ATP, najbrži način da preuzmete ATP u svoj novi novčanik jeste direktnim deponovanjem."
   },
   "done": {
     "message": "Gotovo"
@@ -369,7 +369,7 @@
     "message": "Nikada ne delite frazu ni sa kim."
   },
   "endOfFlowMessage5": {
-    "message": "Čuvajte se pecanja (krađe podataka)! MetaMask nikad neće spontano tražiti vašu šifru za oporavak naloga (seed phrase)."
+    "message": "Čuvajte se pecanja (krađe podataka)! Samurai nikad neće spontano tražiti vašu šifru za oporavak naloga (seed phrase)."
   },
   "endOfFlowMessage6": {
     "message": "Ako treba ponovo da izradite rezervnu kopiju svoje početne fraze, možete je pronaći u Postavke -> Bezbednost."
@@ -378,7 +378,7 @@
     "message": "Ako imate bilo kakvih pitanja ili primetite nešto sumnjivo, pošaljite e-poruku na service@latticex.foundation."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask ne može da oporavi vašu početnu frazu. Saznajte više."
+    "message": "Samurai ne može da oporavi vašu početnu frazu. Saznajte više."
   },
   "endOfFlowMessage9": {
     "message": "Saznajte više."
@@ -390,7 +390,7 @@
     "message": "Greška u registraciji ENS imena."
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "ENS ime nije nađeno na trenutnoj mreži. Probajte da se prebacite na glavnu Ethereum mrežu."
+    "message": "ENS ime nije nađeno na trenutnoj mreži. Probajte da se prebacite na glavnu Alaya mrežu."
   },
   "enterAnAlias": {
     "message": "Unesite pseudonim"
@@ -402,10 +402,10 @@
     "message": "Unesite lozinku kako biste nastavili"
   },
   "ethereumPublicAddress": {
-    "message": "Ethereum javna adresa"
+    "message": "Alaya javna adresa"
   },
   "etherscanView": {
-    "message": "Pogledajte račun na Etherscan-u"
+    "message": "Pogledajte račun na Alayascan-u"
   },
   "estimatedProcessingTimes": {
     "message": "Procenjeno vreme za obradu"
@@ -461,7 +461,7 @@
     "message": "Cena gasa izuzetno niska"
   },
   "gasPriceInfoModalContent": {
-    "message": "Cena gasa određuje količinu Ethera koju ste spremni da platite za svaku jedinicu gasa."
+    "message": "Cena gasa određuje količinu ATPa koju ste spremni da platite za svaku jedinicu gasa."
   },
   "gasPriceNoDenom": {
     "message": "Cena gas-a"
@@ -473,11 +473,11 @@
     "message": "Konverzija valuta, primarna valuta, jezik, blockies identicon"
   },
   "getEther": {
-    "message": "Nabavite Ether"
+    "message": "Nabavite ATP"
   },
   "getEtherFromFaucet": {
-    "message": "Preuzmite Ether sa slavine za $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Preuzmite ATP sa slavine za $1",
+    "description": "Displays network name for ATP faucet"
   },
   "getHelp": {
     "message": "Potražite pomoć."
@@ -498,7 +498,7 @@
     "message": "Povežite hardverski novčanik"
   },
   "hardwareWalletsMsg": {
-    "message": "Izaberite hardverski novčanik koji biste voleli da koristite sa MetaMask-om"
+    "message": "Izaberite hardverski novčanik koji biste voleli da koristite sa Samurai-om"
   },
   "havingTroubleConnecting": {
     "message": "Da li imate problem sa povezivanjem?"
@@ -527,7 +527,7 @@
     "message": "Uvezite nalog"
   },
   "importAccountMsg": {
-    "message": "Uvezeni nalozi neće biti povezani sa početnom frazom koju ste prvobitno kreirali za MetaMask nalog. Saznajte više o uvezenim nalozima."
+    "message": "Uvezeni nalozi neće biti povezani sa početnom frazom koju ste prvobitno kreirali za Samurai nalog. Saznajte više o uvezenim nalozima."
   },
   "importAccountSeedPhrase": {
     "message": "Uvezi račun sa frazom početnih vrednosti"
@@ -570,7 +570,7 @@
     "message": "Poznata adresa ugovora."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Nije ETH mreža, podešeno na mala slova"
+    "message": "Nije ATP mreža, podešeno na mala slova"
   },
   "invalidInput": {
     "message": "Nevažeći unos."
@@ -625,7 +625,7 @@
     "message": "Odjavi se"
   },
   "mainnet": {
-    "message": "Glavna Ethereum mreža"
+    "message": "Glavna Alaya mreža"
   },
   "memorizePhrase": {
     "message": "Zapamtite ovaj izraz."
@@ -634,10 +634,10 @@
     "message": "Poruka"
   },
   "metamaskDescription": {
-    "message": "Povezivanje na Ethereum i decentralizovani veb."
+    "message": "Povezivanje na Alaya i decentralizovani veb."
   },
   "metamaskVersion": {
-    "message": "MetaMask verzija"
+    "message": "Samurai verzija"
   },
   "mobileSyncText": {
     "message": "Molimo vas unesite šifru kako biste potvrdili da ste to vi!"
@@ -649,20 +649,20 @@
     "message": "Moji nalozi novčanika"
   },
   "myWalletAccountsDescription": {
-    "message": "Svi vaši nalozi kreirani u aplikaciji MetaMask biće automatski dodati u ovaj deo."
+    "message": "Svi vaši nalozi kreirani u aplikaciji Samurai biće automatski dodati u ovaj deo."
   },
   "mustSelectOne": {
     "message": "Morate izabrati najmanje 1 token."
   },
   "needEtherInWallet": {
-    "message": "Da biste stupili u interakciju sa decentralizovanim aplikacijama koristeći MetaMask, biće vam potreban Ether u vašem novčaniku."
+    "message": "Da biste stupili u interakciju sa decentralizovanim aplikacijama koristeći Samurai, biće vam potreban ATP u vašem novčaniku."
   },
   "needImportFile": {
     "message": "Morate izabrati fajl koji ćete uvesti.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Ne možete poslati negativan iznos ETH."
+    "message": "Ne možete poslati negativan iznos ATP."
   },
   "networkName": {
     "message": "Ime mreže"
@@ -698,8 +698,8 @@
   "newNetwork": {
     "message": "Nova mreža"
   },
-  "newToMetaMask": {
-    "message": "Novi ste u MetaMask-u?"
+  "newToSamurai": {
+    "message": "Novi ste u Samurai-u?"
   },
   "noAlreadyHaveSeed": {
     "message": "Ne, već imam frazu početnih vrednosti"
@@ -708,7 +708,7 @@
     "message": "Zaštitite svoje ključeve!"
   },
   "protectYourKeysMessage1": {
-    "message": "Budite pažljivi sa vašom seed frazom - bilo je izveštaja o veb lokacijama koje pokušavaju da imitiraju MetaMask. MetaMask nikada neće tražiti vašu seed frazu!"
+    "message": "Budite pažljivi sa vašom seed frazom - bilo je izveštaja o veb lokacijama koje pokušavaju da imitiraju Samurai. Samurai nikada neće tražiti vašu seed frazu!"
   },
   "protectYourKeysMessage2": {
     "message": "Čuvajte svoju frazu. Ako primetite nešto sumnjivo, ili niste sigurni u vezi veb lokacije, pošaljite e-poruku na upport@metamask.io"
@@ -765,7 +765,7 @@
     "message": "Učestvujte u MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Učestvujte u MetaMetrics da biste nam pomogli da poboljšamo MetaMask."
+    "message": "Učestvujte u MetaMetrics da biste nam pomogli da poboljšamo Samurai."
   },
   "password": {
     "message": "Лозинка"
@@ -793,7 +793,7 @@
     "message": "Primarna valuta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Izaberite primarnu da biste postavili prioritete u prikazivanju vrednosti u primarnoj valuti lanca (npr. ETH). Izaberite Fiat da biste postavili prioritete u prikazivanju vrednosti u vašoj izabranoj fiat valuti."
+    "message": "Izaberite primarnu da biste postavili prioritete u prikazivanju vrednosti u primarnoj valuti lanca (npr. ATP). Izaberite Fiat da biste postavili prioritete u prikazivanju vrednosti u vašoj izabranoj fiat valuti."
   },
   "privacyMsg": {
     "message": "Smernice za privatnost"
@@ -935,7 +935,7 @@
     "message": "Vaša tajna fraza za rezervnu kopiju olakšava pravljenje rezervne kopije i vraćanje naloga u prethodno stanje."
   },
   "secretBackupPhraseWarning": {
-    "message": "UPOZORENJE: Nikada ne otkrivajte svoju rezervnu frazu. Svako sa ovom frazom može zauvek da Vam uzme Vaš Ether."
+    "message": "UPOZORENJE: Nikada ne otkrivajte svoju rezervnu frazu. Svako sa ovom frazom može zauvek da Vam uzme Vaš ATP."
   },
   "secretPhrase": {
     "message": "Unesite ovde svoj tajni izraz od dvanaest reči kako biste povratili svoj trezor."
@@ -971,7 +971,7 @@
     "message": "Pošaljite iznos"
   },
   "sendETH": {
-    "message": "Pošalji ETH"
+    "message": "Pošalji ATP"
   },
   "sendTokens": {
     "message": "Pošalji tokene"
@@ -992,7 +992,7 @@
     "message": "Izaberite nalog"
   },
   "selectAnAccountHelp": {
-    "message": "Izaberite nalog za prikaz u MetaMask-u"
+    "message": "Izaberite nalog za prikaz u Samurai-u"
   },
   "selectAHigherGasFee": {
     "message": "Izaberite veću vrednost gas naknade da biste ubrzali procesuiranje vaše transakcije.*"
@@ -1082,7 +1082,7 @@
     "message": "3. Počnite da koristite dApps i još mnogo toga!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Koristite nalog na vašem hardveru isto onako kako biste koristili bilo koji Ethereum nalog. Prijavite se na dApps, šaljite Eth, kupujte i skladištite ERC20 tokene i nezamenljive tokene poput CryptoKitties."
+    "message": "Koristite nalog na vašem hardveru isto onako kako biste koristili bilo koji Alaya nalog. Prijavite se na dApps, šaljite ATP, kupujte i skladištite ERC20 tokene i nezamenljive tokene poput CryptoKitties."
   },
   "storePhrase": {
     "message": "Čuvajte ovaj izraz u menadžeru šifri kao što je 1Password."
@@ -1106,19 +1106,19 @@
     "message": "Sinhronizujte sa mobilnim uređajem"
   },
   "syncWithMobileDesc": {
-    "message": "Možete sinhronizovati vaše naloge i informacije sa svojim mobilnim uređajem. Otvorite mobilnu aplikaciju MetaMask, idite na \"Podešavanja\" i pritisnite \"Sinhronizuj iz ekstenzije za pregledač\""
+    "message": "Možete sinhronizovati vaše naloge i informacije sa svojim mobilnim uređajem. Otvorite mobilnu aplikaciju Samurai, idite na \"Podešavanja\" i pritisnite \"Sinhronizuj iz ekstenzije za pregledač\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Ako prvi put otvorite aplikaciju MetaMask Mobile, samo sledite korake u svom telefonu."
+    "message": "Ako prvi put otvorite aplikaciju Samurai Mobile, samo sledite korake u svom telefonu."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Skenirajte ovaj kod uz pomoć svoje MetaMask mobilne aplikacije"
+    "message": "Skenirajte ovaj kod uz pomoć svoje Samurai mobilne aplikacije"
   },
   "syncWithMobileBeCareful": {
     "message": "Obratite pažnju da niko drugi ne gleda u vaš ekran kad skenirate ovaj kod"
   },
   "syncWithMobileComplete": {
-    "message": "Vaši podaci su uspešno sinhronizovani. Uživajte u mobilnoj aplikaciji MetaMask!"
+    "message": "Vaši podaci su uspešno sinhronizovani. Uživajte u mobilnoj aplikaciji Samurai!"
   },
   "terms": {
     "message": "Uslovi korišćenja"
@@ -1203,7 +1203,7 @@
     "message": "Пробај поново"
   },
   "typePassword": {
-    "message": "Ukucajte svoju MetaMask šifru"
+    "message": "Ukucajte svoju Samurai šifru"
   },
   "unapproved": {
     "message": "Neodobren"
@@ -1257,7 +1257,7 @@
     "message": "Pogledaj na $1"
   },
   "viewOnEtherscan": {
-    "message": "Pogledaj na Etherscan-u"
+    "message": "Pogledaj na Alayascan-u"
   },
   "visitWebSite": {
     "message": "Posetite našu veb lokaciju"
@@ -1269,7 +1269,7 @@
     "message": "Dobro došli nazad!"
   },
   "welcome": {
-    "message": "Dobro došli na MetaMask"
+    "message": "Dobro došli na Samurai"
   },
   "writePhrase": {
     "message": "Napišite ovaj izraz na parčetu papira i stavite ga na bezbedno mesto. Ukoliko želite još više sigurnosti, zapišite ga na više komada papira i svaki stavite na 2-3 različita mesta."

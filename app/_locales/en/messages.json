@@ -5,7 +5,7 @@
   },
   "eth_accounts": {
     "message": "View the addresses of your permitted accounts (required)",
-    "description": "The description for the `eth_accounts` permission"
+    "description": "The description for the `platon_accounts` permission"
   },
   "connectedSites": {
     "message": "Connected sites"
@@ -76,7 +76,7 @@
   "connecting": {
     "message": "Connecting..."
   },
-  "connectWithMetaMask": {
+  "connectWithSamurai": {
     "message": "Connect With Samurai"
   },
   "connectTo": {
@@ -718,10 +718,10 @@
     "message": "Currency conversion, primary currency, language, blockies identicon"
   },
   "getEther": {
-    "message": "Get Ether"
+    "message": "Get ATP"
   },
   "getEtherFromFaucet": {
-    "message": "Get Ether from a faucet for the $1",
+    "message": "Get ATP from a faucet for the $1",
     "description": "Displays network name for ATP faucet"
   },
   "getHelp": {
@@ -943,7 +943,7 @@
     "message": "Must select at least 1 token."
   },
   "needEtherInWallet": {
-    "message": "To interact with decentralized applications using Samurai, you’ll need Ether in your wallet."
+    "message": "To interact with decentralized applications using Samurai, you’ll need ATP in your wallet."
   },
   "needImportFile": {
     "message": "You must select a file to import.",
@@ -986,7 +986,7 @@
   "newNetwork": {
     "message": "New Network"
   },
-  "newToMetaMask": {
+  "newToSamurai": {
     "message": "New to Samurai?"
   },
   "noAlreadyHaveSeed": {
@@ -1107,7 +1107,7 @@
     "message": "Primary Currency"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Select native to prioritize displaying values in the native currency of the chain (e.g. ETH). Select Fiat to prioritize displaying values in your selected fiat currency. Fiat currency options are not currently supported."
+    "message": "Select native to prioritize displaying values in the native currency of the chain (e.g. ATP). Select Fiat to prioritize displaying values in your selected fiat currency. Fiat currency options are not currently supported."
   },
   "privacyMsg": {
     "message": "Privacy Policy"
@@ -1462,7 +1462,7 @@
     "message": "3. Start using web3 sites and more!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Use your hardware account like you would with any Ethereum account. Connect to web3 sites, send ETH, buy and store ERC20 tokens and non-fungible tokens like CryptoKitties."
+    "message": "Use your hardware account like you would with any Alaya account. Connect to web3 sites, send ATP, buy and store ERC20 tokens and non-fungible tokens like CryptoKitties."
   },
   "storePhrase": {
     "message": "Store this phrase in a password manager like 1Password."
