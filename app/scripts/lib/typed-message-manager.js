@@ -3,8 +3,8 @@ import ObservableStore from 'obs-store'
 import createId from './random-id'
 import assert from 'assert'
 import { ethErrors } from 'eth-json-rpc-errors'
-import sigUtil from '@alayanetwork/eth-sig-util'
-import { isValidAddress } from '@alayanetwork/ethereumjs-util'
+import { typedSignatureHash, TYPED_MESSAGE_SCHEMA } from '@alayanetwork/eth-sig-util'
+import { isValidAddress, isBech32Address } from '@alayanetwork/ethereumjs-util'
 import log from 'loglevel'
 import jsonschema from 'jsonschema'
 import { MESSAGE_TYPE } from './enums'
@@ -142,7 +142,7 @@ export default class TypedMessageManager extends EventEmitter {
     assert.ok('data' in params, 'Params must include a "data" field.')
     assert.ok('from' in params, 'Params must include a "from" field.')
     assert.ok(
-      typeof params.from === 'string' && isValidAddress(params.from),
+      typeof params.from === 'string' && (isValidAddress(params.from) || isBech32Address(params.from)),
       '"from" field must be a valid, lowercase, hexadecimal Ethereum address string.',
     )
 
@@ -150,7 +150,7 @@ export default class TypedMessageManager extends EventEmitter {
       case 'V1':
         assert.ok(Array.isArray(params.data), '"params.data" must be an array.')
         assert.doesNotThrow(() => {
-          sigUtil.typedSignatureHash(params.data)
+          typedSignatureHash(params.data)
         }, 'Signing data must be valid EIP-712 typed data.')
         break
       case 'V3':
@@ -160,7 +160,7 @@ export default class TypedMessageManager extends EventEmitter {
         assert.doesNotThrow(() => {
           data = JSON.parse(params.data)
         }, '"data" must be a valid JSON string.')
-        const validation = jsonschema.validate(data, sigUtil.TYPED_MESSAGE_SCHEMA)
+        const validation = jsonschema.validate(data, TYPED_MESSAGE_SCHEMA)
         assert.ok(data.primaryType in data.types, `Primary type of "${data.primaryType}" has no type definition.`)
         assert.equal(validation.errors.length, 0, 'Signing data must conform to EIP-712 schema. See https://git.io/fNtcx.')
         const chainId = data.domain.chainId
