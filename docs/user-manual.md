@@ -2,7 +2,7 @@
 
 ### 1. 安装
 
-+ 从[官方地址](https://github.com/AlayaNetwork/Samurai/releases/download/v8.0.10/samurai-chrome-8.0.10.zip)下载Samurai插件包
++ 从[官方地址](https://github.com/AlayaNetwork/Samurai/releases/download/v8.0.11/samurai-chrome-8.0.11.zip)下载Samurai插件包
 + 解压Samurai插件包
 + 打开chrome浏览器，在地址栏输入并回车，进入到chrome扩展程序管理页面。
 
