@@ -55,6 +55,9 @@ export function constructUpdatedTx ({
   }
 
   if (sendToken) {
+    if (ethUtil.isBech32Address(to)) {
+      to = ethUtil.decodeBech32Address(to)
+    }
     const data = TOKEN_TRANSFER_FUNCTION_SIGNATURE + Array.prototype.map.call(
       ethAbi.rawEncode(['address', 'uint256'], [to, ethUtil.addHexPrefix(amount)]),
       (x) => ('00' + x.toString(16)).slice(-2),
