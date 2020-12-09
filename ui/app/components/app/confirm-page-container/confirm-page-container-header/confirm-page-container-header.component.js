@@ -30,27 +30,27 @@ export default function ConfirmPageContainerHeader ({
   return (
     <div className="confirm-page-container-header">
       <div className="confirm-page-container-header__row">
-        { !showAccountInHeader
-          ? (
-            <div
-              className="confirm-page-container-header__back-button-container"
-              style={{
-                visibility: showEdit ? 'initial' : 'hidden',
-              }}
-            >
-              <img
-                src="/images/caret-left.svg"
-              />
-              <span
-                className="confirm-page-container-header__back-button"
-                onClick={() => onEdit()}
-              >
-                { t('edit') }
-              </span>
-            </div>
-          )
-          : null
-        }
+        {/*{ !showAccountInHeader*/}
+        {/*  ? (*/}
+        {/*    <div*/}
+        {/*      className="confirm-page-container-header__back-button-container"*/}
+        {/*      style={{*/}
+        {/*        visibility: showEdit ? 'initial' : 'hidden',*/}
+        {/*      }}*/}
+        {/*    >*/}
+        {/*      <img*/}
+        {/*        src="/images/caret-left.svg"*/}
+        {/*      />*/}
+        {/*      <span*/}
+        {/*        className="confirm-page-container-header__back-button"*/}
+        {/*        onClick={() => onEdit()}*/}
+        {/*      >*/}
+        {/*        { t('edit') }*/}
+        {/*      </span>*/}
+        {/*    </div>*/}
+        {/*  )*/}
+        {/*  : null*/}
+        {/*}*/}
         { showAccountInHeader
           ? (
             <div className="confirm-page-container-header__address-container">
