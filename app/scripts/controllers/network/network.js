@@ -27,10 +27,12 @@ const METAMASK_DEBUG = process.env.METAMASK_DEBUG
 let defaultProviderConfigType
 let defaultProviderConfigURL
 let defaultProviderConfigChainID
+let defaultProviderConfigHrp
 if (process.env.IN_TEST === 'true') {
   defaultProviderConfigType = LOCALHOST
 } else {
   defaultProviderConfigType = ALAYA
+  defaultProviderConfigHrp = 'atp'
   defaultProviderConfigURL = defaultNetworksData['alaya'].rpcTarget
   defaultProviderConfigChainID = defaultNetworksData['alaya'].chainId
 }
@@ -49,6 +51,7 @@ const defaultProviderConfig = {
   type: defaultProviderConfigType,
   rpcTarget: defaultProviderConfigURL,
   chainId: defaultProviderConfigChainID,
+  hrp: defaultProviderConfigHrp,
 }
 
 const defaultNetworkConfig = {
@@ -65,8 +68,9 @@ export default class NetworkController extends EventEmitter {
     // create stores
     this.providerStore = new ObservableStore(providerConfig)
     this.networkStore = new ObservableStore('loading')
+    this.hrpStore = new ObservableStore('loading')
     this.networkConfig = new ObservableStore(defaultNetworkConfig)
-    this.store = new ComposedStore({ provider: this.providerStore, network: this.networkStore, settings: this.networkConfig })
+    this.store = new ComposedStore({ provider: this.providerStore, network: this.networkStore, hrp: this.hrpStore, settings: this.networkConfig })
     this.on('networkDidChange', this.lookupNetwork)
     // provider and block tracker
     this._provider = null
@@ -78,8 +82,8 @@ export default class NetworkController extends EventEmitter {
 
   initializeProvider (providerParams) {
     this._baseProviderParams = providerParams
-    const { type, rpcTarget, chainId, ticker, nickname } = this.providerStore.getState()
-    this._configureProvider({ type, rpcTarget, chainId, ticker, nickname })
+    const { type, rpcTarget, chainId, hrp, ticker, nickname } = this.providerStore.getState()
+    this._configureProvider({ type, rpcTarget, chainId, hrp, ticker, nickname })
     this.lookupNetwork()
   }
 
@@ -101,8 +105,25 @@ export default class NetworkController extends EventEmitter {
     return this.networkStore.getState()
   }
 
+  getHrpState () {
+    return this.hrpStore.getState()
+  }
+
   getNetworkConfig () {
     return this.networkConfig.getState()
+  }
+
+  setHrpState (hrp, type) {
+    if (hrp === 'loading') {
+      return this.hrpStore.putState(hrp)
+    }
+
+    // type must be defined
+    if (!type) {
+      return
+    }
+    hrp = networks.networkList[type]?.hrp || hrp
+    return this.hrpStore.putState(hrp)
   }
 
   setNetworkState (network, type) {
@@ -130,6 +151,21 @@ export default class NetworkController extends EventEmitter {
     const { type } = this.providerStore.getState()
     const ethQuery = new EthQuery(this._provider)
     const initialNetwork = this.getNetworkState()
+    ethQuery.sendAsync({ method: 'platon_getAddressHrp' }, (err, hrp) => {
+      const currentNetwork = this.getNetworkState()
+      if (initialNetwork === currentNetwork) {
+        if (err) {
+          return this.setHrpState('loading')
+        }
+        if (defaultNetworksData[type]) {
+          hrp = defaultNetworksData[type].hrp
+        } else {
+          hrp = this.networkConfig.getState().hrp
+        }
+        log.info('web3.getHrp returned ' + hrp)
+        this.setHrpState(hrp, type)
+      }
+    })
     ethQuery.sendAsync({ method: 'net_version' }, (err, network) => {
       const currentNetwork = this.getNetworkState()
       if (initialNetwork === currentNetwork) {
@@ -147,11 +183,12 @@ export default class NetworkController extends EventEmitter {
     })
   }
 
-  setRpcTarget (rpcTarget, chainId, ticker = 'ATP', nickname = '', rpcPrefs) {
+  setRpcTarget (rpcTarget, chainId, hrp, ticker = 'ATP', nickname = '', rpcPrefs) {
     const providerConfig = {
       type: 'rpc',
       rpcTarget,
       chainId,
+      hrp,
       ticker,
       nickname,
       rpcPrefs,
@@ -188,12 +225,13 @@ export default class NetworkController extends EventEmitter {
 
   _switchNetwork (opts) {
     this.setNetworkState('loading')
+    this.setHrpState('loading')
     this._configureProvider(opts)
     this.emit('networkDidChange', opts.type)
   }
 
   _configureProvider (opts) {
-    const { type, rpcTarget, chainId, ticker, nickname } = opts
+    const { type, rpcTarget, chainId, hrp, ticker, nickname } = opts
     // infura type-based endpoints
     const isInfura = INFURA_PROVIDER_TYPES.includes(type)
     if (isInfura) {
@@ -203,7 +241,7 @@ export default class NetworkController extends EventEmitter {
       this._configureLocalhostProvider()
     // url-based rpc endpoints
     } else if (type === 'rpc') {
-      this._configureStandardProvider({ rpcUrl: rpcTarget, chainId, ticker, nickname })
+      this._configureStandardProvider({ rpcUrl: rpcTarget, chainId, hrp, ticker, nickname })
     } else {
       throw new Error(`NetworkController - _configureProvider - unknown type "${type}"`)
     }
@@ -215,6 +253,7 @@ export default class NetworkController extends EventEmitter {
     const networkClient = createJsonRpcClient({ rpcUrl })
     networks.networkList[type] = {
       chainId: defaultNetworksData[type].chainId,
+      hrp: defaultNetworksData[type].hrp,
       rpcUrl,
       ticker: defaultNetworksData[type].ticker || 'ATP',
       nickname: defaultNetworksData[type].providerType,
@@ -235,12 +274,13 @@ export default class NetworkController extends EventEmitter {
     this._setNetworkClient(networkClient)
   }
 
-  _configureStandardProvider ({ rpcUrl, chainId, ticker, nickname }) {
+  _configureStandardProvider ({ rpcUrl, chainId, hrp, ticker, nickname }) {
     log.info('NetworkController - configureStandardProvider', rpcUrl)
     const networkClient = createJsonRpcClient({ rpcUrl })
     // hack to add a 'rpc' network with chainId
     networks.networkList['rpc'] = {
       chainId,
+      hrp,
       rpcUrl,
       ticker: ticker || 'ATP',
       nickname,

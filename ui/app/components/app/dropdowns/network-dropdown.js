@@ -23,6 +23,7 @@ function mapStateToProps (state) {
     frequentRpcListDetail: state.metamask.frequentRpcListDetail || [],
     networkDropdownOpen: state.appState.networkDropdownOpen,
     network: state.metamask.network,
+    hrp: state.metamask.hrp,
   }
 }
 
@@ -31,8 +32,8 @@ function mapDispatchToProps (dispatch) {
     setProviderType: (type) => {
       dispatch(actions.setProviderType(type))
     },
-    setRpcTarget: (target, network, ticker, nickname) => {
-      dispatch(actions.setRpcTarget(target, network, ticker, nickname))
+    setRpcTarget: (target, network, hrp, ticker, nickname) => {
+      dispatch(actions.setRpcTarget(target, network, hrp, ticker, nickname))
     },
     delRpcTarget: (target) => {
       dispatch(actions.delRpcTarget(target))
@@ -57,6 +58,7 @@ class NetworkDropdown extends Component {
     }).isRequired,
     setProviderType: PropTypes.func.isRequired,
     network: PropTypes.string.isRequired,
+    hrp: PropTypes.string.isRequired,
     setRpcTarget: PropTypes.func.isRequired,
     hideNetworkDropdown: PropTypes.func.isRequired,
     setNetworksTabAddMode: PropTypes.func.isRequired,
@@ -87,6 +89,7 @@ class NetworkDropdown extends Component {
   renderCustomOption (provider) {
     const { rpcTarget, type, ticker, nickname } = provider
     const network = this.props.network
+    const hrp = this.props.hrp
 
     if (type !== 'rpc') {
       return null
@@ -101,7 +104,7 @@ class NetworkDropdown extends Component {
         return (
           <DropdownMenuItem
             key={rpcTarget}
-            onClick={() => this.props.setRpcTarget(rpcTarget, network, ticker, nickname)}
+            onClick={() => this.props.setRpcTarget(rpcTarget, network, hrp, ticker, nickname)}
             closeMenu={() => this.props.hideNetworkDropdown()}
             style={{
               fontSize: '16px',
@@ -137,11 +140,12 @@ class NetworkDropdown extends Component {
         return null
       } else {
         const chainId = entry.chainId
+        const hrp = entry.hrp
         return (
           <DropdownMenuItem
             key={`common${rpc}`}
             closeMenu={() => this.props.hideNetworkDropdown()}
-            onClick={() => this.props.setRpcTarget(rpc, chainId, ticker, nickname)}
+            onClick={() => this.props.setRpcTarget(rpc, chainId, hrp, ticker, nickname)}
             style={{
               fontSize: '16px',
               lineHeight: '20px',

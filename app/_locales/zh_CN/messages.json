@@ -749,6 +749,9 @@
   "optionalChainId": {
     "message": "ChainID（选填）"
   },
+  "optionalHrp": {
+    "message": "地址前缀"
+  },
   "optionalSymbol": {
     "message": "符号（选填）"
   },

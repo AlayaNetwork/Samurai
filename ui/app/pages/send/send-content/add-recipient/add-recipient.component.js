@@ -97,12 +97,12 @@ export default class AddRecipient extends Component {
   }
 
   render () {
-    const { network, ensResolution, query, addressBookEntryName } = this.props
+    const { network, hrp, ensResolution, query, addressBookEntryName } = this.props
     const { isShowingTransfer } = this.state
 
     let content
 
-    if (isValidAddress(query, network)) {
+    if (isValidAddress(query, hrp)) {
       content = this.renderExplicitAddress(query)
     } else if (ensResolution) {
       content = this.renderExplicitAddress(ensResolution, addressBookEntryName || query)

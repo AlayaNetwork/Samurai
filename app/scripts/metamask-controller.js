@@ -194,7 +194,7 @@ export default class MetamaskController extends EventEmitter {
       keyringTypes: additionalKeyrings,
       initState: initState.KeyringController,
       getNetwork: this.networkController.getNetworkState.bind(this.networkController),
-      hrp: this.networkController.getNetworkState() === '201018' ? 'atp' : 'atx',
+      getHrp: this.networkController.getHrpState.bind(this.networkController),
       encryptor: opts.encryptor || undefined,
     })
     this.keyringController.memStore.subscribe((s) => this._onKeyringControllerUpdate(s))
@@ -643,7 +643,7 @@ export default class MetamaskController extends EventEmitter {
       const vault = await keyringController.createNewVaultAndRestore(password, seed)
 
       const ethQuery = new EthQuery(this.provider)
-      accounts = await keyringController.getAccounts(this.networkController.getNetworkState() === '201018' ? 'atp' : 'atx')
+      accounts = await keyringController.getAccounts(this.networkController.getHrpState())
       log.info('createNewVaultAndRestore - accounts: ', accounts)
       lastBalance = await this.getBalance(accounts[accounts.length - 1], ethQuery)
 
@@ -742,9 +742,9 @@ export default class MetamaskController extends EventEmitter {
     // Accounts
     const hdKeyring = this.keyringController.getKeyringsByType('HD Key Tree')[0]
     const simpleKeyPairKeyrings = this.keyringController.getKeyringsByType('Simple Key Pair')
-    const hdAccounts = await hdKeyring.getAccounts(this.networkController.getNetworkState() === '201018' ? 'atp' : 'atx')
+    const hdAccounts = await hdKeyring.getAccounts(this.networkController.getHrpState())
     const simpleKeyPairKeyringAccounts = await Promise.all(
-      simpleKeyPairKeyrings.map((keyring) => keyring.getAccounts(this.networkController.getNetworkState() === '201018' ? 'atp' : 'atx')),
+      simpleKeyPairKeyrings.map((keyring) => keyring.getAccounts(this.networkController.getHrpState())),
     )
     const simpleKeyPairAccounts = simpleKeyPairKeyringAccounts.reduce((acc, accounts) => [...acc, ...accounts], [])
     const accounts = {
@@ -991,13 +991,13 @@ export default class MetamaskController extends EventEmitter {
     const serialized = await primaryKeyring.serialize()
     const seedWords = serialized.mnemonic
 
-    const accounts = await primaryKeyring.getAccounts(this.networkController.getNetworkState() === '201018' ? 'atp' : 'atx')
+    const accounts = await primaryKeyring.getAccounts(this.networkController.getHrpState())
     if (accounts.length < 1) {
       throw new Error('MetamaskController - No accounts found')
     }
 
     try {
-      await seedPhraseVerifier.verifyAccounts(accounts, seedWords, { hrp: this.networkController.getNetworkState() === '201018' ? 'atp' : 'atx' })
+      await seedPhraseVerifier.verifyAccounts(accounts, seedWords, { hrp: this.networkController.getHrpState() })
       return seedWords
     } catch (err) {
       log.error(err.message)
@@ -1052,7 +1052,7 @@ export default class MetamaskController extends EventEmitter {
   async importAccountWithStrategy (strategy, args) {
     const privateKey = await accountImporter.importAccount(strategy, args)
     const keyring = await this.keyringController.addNewKeyring('Simple Key Pair', [ privateKey ])
-    const accounts = await keyring.getAccounts(this.networkController.getNetworkState() === '201018' ? 'atp' : 'atx')
+    const accounts = await keyring.getAccounts(this.networkController.getHrpState())
     // update accounts in preferences controller
     const allAccounts = await this.keyringController.getAccounts()
     this.preferencesController.setAddresses(allAccounts)
@@ -1941,9 +1941,9 @@ export default class MetamaskController extends EventEmitter {
    * @returns {Promise<String>} - The RPC Target URL confirmed.
    */
 
-  async updateAndSetCustomRpc (rpcUrl, chainId, ticker = 'ATP', nickname, rpcPrefs) {
-    await this.preferencesController.updateRpc({ rpcUrl, chainId, ticker, nickname, rpcPrefs })
-    this.networkController.setRpcTarget(rpcUrl, chainId, ticker, nickname, rpcPrefs)
+  async updateAndSetCustomRpc (rpcUrl, chainId, hrp, ticker = 'ATP', nickname, rpcPrefs) {
+    await this.preferencesController.updateRpc({ rpcUrl, chainId, hrp, ticker, nickname, rpcPrefs })
+    this.networkController.setRpcTarget(rpcUrl, chainId, hrp, ticker, nickname, rpcPrefs)
     return rpcUrl
   }
 
@@ -1956,15 +1956,15 @@ export default class MetamaskController extends EventEmitter {
    * @param {string} nickname - Optional nickname of the selected network.
    * @returns {Promise<String>} - The RPC Target URL confirmed.
    */
-  async setCustomRpc (rpcTarget, chainId, ticker = 'ATP', nickname = '', rpcPrefs = {}) {
+  async setCustomRpc (rpcTarget, chainId, hrp, ticker = 'ATP', nickname = '', rpcPrefs = {}) {
     const frequentRpcListDetail = this.preferencesController.getFrequentRpcListDetail()
     const rpcSettings = frequentRpcListDetail.find((rpc) => rpcTarget === rpc.rpcUrl)
 
     if (rpcSettings) {
-      this.networkController.setRpcTarget(rpcSettings.rpcUrl, rpcSettings.chainId, rpcSettings.ticker, rpcSettings.nickname, rpcPrefs)
+      this.networkController.setRpcTarget(rpcSettings.rpcUrl, rpcSettings.chainId, rpcSettings.hrp, rpcSettings.ticker, rpcSettings.nickname, rpcPrefs)
     } else {
-      this.networkController.setRpcTarget(rpcTarget, chainId, ticker, nickname, rpcPrefs)
-      await this.preferencesController.addToFrequentRpcList(rpcTarget, chainId, ticker, nickname, rpcPrefs)
+      this.networkController.setRpcTarget(rpcTarget, chainId, hrp, ticker, nickname, rpcPrefs)
+      await this.preferencesController.addToFrequentRpcList(rpcTarget, chainId, hrp, ticker, nickname, rpcPrefs)
     }
     return rpcTarget
   }

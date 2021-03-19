@@ -15,6 +15,7 @@ export default class NetworkForm extends PureComponent {
     showConfirmDeleteNetworkModal: PropTypes.func.isRequired,
     rpcUrl: PropTypes.string,
     chainId: PropTypes.string,
+    hrp: PropTypes.string,
     ticker: PropTypes.string,
     viewOnly: PropTypes.bool,
     networkName: PropTypes.string,
@@ -30,6 +31,7 @@ export default class NetworkForm extends PureComponent {
   state = {
     rpcUrl: this.props.rpcUrl,
     chainId: this.props.chainId,
+    hrp: this.props.hrp,
     ticker: this.props.ticker,
     networkName: this.props.networkName,
     blockExplorerUrl: this.props.blockExplorerUrl,
@@ -41,6 +43,7 @@ export default class NetworkForm extends PureComponent {
     const {
       rpcUrl,
       chainId,
+      hrp,
       ticker,
       networkName,
       networksTabIsInAddMode,
@@ -51,13 +54,14 @@ export default class NetworkForm extends PureComponent {
       this.setState({
         rpcUrl: '',
         chainId: '',
+        hrp: '',
         ticker: '',
         networkName: '',
         blockExplorerUrl: '',
         errors: {},
       })
     } else if (prevRpcUrl !== rpcUrl) {
-      this.setState({ rpcUrl, chainId, ticker, networkName, blockExplorerUrl, errors: {} })
+      this.setState({ rpcUrl, chainId, hrp, ticker, networkName, blockExplorerUrl, errors: {} })
     }
   }
 
@@ -66,6 +70,7 @@ export default class NetworkForm extends PureComponent {
     this.setState({
       rpcUrl: '',
       chainId: '',
+      hrp: '',
       ticker: '',
       networkName: '',
       blockExplorerUrl: '',
@@ -77,12 +82,13 @@ export default class NetworkForm extends PureComponent {
     const {
       rpcUrl,
       chainId,
+      hrp,
       ticker,
       networkName,
       blockExplorerUrl,
     } = this.props
 
-    this.setState({ rpcUrl, chainId, ticker, networkName, blockExplorerUrl, errors: {} })
+    this.setState({ rpcUrl, chainId, hrp, ticker, networkName, blockExplorerUrl, errors: {} })
   }
 
   onSubmit = () => {
@@ -98,16 +104,17 @@ export default class NetworkForm extends PureComponent {
       networkName,
       rpcUrl,
       chainId,
+      hrp,
       ticker,
       blockExplorerUrl,
     } = this.state
     if (propsRpcUrl && rpcUrl !== propsRpcUrl) {
-      editRpc(propsRpcUrl, rpcUrl, chainId, ticker, networkName, {
+      editRpc(propsRpcUrl, rpcUrl, chainId, hrp, ticker, networkName, {
         blockExplorerUrl: blockExplorerUrl || rpcPrefs.blockExplorerUrl,
         ...rpcPrefs,
       })
     } else {
-      setRpcTarget(rpcUrl, chainId, ticker, networkName, {
+      setRpcTarget(rpcUrl, chainId, hrp, ticker, networkName, {
         blockExplorerUrl: blockExplorerUrl || rpcPrefs.blockExplorerUrl,
         ...rpcPrefs,
       })
@@ -146,6 +153,7 @@ export default class NetworkForm extends PureComponent {
     const {
       rpcUrl,
       chainId,
+      hrp,
       ticker,
       networkName,
       blockExplorerUrl,
@@ -154,6 +162,7 @@ export default class NetworkForm extends PureComponent {
     const {
       rpcUrl: stateRpcUrl,
       chainId: stateChainId,
+      hrp: stateHrp,
       ticker: stateTicker,
       networkName: stateNetworkName,
       blockExplorerUrl: stateBlockExplorerUrl,
@@ -162,6 +171,7 @@ export default class NetworkForm extends PureComponent {
     return (
       stateRpcUrl === rpcUrl &&
       stateChainId === chainId &&
+      stateHrp === hrp &&
       stateTicker === ticker &&
       stateNetworkName === networkName &&
       stateBlockExplorerUrl === blockExplorerUrl
@@ -212,6 +222,13 @@ export default class NetworkForm extends PureComponent {
     )
   }
 
+  validateHrp = (hrp) => {
+    this.setErrorTo('hrp', !!hrp && length(hrp) !== 3
+      ? `${this.context.t('invalidInput')} hrp`
+      : '',
+    )
+  }
+
   isValidWhenAppended = (url) => {
     const appendedRpc = `http://${url}`
     return validUrl.isWebUri(appendedRpc) && !url.match(/^https?:\/\/$/)
@@ -257,6 +274,7 @@ export default class NetworkForm extends PureComponent {
       networkName,
       rpcUrl,
       chainId = '',
+      hrp,
       ticker,
       blockExplorerUrl,
       errors,
@@ -286,6 +304,13 @@ export default class NetworkForm extends PureComponent {
           this.setStateWithValue('chainId', this.validateChainId),
           chainId,
           'optionalChainId',
+        )}
+        {this.renderFormTextField(
+          'hrp',
+          'hrp',
+          this.setStateWithValue('hrp', this.validateHrp),
+          hrp,
+          'optionalHrp',
         )}
         {this.renderFormTextField(
           'symbol',

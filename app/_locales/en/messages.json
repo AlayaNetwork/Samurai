@@ -1013,6 +1013,9 @@
   "optionalChainId": {
     "message": "ChainID (optional)"
   },
+  "optionalHrp": {
+    "message": "Hrp"
+  },
   "optionalSymbol": {
     "message": "Symbol (optional)"
   },

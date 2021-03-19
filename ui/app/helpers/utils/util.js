@@ -62,15 +62,15 @@ export function addressSummary (address, firstSegLength = 10, lastSegLength = 4,
   return checked ? checked.slice(0, firstSegLength) + '...' + checked.slice(checked.length - lastSegLength) : '...'
 }
 
-export function isValidAddress (address, network) {
+export function isValidAddress (address, hrp) {
   if (!address || address === '0x0000000000000000000000000000000000000000') {
     return false
   }
   let prefixAt
-  if (!network) {
-    prefixAt = address.startsWith('atx') || address.startsWith('atp')
+  if (hrp) {
+    prefixAt = address.startsWith(hrp)
   } else {
-    prefixAt = address.startsWith(network === '201018' ? 'atp' : 'atx')
+    prefixAt = !address.startsWith('0x')
   }
   const prefixed = prefixAt ? address : ethUtil.addHexPrefix(address)
   if (prefixAt) {

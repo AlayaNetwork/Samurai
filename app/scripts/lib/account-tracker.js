@@ -195,42 +195,47 @@ export default class AccountTracker {
   async _updateAccounts () {
     const accounts = this.store.getState().accounts
     const addresses = Object.keys(accounts)
-    let currentNetwork = this.network.getNetworkState()
-    if (currentNetwork === 'loading') {
-      currentNetwork = this.network.providerStore.getState().chainId
+
+    let currentHrp = this.network.getHrpState()
+    if (currentHrp === 'loading') {
+      currentHrp = this.network.providerStore.getState().hrp
     }
 
-    switch (currentNetwork) {
-      // case MAINNET_NETWORK_ID.toString():
-      //   await this._updateAccountsViaBalanceChecker(addresses, SINGLE_CALL_BALANCES_ADDRESS)
-      //   break
+    await Promise.all(addresses.map((address) => {
+      return this._updateAccount(address, currentHrp)
+    }))
 
-      // case ALAYA_NETWORK_ID.toString():
-      //   await this._updateAccountsViaBalanceChecker(addresses, SINGLE_CALL_BALANCES_ADDRESS_ALAYA)
-      //   break
-      //
-      // case ROPSTEN_NETWORK_ID.toString():
-      //   await this._updateAccountsViaBalanceChecker(addresses, SINGLE_CALL_BALANCES_ADDRESS_ROPSTEN)
-      //   break
-      //
-      // case KOVAN_NETWORK_ID.toString():
-      //   await this._updateAccountsViaBalanceChecker(addresses, SINGLE_CALL_BALANCES_ADDRESS_KOVAN)
-      //   break
-      case '201018':
-        // if (addresses[0] && !addresses[0].startsWith('atp')) {
-        //   addresses = addresses.map((address) => {
-        //     return toBech32Address('atp', decodeBech32Address(address))
-        //   })
-        // }
-        await Promise.all(addresses.map((address) => {
-          return this._updateAccount(address, 'atp')
-        }))
-        break
-      default:
-        await Promise.all(addresses.map((address) => {
-          return this._updateAccount(address, 'atx')
-        }))
-    }
+    // switch (currentNetwork) {
+    //   // case MAINNET_NETWORK_ID.toString():
+    //   //   await this._updateAccountsViaBalanceChecker(addresses, SINGLE_CALL_BALANCES_ADDRESS)
+    //   //   break
+    //
+    //   // case ALAYA_NETWORK_ID.toString():
+    //   //   await this._updateAccountsViaBalanceChecker(addresses, SINGLE_CALL_BALANCES_ADDRESS_ALAYA)
+    //   //   break
+    //   //
+    //   // case ROPSTEN_NETWORK_ID.toString():
+    //   //   await this._updateAccountsViaBalanceChecker(addresses, SINGLE_CALL_BALANCES_ADDRESS_ROPSTEN)
+    //   //   break
+    //   //
+    //   // case KOVAN_NETWORK_ID.toString():
+    //   //   await this._updateAccountsViaBalanceChecker(addresses, SINGLE_CALL_BALANCES_ADDRESS_KOVAN)
+    //   //   break
+    //   case '201018':
+    //     // if (addresses[0] && !addresses[0].startsWith('atp')) {
+    //     //   addresses = addresses.map((address) => {
+    //     //     return toBech32Address('atp', decodeBech32Address(address))
+    //     //   })
+    //     // }
+    //     await Promise.all(addresses.map((address) => {
+    //       return this._updateAccount(address, currentHrp)
+    //     }))
+    //     break
+    //   default:
+    //     await Promise.all(addresses.map((address) => {
+    //       return this._updateAccount(address, currentHrp)
+    //     }))
+    // }
   }
 
   /**

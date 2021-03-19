@@ -44,7 +44,7 @@ const mapStateToProps = (state, ownProps) => {
 
   const tokenData = getTokenData(data)
   const tokenValue = tokenData && getTokenValue(tokenData.params)
-  const toAddress = tokenData && getTokenToAddress(tokenData.params, state.metamask.network === '201018' ? 'atp' : 'atx')
+  const toAddress = tokenData && getTokenToAddress(tokenData.params, state.metamask.hrp)
   const tokenAmount = tokenData && calcTokenAmount(tokenValue, decimals).toNumber()
   const contractExchangeRate = contractExchangeRateSelector(state)
 

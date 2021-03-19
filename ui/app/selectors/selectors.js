@@ -73,7 +73,7 @@ export const getMetaMaskAccounts = createSelector(
 
 export function getSelectedAddress (state) {
   const address = state.metamask.selectedAddress
-  const hrp = state.metamask.network === '201018' ? 'atp' : 'atx'
+  const hrp = state.metamask.hrp
   if (address && !address.startsWith(hrp)) {
     state.metamask.selectedAddress = toBech32Address(hrp, decodeBech32Address(address))
   }
@@ -84,7 +84,7 @@ export function getSelectedIdentity (state) {
   const selectedAddress = getSelectedAddress(state)
   const identities = state.metamask.identities
   const newIdentities = {}
-  const hrp = state.metamask.network === '201018' ? 'atp' : 'atx'
+  const hrp = state.metamask.hrp
   Object.keys(identities).map((identity) => {
     if (!identity.startsWith(hrp)) {
       const addr = toBech32Address(hrp, decodeBech32Address(identity))
@@ -116,7 +116,7 @@ export function getMetaMaskKeyrings (state) {
 export function getMetaMaskIdentities (state) {
   const identities = state.metamask.identities
   const newIdentities = {}
-  const hrp = state.metamask.network === '201018' ? 'atp' : 'atx'
+  const hrp = state.metamask.hrp
   Object.keys(identities).map((identity) => {
     if (!identity.startsWith(hrp)) {
       const addr = toBech32Address(hrp, decodeBech32Address(identity))

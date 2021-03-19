@@ -1454,12 +1454,12 @@ export function setPreviousProvider (type) {
   }
 }
 
-export function updateAndSetCustomRpc (newRpc, chainId, ticker = 'ATP', nickname, rpcPrefs) {
+export function updateAndSetCustomRpc (newRpc, chainId, hrp, ticker = 'ATP', nickname, rpcPrefs) {
   return async (dispatch) => {
-    log.debug(`background.updateAndSetCustomRpc: ${newRpc} ${chainId} ${ticker} ${nickname}`)
+    log.debug(`background.updateAndSetCustomRpc: ${newRpc} ${chainId} ${hrp} ${ticker} ${nickname}`)
 
     try {
-      await promisifiedBackground.updateAndSetCustomRpc(newRpc, chainId, ticker, nickname || newRpc, rpcPrefs)
+      await promisifiedBackground.updateAndSetCustomRpc(newRpc, chainId, hrp, ticker, nickname || newRpc, rpcPrefs)
     } catch (error) {
       log.error(error)
       dispatch(displayWarning('Had a problem changing networks!'))
@@ -1473,7 +1473,7 @@ export function updateAndSetCustomRpc (newRpc, chainId, ticker = 'ATP', nickname
   }
 }
 
-export function editRpc (oldRpc, newRpc, chainId, ticker = 'ATP', nickname, rpcPrefs) {
+export function editRpc (oldRpc, newRpc, chainId, hrp, ticker = 'ATP', nickname, rpcPrefs) {
   return async (dispatch) => {
     log.debug(`background.delRpcTarget: ${oldRpc}`)
     try {
@@ -1485,7 +1485,7 @@ export function editRpc (oldRpc, newRpc, chainId, ticker = 'ATP', nickname, rpcP
     }
 
     try {
-      await promisifiedBackground.updateAndSetCustomRpc(newRpc, chainId, ticker, nickname || newRpc, rpcPrefs)
+      await promisifiedBackground.updateAndSetCustomRpc(newRpc, chainId, hrp, ticker, nickname || newRpc, rpcPrefs)
     } catch (error) {
       log.error(error)
       dispatch(displayWarning('Had a problem changing networks!'))
@@ -1499,12 +1499,12 @@ export function editRpc (oldRpc, newRpc, chainId, ticker = 'ATP', nickname, rpcP
   }
 }
 
-export function setRpcTarget (newRpc, chainId, ticker = 'ATP', nickname) {
+export function setRpcTarget (newRpc, chainId, hrp, ticker = 'ATP', nickname) {
   return async (dispatch) => {
-    log.debug(`background.setRpcTarget: ${newRpc} ${chainId} ${ticker} ${nickname}`)
+    log.debug(`background.setRpcTarget: ${newRpc} ${chainId} ${hrp} ${ticker} ${nickname}`)
 
     try {
-      await promisifiedBackground.setCustomRpc(newRpc, chainId, ticker, nickname || newRpc)
+      await promisifiedBackground.setCustomRpc(newRpc, chainId, hrp, ticker, nickname || newRpc)
     } catch (error) {
       log.error(error)
       dispatch(displayWarning('Had a problem changing networks!'))

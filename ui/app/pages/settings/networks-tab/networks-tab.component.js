@@ -170,6 +170,7 @@ export default class NetworksTab extends PureComponent {
         label,
         rpcUrl,
         chainId,
+        hrp,
         ticker,
         viewOnly,
         rpcPrefs,
@@ -198,6 +199,7 @@ export default class NetworksTab extends PureComponent {
                 networkName={label || (labelKey && t(labelKey)) || ''}
                 rpcUrl={rpcUrl}
                 chainId={chainId}
+                hrp={hrp}
                 ticker={ticker}
                 onClear={() => {
                   setNetworksTabAddMode(false)

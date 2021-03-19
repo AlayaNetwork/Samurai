@@ -1,7 +1,7 @@
 import ObservableStore from 'obs-store'
 import { addInternalMethodPrefix } from './permissions'
 import { normalize as normalizeAddress } from '@alayanetwork/eth-sig-util'
-import { isValidAddress, sha3, bufferToHex, toBech32Address } from '@alayanetwork/ethereumjs-util'
+import { isValidAddress, sha3, bufferToHex, isBech32Address, toBech32Address } from '@alayanetwork/ethereumjs-util'
 
 export default class PreferencesController {
 
@@ -372,7 +372,7 @@ export default class PreferencesController {
    */
   setSelectedAddress (_address) {
     let address = _address
-    if (!(_address.startsWith('atx') || _address.startsWith('atp'))) {
+    if (!isBech32Address(_address)) {
       address = normalizeAddress(_address)
     }
     this._updateTokens(address)
@@ -506,8 +506,8 @@ export default class PreferencesController {
       rpcList[index] = updatedRpc
       this.store.updateState({ frequentRpcListDetail: rpcList })
     } else {
-      const { rpcUrl, chainId, ticker, nickname, rpcPrefs = {} } = newRpcDetails
-      return this.addToFrequentRpcList(rpcUrl, chainId, ticker, nickname, rpcPrefs)
+      const { rpcUrl, chainId, hrp, ticker, nickname, rpcPrefs = {} } = newRpcDetails
+      return this.addToFrequentRpcList(rpcUrl, chainId, hrp, ticker, nickname, rpcPrefs)
     }
     return Promise.resolve(rpcList)
   }
@@ -521,7 +521,7 @@ export default class PreferencesController {
    * @returns {Promise<array>} - Promise resolving to updated frequentRpcList.
    *
    */
-  addToFrequentRpcList (url, chainId, ticker = 'ATP', nickname = '', rpcPrefs = {}) {
+  addToFrequentRpcList (url, chainId, hrp, ticker = 'ATP', nickname = '', rpcPrefs = {}) {
     const rpcList = this.getFrequentRpcListDetail()
     const index = rpcList.findIndex((element) => {
       return element.rpcUrl === url
@@ -534,7 +534,7 @@ export default class PreferencesController {
       if (!!chainId && !Number.isNaN(parseInt(chainId))) {
         checkedChainId = chainId
       }
-      rpcList.push({ rpcUrl: url, chainId: checkedChainId, ticker, nickname, rpcPrefs })
+      rpcList.push({ rpcUrl: url, chainId: checkedChainId, hrp, ticker, nickname, rpcPrefs })
     }
     this.store.updateState({ frequentRpcListDetail: rpcList })
     return Promise.resolve(rpcList)
