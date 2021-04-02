@@ -5,7 +5,7 @@ Samurai是基于以太坊web钱包Metamask进行fork的，针对alaya网络进�
 
 ### 2.安装
 
-+ 下载[Samurai插件包](https://github.com/AlayaNetwork/Samurai/releases/download/v8.0.11/samurai-chrome-8.0.11.zip)
++ 下载[Samurai插件包](https://github.com/AlayaNetwork/Samurai/releases/download/v8.1.0/samurai-chrome-8.1.0.zip)
 + 解压Samurai插件包
 + [通过chrome加载已解压的插件包](./add-to-chrome.md)
 ### 3.使用
