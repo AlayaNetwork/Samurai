@@ -231,7 +231,7 @@
     "message": "Σύνδεση στο Δοκιμαστικό Δίκτυο Kovan"
   },
   "connectingToMainnet": {
-    "message": "Σύνδεση στο Κύριο Δίκτυο Alaya"
+    "message": "Σύνδεση στο Κύριο Δίκτυο PlatON"
   },
   "connectingToRopsten": {
     "message": "Σύνδεση με το Δίκτυο Δοκιμών Ropsten"
@@ -405,7 +405,7 @@
     "message": "Δημόσια Διεύθυνση Alaya"
   },
   "etherscanView": {
-    "message": "Προβολή λογαριασμού στο Alayascan"
+    "message": "Προβολή λογαριασμού στο PlatScan"
   },
   "estimatedProcessingTimes": {
     "message": "Εκτιμώμενοι Χρόνοι Επεξεργασίας"
@@ -628,7 +628,7 @@
     "message": "Αποσύνδεση"
   },
   "mainnet": {
-    "message": "Κύριο Δίκτυο Alaya"
+    "message": "Κύριο Δίκτυο PlatON"
   },
   "memorizePhrase": {
     "message": "Απομνημονεύστε αυτή τη φράση."
@@ -1266,7 +1266,7 @@
     "message": "Προβολή σε $1"
   },
   "viewOnEtherscan": {
-    "message": "Προβολή στο Alayascan"
+    "message": "Προβολή στο PlatScan"
   },
   "visitWebSite": {
     "message": "Επισκεφθείτε τον ιστότοπό μας"

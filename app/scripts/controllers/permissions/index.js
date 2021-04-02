@@ -22,6 +22,7 @@ import {
   NOTIFICATION_NAMES,
   CAVEAT_TYPES,
 } from './enums'
+import {decodeBech32Address, toBech32Address} from "@alayanetwork/ethereumjs-util";
 
 export class PermissionsController {
 
@@ -33,6 +34,7 @@ export class PermissionsController {
       notifyDomain,
       notifyAllDomains,
       preferences,
+      network,
       showPermissionRequest,
     } = {},
     restoredPermissions = {},
@@ -63,6 +65,7 @@ export class PermissionsController {
     this._initializePermissions(restoredPermissions)
     this._lastSelectedAddress = preferences.getState().selectedAddress
     this.preferences = preferences
+    this.network = network
 
     this._initializeMetadataStore(restoredState)
 
@@ -162,7 +165,24 @@ export class PermissionsController {
    * @returns {Object} identities
    */
   _getIdentities () {
-    return this.preferences.getState().identities
+    const identities = this.preferences.getState().identities
+    const newIdentities = {}
+    const hrp = this.network.hrpStore.getState()
+    Object.keys(identities).map((identity) => {
+      if (!identity.startsWith(hrp)) {
+        const addr = toBech32Address(hrp, decodeBech32Address(identity))
+        identities[identity].address = addr
+        newIdentities[addr] = identities[identity]
+        delete identities[identity]
+        return addr
+      }
+      return identity
+    })
+    if (Object.keys(newIdentities).length > 0) {
+      this.preferences.updateState({ identities: newIdentities })
+      return newIdentities
+    }
+    return identities
   }
 
   /**

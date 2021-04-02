@@ -228,7 +228,7 @@
     "message": "Conexión con $1"
   },
   "connectingToMainnet": {
-    "message": "Conexión con la red principal de Alaya"
+    "message": "Conexión con la red principal de PlatON"
   },
   "connectingToAlaya": {
     "message": "Conexión con la red de prueba Alaya"
@@ -396,7 +396,7 @@
     "message": "Dirección pública de Alaya"
   },
   "etherscanView": {
-    "message": "Ver cuenta en Alayascan"
+    "message": "Ver cuenta en PlatScan"
   },
   "estimatedProcessingTimes": {
     "message": "Tiempo estimado de procesamiento"
@@ -610,7 +610,7 @@
     "message": "Cerrar sesión"
   },
   "mainnet": {
-    "message": "Red principal de Alaya"
+    "message": "Red principal de PlatON"
   },
   "memorizePhrase": {
     "message": "Memoriza esta frase."
@@ -1236,7 +1236,7 @@
     "message": "Ver en $1"
   },
   "viewOnEtherscan": {
-    "message": "Ver en Alayascan"
+    "message": "Ver en PlatScan"
   },
   "visitWebSite": {
     "message": "Visita nuestro sitio web"

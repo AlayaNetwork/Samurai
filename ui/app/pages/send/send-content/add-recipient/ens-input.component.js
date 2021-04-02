@@ -23,6 +23,7 @@ export default class EnsInput extends Component {
   static propTypes = {
     className: PropTypes.string,
     network: PropTypes.string,
+    hrp: PropTypes.string,
     selectedAddress: PropTypes.string,
     selectedName: PropTypes.string,
     onChange: PropTypes.func,

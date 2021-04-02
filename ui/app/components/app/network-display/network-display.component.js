@@ -3,18 +3,16 @@ import PropTypes from 'prop-types'
 import classnames from 'classnames'
 import {
   MAINNET_NETWORK_ID,
-  // ROPSTEN_NETWORK_ID,
   ALAYA_NETWORK_ID,
-  // KOVAN_NETWORK_ID,
-  // GOERLI_NETWORK_ID,
+  PLATON_DEV_NETWORK_ID,
+  ALAYA_DEV_NETWORK_ID,
 } from '../../../../../app/scripts/controllers/network/enums'
 
 const networkIdToTypeMap = {
   [MAINNET_NETWORK_ID]: 'mainnet',
-  // [ROPSTEN_NETWORK_ID]: 'ropsten',
+  [PLATON_DEV_NETWORK_ID]: 'platon_dev',
   [ALAYA_NETWORK_ID]: 'alaya',
-  // [GOERLI_NETWORK_ID]: 'goerli',
-  // [KOVAN_NETWORK_ID]: 'kovan',
+  [ALAYA_DEV_NETWORK_ID]: 'alaya_dev',
 }
 
 export default class NetworkDisplay extends Component {

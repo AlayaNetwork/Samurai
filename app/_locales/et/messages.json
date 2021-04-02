@@ -408,7 +408,7 @@
     "message": "Alayai avalik aadress"
   },
   "etherscanView": {
-    "message": "Vaadake kontot Alayascanil"
+    "message": "Vaadake kontot PlatScanil"
   },
   "estimatedProcessingTimes": {
     "message": "Eeldatavad töötlemisajad"
@@ -621,7 +621,7 @@
     "message": "Logi välja"
   },
   "mainnet": {
-    "message": "Alayai põhivõrk"
+    "message": "PlatONi põhivõrk"
   },
   "memorizePhrase": {
     "message": "Jätke fraas meelde."
@@ -1262,7 +1262,7 @@
     "message": "Vaata $1"
   },
   "viewOnEtherscan": {
-    "message": "Kuva Alayascanil"
+    "message": "Kuva PlatScanil"
   },
   "visitWebSite": {
     "message": "Külastage meie veebilehte"

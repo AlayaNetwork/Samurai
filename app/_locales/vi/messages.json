@@ -107,7 +107,7 @@
     "message": "Nhập mật khẩu"
   },
   "etherscanView": {
-    "message": "Xem tài khoản trên Alayascan"
+    "message": "Xem tài khoản trên PlatScan"
   },
   "exportPrivateKey": {
     "message": "Xuất mã khóa cá nhân"
@@ -189,7 +189,7 @@
     "message": "Thoát"
   },
   "mainnet": {
-    "message": "Mạng Alaya MainNet (tiền ATP thật)"
+    "message": "Mạng PlatON MainNet (tiền ATP thật)"
   },
   "message": {
     "message": "Tin nhắn"

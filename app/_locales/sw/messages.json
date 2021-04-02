@@ -228,7 +228,7 @@
     "message": "Inaunganisha kwenye Mtandao wa Majaribio wa Kovan"
   },
   "connectingToMainnet": {
-    "message": "Inaunganisha kwenye Mtandao Mkuu wa Alaya"
+    "message": "Inaunganisha kwenye Mtandao Mkuu wa PlatON"
   },
   "connectingToRopsten": {
     "message": "Inaunganisha kwenye Mtandao wa Majaribio wa Ropsten"
@@ -402,7 +402,7 @@
     "message": "Anwani ya Umma ya Alaya"
   },
   "etherscanView": {
-    "message": "Tazama akaunti kwenye Alayascan"
+    "message": "Tazama akaunti kwenye PlatScan"
   },
   "estimatedProcessingTimes": {
     "message": "Muda wa Kuchakata Uliokadiriwa"
@@ -612,7 +612,7 @@
     "message": "Toka kwenye akaunti"
   },
   "mainnet": {
-    "message": "Mtandao Mkuu wa Alaya"
+    "message": "Mtandao Mkuu wa PlatON"
   },
   "memorizePhrase": {
     "message": "Kariri kirai hiki"
@@ -1250,7 +1250,7 @@
     "message": "Tazama kwenye $1"
   },
   "viewOnEtherscan": {
-    "message": "Tazama kwenye Alayascan"
+    "message": "Tazama kwenye PlatScan"
   },
   "visitWebSite": {
     "message": "Tembelea Tovuti yetu"

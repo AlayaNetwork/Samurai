@@ -223,7 +223,7 @@ export default class NetworkForm extends PureComponent {
   }
 
   validateHrp = (hrp) => {
-    this.setErrorTo('hrp', !!hrp && length(hrp) !== 3
+    this.setErrorTo('hrp', !!hrp && hrp.length !== 3
       ? `${this.context.t('invalidInput')} hrp`
       : '',
     )

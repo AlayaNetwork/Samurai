@@ -1,17 +1,15 @@
 import {
   MAINNET_CHAIN_ID,
-  // ROPSTEN_CHAIN_ID,
   ALAYA_CHAIN_ID,
-  // KOVAN_CHAIN_ID,
-  // GOERLI_CHAIN_ID,
+  ALAYA_DEV_CHAIN_ID,
+  PLATON_DEV_CHAIN_ID,
 } from '../controllers/network/enums'
 
 const standardNetworkId = {
-  '1': MAINNET_CHAIN_ID,
-  // '3': ROPSTEN_CHAIN_ID,
+  '1021': MAINNET_CHAIN_ID,
+  '210309': PLATON_DEV_CHAIN_ID,
   '201018': ALAYA_CHAIN_ID,
-  // '42': KOVAN_CHAIN_ID,
-  // '5': GOERLI_CHAIN_ID,
+  '201030': ALAYA_DEV_CHAIN_ID,
 }
 
 export default function selectChainId (metamaskState) {

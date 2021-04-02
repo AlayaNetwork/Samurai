@@ -231,7 +231,7 @@
     "message": "Kobler til Kovan testnettverk"
   },
   "connectingToMainnet": {
-    "message": "Forbinder med hoved-Alayanettverk "
+    "message": "Forbinder med hoved-PlatONnettverk "
   },
   "connectingToRopsten": {
     "message": "Kobler til Ropsten testnettverk"
@@ -405,7 +405,7 @@
     "message": "Alaya offentlig adresse"
   },
   "etherscanView": {
-    "message": "Vis konto på Alayascan "
+    "message": "Vis konto på PlatScan "
   },
   "estimatedProcessingTimes": {
     "message": "Anslått behandlingstid"
@@ -621,7 +621,7 @@
     "message": "Logg ut "
   },
   "mainnet": {
-    "message": "Alaya hovednettverk"
+    "message": "PlatON hovednettverk"
   },
   "memorizePhrase": {
     "message": "Memorer denne frasen. "
@@ -1244,7 +1244,7 @@
     "message": "Vis ved $1 "
   },
   "viewOnEtherscan": {
-    "message": "Vis på Alayascan "
+    "message": "Vis på PlatScan "
   },
   "visitWebSite": {
     "message": "Besøk nettsiden vår "

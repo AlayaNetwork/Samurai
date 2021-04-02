@@ -231,7 +231,7 @@
     "message": "Yhdistetään Kovanin koeverkkoon"
   },
   "connectingToMainnet": {
-    "message": "Yhdistetään Alayain pääverkkoon"
+    "message": "Yhdistetään PlatON-pääverkkoon"
   },
   "connectingToRopsten": {
     "message": "Yhdistetään Ropstenin koeverkkoon"
@@ -405,7 +405,7 @@
     "message": "Alayain julkinen osoite"
   },
   "etherscanView": {
-    "message": "Tarkastele tiliä Alayascanissa"
+    "message": "Tarkastele tiliä PlatScanissa"
   },
   "estimatedProcessingTimes": {
     "message": "Arvioidut käsittelyajat"
@@ -628,7 +628,7 @@
     "message": "Kirjaudu ulos"
   },
   "mainnet": {
-    "message": "Alayain pääverkko"
+    "message": "PlatON-pääverkko"
   },
   "memorizePhrase": {
     "message": "Opettele tämä teksti ulkoa."
@@ -1269,7 +1269,7 @@
     "message": "Tarkastele kohdassa $1"
   },
   "viewOnEtherscan": {
-    "message": "Näytä Alayascanissa"
+    "message": "Näytä PlatScanissa"
   },
   "visitWebSite": {
     "message": "Vieraile verkkosivustollamme"

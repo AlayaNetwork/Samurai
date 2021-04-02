@@ -222,7 +222,7 @@
     "message": " Verbinde zum Kovan Testnetzwerk"
   },
   "connectingToMainnet": {
-    "message": "Verbinde zum Alaya Main Net"
+    "message": "Verbinde zum PlatON Main Net"
   },
   "connectingToRopsten": {
     "message": " Verbinde zum Ropsten Testnetzwerk"
@@ -393,7 +393,7 @@
     "message": "Öffentliche Alaya-Adresse"
   },
   "etherscanView": {
-    "message": "Account auf Alayascan anschauen"
+    "message": "Account auf PlatScan anschauen"
   },
   "estimatedProcessingTimes": {
     "message": "Geschätzte Bearbeitungszeiten"
@@ -607,7 +607,7 @@
     "message": "Ausloggen"
   },
   "mainnet": {
-    "message": "Alaya Main Net"
+    "message": "PlatON Main Net"
   },
   "memorizePhrase": {
     "message": "Prägen Sie sich diese Phrase ein."
@@ -1229,7 +1229,7 @@
     "message": "Für $1 ansehen"
   },
   "viewOnEtherscan": {
-    "message": "Auf Alayascan ansehen"
+    "message": "Auf PlatScan ansehen"
   },
   "visitWebSite": {
     "message": "Gehe zu unserer Webseite"

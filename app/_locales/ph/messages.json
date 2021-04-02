@@ -101,7 +101,7 @@
     "message": "I-enter ang password"
   },
   "etherscanView": {
-    "message": "Tingnan ang account sa Alayascan"
+    "message": "Tingnan ang account sa PlatScan"
   },
   "exportPrivateKey": {
     "message": "I-export ang Private Key"

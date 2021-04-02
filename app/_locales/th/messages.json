@@ -89,7 +89,7 @@
     "message": "เชื่อมต่อกับ $1"
   },
   "connectingToMainnet": {
-    "message": "เชื่อมต่อกับเครือข่าย Alaya หลัก"
+    "message": "เชื่อมต่อกับเครือข่าย PlatON หลัก"
   },
   "connectingToRopsten": {
     "message": "เชื่อมต่อกับเครือข่ายทดสอบ Ropsten"
@@ -191,7 +191,7 @@
     "message": "ใส่รหัสผ่าน"
   },
   "etherscanView": {
-    "message": "ดูบัญชีบน Alayascan"
+    "message": "ดูบัญชีบน PlatScan"
   },
   "expandView": {
     "message": "ขยายมุมมอง"

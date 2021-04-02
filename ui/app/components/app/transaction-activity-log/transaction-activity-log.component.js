@@ -33,8 +33,10 @@ export default class TransactionActivityLog extends PureComponent {
     let etherscanUrl
     if (metamaskNetworkId === "201018") {
       etherscanUrl = `https://scan.alaya.network/trade-detail?txHash=${hash}`
-    } else {
-      etherscanUrl = `https://scanbeta.alaya.network/trade-detail?txHash=${hash}`
+    } else if (metamaskNetworkId === "201030") {
+      etherscanUrl = `https://devnetscan.alaya.network/trade-detail?txHash=${hash}`
+    } else if (metamaskNetworkId === "210309") {
+      etherscanUrl = `https://devnetscan.platon.network/trade-detail?txHash=${hash}`
     }
 
     //const prefix = getEtherscanNetworkPrefix(metamaskNetworkId)

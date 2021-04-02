@@ -55,6 +55,8 @@ const defaultProviderConfig = {
 }
 
 const defaultNetworkConfig = {
+  chainId: defaultProviderConfigChainID,
+  hrp: defaultProviderConfigHrp,
   ticker: 'ATP',
 }
 
@@ -155,7 +157,7 @@ export default class NetworkController extends EventEmitter {
       const currentNetwork = this.getNetworkState()
       if (initialNetwork === currentNetwork) {
         if (err) {
-          return this.setHrpState('loading')
+          return this.setHrpState('atp', type)
         }
         if (defaultNetworksData[type]) {
           hrp = defaultNetworksData[type].hrp
@@ -196,13 +198,19 @@ export default class NetworkController extends EventEmitter {
     this.providerConfig = providerConfig
   }
 
-  async setProviderType (type, rpcTarget = '', ticker = 'ATP', nickname = '') {
+  async setProviderType (type, chainId = '', hrp = '', rpcTarget = '', ticker = 'ATP', nickname = '') {
     assert.notEqual(type, 'rpc', `NetworkController - cannot call "setProviderType" with type 'rpc'. use "setRpcTarget"`)
     assert(INFURA_PROVIDER_TYPES.includes(type) || type === LOCALHOST, `NetworkController - Unknown rpc type "${type}"`)
     if (rpcTarget === '') {
       rpcTarget = defaultNetworksData[type].rpcTarget
     }
-    const providerConfig = { type, rpcTarget, ticker, nickname }
+    if (chainId === '') {
+      chainId = defaultNetworksData[type].chainId
+    }
+    if (hrp === '') {
+      hrp = defaultNetworksData[type].hrp
+    }
+    const providerConfig = { type, chainId, hrp, rpcTarget, ticker, nickname }
     this.providerConfig = providerConfig
   }
 
@@ -225,7 +233,11 @@ export default class NetworkController extends EventEmitter {
 
   _switchNetwork (opts) {
     this.setNetworkState('loading')
-    this.setHrpState('loading')
+    if (opts.hrp) {
+      this.setHrpState(opts.hrp, opts.type)
+    } else {
+      this.setHrpState('loading')
+    }
     this._configureProvider(opts)
     this.emit('networkDidChange', opts.type)
   }
@@ -261,9 +273,10 @@ export default class NetworkController extends EventEmitter {
     // setup networkConfig
     let settings = {
       network: defaultNetworksData[type].chainId,
+      hrp: defaultNetworksData[type].hrp,
       ticker: 'ATP',
     }
-    settings = Object.assign(settings, networks.networkList['rpc'])
+    settings = Object.assign(settings, networks.networkList[type])
     this.networkConfig.putState(settings)
     this._setNetworkClient(networkClient)
   }
@@ -288,6 +301,7 @@ export default class NetworkController extends EventEmitter {
     // setup networkConfig
     let settings = {
       network: chainId,
+      hrp: hrp
     }
     settings = Object.assign(settings, networks.networkList['rpc'])
     this.networkConfig.putState(settings)

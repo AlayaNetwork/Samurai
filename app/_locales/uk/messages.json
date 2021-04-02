@@ -234,7 +234,7 @@
     "message": "Підключення до тестової мережі Kovan"
   },
   "connectingToMainnet": {
-    "message": "З'єднуємось з Головною мережею Alaya"
+    "message": "З'єднуємось з Головною мережею PlatON"
   },
   "connectingToRopsten": {
     "message": "Під'єднуємось до Тестової мережі Ropsten"
@@ -408,7 +408,7 @@
     "message": "Публічна адреса Alaya"
   },
   "etherscanView": {
-    "message": "Переглянути обліковий запис на Alayascan"
+    "message": "Переглянути обліковий запис на PlatScan"
   },
   "estimatedProcessingTimes": {
     "message": "Приблизні часи обробки"
@@ -631,7 +631,7 @@
     "message": "Вийти"
   },
   "mainnet": {
-    "message": "Головна Мережа Alaya"
+    "message": "Головна Мережа PlatON"
   },
   "memorizePhrase": {
     "message": "Запам'ятайте цю фразу."
@@ -1272,7 +1272,7 @@
     "message": "Дивитись на $1"
   },
   "viewOnEtherscan": {
-    "message": "Дивитись на Alayascan"
+    "message": "Дивитись на PlatScan"
   },
   "visitWebSite": {
     "message": "Відвідайте наш веб-сайт"

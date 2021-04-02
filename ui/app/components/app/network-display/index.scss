@@ -15,11 +15,18 @@
       background-color: lighten($blue-lagoon, 68%);
     }
 
-    &--ropsten {
+    //&--ropsten {
+    //  background-color: lighten($crimson, 45%);
+    //}
+
+    &--platon_dev {
       background-color: lighten($crimson, 45%);
     }
 
-    &--kovan {
+    //&--kovan {
+    //  background-color: lighten($purple, 65%);
+    //}
+    &--alaya_dev {
       background-color: lighten($purple, 65%);
     }
 
@@ -46,11 +53,17 @@
       background-color: $blue-lagoon;
     }
 
-    &--ropsten {
+    //&--ropsten {
+    //  background-color: $crimson;
+    //}
+    &--platon_dev {
       background-color: $crimson;
     }
 
-    &--kovan {
+    //&--kovan {
+    //  background-color: $purple;
+    //}
+    &--alaya_dev {
       background-color: $purple;
     }
 

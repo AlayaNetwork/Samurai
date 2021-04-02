@@ -192,8 +192,10 @@ export default class ExtensionPlatform {
     let url
     if (txMeta.metamaskNetworkId === "201018") {
       url = `https://scan.alaya.network/trade-detail?txHash=${txMeta.hash}`
-    } else {
-      url = `https://scanbeta.alaya.network/trade-detail?txHash=${txMeta.hash}`
+    } else if (txMeta.metamaskNetworkId === "201030") {
+      url = `https://devnetscan.alaya.network/trade-detail?txHash=${txMeta.hash}`
+    } else if (txMeta.metamaskNetworkId === "210309") {
+      url = `https://devnetscan.platon.network/trade-detail?txHash=${txMeta.hash}`
     }
     //const url = explorerLink(txMeta.hash, parseInt(txMeta.metamaskNetworkId))
     const nonce = parseInt(txMeta.txParams.nonce, 16)

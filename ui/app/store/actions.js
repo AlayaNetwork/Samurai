@@ -15,6 +15,7 @@ import { setCustomGasLimit } from '../ducks/gas/gas.duck'
 import txHelper from '../../lib/tx-helper'
 import { getEnvironmentType } from '../../../app/scripts/lib/util'
 import * as actionConstants from './actionConstants'
+import { decodeBech32Address } from '@alayanetwork/ethereumjs-util'
 import {
   getPermittedAccountsForCurrentTab,
   getSelectedAddress,
@@ -1107,17 +1108,23 @@ export function updateMetamaskState (newState) {
   return (dispatch, getState) => {
     const { metamask: currentState } = getState()
 
-    const {
+    let {
       currentLocale,
       selectedAddress,
     } = currentState
-    const {
+    let {
       currentLocale: newLocale,
       selectedAddress: newSelectedAddress,
     } = newState
 
     if (currentLocale && newLocale && currentLocale !== newLocale) {
       dispatch(updateCurrentLocale(newLocale))
+    }
+    if (selectedAddress) {
+      selectedAddress = decodeBech32Address(selectedAddress)
+    }
+    if (newSelectedAddress) {
+      newSelectedAddress = decodeBech32Address(newSelectedAddress)
     }
     if (selectedAddress !== newSelectedAddress) {
       dispatch({ type: actionConstants.SELECTED_ADDRESS_CHANGED })

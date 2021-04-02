@@ -41,8 +41,8 @@ import EncryptionPublicKeyManager from './lib/encryption-public-key-manager'
 import PersonalMessageManager from './lib/personal-message-manager'
 import TypedMessageManager from './lib/typed-message-manager'
 import TransactionController from './controllers/transactions'
-import TokenRatesController from './controllers/token-rates'
-import DetectTokensController from './controllers/detect-tokens'
+// import TokenRatesController from './controllers/token-rates'
+// import DetectTokensController from './controllers/detect-tokens'
 import { PermissionsController } from './controllers/permissions'
 import getRestrictedMethods from './controllers/permissions/restrictedMethods'
 import nodeify from './lib/nodeify'
@@ -136,10 +136,10 @@ export default class MetamaskController extends EventEmitter {
     this.blockTracker = this.networkController.getProviderAndBlockTracker().blockTracker
 
     // token exchange rate tracker
-    this.tokenRatesController = new TokenRatesController({
-      currency: this.currencyRateController,
-      preferences: this.preferencesController.store,
-    })
+    // this.tokenRatesController = new TokenRatesController({
+    //   currency: this.currencyRateController,
+    //   preferences: this.preferencesController.store,
+    // })
 
     this.ensController = new EnsController({
       provider: this.provider,
@@ -164,12 +164,12 @@ export default class MetamaskController extends EventEmitter {
     this.on('controllerConnectionChanged', (activeControllerConnections) => {
       if (activeControllerConnections > 0) {
         this.accountTracker.start()
-        this.incomingTransactionsController.start()
-        this.tokenRatesController.start()
+        // this.incomingTransactionsController.start()
+        // this.tokenRatesController.start()
       } else {
         this.accountTracker.stop()
-        this.incomingTransactionsController.stop()
-        this.tokenRatesController.stop()
+        // this.incomingTransactionsController.stop()
+        // this.tokenRatesController.stop()
       }
     })
 
@@ -207,14 +207,15 @@ export default class MetamaskController extends EventEmitter {
       notifyDomain: this.notifyConnections.bind(this),
       notifyAllDomains: this.notifyAllConnections.bind(this),
       preferences: this.preferencesController.store,
+      network: this.networkController,
       showPermissionRequest: opts.showPermissionRequest,
     }, initState.PermissionsController, initState.PermissionsMetadata)
 
-    this.detectTokensController = new DetectTokensController({
-      preferences: this.preferencesController,
-      network: this.networkController,
-      keyringMemStore: this.keyringController.memStore,
-    })
+    // this.detectTokensController = new DetectTokensController({
+    //   preferences: this.preferencesController,
+    //   network: this.networkController,
+    //   keyringMemStore: this.keyringController.memStore,
+    // })
 
     this.addressBookController = new AddressBookController(undefined, initState.AddressBookController)
 
@@ -303,7 +304,7 @@ export default class MetamaskController extends EventEmitter {
       AccountTracker: this.accountTracker.store,
       TxController: this.txController.memStore,
       CachedBalancesController: this.cachedBalancesController.store,
-      TokenRatesController: this.tokenRatesController.store,
+      // TokenRatesController: this.tokenRatesController.store,
       MessageManager: this.messageManager.memStore,
       PersonalMessageManager: this.personalMessageManager.memStore,
       DecryptMessageManager: this.decryptMessageManager.memStore,
@@ -2127,7 +2128,7 @@ export default class MetamaskController extends EventEmitter {
    */
   set isClientOpen (open) {
     this._isClientOpen = open
-    this.detectTokensController.isOpen = open
+    // this.detectTokensController.isOpen = open
   }
 
   /**

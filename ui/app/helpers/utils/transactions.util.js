@@ -242,7 +242,9 @@ export function getBlockExplorerUrlForTx (networkId, hash, rpcPrefs = {}) {
   const prefix = getEtherscanNetworkPrefix(networkId)
   if (networkId === "201018") {
     return `https://scan.alaya.network/trade-detail?txHash=${hash}`
-  } else {
-    return `https://scanbeta.alaya.network/trade-detail?txHash=${hash}`
+  } else if (networkId === "201030") {
+    return `https://devnetscan.alaya.network/trade-detail?txHash=${hash}`
+  } else if (networkId === "210309") {
+    return `https://devnetscan.platon.network/trade-detail?txHash=${hash}`
   }
 }

@@ -23,7 +23,7 @@ function mapStateToProps (state) {
     frequentRpcListDetail: state.metamask.frequentRpcListDetail || [],
     networkDropdownOpen: state.appState.networkDropdownOpen,
     network: state.metamask.network,
-    hrp: state.metamask.hrp,
+    hrp: state.metamask.hrp !== 'loading' ? state.metamask.hrp : state.metamask.settings.hrp,
   }
 }
 
@@ -189,16 +189,12 @@ class NetworkDropdown extends Component {
 
     if (providerName === 'mainnet') {
       name = this.context.t('mainnet')
-    } else if (providerName === 'ropsten') {
-      name = this.context.t('ropsten')
-    } else if (providerName === 'kovan') {
-      name = this.context.t('kovan')
+    } else if (providerName === 'platon_dev') {
+      name = this.context.t('platon_dev')
     } else if (providerName === 'alaya') {
       name = this.context.t('alaya')
-    } else if (providerName === 'localhost') {
-      name = this.context.t('localhost')
-    } else if (providerName === 'goerli') {
-      name = this.context.t('goerli')
+    } else if (providerName === 'alaya_dev') {
+      name = this.context.t('alaya_dev')
     } else {
       name = provider.nickname || this.context.t('unknownNetwork')
     }
@@ -249,12 +245,12 @@ class NetworkDropdown extends Component {
             {this.context.t('defaultNetwork')}
           </div>
         </div>
-        {/* <DropdownMenuItem */}
+        {/*<DropdownMenuItem*/}
         {/*  key="main"*/}
         {/*  closeMenu={() => this.props.hideNetworkDropdown()}*/}
         {/*  onClick={() => this.handleClick('mainnet')}*/}
         {/*  style={{ ...dropdownMenuItemStyle, borderColor: '#038789' }}*/}
-        {/* >* /}
+        {/*>*/}
         {/*  {*/}
         {/*    providerType === 'mainnet'*/}
         {/*      ? <i className="fa fa-check" />*/}
@@ -271,53 +267,53 @@ class NetworkDropdown extends Component {
         {/*  >*/}
         {/*    {this.context.t('mainnet')}*/}
         {/*  </span>*/}
-        {/* </DropdownMenuItem>* /}
-        {/* <DropdownMenuItem*/}
-        {/*  key="ropsten"*/}
-        {/*  closeMenu={() => this.props.hideNetworkDropdown()}*/}
-        {/*  onClick={() => this.handleClick('ropsten')}*/}
-        {/*  style={dropdownMenuItemStyle}*/}
-        {/* >*/}
-        {/*  {*/}
-        {/*    providerType === 'ropsten'*/}
-        {/*      ? <i className="fa fa-check" />*/}
-        {/*      : <div className="network-check__transparent">✓</div>*/}
-        {/*  }*/}
-        {/*  <NetworkDropdownIcon backgroundColor="#ff4a8d" isSelected={providerType === 'ropsten'} />*/}
-        {/*  <span*/}
-        {/*    className="network-name-item"*/}
-        {/*    style={{*/}
-        {/*      color: providerType === 'ropsten'*/}
-        {/*        ? '#ffffff'*/}
-        {/*        : '#9b9b9b',*/}
-        {/*    }}*/}
-        {/*  >*/}
-        {/*    {this.context.t('ropsten')}*/}
-        {/*  </span>*/}
-        {/* </DropdownMenuItem>*/}
-        {/* <DropdownMenuItem*/}
-        {/*  key="kovan"*/}
-        {/*  closeMenu={() => this.props.hideNetworkDropdown()}*/}
-        {/*  onClick={() => this.handleClick('kovan')}*/}
-        {/*  style={dropdownMenuItemStyle}*/}
-        {/* >*/}
-        {/*  {*/}
-        {/*    providerType === 'kovan'*/}
-        {/*      ? <i className="fa fa-check" />*/}
-        {/*      : <div className="network-check__transparent">✓</div>*/}
-        {/*  }*/}
-        {/*  <NetworkDropdownIcon backgroundColor="#7057ff" isSelected={providerType === 'kovan'} />*/}
-        {/*  <span*/}
-        {/*    className="network-name-item"*/}
-        {/*    style={{*/}
-        {/*      color: providerType === 'kovan'*/}
-        {/*        ? '#ffffff'*/}
-        {/*        : '#9b9b9b',*/}
-        {/*    }}*/}
-        {/*  >*/}
-        {/*    {this.context.t('kovan')}*/}
-        {/*  </span>*/}
-        {/* </DropdownMenuItem>*/}
+        {/*</DropdownMenuItem>*/}
+         <DropdownMenuItem
+          key="platon_dev"
+          closeMenu={() => this.props.hideNetworkDropdown()}
+          onClick={() => this.handleClick('platon_dev')}
+          style={dropdownMenuItemStyle}
+         >
+          {
+            providerType === 'platon_dev'
+              ? <i className="fa fa-check" />
+              : <div className="network-check__transparent">✓</div>
+          }
+          <NetworkDropdownIcon backgroundColor="#ff4a8d" isSelected={providerType === 'platon_dev'} />
+          <span
+            className="network-name-item"
+            style={{
+              color: providerType === 'platon_dev'
+                ? '#ffffff'
+                : '#9b9b9b',
+            }}
+          >
+            {this.context.t('platon_dev')}
+          </span>
+         </DropdownMenuItem>
+         <DropdownMenuItem
+          key="alaya_dev"
+          closeMenu={() => this.props.hideNetworkDropdown()}
+          onClick={() => this.handleClick('alaya_dev')}
+          style={dropdownMenuItemStyle}
+         >
+          {
+            providerType === 'alaya_dev'
+              ? <i className="fa fa-check" />
+              : <div className="network-check__transparent">✓</div>
+          }
+          <NetworkDropdownIcon backgroundColor="#7057ff" isSelected={providerType === 'alaya_dev'} />
+          <span
+            className="network-name-item"
+            style={{
+              color: providerType === 'alaya_dev'
+                ? '#ffffff'
+                : '#9b9b9b',
+            }}
+          >
+            {this.context.t('alaya_dev')}
+          </span>
+         </DropdownMenuItem>
         <DropdownMenuItem
           key="alaya"
           closeMenu={() => this.props.hideNetworkDropdown()}
@@ -389,31 +385,31 @@ class NetworkDropdown extends Component {
         {/* </DropdownMenuItem>*/}
         {this.renderCustomOption(this.props.provider)}
         {this.renderCommonRpc(rpcListDetail, this.props.provider)}
-        {/*  <DropdownMenuItem*/}
-        {/*    closeMenu={() => this.props.hideNetworkDropdown()}*/}
-        {/*    onClick={() => {*/}
-        {/*      setNetworksTabAddMode(true)*/}
-        {/*      this.props.history.push(NETWORKS_ROUTE)*/}
-        {/*    }}*/}
-        {/*    style={dropdownMenuItemStyle}*/}
-        {/*  >*/}
-        {/*    {*/}
-        {/*      activeNetwork === 'custom'*/}
-        {/*        ? <i className="fa fa-check" />*/}
-        {/*        : <div className="network-check__transparent">✓</div>*/}
-        {/*    }*/}
-        {/*    <NetworkDropdownIcon isSelected={activeNetwork === 'custom'} innerBorder="1px solid #9b9b9b" />*/}
-        {/*    <span*/}
-        {/*      className="network-name-item"*/}
-        {/*      style={{*/}
-        {/*        color: activeNetwork === 'custom'*/}
-        {/*          ? '#ffffff'*/}
-        {/*          : '#9b9b9b',*/}
-        {/*      }}*/}
-        {/*    >*/}
-        {/*      {this.context.t('customRPC')}*/}
-        {/*    </span>*/}
-        {/*  </DropdownMenuItem>*/}
+        <DropdownMenuItem
+            closeMenu={() => this.props.hideNetworkDropdown()}
+            onClick={() => {
+              setNetworksTabAddMode(true)
+              this.props.history.push(NETWORKS_ROUTE)
+            }}
+            style={dropdownMenuItemStyle}
+          >
+            {
+              activeNetwork === 'custom'
+                ? <i className="fa fa-check" />
+                : <div className="network-check__transparent">✓</div>
+            }
+            <NetworkDropdownIcon isSelected={activeNetwork === 'custom'} innerBorder="1px solid #9b9b9b" />
+            <span
+              className="network-name-item"
+              style={{
+                color: activeNetwork === 'custom'
+                  ? '#ffffff'
+                  : '#9b9b9b',
+              }}
+            >
+              {this.context.t('customRPC')}
+            </span>
+          </DropdownMenuItem>
       </Dropdown>
     )
   }
