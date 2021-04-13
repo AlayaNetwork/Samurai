@@ -41,7 +41,7 @@ import EncryptionPublicKeyManager from './lib/encryption-public-key-manager'
 import PersonalMessageManager from './lib/personal-message-manager'
 import TypedMessageManager from './lib/typed-message-manager'
 import TransactionController from './controllers/transactions'
-// import TokenRatesController from './controllers/token-rates'
+import TokenRatesController from './controllers/token-rates'
 // import DetectTokensController from './controllers/detect-tokens'
 import { PermissionsController } from './controllers/permissions'
 import getRestrictedMethods from './controllers/permissions/restrictedMethods'
@@ -136,10 +136,10 @@ export default class MetamaskController extends EventEmitter {
     this.blockTracker = this.networkController.getProviderAndBlockTracker().blockTracker
 
     // token exchange rate tracker
-    // this.tokenRatesController = new TokenRatesController({
-    //   currency: this.currencyRateController,
-    //   preferences: this.preferencesController.store,
-    // })
+    this.tokenRatesController = new TokenRatesController({
+      currency: this.currencyRateController,
+      preferences: this.preferencesController.store,
+    })
 
     this.ensController = new EnsController({
       provider: this.provider,
@@ -165,11 +165,11 @@ export default class MetamaskController extends EventEmitter {
       if (activeControllerConnections > 0) {
         this.accountTracker.start()
         // this.incomingTransactionsController.start()
-        // this.tokenRatesController.start()
+        this.tokenRatesController.start()
       } else {
         this.accountTracker.stop()
         // this.incomingTransactionsController.stop()
-        // this.tokenRatesController.stop()
+        this.tokenRatesController.stop()
       }
     })
 
@@ -304,7 +304,7 @@ export default class MetamaskController extends EventEmitter {
       AccountTracker: this.accountTracker.store,
       TxController: this.txController.memStore,
       CachedBalancesController: this.cachedBalancesController.store,
-      // TokenRatesController: this.tokenRatesController.store,
+      TokenRatesController: this.tokenRatesController.store,
       MessageManager: this.messageManager.memStore,
       PersonalMessageManager: this.personalMessageManager.memStore,
       DecryptMessageManager: this.decryptMessageManager.memStore,

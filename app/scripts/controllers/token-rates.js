@@ -43,7 +43,7 @@ export default class TokenRatesController {
         log.warn(`MetaMask - TokenRatesController exchange rate fetch failed.`, error)
       }
     }
-    // this.store.putState({ contractExchangeRates })
+    this.store.putState({ contractExchangeRates })
   }
 
   /**

@@ -48,6 +48,12 @@ export function getPrimaryCurrency (state) {
 }
 
 export function getSendToken (state) {
+  const hrp = getCurrentHrp(state)
+  let addr = state.metamask.send.token?.address
+  if (addr && !addr.startsWith(hrp)) {
+    addr = toBech32Address(hrp, decodeBech32Address(addr))
+    state.metamask.send.token.address = addr
+  }
   return state.metamask.send.token
 }
 
@@ -87,7 +93,7 @@ export function sendAmountIsInError (state) {
 }
 
 export function getSendFrom (state) {
-  const hrp = state.metamask.hrp !== 'loading' ? state.metamask.hrp : state.metamask.settings.hrp
+  const hrp = getCurrentHrp(state)
   let from = state.metamask.send.from
   if (!from.startsWith(hrp)) {
     from = toBech32Address(hrp, decodeBech32Address(from))
@@ -113,7 +119,7 @@ export function getSendMaxModeState (state) {
 }
 
 export function getSendTo (state) {
-  const hrp = state.metamask.hrp !== 'loading' ? state.metamask.hrp : state.metamask.settings.hrp
+  const hrp = getCurrentHrp(state)
   let to = state.metamask.send.to
   if (!to.startsWith(hrp)) {
     to = toBech32Address(hrp, decodeBech32Address(to))
