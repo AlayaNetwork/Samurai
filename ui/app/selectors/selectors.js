@@ -164,6 +164,7 @@ export function getMetaMaskAccountsRaw (state) {
       delete accounts[account]
       return addr
     }
+    newAccounts[account] = accounts[account]
     return account
   })
   if (Object.keys(newAccounts).length > 0) {
