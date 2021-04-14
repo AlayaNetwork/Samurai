@@ -130,9 +130,9 @@
     safe-event-emitter "^1.0.1"
 
 "@alayanetwork/eth-keyring-controller@^6.1.0":
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/@alayanetwork/eth-keyring-controller/-/eth-keyring-controller-6.1.1.tgz#09f1c6d7e4bb59d324faa299c3837f56ae5c035b"
-  integrity sha512-jxlX/PQsO4u5bFoy5IQNQvI/MpGA2Tfr4T9lE5rddTs6IUD70nWZlEoRdaOBjDUAIW8dxcZO4vLSlTjABiuMvw==
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/@alayanetwork/eth-keyring-controller/-/eth-keyring-controller-6.1.2.tgz#bb57cfd2fb8057effb3085ea806cf3874271d508"
+  integrity sha512-tCqiJeBs9XrHb5yuBwWYL0rB9+XF2//WIVFd4XpxhYrtVmWFHbQaYFXRGXeLTgEPjcxd3ZooR4qSeEf2KAom+w==
   dependencies:
     "@alayanetwork/eth-hd-keyring" "^3.5.0"
     "@alayanetwork/eth-sig-util" "^2.5.3"
