@@ -6,6 +6,9 @@ export default function getAccountLink (address, network, rpcPrefs) {
   const net = parseInt(network)
   let link
   switch (net) {
+    case 100:
+      link = `https://scan.platon.network/address-detail?address=${address}`
+      break
     case 210309: // platon dev net
       link = `https://devnetscan.platon.network/address-detail?address=${address}`
       break

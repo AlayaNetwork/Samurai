@@ -9,7 +9,7 @@ export const NETWORK_TYPES = {
   MAINNET: 'mainnet',
   PLATON_DEV: 'platon_dev',
   ALAYA: 'alaya',
-  ALAYA_DEV: 'alaya_dev'
+  ALAYA_DEV: 'alaya_dev',
 }
 
 export const GAS_ESTIMATE_TYPES = {

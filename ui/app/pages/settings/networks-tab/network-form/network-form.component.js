@@ -26,6 +26,7 @@ export default class NetworkForm extends PureComponent {
     blockExplorerUrl: PropTypes.string,
     rpcPrefs: PropTypes.object,
     rpcUrls: PropTypes.array,
+    chainIds: PropTypes.array,
   }
 
   state = {
@@ -216,10 +217,14 @@ export default class NetworkForm extends PureComponent {
   }
 
   validateChainId = (chainId) => {
-    this.setErrorTo('chainId', !!chainId && Number.isNaN(parseInt(chainId))
-      ? `${this.context.t('invalidInput')} chainId`
-      : '',
-    )
+    const { chainIds } = this.props
+    if (chainId && Number.isNaN(parseInt(chainId))) {
+      this.setErrorTo('chainId', `${this.context.t('invalidInput')} chainId`)
+    } else if (chainIds.includes(chainId)) {
+      this.setErrorTo('chainId', this.context.t('chainIdExistsErrorMsg'))
+    } else {
+      this.setErrorTo('chainId', '')
+    }
   }
 
   validateHrp = (hrp) => {

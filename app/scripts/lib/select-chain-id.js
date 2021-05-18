@@ -6,7 +6,7 @@ import {
 } from '../controllers/network/enums'
 
 const standardNetworkId = {
-  '1021': MAINNET_CHAIN_ID,
+  '100': MAINNET_CHAIN_ID,
   '210309': PLATON_DEV_CHAIN_ID,
   '201018': ALAYA_CHAIN_ID,
   '201030': ALAYA_DEV_CHAIN_ID,

@@ -61,7 +61,7 @@ export default class NetworksTab extends PureComponent {
           }
         />
         <span className="settings-page__sub-header-text">{ this.context.t('networks') }</span>
-         <div className="networks-tab__add-network-header-button-wrapper">
+        <div className="networks-tab__add-network-header-button-wrapper">
           <Button
             type="secondary"
             onClick={(event) => {
@@ -72,7 +72,7 @@ export default class NetworksTab extends PureComponent {
           >
             { this.context.t('addNetwork') }
           </Button>
-         </div>
+        </div>
       </div>
     )
   }
@@ -194,6 +194,7 @@ export default class NetworksTab extends PureComponent {
             ? (
               <NetworkForm
                 rpcUrls={networksToRender.map((network) => network.rpcUrl)}
+                chainIds={networksToRender.map((network) => network.chainId)}
                 setRpcTarget={setRpcTarget}
                 editRpc={editRpc}
                 networkName={label || (labelKey && t(labelKey)) || ''}
@@ -227,23 +228,23 @@ export default class NetworksTab extends PureComponent {
       <div className="networks-tab__body">
         {this.renderSubHeader()}
         {this.renderNetworksTabContent()}
-        {/*{!networkIsSelected && !networksTabIsInAddMode*/}
-        {/*  ? (*/}
-        {/*    <div className="networks-tab__add-network-button-wrapper">*/}
-        {/*      <Button*/}
-        {/*        type="primary"*/}
-        {/*        onClick={(event) => {*/}
-        {/*          event.preventDefault()*/}
-        {/*          setSelectedSettingsRpcUrl(null)*/}
-        {/*          setNetworksTabAddMode(true)*/}
-        {/*        }}*/}
-        {/*      >*/}
-        {/*        { this.context.t('addNetwork') }*/}
-        {/*      </Button>*/}
-        {/*    </div>*/}
-        {/*  )*/}
-        {/*  : null*/}
-        {/*}*/}
+        {!networkIsSelected && !networksTabIsInAddMode
+          ? (
+            <div className="networks-tab__add-network-button-wrapper">
+              <Button
+                type="primary"
+                onClick={(event) => {
+                  event.preventDefault()
+                  setSelectedSettingsRpcUrl(null)
+                  setNetworksTabAddMode(true)
+                }}
+              >
+                { this.context.t('addNetwork') }
+              </Button>
+            </div>
+          )
+          : null
+        }
       </div>
     )
   }

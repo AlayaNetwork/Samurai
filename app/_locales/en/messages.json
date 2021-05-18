@@ -901,7 +901,7 @@
     "message": "Lock time is too great"
   },
   "mainnet": {
-    "message": "Main PlatON Network"
+    "message": "PlatON Main Network"
   },
   "memorizePhrase": {
     "message": "Memorize this phrase."
@@ -1670,6 +1670,9 @@
   },
   "urlExistsErrorMsg": {
     "message": "URL is already present in existing list of networks"
+  },
+  "chainIdExistsErrorMsg": {
+    "message": "chainId is already present in existing list of networks"
   },
   "usedByClients": {
     "message": "Used by a variety of different clients"

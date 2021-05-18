@@ -31,10 +31,10 @@ let defaultProviderConfigHrp
 if (process.env.IN_TEST === 'true') {
   defaultProviderConfigType = LOCALHOST
 } else {
-  defaultProviderConfigType = ALAYA
-  defaultProviderConfigHrp = 'atp'
-  defaultProviderConfigURL = defaultNetworksData['alaya'].rpcTarget
-  defaultProviderConfigChainID = defaultNetworksData['alaya'].chainId
+  defaultProviderConfigType = MAINNET
+  defaultProviderConfigHrp = 'lat'
+  defaultProviderConfigURL = defaultNetworksData['mainnet'].rpcTarget
+  defaultProviderConfigChainID = defaultNetworksData['mainnet'].chainId
 }
 
 // else if (METAMASK_DEBUG || env === 'test') {
@@ -57,7 +57,7 @@ const defaultProviderConfig = {
 const defaultNetworkConfig = {
   chainId: defaultProviderConfigChainID,
   hrp: defaultProviderConfigHrp,
-  ticker: 'ATP',
+  ticker: 'LAT',
 }
 
 export default class NetworkController extends EventEmitter {

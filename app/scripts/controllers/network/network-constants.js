@@ -1,11 +1,11 @@
 export const defaultNetworksData = {
   mainnet: {
     providerType: 'mainnet',
-    rpcTarget: "http://10.10.8.183:7790",
-    chainId: '1021',
+    rpcTarget: 'https://samurai.platon.network',
+    chainId: '100',
     hrp: 'lat',
     ticker: 'LAT',
-    blockExplorerUrl: 'https://scan.alaya.network',
+    blockExplorerUrl: 'https://scan.platon.network',
   },
   platon_dev: {
     providerType: 'platon_dev',

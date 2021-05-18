@@ -1259,6 +1259,15 @@
   "typePassword": {
     "message": "输入你的密码"
   },
+  "urlErrorMsg": {
+    "message": "URL需要HTTP/HTTPS前缀"
+  },
+  "urlExistsErrorMsg": {
+    "message": "URL已存在于现有网络列表中"
+  },
+  "chainIdExistsErrorMsg": {
+    "message": "ChainID已存在于现有网络列表中"
+  },
   "unapproved": {
     "message": "未批准"
   },

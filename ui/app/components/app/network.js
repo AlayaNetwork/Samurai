@@ -10,11 +10,8 @@ function NetworkIndicator ({ disabled, children, hoverText, onClick, providerNam
         'network-component--disabled': disabled,
         'platon-network': providerName === 'mainnet',
         'platon-dev-network': providerName === 'platon_dev',
-        // 'ropsten-test-network': providerName === 'ropsten',
-        // 'kovan-test-network': providerName === 'kovan',
         'alaya-network': providerName === 'alaya',
         'alaya-dev-network': providerName === 'alaya_dev'
-        // 'goerli-test-network': providerName === 'goerli',
       })}
       title={hoverText}
       onClick={(event) => {
@@ -99,27 +96,27 @@ export default class Network extends Component {
           </NetworkIndicator>
         )
 
-      case 'alaya_dev':
+      case 'alaya':
         return (
-          <NetworkIndicator disabled={disabled} hoverText={t('alaya_dev')} onClick={onClick} providerName={providerName}>
+          <NetworkIndicator disabled={disabled} hoverText={t('alaya')} onClick={onClick} providerName={providerName}>
             <NetworkDropdownIcon
               backgroundColor="#690496"
               nonSelectBackgroundColor="#b039f3"
               loading={networkNumber === 'loading'}
             />
-            <div className="network-name">{t('alaya_dev')}</div>
+            <div className="network-name">{t('alaya')}</div>
           </NetworkIndicator>
         )
 
-      case 'alaya':
+      case 'alaya_dev':
         return (
-          <NetworkIndicator disabled={disabled} hoverText={t('alaya')} onClick={onClick} providerName={providerName}>
+          <NetworkIndicator disabled={disabled} hoverText={t('alaya_dev')} onClick={onClick} providerName={providerName}>
             <NetworkDropdownIcon
               backgroundColor="#ebb33f"
               nonSelectBackgroundColor="#ecb23e"
               loading={networkNumber === 'loading'}
             />
-            <div className="network-name">{t('alaya')}</div>
+            <div className="network-name">{t('alaya_dev')}</div>
           </NetworkIndicator>
         )
 

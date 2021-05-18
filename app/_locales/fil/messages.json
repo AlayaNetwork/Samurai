@@ -210,7 +210,7 @@
     "message": "Kumokonekta sa Kovan Test Network"
   },
   "connectingToMainnet": {
-    "message": "Kumokonekta sa Main PlatON Network"
+    "message": "Kumokonekta sa PlatON Main Network"
   },
   "connectingToRopsten": {
     "message": "Kumokonekta sa Ropsten Test Network"

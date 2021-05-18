@@ -77,7 +77,7 @@
     "message": "Kovan Test Ağına bağlanıyor"
   },
   "connectingToMainnet": {
-    "message": "Main PlatON Ağına bağlanıyor"
+    "message": "PlatON Main Ağına bağlanıyor"
   },
   "connectingToRopsten": {
     "message": "Ropsten Test Ağına bağlanıyor"
@@ -270,7 +270,7 @@
     "message": "Çıkış"
   },
   "mainnet": {
-    "message": "Main PlatON Ağı"
+    "message": "PlatON Main Ağı"
   },
   "message": {
     "message": "Mesaj"

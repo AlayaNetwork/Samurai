@@ -190,14 +190,16 @@ export default class ExtensionPlatform {
     this._subscribeToNotificationClicked()
 
     let url
-    if (txMeta.metamaskNetworkId === "201018") {
+    if (txMeta.metamaskNetworkId === '100') {
+      url = `https://scan.platon.network/trade-detail?txHash=${txMeta.hash}`
+    } else if (txMeta.metamaskNetworkId === '201018') {
       url = `https://scan.alaya.network/trade-detail?txHash=${txMeta.hash}`
-    } else if (txMeta.metamaskNetworkId === "201030") {
+    } else if (txMeta.metamaskNetworkId === '201030') {
       url = `https://devnetscan.alaya.network/trade-detail?txHash=${txMeta.hash}`
-    } else if (txMeta.metamaskNetworkId === "210309") {
+    } else if (txMeta.metamaskNetworkId === '210309') {
       url = `https://devnetscan.platon.network/trade-detail?txHash=${txMeta.hash}`
     }
-    //const url = explorerLink(txMeta.hash, parseInt(txMeta.metamaskNetworkId))
+    // const url = explorerLink(txMeta.hash, parseInt(txMeta.metamaskNetworkId))
     const nonce = parseInt(txMeta.txParams.nonce, 16)
 
     const title = 'Confirmed transaction'
