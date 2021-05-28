@@ -1,9 +1,8 @@
 import abi from 'human-standard-token-abi'
 import pify from 'pify'
 import getBuyEthUrl from '../../../app/scripts/lib/buy-eth-url'
-import { checksumAddress } from '../helpers/utils/util'
+// import { checksumAddress } from '../helpers/utils/util'
 import { calcTokenBalance, estimateGas } from '../pages/send/send.utils'
-import ethUtil from '@alayanetwork/ethereumjs-util'
 import { fetchLocale, loadRelativeTimeFormatLocaleData } from '../helpers/utils/i18n-helper'
 import { getMethodDataAsync } from '../helpers/utils/transactions.util'
 import { fetchSymbolAndDecimals } from '../helpers/utils/token-util'
@@ -11,11 +10,10 @@ import switchDirection from '../helpers/utils/switch-direction'
 import log from 'loglevel'
 import { ENVIRONMENT_TYPE_NOTIFICATION } from '../../../app/scripts/lib/enums'
 import { hasUnconfirmedTransactions } from '../helpers/utils/confirm-tx.util'
-import { setCustomGasLimit } from '../ducks/gas/gas.duck'
 import txHelper from '../../lib/tx-helper'
 import { getEnvironmentType } from '../../../app/scripts/lib/util'
 import * as actionConstants from './actionConstants'
-import { decodeBech32Address } from '@alayanetwork/ethereumjs-util'
+import { decodeBech32Address, addHexPrefix, isBech32Address } from '@alayanetwork/ethereumjs-util'
 import {
   getPermittedAccountsForCurrentTab,
   getSelectedAddress,
@@ -23,6 +21,7 @@ import {
 import { switchedToUnconnectedAccount } from '../ducks/alerts/unconnected-account'
 import { getUnconnectedAccountAlertEnabledness } from '../ducks/metamask/metamask'
 import {
+  setCustomGasLimit,
   fetchBasicGasEstimates,
   fetchBasicGasAndTimeEstimates,
 } from '../ducks/gas/gas.duck'
@@ -766,7 +765,7 @@ export function signTokenTx (tokenAddress, toAddress, amount, txData) {
   return (dispatch) => {
     dispatch(showLoadingIndication())
     const token = global.eth.contract(abi).at(tokenAddress)
-    token.transfer(toAddress, ethUtil.addHexPrefix(amount), txData)
+    token.transfer(toAddress, addHexPrefix(amount), txData)
       .catch((err) => {
         dispatch(hideLoadingIndication())
         dispatch(displayWarning(err.message))
@@ -1203,8 +1202,14 @@ export function showAccountDetail (address) {
     const activeTabOrigin = state.activeTab.origin
     const selectedAddress = getSelectedAddress(state)
     const permittedAccountsForCurrentTab = getPermittedAccountsForCurrentTab(state)
-    const currentTabIsConnectedToPreviousAddress = Boolean(activeTabOrigin) && permittedAccountsForCurrentTab.includes(selectedAddress)
-    const currentTabIsConnectedToNextAddress = Boolean(activeTabOrigin) && permittedAccountsForCurrentTab.includes(address)
+    const permittedAccountsForCurrentTabHex = permittedAccountsForCurrentTab.map((acc) => {
+      if (isBech32Address(acc)) {
+        return decodeBech32Address(acc)
+      }
+      return acc
+    })
+    const currentTabIsConnectedToPreviousAddress = Boolean(activeTabOrigin) && permittedAccountsForCurrentTabHex.includes(decodeBech32Address(selectedAddress))
+    const currentTabIsConnectedToNextAddress = Boolean(activeTabOrigin) && permittedAccountsForCurrentTabHex.includes(decodeBech32Address(address))
     const switchingToUnconnectedAddress = currentTabIsConnectedToPreviousAddress && !currentTabIsConnectedToNextAddress
 
     try {
@@ -2198,7 +2203,7 @@ export function loadingMethodDataFinished () {
 
 export function getContractMethodData (data = '') {
   return (dispatch, getState) => {
-    const prefixedData = ethUtil.addHexPrefix(data)
+    const prefixedData = addHexPrefix(data)
     const fourBytePrefix = prefixedData.slice(0, 10)
     const { knownMethodData } = getState().metamask
 

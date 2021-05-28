@@ -391,11 +391,12 @@ export default class MetamaskController extends EventEmitter {
       publicConfigStore.putState(selectPublicState(memState))
     }
 
-    function selectPublicState ({ isUnlocked, network, provider }) {
+    function selectPublicState ({ isUnlocked, hrp, network, provider }) {
       return {
         isUnlocked,
         networkVersion: network,
         chainId: selectChainId({ network, provider }),
+        hrp: provider ? provider.hrp : hrp,
       }
     }
     return publicConfigStore

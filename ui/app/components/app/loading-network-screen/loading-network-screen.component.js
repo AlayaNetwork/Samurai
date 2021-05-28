@@ -6,6 +6,7 @@ import Button from '../../ui/button'
 export default class LoadingNetworkScreen extends PureComponent {
   state = {
     showErrorScreen: false,
+    showWarnScreen: true,
   }
 
   static contextTypes = {
@@ -69,6 +70,26 @@ export default class LoadingNetworkScreen extends PureComponent {
     )
   }
 
+  renderWarnScreenContent = () => {
+    return (
+      <div className="overlay__warn-screen">
+        <span>{ this.context.t('Important Notes') }</span>
+        <span>Currently Switchd to []</span>
+        <span>Do not transfer assets from other networks to the current wallet address!</span>
+        <div className="overlay__warn-button">
+          <Button
+            type="primary"
+            onClick={() => {
+              this.setState({ showWarnScreen: false })
+            }}
+          >
+            { this.context.t('I already know') }
+          </Button>
+        </div>
+      </div>
+    )
+  }
+
   renderErrorScreenContent = () => {
     const { showNetworkDropdown, setProviderArgs, setProviderType } = this.props
 
@@ -107,7 +128,10 @@ export default class LoadingNetworkScreen extends PureComponent {
     const { isLoadingNetwork } = this.props
 
     if (isLoadingNetwork) {
+      this.setState({ showWarnScreen: false })
       this.setState({ showErrorScreen: true })
+    } else {
+      this.setState({ showWarnScreen: true })
     }
   }
 

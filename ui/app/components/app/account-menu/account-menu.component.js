@@ -21,6 +21,7 @@ import {
 } from '../../../helpers/constants/routes'
 import TextField from '../../ui/text-field'
 import SearchIcon from '../../ui/search-icon'
+import { decodeBech32Address } from '@alayanetwork/ethereumjs-util'
 
 export default class AccountMenu extends Component {
   static contextTypes = {
@@ -134,12 +135,12 @@ export default class AccountMenu extends Component {
     return filteredIdentities.map((identity) => {
       const isSelected = identity.address === selectedAddress
 
-      const simpleAddress = identity.address.substring(2).toLowerCase()
+      const simpleAddress = identity.address.toLowerCase()
 
       const keyring = keyrings.find((kr) => {
         return kr.accounts.includes(simpleAddress) || kr.accounts.includes(identity.address)
       })
-      const addressDomains = addressConnectedDomainMap[identity.address] || {}
+      const addressDomains = addressConnectedDomainMap[decodeBech32Address(identity.address)] || {}
       const iconAndNameForOpenDomain = addressDomains[originOfCurrentTab]
 
       return (
