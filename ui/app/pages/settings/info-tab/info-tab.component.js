@@ -43,7 +43,7 @@ export default class InfoTab extends PureComponent {
         <hr className="info-tab__separator" />
         <div className="info-tab__link-item">
           <a
-            href="https://alaya.network/"
+            href="https://platon.network/"
             target="_blank"
             rel="noopener noreferrer"
           >
