@@ -242,7 +242,7 @@ class NetworkDropdown extends Component {
           </div>
           <div className="network-dropdown-divider" />
           <div className="network-dropdown-content">
-            {this.context.t('defaultNetwork')}
+            {this.context.t('defaultNetwork')} <span className="warn-font">{this.context.t('defaultTips')}</span> 
           </div>
         </div>
         <DropdownMenuItem

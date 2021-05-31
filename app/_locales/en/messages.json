@@ -487,6 +487,9 @@
   "defaultNetwork": {
     "message": "The default network for transactions is Main Net."
   },
+  "defaultTips": {
+    "message": "Do not transfer assets between wallets on different networks!"
+  },
   "delete": {
     "message": "Delete"
   },

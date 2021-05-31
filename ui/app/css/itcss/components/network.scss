@@ -180,6 +180,10 @@
   font-family: Roboto;
   font-size: 14px;
   line-height: 18px;
+  .warn-font{
+    font-weight: 600;
+    color: #d3d3d3;
+  }
 }
 
 .network-caret {

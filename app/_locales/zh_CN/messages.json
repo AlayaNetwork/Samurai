@@ -341,6 +341,9 @@
   "defaultNetwork": {
     "message": "默认Alaya交易网络。"
   },
+  "defaultTips": {
+    "message": "不同网络间的钱包切勿相互转账！"
+  },
   "delete": {
     "message": "删除"
   },
