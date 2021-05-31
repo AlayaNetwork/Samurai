@@ -1305,7 +1305,7 @@
     "message": "使用网络钓鱼检测"
   },
   "usePhishingDetectionDescription": {
-    "message": "对针对Platon用户的网络钓鱼域显示警告"
+    "message": "对针对PlatON用户的网络钓鱼域显示警告"
   },
   "userName": {
     "message": "用户名"

@@ -1681,7 +1681,7 @@
     "message": "Use Phishing Detection"
   },
   "usePhishingDetectionDescription": {
-    "message": "Display a warning for phishing domains targeting Platon users"
+    "message": "Display a warning for phishing domains targeting PlatON users"
   },
   "userName": {
     "message": "Username"
