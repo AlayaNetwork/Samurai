@@ -214,7 +214,7 @@
     "message": "Amount:"
   },
   "appDescription": {
-    "message": "An Alaya Wallet in your Browser",
+    "message": "An PlatON Wallet in your Browser",
     "description": "The description of the application"
   },
   "appName": {
@@ -485,7 +485,7 @@
     "message": "Decimals of Precision"
   },
   "defaultNetwork": {
-    "message": "The default network for transactions is Main Net."
+    "message": "The default network for transactions is PlatON Main Net."
   },
   "delete": {
     "message": "Delete"
@@ -579,7 +579,7 @@
     "message": "Error in ENS name registration"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "ENS name not found on the current network. Try switching to Alaya Network."
+    "message": "ENS name not found on the current network. Try switching to PlatON Network."
   },
   "enterAnAlias": {
     "message": "Enter an alias"
@@ -626,7 +626,7 @@
     "description": "Title for error stack, which is displayed for debugging purposes"
   },
   "ethereumPublicAddress": {
-    "message": "Alaya Public Address"
+    "message": "PlatON Public Address"
   },
   "etherscanView": {
     "message": "View account on scan"
@@ -922,7 +922,7 @@
     "message": "Click it to manage your connected accounts."
   },
   "metamaskDescription": {
-    "message": "Connecting you to Alaya and the Decentralized Web."
+    "message": "Connecting you to PlatON and the Decentralized Web."
   },
   "metamaskVersion": {
     "message": "Samurai Version"
@@ -1008,7 +1008,7 @@
     "message": "Only connect with sites you trust."
   },
   "onlyAddTrustedNetworks": {
-    "message": "A malicious Alaya network provider can lie about the state of the blockchain and record your network activity. Only add custom networks you trust."
+    "message": "A malicious PlatON network provider can lie about the state of the blockchain and record your network activity. Only add custom networks you trust."
   },
   "optionalChainId": {
     "message": "ChainID (optional)"
@@ -1471,7 +1471,7 @@
     "message": "3. Start using web3 sites and more!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Use your hardware account like you would with any Alaya account. Connect to web3 sites, send token, buy and store ERC20 tokens and non-fungible tokens like CryptoKitties."
+    "message": "Use your hardware account like you would with any PlatON account. Connect to web3 sites, send token, buy and store ERC20 tokens and non-fungible tokens like CryptoKitties."
   },
   "storePhrase": {
     "message": "Store this phrase in a password manager like 1Password."

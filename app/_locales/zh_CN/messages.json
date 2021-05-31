@@ -90,7 +90,7 @@
     "message": "数量"
   },
   "appDescription": {
-    "message": "Alaya浏览器插件",
+    "message": "PlatON浏览器插件",
     "description": "The description of the application"
   },
   "appName": {
@@ -339,7 +339,7 @@
     "message": "精确小数点"
   },
   "defaultNetwork": {
-    "message": "默认Alaya交易网络。"
+    "message": "默认交易网络为PlatON主网。"
   },
   "delete": {
     "message": "删除"
@@ -420,7 +420,7 @@
     "message": "ENS 名称登记错误"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "未在当前网络找到 ENS 名称。请尝试切换至主Alaya网络。"
+    "message": "未在当前网络找到 ENS 名称。请尝试切换至PlatON主网络。"
   },
   "enterAnAlias": {
     "message": "输入别名"
@@ -432,7 +432,7 @@
     "message": "请输入密码以继续"
   },
   "ethereumPublicAddress": {
-    "message": "Alaya公共地址"
+    "message": "PlatON公共地址"
   },
   "etherscanView": {
     "message": "在 scan 上查看账户"
@@ -594,7 +594,7 @@
     "message": "已知联系人地址。"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "非 Alaya 网络，设置为小写"
+    "message": "非 PlatON 网络，设置为小写"
   },
   "invalidInput": {
     "message": "无效输入."
@@ -661,7 +661,7 @@
     "message": "消息"
   },
   "metamaskDescription": {
-    "message": "Samurai is a secure identity vault for Alaya."
+    "message": "Samurai is a secure identity vault for PlatON."
   },
   "metamaskVersion": {
     "message": "Samurai 版本"
@@ -1130,7 +1130,7 @@
     "message": "3. 开始体验 dApps 和更多功能！"
   },
   "step3HardwareWalletMsg": {
-    "message": "使用您的硬件钱包，操作与Alaya账户制作相同。登录 dApps，发送 币 ，购买和保存 ERC20 代币和诸如 CryptoKitties 等不可替代代币。"
+    "message": "使用您的硬件钱包，操作与PlatON账户制作相同。登录 dApps，发送 币 ，购买和保存 ERC20 代币和诸如 CryptoKitties 等不可替代代币。"
   },
   "storePhrase": {
     "message": "通过如 1Password 等密码管家保存该密语。"
