@@ -29,13 +29,13 @@ Samurai是基于以太坊web钱包Metamask进行fork的，针对alaya网络进�
 + __基本注意事项__
   + __web3检测__
 
-    要验证浏览器是否正在运行MetaMask，请将下面的代码片段复制并粘贴到Web浏览器的开发者控制台中：
+    要验证浏览器是否正在运行Samurai，请将下面的代码片段复制并粘贴到Web浏览器的开发者控制台中：
     ```
     if (typeof window.platon !== 'undefined') {
       console.log('Samurai is installed!');
     }
     ```
-    您可以在3中查看该window.ethereum对象的完整API
+    您可以在3中查看该window.platon对象的完整API
   + __重置本地随机数__
 
     如果您正在运行测试区块链并重新启动它，您可能会意外混淆Samurai，因为它会根据网络状态和已知的已发送交易来计算下一个nonce。
@@ -63,12 +63,12 @@ Samurai是基于以太坊web钱包Metamask进行fork的，针对alaya网络进�
 
   其中一些简化了特定用户接口元素的创建，一些完全管理了用户帐户，另一些则为您提供了与智能合约进行交互的各种方法，以用于从promise，callback到强类型和各种API偏好，等等。
 
-  提供者API本身非常简单，并且包装PlatON JSON-RPC （在新窗口中打开）格式化的消息，这就是为什么开发人员通常使用便捷库与提供者进行交互的原因，例如platon-truffle等。通过这些工具，您通常可以找到足够的文档来与提供程序进行交互，而无需阅读此较低级别的API。
+  提供者API本身非常简单，并且包装PlatON JSON-RPC格式化的消息，这就是为什么开发人员通常使用便捷库与提供者进行交互的原因，例如platon-truffle等。通过这些工具，您通常可以找到足够的文档来与提供程序进行交互，而无需阅读此较低级别的API。
 #### 1.3 基础知识
 ##### 专业术语
 + __钱包(Wallet)__
   + 你用来管理你自己账户的interface/client/wrapper/holder。
-  + Example: MetaMask.io, 您的硬件钱包，多签钱包合约。
+  + Example: 您的硬件钱包，多签钱包合约。
 + __账户(Account)__
   + 一个公私钥对，可以持有您的资金。
   + 您的资金实际上存储在区块链上而不是在钱包或账户中。
@@ -114,12 +114,6 @@ Samurai是基于以太坊web钱包Metamask进行fork的，针对alaya网络进�
   + 您可以使用此短语访问的由“路径”决定的帐户。
   + 示例12个单词： brain surround have swap horror body response double fire dumb bring hazard
   + 示例24个单词： card enrich gesture connect kick topple fan body blind engine lemon swarm venue praise addict agent unaware equal bean sing govern income link leg
-+ __硬件钱包(Hardware Wallet)__
-  + 通常，一个“持有”您的私钥以确保您的私钥安全的单用途设备。
-  + 通常，使用24字词短语。您应该写下这个短语（不在计算机上），并与硬件钱包分开存储。
-  + 如果您丢失了硬件钱包，仍然可以通过写下的字词来访问帐户和资金。
-  + 切勿在计算机上键入词组。它违反了您的硬件钱包的目的。
-  + [有关硬件钱包的更多信息，请参见此处](https://kb.myetherwallet.com/en/hardware-wallets/using-ledger-with-mew/)
 + __识别码/地址识别码/地址图标(Identicon / AddressIdenticon / AddressIcon)__
   + 与您的地址相对应的彩色斑点。
   + 这是查看您的地址是否正确的简单方法。
@@ -174,7 +168,7 @@ Samurai是基于以太坊web钱包Metamask进行fork的，针对alaya网络进�
   PlatON中的每个账户都有一个地址，无论是外部密钥对账户还是智能合约。为了使任何智能合约库都能与您的合约进行通信，他们需要知道其确切地址。
 + __合约ABI__
 
-  在PlatON中，ABI规范 （在新窗口中打开）是一种以用户界面可以理解的方式对智能合约的界面进行编码的方法。它是一个描述方法的对象数组，当您将其和地址提供给合同抽象库时，它会ABI告诉这些库要提供的方法以及如何编写调用这些方法的事务。
+  在PlatON中，ABI规范是一种以用户界面可以理解的方式对智能合约的界面进行编码的方法。它是一个描述方法的对象数组，当您将其和地址提供给合同抽象库时，它会ABI告诉这些库要提供的方法以及如何编写调用这些方法的事务。
 + __合约bytecode__
 
   如果您的Web应用程序要发布预先编译的新智能合约，则可能需要包含一些bytecode。在这种情况下，您将不会事先知道合同地址，而必须发布，监视要处理的交易，然后从完成的交易中提取最终合约地址。
@@ -209,15 +203,15 @@ platon.on('accountsChanged', function (accounts) {
 在Samurai中，platon.request直接使用该方法，发送交易将涉及到组成这样的options对象：
 ```javascript
 const transactionParameters = {
-  nonce: '0x0', // ignored by MetaMask
-  gasPrice: '0x09184e72a000', // customizable by user during MetaMask confirmation.
-  gas: '0x2710', // customizable by user during MetaMask confirmation.
-  to: '0x0000000000000000000000000000000000000000', // Required except during contract publications.
+  nonce: '0x0', // ignored by Samurai
+  gasPrice: '0x09184e72a000', // customizable by user during Samurai confirmation.
+  gas: '0x2710', // customizable by user during Samurai confirmation.
+  to: 'lat1dt2wx0xjkd2je8ev4t3ysmte6n90kc9gzndwuv', // Required except during contract publications.
   from: platon.selectedAddress, // must match user's active address.
-  value: '0x0', // Only required to send ether to the recipient from the initiating external account.
+  value: '0x0', // Only required to send lat to the recipient from the initiating external account.
   data:
     '0x7f7465737432000000000000000000000000000000000000000000000000000000600057', // Optional, but used for defining smart contract creation and interaction.
-  chainId: '0x64', // Used to prevent transaction reuse across blockchains. Auto-filled by MetaMask.
+  chainId: '0x64', // Used to prevent transaction reuse across blockchains. Auto-filled by Samurai.
 };
 
 // txHash is a hex string
@@ -274,7 +268,7 @@ Samurai为您处理了许多交易参数，但是最好知道所有参数的作�
 + __Value [optional]__
 
 
-  要发送的网络本地货币的十六进制编码值。在PlatON主网络上，这是lat币 （在新窗口中打开），以von表示，即1e-18 lat。
+  要发送的网络本地货币的十六进制编码值。在PlatON主网络上，这是lat币，以von表示，即1e-18 lat。
 
 
   请注意，PlatON中经常使用的这些数字比本地JavaScript数字具有更高的精度，并且如果无法预料，可能会导致不可预测的行为。因此，在处理打算用于区块链的值时, 我们强烈建议使用BN.js。
@@ -391,7 +385,7 @@ Samurai以window.platon将全局API注入其用户访问的网站。该API允许
     ```
 + __事件(Events)__
 
-  Samurai提供程序实现Node.jsEventEmitter （在新窗口中打开）API。本节详细介绍了通过该API发出的事件。在EventEmitter其他地方有无数的指南，但是您可以听这样的事件：
+  Samurai提供程序实现Node.js EventEmitter API。本节详细介绍了通过该API发出的事件。在EventEmitter其他地方有无数的指南，但是您可以听这样的事件：
   ```javascript
   platon.on('accountsChanged', (accounts) => {
     // Handle the new accounts, or lack thereof.
@@ -473,7 +467,7 @@ Samurai以window.platon将全局API注入其用户访问的网站。该API允许
 
   此代码段说明了如何满足web3网站的三个最常见的要求：
 
-  + 检测PlatON provider（window.ethereum）
+  + 检测PlatON provider（window.platon）
   + 检测用户连接到哪个PlatON网络
   + 获取用户的PlatON账户
   ```javascript
@@ -495,7 +489,7 @@ Samurai以window.platon将全局API注入其用户访问的网站。该API允许
   function startApp(provider) {
     // If the provider returned by detectPlatONProvider is not the same as
     // window.platon, something is overwriting it, perhaps another wallet.
-    if (provider !== window.ethereum) {
+    if (provider !== window.platon) {
       console.error('Do you have multiple wallets installed?');
     }
     // Access the decentralized web!
@@ -504,9 +498,6 @@ Samurai以window.platon将全局API注入其用户访问的网站。该API允许
   /**********************************************************/
   /* Handle chain (network) and chainChanged                */
   /**********************************************************/
-
-  const chainId = await platon.request({ method: 'platon_chainId' });
-  handleChainChanged(chainId);
 
   platon.on('chainChanged', handleChainChanged);
 
@@ -562,7 +553,7 @@ Samurai以window.platon将全局API注入其用户访问的网站。该API允许
   // Samurai will reject any additional requests while the first is still
   // pending.
   function connect() {
-    ethereum
+    platon
       .request({ method: 'platon_requestAccounts' })
       .then(handleAccountsChanged)
       .catch((err) => {
@@ -687,7 +678,7 @@ Tips
     document.getElementById('requestPermissionsButton', requestPermissions);
 
     function requestPermissions() {
-    ethereum
+    platon
       .request({
         method: 'wallet_requestPermissions',
         params: [{ platon_accounts: {} }],
@@ -749,7 +740,7 @@ Tips
     params: {
       type: 'PRC20',
       options: {
-        address: '0xb60e8dd61c5d32be8058bb8eb970870f07233155',
+        address: 'lat1alad2dlvkxvcyz02ag5vtxs9c678mvc5adr3vm',
         symbol: 'FOO',
         decimals: 18,
         image: 'https://foo.io/token-image.svg',
