@@ -54,9 +54,7 @@ export default class AlertController {
 
     preferencesStore.subscribe(({ selectedAddress }) => {
       const currentState = this.store.getState()
-      // const selectedAddrHex = selectedAddress ? decodeBech32Address(selectedAddress) : undefined
-      // const thisSelectedAddrHex = this.selectedAddress ? decodeBech32Address(this.selectedAddress) : undefined
-      if (currentState.unconnectedAccountAlertShownOrigins && decodeBech32Address(this.selectedAddress) !== decodeBech32Address(selectedAddress)) {
+      if (currentState.unconnectedAccountAlertShownOrigins && (!selectedAddress || !this.selectedAddress || decodeBech32Address(this.selectedAddress) !== decodeBech32Address(selectedAddress))) {
         this.selectedAddress = selectedAddress
         this.store.updateState({ unconnectedAccountAlertShownOrigins: {} })
       }
