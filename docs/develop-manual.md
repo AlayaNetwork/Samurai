@@ -67,7 +67,7 @@ Samurai是基于以太坊web钱包Metamask进行fork的，针对PlatON/Alaya网�
 #### 1.3 基础知识
 ##### 专业术语
 + __钱包(Wallet)__
-  
+
   + 你用来管理你自己账户的interface/client/wrapper/holder。
 + __账户(Account)__
   + 一个公私钥对，可以持有您的资金。
@@ -119,7 +119,7 @@ Samurai是基于以太坊web钱包Metamask进行fork的，针对PlatON/Alaya网�
   + 这是查看您的地址是否正确的简单方法。
   + 注意：以上地址是单个字符，但图标和颜色明显不同。
 + __十六进制(Hexadecimal)__
-  
+
   + 在整个PlatON中用于大部分的事物，十六进制字符串由数字0 1 2 3 4 5 6 7 8 9和A B C D E F组成。
 + __种子(Seed)__
   + 为获得私钥而提供的输入。这应该始终以一种真正随机的方式生成，而不是由您可怜的人脑组成的东西。
@@ -150,16 +150,16 @@ Samurai是基于以太坊web钱包Metamask进行fork的，针对PlatON/Alaya网�
   + 例如，如果单词“ Apple”是您的缩短的私钥，那么它被加密为字母下方的三个字母，则新的缩短的加密密钥为“ Dssoh”。由于您知道加密此密钥的方法，因此可以通过反转加密方法从中获得原始私钥。
   + 通常，加密的私钥保存在扩展程序或加密设备中，并且不会被用户看到。这旨在增加另一层安全性，以确保用户的钱包信息安全。
 + __去中心化(Decentralize / Decentralization)__
-  
+
   + 将单个实体（例如政府或大型公司）的权限转移到多个较小实体的过程。
 + __不信任(Trustless)__
-  
+
   + 区块链负责的分布式无信任共识。由于每个人都有曾经执行过的所有交易的分类帐的副本，因此不需要第三方。您可以自己验证交易，但是创建了以太坊区块链和比特币区块链以确保当满足所有条件时各方之间执行规则和协议。
 + __智能合约(Smart Contracts)__
-  
+
   + 存储在区块链网络上的一段代码（或程序）。合约的条件由用户预先定义，如果满足所有条件，则合约（程序）将执行某些操作。
 + __区块链(Blockchain)__
-  
+
   + 去中心化的公共帐本。
 
 #### 1.4 初始化Dapps
@@ -781,7 +781,7 @@ toAccount = "lat1dt2wx0xjkd2je8ev4t3ysmte6n90kc9gzndwuv";
 transferBalance = 1000000000000000;
 contract.methods.transfer(toAccount,transferBalance)
   .send({from:platon.selectedAddress, gas:4712388})
-  .then(function(receipt){
+  .then (function(receipt){
     console.log("receipt: ", receipt);
   }).catch(function(err) {
     console.log('err: ', err);

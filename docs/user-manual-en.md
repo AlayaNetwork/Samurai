@@ -110,18 +110,21 @@ chrome://extensions/
 
 ### 4.Network Management
 
-+ By default, Samurai connects to the PlatON Main network, or it can connect to its own network of nodes. Click “**Networks**”-> **Custom RPC**
+By default, Samurai connects to the PlatON network, or it can connect to other networks.
 
-![](./images/network-en.jpg)
+#### 4.1 切换网络
+Samurai have added PlatON Main Network, PlatON dev network, Alaya Network, Alaya dev Network as default, you can choose a network to connect. Click **“Networks”** and choose a network from the four networks to connect.
+![](./images/choose-network-en.jpg)
 
-+ Enter the new network configuration interface, and click “**Save**” after configuring the form
+#### 4.2 添加自定义网络
+Click **“Networks”**-> **Custom RPC**
+![](./images/choose-custom-network-en.jpg)
 
-![](./images/network-form-en.jpg)
+Enter the new network configuration interface, and click **“Save”** after configuring the form.
+![](./images/custom-network-config-en.jpg)
 
-+ Samurai will try to connect to the node, and if the node fails to connect, it will pop up a corresponding dialog prompt
+Samurai will try to connect to the node, and if the node fails to connect, it will pop up a corresponding dialog prompt.
+![](./images/custom-network-connect-failed-en.jpg)
 
-![](./images/network-connect-error-en.jpg)
-
-+ If the connection is successful, a network list option will be added to the network list
-
-![](./images/network-add-success-en.jpg)
+If the connection is successful, a network list option will be added to the network list.
+![](./images/custom-network-connect-success-en.jpg)
