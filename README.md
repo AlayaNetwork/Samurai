@@ -4,7 +4,7 @@ You can find the latest version of Samurai on [Develop manual](./docs/develop-ma
 
 You can find user manual on [User manual](./docs/user-manual.md).
 
-Samurai supports Google Chrome, and Firefox, Chromium-based browsers. We recommend using the latest available browser version.
+Samurai supports Google Chrome, and Firefox, Chromium-based browsers. We recommend using the latest available browser version. We provide compiled chrome installation package, You can compile other browser installation packages.
 
 ## Building locally
 

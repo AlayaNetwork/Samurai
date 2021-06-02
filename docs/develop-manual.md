@@ -757,7 +757,7 @@ Tips
 
 + 请求Samurai用户授权, 运行下面命令会唤起Samurai界面，选择对应的账户同意即可授权页面连接权限
 ```
-> alaya.request({ method: 'platon_requestAccounts' });
+> platon.request({ method: 'platon_requestAccounts' });
 Promise {<pending>}
 > platon.selectedAddress
 "lat1mm09yjr8vwr2g78gselj03w2eks7atq2t4y83p"
