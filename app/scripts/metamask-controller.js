@@ -1806,12 +1806,18 @@ export default class MetamaskController extends EventEmitter {
    */
   async _onKeyringControllerUpdate (state) {
     const { keyrings } = state
-    const addresses = keyrings.reduce((acc, { accounts }) => acc.concat(accounts), [])
+    let addresses = keyrings.reduce((acc, { accounts }) => acc.concat(accounts), [])
 
     if (!addresses.length) {
       return
     }
-
+    const hrp = this.networkController.getHrpState()
+    addresses = addresses.map((address) => {
+      if (!address.toString().startsWith(hrp)) {
+        return ethUtil.toBech32Address(hrp, ethUtil.decodeBech32Address(address))
+      }
+      return address
+    })
     // Ensure preferences + identities controller know about all addresses
     this.preferencesController.syncAddresses(addresses)
     this.accountTracker.syncWithAddresses(addresses)
