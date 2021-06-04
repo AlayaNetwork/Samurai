@@ -20,7 +20,7 @@ export default class InfoTab extends PureComponent {
         </div>
         <div className="info-tab__link-item">
           <a
-            href="https://www.alaya.network/privacy-policy/"
+            href="https://samurai.platon.network/samurai-agreement/privacy-policy.html"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -31,7 +31,7 @@ export default class InfoTab extends PureComponent {
         </div>
         <div className="info-tab__link-item">
           <a
-            href="https://samurai.alaya.network/samurai-agreement/agreement.html"
+            href="https://samurai.platon.network/samurai-agreement/agreement.html"
             target="_blank"
             rel="noopener noreferrer"
           >
