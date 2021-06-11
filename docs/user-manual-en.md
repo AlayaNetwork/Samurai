@@ -44,7 +44,7 @@ chrome://extensions/
 
 + Click “**ext step**”,re-input the mnemonic words with the right sequence,click “**confirm**”->Once all steps is completed,you can enter the main interface
 
-![](./images/samurai-create-seed-confirm.jpg)
+![](./images/samurai-create-seed-confirm-en.jpg)
 
 ![](./images/samurai-import-end-en.jpg)
 
@@ -112,11 +112,11 @@ chrome://extensions/
 
 By default, Samurai connects to the PlatON network, or it can connect to other networks.
 
-#### 4.1 切换网络
+#### 4.1 Choose networks
 Samurai have added PlatON Main Network, PlatON dev network, Alaya Network, Alaya dev Network as default, you can choose a network to connect. Click **“Networks”** and choose a network from the four networks to connect.
 ![](./images/choose-network-en.jpg)
 
-#### 4.2 添加自定义网络
+#### 4.2 Add Custom Network
 Click **“Networks”**-> **Custom RPC**
 ![](./images/choose-custom-network-en.jpg)
 
