@@ -231,7 +231,7 @@
     "message": "Kovan 테스트넷 접속 중"
   },
   "connectingToMainnet": {
-    "message": "이더리움 메인넷 접속 중"
+    "message": "PlatON 메인 넷 방문"
   },
   "connectingToRopsten": {
     "message": "Ropsten 테스트넷 접속 중"
@@ -405,7 +405,7 @@
     "message": "이더리움 공개 주소"
   },
   "etherscanView": {
-    "message": "Alayascan에서 계정 확인"
+    "message": "PlatScan에서 계정 확인"
   },
   "estimatedProcessingTimes": {
     "message": "예상 처리 시간"
@@ -625,7 +625,7 @@
     "message": "로그아웃"
   },
   "mainnet": {
-    "message": "이더리움 메인넷"
+    "message": "PlatON 메인 넷"
   },
   "memorizePhrase": {
     "message": "이 구문을 기억하세요."
@@ -1263,7 +1263,7 @@
     "message": "$1에 보기"
   },
   "viewOnEtherscan": {
-    "message": "Alayascan에서보기"
+    "message": "PlatScan에서보기"
   },
   "visitWebSite": {
     "message": "웹사이트 방문"

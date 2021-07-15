@@ -234,7 +234,7 @@
     "message": "Povezivanje na testnu mrežu Kovan"
   },
   "connectingToMainnet": {
-    "message": "Povezivanje na glavnu mrežu Alaya"
+    "message": "Povezivanje na glavnu mrežu PlatON"
   },
   "connectingToRopsten": {
     "message": "Povezivanje na testnu mrežu Ropsten"
@@ -408,7 +408,7 @@
     "message": "Javna adresa Alaya"
   },
   "etherscanView": {
-    "message": "Prikaži račun na Alayascanu"
+    "message": "Prikaži račun na PlatScanu"
   },
   "estimatedProcessingTimes": {
     "message": "Procijenjeno vrijeme obrade"
@@ -624,7 +624,7 @@
     "message": "Odjava"
   },
   "mainnet": {
-    "message": "Glavna mreža Alaya"
+    "message": "Glavna mreža PlatON"
   },
   "memorizePhrase": {
     "message": "Zapamtite ovu rečenicu."
@@ -1262,7 +1262,7 @@
     "message": "Prikaži u $1"
   },
   "viewOnEtherscan": {
-    "message": "Prikaži na Alayascanu"
+    "message": "Prikaži na PlatScanu"
   },
   "visitWebSite": {
     "message": "Posjetite naše mrežno mjesto"

@@ -84,5 +84,6 @@ export function useTokenTracker (tokens) {
     buildTracker(userAddress, tokens)
   }, [userAddress, teardownTracker, network, tokens, updateBalances, buildTracker])
 
+  // userAddress, teardownTracker, network, tokens, updateBalances, buildTracker
   return { loading, tokensWithBalances, error }
 }

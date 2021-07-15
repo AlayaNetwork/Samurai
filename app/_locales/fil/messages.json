@@ -210,7 +210,7 @@
     "message": "Kumokonekta sa Kovan Test Network"
   },
   "connectingToMainnet": {
-    "message": "Kumokonekta sa Main Alaya Network"
+    "message": "Kumokonekta sa PlatON Main Network"
   },
   "connectingToRopsten": {
     "message": "Kumokonekta sa Ropsten Test Network"
@@ -378,7 +378,7 @@
     "message": "Ilagay ang password para magpatuloy"
   },
   "etherscanView": {
-    "message": "Tingnan ang account sa Alayascan"
+    "message": "Tingnan ang account sa PlatScan"
   },
   "estimatedProcessingTimes": {
     "message": "Tinatantiyang Tagal ng Pagproseso"
@@ -1166,7 +1166,7 @@
     "message": "Tingnan sa $1"
   },
   "viewOnEtherscan": {
-    "message": "Tingnan sa Alayascan"
+    "message": "Tingnan sa PlatScan"
   },
   "visitWebSite": {
     "message": "Bisitahin ang aming web site"

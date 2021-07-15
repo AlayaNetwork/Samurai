@@ -128,7 +128,7 @@
     "message": "Introduza palavra-passe"
   },
   "etherscanView": {
-    "message": "Ver conta no Alayascan"
+    "message": "Ver conta no PlatScan"
   },
   "exportPrivateKey": {
     "message": "Exportar Chave Privada"
@@ -234,7 +234,7 @@
     "message": "Sair"
   },
   "mainnet": {
-    "message": "Rede Principal de Alaya"
+    "message": "Rede Principal de PlatON"
   },
   "message": {
     "message": "Mensagem"

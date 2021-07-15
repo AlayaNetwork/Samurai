@@ -234,7 +234,7 @@
     "message": "Csatlakozás a Kovan teszthálózathoz"
   },
   "connectingToMainnet": {
-    "message": "Csatlakozás a fő Alaya hálózathoz"
+    "message": "Csatlakozás a fő PlatON hálózathoz"
   },
   "connectingToRopsten": {
     "message": "Csatlakozás a Ropsten teszthálózathoz"
@@ -408,7 +408,7 @@
     "message": "Alaya nyilvános címe"
   },
   "etherscanView": {
-    "message": "Fiók megtekintése Alayascanen"
+    "message": "Fiók megtekintése PlatScanen"
   },
   "estimatedProcessingTimes": {
     "message": "Becsült feldolgozási idők"
@@ -624,7 +624,7 @@
     "message": "Kilépés"
   },
   "mainnet": {
-    "message": "Fő Alaya hálózat"
+    "message": "Fő PlatON hálózat"
   },
   "memorizePhrase": {
     "message": "Jegyezze meg ezt a szakaszt."
@@ -1262,7 +1262,7 @@
     "message": "Megtekintés $1-kor"
   },
   "viewOnEtherscan": {
-    "message": "Nézze meg Alayascanen"
+    "message": "Nézze meg PlatScanen"
   },
   "visitWebSite": {
     "message": "Látogass el weboldalunkra"

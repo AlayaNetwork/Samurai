@@ -68,7 +68,7 @@
     "message": "Mostra Transazioni in Ingresso"
   },
   "showIncomingTransactionsDescription": {
-    "message": "Usa Alayascan per visualizzare le transazioni in ingresso nella lista delle transazioni"
+    "message": "Usa PlatScan per visualizzare le transazioni in ingresso nella lista delle transazioni"
   },
   "chartOnlyAvailableEth": {
     "message": "Grafico disponibile solo per le reti Alaya."
@@ -385,7 +385,7 @@
     "message": "Connessione alla Rete di test Kovan"
   },
   "connectingToMainnet": {
-    "message": "Connessione alla Rete Alaya Principale"
+    "message": "Connessione alla Rete PlatON Principale"
   },
   "connectingToRopsten": {
     "message": "Connessione alla Rete di test Ropsten"
@@ -622,7 +622,7 @@
     "message": "Indirizzo pubblico Alaya "
   },
   "etherscanView": {
-    "message": "Vedi account su Alayascan"
+    "message": "Vedi account su PlatScan"
   },
   "estimatedProcessingTimes": {
     "message": "Tempi di Elaborazione Stimati"
@@ -894,7 +894,7 @@
     "message": "Tempo di inattività troppo lungo"
   },
   "mainnet": {
-    "message": "Rete Alaya Principale"
+    "message": "Rete PlatON Principale"
   },
   "memorizePhrase": {
     "message": "Memorizza questa frase."
@@ -1588,7 +1588,7 @@
     "message": "Tempo Conferma Transazione"
   },
   "showTransactionTimeDescription": {
-    "message": "Seleziona per mostrare nella scheda attività una stima dei tempi di transazione per le transazioni in corso sulla rete Alaya principale. Nota: la stima è approssimativa basata sulle condizioni della rete."
+    "message": "Seleziona per mostrare nella scheda attività una stima dei tempi di transazione per le transazioni in corso sulla rete principale. Nota: la stima è approssimativa basata sulle condizioni della rete."
   },
   "transfer": {
     "message": "Trasferisci"
@@ -1662,7 +1662,7 @@
     "message": "Rilevamento del Phishing"
   },
   "usePhishingDetectionDescription": {
-    "message": "Visualizza un avvertimento sui domini di phishing rivolto a utenti di Alaya"
+    "message": "Visualizza un avvertimento sui domini di phishing rivolto a utenti di Platon"
   },
   "userName": {
     "message": "Nome utente"
@@ -1680,7 +1680,7 @@
     "message": "Vedi su $1"
   },
   "viewOnEtherscan": {
-    "message": "Vedi su Alayascan"
+    "message": "Vedi su PlatScan"
   },
   "retryTransaction": {
     "message": "Retry Transaction"

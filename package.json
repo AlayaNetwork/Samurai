@@ -58,7 +58,8 @@
     "**/socketcluster/minimist": "^1.2.5",
     "3box/ipfs/ipld-zcash/zcash-bitcore-lib/lodash": "^4.17.19",
     "3box/ipfs/ipld-zcash/zcash-bitcore-lib/elliptic": "^6.5.3",
-    "ganache-core/lodash": "^4.17.19"
+    "ganache-core/lodash": "^4.17.19",
+    "pull-ws": "^3.3.2"
   },
   "dependencies": {
     "3box": "^1.10.2",

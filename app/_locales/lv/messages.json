@@ -234,7 +234,7 @@
     "message": "Savienojas ar Kovan testa tīklu"
   },
   "connectingToMainnet": {
-    "message": "Savienojas ar galveno Alaya tīklu"
+    "message": "Savienojas ar galveno PlatON tīklu"
   },
   "connectingToRopsten": {
     "message": "Pieslēdzas Ropsten testa tīklam"
@@ -408,7 +408,7 @@
     "message": "Alaya publiskā adrese"
   },
   "etherscanView": {
-    "message": "Skatīt kontu ar Alayascan"
+    "message": "Skatīt kontu ar PlatScan"
   },
   "estimatedProcessingTimes": {
     "message": "Aprēķinātais apstrādes laiks"
@@ -627,7 +627,7 @@
     "message": "Izrakstīties"
   },
   "mainnet": {
-    "message": "Galvenais Alaya tīkls"
+    "message": "Galvenais PlatON tīkls"
   },
   "memorizePhrase": {
     "message": "Iegaumējiet šo frāzi."
@@ -1268,7 +1268,7 @@
     "message": "Skatīt $1"
   },
   "viewOnEtherscan": {
-    "message": "Skatīt Alayascan"
+    "message": "Skatīt PlatScan"
   },
   "visitWebSite": {
     "message": "Apmeklējiet mūsu tīmekļa vietni"

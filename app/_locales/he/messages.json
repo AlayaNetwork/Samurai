@@ -408,7 +408,7 @@
     "message": "כתובת אתריום ציבורית"
   },
   "etherscanView": {
-    "message": "הצג חשבון ב- Alayascan"
+    "message": "הצג חשבון ב- PlatScan"
   },
   "estimatedProcessingTimes": {
     "message": "זמני עיבוד משוערים"
@@ -1266,7 +1266,7 @@
     "message": "הצג ב- $1"
   },
   "viewOnEtherscan": {
-    "message": "הצג ב-Alayascan"
+    "message": "הצג ב-PlatScan"
   },
   "visitWebSite": {
     "message": "בקר/י באתר שלנו"

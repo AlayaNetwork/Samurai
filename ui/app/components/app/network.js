@@ -8,11 +8,10 @@ function NetworkIndicator ({ disabled, children, hoverText, onClick, providerNam
     <div
       className={classnames('network-component pointer', {
         'network-component--disabled': disabled,
-        // 'ethereum-network': providerName === 'mainnet',
-        // 'ropsten-test-network': providerName === 'ropsten',
-        // 'kovan-test-network': providerName === 'kovan',
-        'alaya-test-network': providerName === 'alaya',
-        // 'goerli-test-network': providerName === 'goerli',
+        'platon-network': providerName === 'mainnet',
+        'platon-dev-network': providerName === 'platon_dev',
+        'alaya-network': providerName === 'alaya',
+        'alaya-dev-network': providerName === 'alaya_dev'
       })}
       title={hoverText}
       onClick={(event) => {
@@ -73,51 +72,51 @@ export default class Network extends Component {
     }
 
     switch (providerName) {
-      // case 'mainnet':
-      //   return (
-      //     <NetworkIndicator disabled={disabled} hoverText={t('mainnet')} onClick={onClick} providerName={providerName}>
-      //       <NetworkDropdownIcon
-      //         backgroundColor="#038789"
-      //         nonSelectBackgroundColor="#15afb2"
-      //         loading={networkNumber === 'loading'}
-      //       />
-      //       <div className="network-name">{t('mainnet')}</div>
-      //     </NetworkIndicator>
-      //   )
+      case 'mainnet':
+        return (
+          <NetworkIndicator disabled={disabled} hoverText={t('mainnet')} onClick={onClick} providerName={providerName}>
+            <NetworkDropdownIcon
+              backgroundColor="#038789"
+              nonSelectBackgroundColor="#15afb2"
+              loading={networkNumber === 'loading'}
+            />
+            <div className="network-name">{t('mainnet')}</div>
+          </NetworkIndicator>
+        )
 
-      // case 'ropsten':
-      //   return (
-      //     <NetworkIndicator disabled={disabled} hoverText={t('ropsten')} onClick={onClick} providerName={providerName}>
-      //       <NetworkDropdownIcon
-      //         backgroundColor="#e91550"
-      //         nonSelectBackgroundColor="#ec2c50"
-      //         loading={networkNumber === 'loading'}
-      //       />
-      //       <div className="network-name">{t('ropsten')}</div>
-      //     </NetworkIndicator>
-      //   )
-
-      // case 'kovan':
-      //   return (
-      //     <NetworkIndicator disabled={disabled} hoverText={t('kovan')} onClick={onClick} providerName={providerName}>
-      //       <NetworkDropdownIcon
-      //         backgroundColor="#690496"
-      //         nonSelectBackgroundColor="#b039f3"
-      //         loading={networkNumber === 'loading'}
-      //       />
-      //       <div className="network-name">{t('kovan')}</div>
-      //     </NetworkIndicator>
-      //   )
+      case 'platon_dev':
+        return (
+          <NetworkIndicator disabled={disabled} hoverText={t('platon_dev')} onClick={onClick} providerName={providerName}>
+            <NetworkDropdownIcon
+              backgroundColor="#e91550"
+              nonSelectBackgroundColor="#ec2c50"
+              loading={networkNumber === 'loading'}
+            />
+            <div className="network-name">{t('platon_dev')}</div>
+          </NetworkIndicator>
+        )
 
       case 'alaya':
         return (
           <NetworkIndicator disabled={disabled} hoverText={t('alaya')} onClick={onClick} providerName={providerName}>
             <NetworkDropdownIcon
+              backgroundColor="#690496"
+              nonSelectBackgroundColor="#b039f3"
+              loading={networkNumber === 'loading'}
+            />
+            <div className="network-name">{t('alaya')}</div>
+          </NetworkIndicator>
+        )
+
+      case 'alaya_dev':
+        return (
+          <NetworkIndicator disabled={disabled} hoverText={t('alaya_dev')} onClick={onClick} providerName={providerName}>
+            <NetworkDropdownIcon
               backgroundColor="#ebb33f"
               nonSelectBackgroundColor="#ecb23e"
               loading={networkNumber === 'loading'}
             />
-            <div className="network-name">{t('alaya')}</div>
+            <div className="network-name">{t('alaya_dev')}</div>
           </NetworkIndicator>
         )
 

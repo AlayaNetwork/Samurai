@@ -1,4 +1,5 @@
 import ObservableStore from 'obs-store'
+import { decodeBech32Address } from '@alayanetwork/ethereumjs-util'
 
 /**
  * @typedef {Object} AlertControllerInitState
@@ -53,7 +54,7 @@ export default class AlertController {
 
     preferencesStore.subscribe(({ selectedAddress }) => {
       const currentState = this.store.getState()
-      if (currentState.unconnectedAccountAlertShownOrigins && this.selectedAddress !== selectedAddress) {
+      if (currentState.unconnectedAccountAlertShownOrigins && (!selectedAddress || !this.selectedAddress || decodeBech32Address(this.selectedAddress) !== decodeBech32Address(selectedAddress))) {
         this.selectedAddress = selectedAddress
         this.store.updateState({ unconnectedAccountAlertShownOrigins: {} })
       }

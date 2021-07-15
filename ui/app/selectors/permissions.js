@@ -3,6 +3,7 @@ import { getMetaMaskAccountsOrdered, getOriginOfCurrentTab, getSelectedAddress }
 import {
   CAVEAT_NAMES,
 } from '../../../app/scripts/controllers/permissions/enums'
+import { decodeBech32Address, isBech32Address } from '@alayanetwork/ethereumjs-util'
 
 // selectors
 
@@ -96,7 +97,13 @@ export function getConnectedDomainsForSelectedAddress (state) {
 
   forOwn(domains, (domainValue, domainKey) => {
     const exposedAccounts = getAccountsFromDomain(domainValue)
-    if (!exposedAccounts.includes(selectedAddress)) {
+    const accounts = exposedAccounts.map((acc) => {
+      if (isBech32Address(acc)) {
+        return decodeBech32Address(acc)
+      }
+      return acc
+    })
+    if (!accounts.includes(decodeBech32Address(selectedAddress))) {
       return
     }
 
@@ -141,7 +148,9 @@ export function getAddressConnectedDomainMap (state) {
     accountsMap[domainKey].forEach((address) => {
 
       const nameToRender = name || domainKey
-
+      if (isBech32Address(address)) {
+        address = decodeBech32Address(address)
+      }
       addressConnectedIconMap[address] = addressConnectedIconMap[address]
         ? { ...addressConnectedIconMap[address], [domainKey]: { icon, name: nameToRender } }
         : { [domainKey]: { icon, name: nameToRender } }
@@ -199,7 +208,7 @@ export function getAccountToConnectToActiveTab (state) {
   const numberOfAccounts = Object.keys(identities).length
 
   if (connectedAccounts.length && connectedAccounts.length !== numberOfAccounts) {
-    if (connectedAccounts.findIndex((address) => address === selectedAddress) === -1) {
+    if (connectedAccounts.findIndex((address) => decodeBech32Address(address) === decodeBech32Address(selectedAddress)) === -1) {
       return identities[selectedAddress]
     }
   }
@@ -213,9 +222,15 @@ export function getOrderedConnectedAccountsForActiveTab (state) {
   const permissionsHistoryByAccount = permissionsHistory[activeTab.origin]?.['platon_accounts']?.accounts
   const orderedAccounts = getMetaMaskAccountsOrdered(state)
   const connectedAccounts = getPermittedAccountsForCurrentTab(state)
+  const connectedAccountsHex = connectedAccounts.map((acc) => {
+    if (isBech32Address(acc)) {
+      return decodeBech32Address(acc)
+    }
+    return acc
+  })
 
   return orderedAccounts
-    .filter((account) => connectedAccounts.includes(account.address))
+    .filter((account) => connectedAccountsHex.includes(decodeBech32Address(account.address)))
     .map((account) => ({
       ...account,
       lastActive: permissionsHistoryByAccount?.[account.address],

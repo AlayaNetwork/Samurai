@@ -200,7 +200,7 @@
     "message": "パスワードを入力"
   },
   "etherscanView": {
-    "message": "Alayascanでアカウントを確認"
+    "message": "PlatScanでアカウントを確認"
   },
   "exportPrivateKey": {
     "message": "秘密鍵のエクスポート"
@@ -303,7 +303,7 @@
     "message": "ログアウト"
   },
   "mainnet": {
-    "message": "Alayaメインネットワーク"
+    "message": "PlatONメインネットワーク"
   },
   "message": {
     "message": "メッセージ"
@@ -479,7 +479,7 @@
     "message": "アカウントを見る"
   },
   "viewOnEtherscan": {
-    "message": "Alayascan で見る"
+    "message": "PlatScan で見る"
   },
   "walletSeed": {
     "message": "ウォレットのパスフレーズ"

@@ -158,13 +158,13 @@ export default class IncomingTransactionsController {
       newIncomingTransactions[tx.hash] = tx
     })
 
-    this.store.updateState({
-      incomingTxLastFetchedBlocksByNetwork: {
-        ...currentBlocksByNetwork,
-        [network]: newLatestBlockHashByNetwork,
-      },
-      incomingTransactions: newIncomingTransactions,
-    })
+    // this.store.updateState({
+    //   incomingTxLastFetchedBlocksByNetwork: {
+    //     ...currentBlocksByNetwork,
+    //     [network]: newLatestBlockHashByNetwork,
+    //   },
+    //   incomingTransactions: newIncomingTransactions,
+    // })
   }
 
   async _fetchAll (address, fromBlock, networkType) {

@@ -11,6 +11,7 @@ import {
   getOriginOfCurrentTab,
   getSelectedAddress,
 } from '../../../selectors'
+import { decodeBech32Address } from '@alayanetwork/ethereumjs-util'
 
 
 const mapStateToProps = (state) => {
@@ -18,7 +19,7 @@ const mapStateToProps = (state) => {
   const addressConnectedDomainMap = getAddressConnectedDomainMap(state)
   const originOfCurrentTab = getOriginOfCurrentTab(state)
 
-  const selectedAddressDomainMap = addressConnectedDomainMap[selectedAddress]
+  const selectedAddressDomainMap = addressConnectedDomainMap[decodeBech32Address(selectedAddress)]
   const currentTabIsConnectedToSelectedAddress = Boolean(selectedAddressDomainMap && selectedAddressDomainMap[originOfCurrentTab])
 
   let status

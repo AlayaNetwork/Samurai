@@ -31,7 +31,7 @@ export default class DetectTokensController {
     if (!this.isActive) {
       return
     }
-    if (this._network.store.getState().provider.type !== MAINNET) {
+    if (this._network.store.getState().provider.type !== MAINNET || this._network.store.getState().provider.type === MAINNET) {
       return
     }
 

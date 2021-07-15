@@ -7,6 +7,7 @@ import {
   getAveragePriceEstimateInHexWEI,
 } from '.'
 import { calcGasTotal } from '../pages/send/send.utils'
+import {decodeBech32Address, toBech32Address} from "@alayanetwork/ethereumjs-util";
 
 export function getBlockGasLimit (state) {
   return state.metamask.currentBlockGasLimit
@@ -22,6 +23,11 @@ export function getNativeCurrency (state) {
 
 export function getCurrentNetwork (state) {
   return state.metamask.network
+}
+
+export function getCurrentHrp (state) {
+  const hrp = state.metamask.hrp !== 'loading' ? state.metamask.hrp : state.metamask.settings.hrp
+  return hrp
 }
 
 export function getGasLimit (state) {
@@ -42,6 +48,12 @@ export function getPrimaryCurrency (state) {
 }
 
 export function getSendToken (state) {
+  const hrp = getCurrentHrp(state)
+  let addr = state.metamask.send.token?.address
+  if (addr && !addr.startsWith(hrp)) {
+    addr = toBech32Address(hrp, decodeBech32Address(addr))
+    state.metamask.send.token.address = addr
+  }
   return state.metamask.send.token
 }
 
@@ -81,6 +93,12 @@ export function sendAmountIsInError (state) {
 }
 
 export function getSendFrom (state) {
+  const hrp = getCurrentHrp(state)
+  let from = state.metamask.send.from
+  if (!from.startsWith(hrp)) {
+    from = toBech32Address(hrp, decodeBech32Address(from))
+    state.metamask.send.from = from
+  }
   return state.metamask.send.from
 }
 
@@ -101,6 +119,12 @@ export function getSendMaxModeState (state) {
 }
 
 export function getSendTo (state) {
+  const hrp = getCurrentHrp(state)
+  let to = state.metamask.send.to
+  if (!to.startsWith(hrp)) {
+    to = toBech32Address(hrp, decodeBech32Address(to))
+    state.metamask.send.to = to
+  }
   return state.metamask.send.to
 }
 

@@ -231,7 +231,7 @@
     "message": "Conectant a la xarxa de Kovan Test"
   },
   "connectingToMainnet": {
-    "message": "Connectant a Xarxa Principal Alaya"
+    "message": "Connectant a Xarxa Principal PlatON"
   },
   "connectingToRopsten": {
     "message": "Connectant a la xarxa de test Ropsten"
@@ -405,7 +405,7 @@
     "message": "Adreça Pública d'Alaya"
   },
   "etherscanView": {
-    "message": "Veure compte a Alayascan"
+    "message": "Veure compte a PlatScan"
   },
   "estimatedProcessingTimes": {
     "message": "Temps de processament estimats"
@@ -615,7 +615,7 @@
     "message": "Tanca la sessió"
   },
   "mainnet": {
-    "message": "Xarxa Alaya principal"
+    "message": "Xarxa PlatON principal"
   },
   "memorizePhrase": {
     "message": "Memoritza aquesta frase"
@@ -1241,7 +1241,7 @@
     "message": "Mostra a $1"
   },
   "viewOnEtherscan": {
-    "message": "Veure a Alayascan"
+    "message": "Veure a PlatScan"
   },
   "visitWebSite": {
     "message": "Visita el nostre lloc web"

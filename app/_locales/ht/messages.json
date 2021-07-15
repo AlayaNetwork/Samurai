@@ -119,7 +119,7 @@
     "message": "Konekte nan Kovan Tès Rezo a"
   },
   "connectingToMainnet": {
-    "message": "Konekte ak Prensipal Alaya Rezo a"
+    "message": "Konekte ak Prensipal PlatON Rezo a"
   },
   "connectingToRopsten": {
     "message": "Konekte ak Ropsten Tès Rezo a"
@@ -212,7 +212,7 @@
     "message": "Mete modpas pou kontinye"
   },
   "etherscanView": {
-    "message": "Gade kont sou Alayascan"
+    "message": "Gade kont sou PlatScan"
   },
   "expandView": {
     "message": "Elaji Wè"
@@ -369,7 +369,7 @@
     "message": "Dekonekte"
   },
   "mainnet": {
-    "message": "Prensipal Alaya Rezo a"
+    "message": "Prensipal PlatON Rezo a"
   },
   "message": {
     "message": "Mesaje"
@@ -776,7 +776,7 @@
     "message": "Wè Kont"
   },
   "viewOnEtherscan": {
-    "message": "Wè sou Alayascan"
+    "message": "Wè sou PlatScan"
   },
   "visitWebSite": {
     "message": "Vizite sit entènèt nou an"

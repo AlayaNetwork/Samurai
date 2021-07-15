@@ -130,9 +130,9 @@
     safe-event-emitter "^1.0.1"
 
 "@alayanetwork/eth-keyring-controller@^6.1.0":
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/@alayanetwork/eth-keyring-controller/-/eth-keyring-controller-6.1.0.tgz#ae2a241db7c00808b3dc8b948cc717bd35942cd2"
-  integrity sha512-v0HDoWB9qekBhuwxWv+maLvT+TS0I01+Nf+d3YC3dwro1e0E0/++virBuMGCJb9Fp/Gmk1IaQWvzByrGJZJdUw==
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/@alayanetwork/eth-keyring-controller/-/eth-keyring-controller-6.1.2.tgz#bb57cfd2fb8057effb3085ea806cf3874271d508"
+  integrity sha512-tCqiJeBs9XrHb5yuBwWYL0rB9+XF2//WIVFd4XpxhYrtVmWFHbQaYFXRGXeLTgEPjcxd3ZooR4qSeEf2KAom+w==
   dependencies:
     "@alayanetwork/eth-hd-keyring" "^3.5.0"
     "@alayanetwork/eth-sig-util" "^2.5.3"
@@ -203,9 +203,9 @@
     ethereum-common "^0.0.18"
 
 "@alayanetwork/ethereumjs-util@^5.1.2", "@alayanetwork/ethereumjs-util@^5.2.0":
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/@alayanetwork/ethereumjs-util/-/ethereumjs-util-5.2.1.tgz#f4fb791577c8bd87cd0f69a567fb22000f4e3891"
-  integrity sha512-+b+svhGj4upe1ehyLnK3LbNY10ZVP7Air1RkvxNW1iNiEwqwK8EHZkWHv3Iy8cieWHoOZUCtfa6tspaEr67GCA==
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/@alayanetwork/ethereumjs-util/-/ethereumjs-util-5.2.2.tgz#7ddc7b4bb9173c5fed07b6f1f2521c70bc08edfa"
+  integrity sha512-qMaGDotFvoR7WqPBrgLjKYmG7RvOJwdft7yp08HJu/gEuy6yLq1Ex487BIJIsysj3maoYhhglA3DB52iakIlog==
   dependencies:
     bn.js "^4.11.0"
     create-hash "^1.1.2"
@@ -253,10 +253,11 @@
     ethereum-ens-network-map "^1.0.0"
 
 "@alayanetwork/ethjs-format@^0.2.7":
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/@alayanetwork/ethjs-format/-/ethjs-format-0.2.7.tgz#cd5f01f8c5897ff856994c9c0dc37bb555103f98"
-  integrity sha512-laLzeKdvIhFweVqkaRqJhua1AIN9cn86fveYBm7h2kgLKLkJk02AWWK7jdOKyJJHXVGedp/ng/lw1qmP8WNlXw==
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/@alayanetwork/ethjs-format/-/ethjs-format-0.2.8.tgz#8ff142e17de267d43e5982f79db068c64fc28810"
+  integrity sha512-h7ij7JXlF5NqHwYxQ3VwpePHsWeL8RyoGxHQvLrAKlJB4sen9TOLwykSwZdjfzG1Dxmna3pSMG12UQjb+9FLrg==
   dependencies:
+    "@alayanetwork/ethereumjs-util" "^5.2.0"
     "@alayanetwork/ethjs-schema" "0.2.1"
     bn.js "4.11.6"
     ethjs-util "0.1.3"
@@ -265,9 +266,9 @@
     strip-hex-prefix "1.0.0"
 
 "@alayanetwork/ethjs-query@^0.3.4":
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/@alayanetwork/ethjs-query/-/ethjs-query-0.3.4.tgz#b4156536889a95541623d15fd6dbc5206081f4c3"
-  integrity sha512-S3P4qCQ4fUMn4BJVUHWcMbEzzidRI0yzQade3LZn7wtaU7dA2ldYGlynN2Qt8SIjyfPERV14HB+xCntz+TZY0g==
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/@alayanetwork/ethjs-query/-/ethjs-query-0.3.5.tgz#8be08503de8bcaa2b19ce261bb527374eaa4909b"
+  integrity sha512-XGfPvNtHv2vzmWIcLH7hTMTu/yHKQQGUCUtjnGoxAhSo+KJYMbadPPO++T0G/TzQTAUDMlLDLYCyxAofx785nw==
   dependencies:
     "@alayanetwork/ethjs-format" "^0.2.7"
     ethjs-rpc "0.1.9"
@@ -299,10 +300,11 @@
   integrity sha512-az1IBp25ycqsv1MVJ+iGZEiC4x9571+usvShWy8dc1LxTSUUsbRpxzOF/uENIgFHC84FpvpDAf/sAOLXq/evvg==
 
 "@alayanetwork/inpage-provider@^6.1.0":
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/@alayanetwork/inpage-provider/-/inpage-provider-6.1.0.tgz#cb131b700d969565a1ba47549d47871192b53a27"
-  integrity sha512-miB9BDbiypTcpSjHm/xAspuSmjxekpZeuEB596YwXO9Fo9jDkO9ZApYf+vYKFFhXlfXrtrlZTv8ezs7BgE6LMg==
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/@alayanetwork/inpage-provider/-/inpage-provider-6.1.1.tgz#fd6d2f4916ae152fb218a7936e18305a90318364"
+  integrity sha512-NXEC+sX3TjVQVw/frdwj884FHiyRhTr86NLjOvEgJvoNXu+Bzyc+3k1m1C8yV2SGMNTAzLyPh/EqdKZ3Ltw4Gw==
   dependencies:
+    "@alayanetwork/ethereumjs-util" "^5.2.0"
     eth-json-rpc-errors "^2.0.2"
     fast-deep-equal "^2.0.1"
     json-rpc-engine "^5.1.5"
@@ -323,15 +325,31 @@
     await-semaphore "^0.1.3"
 
 "@alayanetwork/rpc-cap@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@alayanetwork/rpc-cap/-/rpc-cap-3.1.0.tgz#2baac42dc6a09eba5cdc0bf6b034e59b1a394a64"
-  integrity sha512-oes+DxX2EIHF9f7loo/csav0lVbYiSfr82N5WnJw03fgW57gD07I+ds+c8tzMHaJV5h0bZ9TNX7EhjJDJwGqYQ==
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@alayanetwork/rpc-cap/-/rpc-cap-3.1.1.tgz#02fc4207c7868516f75dd7967cd394f8858622c8"
+  integrity sha512-DL5E4btWIPjM6ock2BN5+HBG+3aVTdY+SoQbF7TFiltIAY+1Z1+KZsnbSLbJDUHUWx1yZTCAYoiSbNIBsUOMtg==
   dependencies:
     "@alayanetwork/controllers" "^3.0.1"
+    "@alayanetwork/web3-utils" "^0.13.3"
+    "@types/bn.js" "^4.11.6"
     eth-rpc-errors "^2.1.1"
     is-subset "^0.1.1"
     json-rpc-engine "^5.2.0"
     uuid "^3.3.2"
+
+"@alayanetwork/web3-utils@^0.13.3":
+  version "0.13.3"
+  resolved "https://registry.yarnpkg.com/@alayanetwork/web3-utils/-/web3-utils-0.13.3.tgz#f0563fa5fb09334743fde6ddc176134455e7e931"
+  integrity sha512-T5fWhFO+R5q/RLU7fPPW8FHA9TkQo2znQAGYdw/u9SpfA+vA/ZmYsgWm4yh+DXPzyPZqEI4w4t5tl3nCKJtevg==
+  dependencies:
+    bn.js "4.11.8"
+    eth-lib "0.2.7"
+    ethereum-bloom-filters "^1.0.6"
+    ethjs-unit "0.1.6"
+    number-to-bn "1.7.0"
+    randombytes "^2.1.0"
+    underscore "1.9.1"
+    utf8 "3.0.0"
 
 "@alayanetwork/web3@^0.1.0":
   version "0.1.0"
@@ -2742,7 +2760,7 @@
   dependencies:
     bignumber.js "*"
 
-"@types/bn.js@^4.11.3", "@types/bn.js@^4.11.4":
+"@types/bn.js@^4.11.3", "@types/bn.js@^4.11.4", "@types/bn.js@^4.11.6":
   version "4.11.6"
   resolved "https://registry.yarnpkg.com/@types/bn.js/-/bn.js-4.11.6.tgz#c306c70d9358aaea33cd4eda092a742b9505967c"
   integrity sha512-pqr857jrp2kPuO9uRjZ3PwnJTjoQy+fcdxvBTvHm6dkmEL9q+hDD/2j/0ELOBPtPnS8LjCX0gI9nbl8lVkadpg==
@@ -15313,7 +15331,7 @@ iso-stream-http@~0.1.2:
     inherits "^2.0.1"
     readable-stream "^3.1.1"
 
-iso-url@^0.4.4, iso-url@~0.4.4, iso-url@~0.4.6:
+iso-url@~0.4.4, iso-url@~0.4.6:
   version "0.4.6"
   resolved "https://registry.yarnpkg.com/iso-url/-/iso-url-0.4.6.tgz#45005c4af4984cad4f8753da411b41b74cf0a8a6"
   integrity sha512-YQO7+aIe6l1aSJUKOx+Vrv08DlhZeLFIVfehG2L29KLSEb9RszqPXilxJRVpp57px36BddKR5ZsebacO5qG0tg==
@@ -21491,11 +21509,11 @@ pull-window@^2.1.4:
   dependencies:
     looper "^2.0.0"
 
-pull-ws@hugomrdias/pull-ws#fix/bundle-size:
-  version "3.3.1"
-  resolved "https://codeload.github.com/hugomrdias/pull-ws/tar.gz/8e2ce0bb3b1cd6804828316e937fff8e0bef6225"
+pull-ws@^3.3.2, pull-ws@hugomrdias/pull-ws#fix/bundle-size:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/pull-ws/-/pull-ws-3.3.2.tgz#abac497a4800e74ab9a6d749c81a44d12d4e77b3"
+  integrity sha512-Bn4bcJsSzJGOQl4RBulDhG1FkcbDHSCXteI8Jg5k4X6X5TxVzZzKilWJ1WV2v4OnRXl2eYbtHFGsPl8Cr1xJzw==
   dependencies:
-    iso-url "^0.4.4"
     relative-url "^1.0.2"
     safe-buffer "^5.1.1"
     ws "^1.1.0"
