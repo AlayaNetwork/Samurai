@@ -21,8 +21,8 @@ export function getCurrentKeyring (state) {
   }
 
   const simpleAddress = stripHexPrefix(identity.address).toLowerCase()
-
-  const keyring = state.metamask.keyrings.find((kr) => {
+  const keyrings = getMetaMaskKeyrings(state)
+  const keyring = keyrings.find((kr) => {
     return kr.accounts.includes(simpleAddress) ||
       kr.accounts.includes(identity.address)
   })
@@ -73,7 +73,7 @@ export const getMetaMaskAccounts = createSelector(
 
 export function getSelectedAddress (state) {
   const address = state.metamask.selectedAddress
-  const hrp = state.metamask.hrp
+  const hrp = state.metamask.hrp !== 'loading' ? state.metamask.hrp : state.metamask.settings.hrp
   if (address && !address.startsWith(hrp)) {
     state.metamask.selectedAddress = toBech32Address(hrp, decodeBech32Address(address))
   }
@@ -84,10 +84,11 @@ export function getSelectedIdentity (state) {
   const selectedAddress = getSelectedAddress(state)
   const identities = state.metamask.identities
   const newIdentities = {}
-  const hrp = state.metamask.hrp
+  const hrp = state.metamask.hrp !== 'loading' ? state.metamask.hrp : state.metamask.settings.hrp
   Object.keys(identities).map((identity) => {
     if (!identity.startsWith(hrp)) {
       const addr = toBech32Address(hrp, decodeBech32Address(identity))
+      identities[identity].address = addr
       newIdentities[addr] = identities[identity]
       delete identities[identity]
       return addr
@@ -110,16 +111,35 @@ export function getNumberOfTokens (state) {
 }
 
 export function getMetaMaskKeyrings (state) {
+  const keyrings = state.metamask.keyrings
+  const hrp = state.metamask.hrp !== 'loading' ? state.metamask.hrp : state.metamask.settings.hrp
+  const newkeyrings = keyrings.map((keyring) => {
+    if(keyring.accounts) {
+      const accounts = keyring.accounts.map((account) => {
+        if(!account.startsWith(hrp)) {
+          return toBech32Address(hrp, decodeBech32Address(account))
+        }
+        return account
+      })
+      keyring.accounts = accounts
+      return keyring
+    }
+    return keyring
+  })
+  if (newkeyrings.length > 0) {
+    state.metamask.keyrings = newkeyrings
+  }
   return state.metamask.keyrings
 }
 
 export function getMetaMaskIdentities (state) {
   const identities = state.metamask.identities
   const newIdentities = {}
-  const hrp = state.metamask.hrp
+  const hrp = state.metamask.hrp !== 'loading' ? state.metamask.hrp : state.metamask.settings.hrp
   Object.keys(identities).map((identity) => {
     if (!identity.startsWith(hrp)) {
       const addr = toBech32Address(hrp, decodeBech32Address(identity))
+      identities[identity].address = addr
       newIdentities[addr] = identities[identity]
       delete identities[identity]
       return addr
@@ -133,6 +153,23 @@ export function getMetaMaskIdentities (state) {
 }
 
 export function getMetaMaskAccountsRaw (state) {
+  const accounts = state.metamask.accounts
+  const newAccounts = {}
+  const hrp = state.metamask.hrp !== 'loading' ? state.metamask.hrp : state.metamask.settings.hrp
+  Object.keys(accounts).map((account) => {
+    if (!account.startsWith(hrp)) {
+      const addr = toBech32Address(hrp, decodeBech32Address(account))
+      accounts[account].address = addr
+      newAccounts[addr] = accounts[account]
+      delete accounts[account]
+      return addr
+    }
+    newAccounts[account] = accounts[account]
+    return account
+  })
+  if (Object.keys(newAccounts).length > 0) {
+    state.metamask.accounts = newAccounts
+  }
   return state.metamask.accounts
 }
 
@@ -289,14 +326,13 @@ export function getIsMainnet (state) {
 export function isEthereumNetwork (state) {
   const networkType = getNetworkIdentifier(state)
   const {
-    // KOVAN,
     MAINNET,
+    PLATON_DEV,
     ALAYA,
-    // ROPSTEN,
-    // GOERLI,
+    ALAYA_DEV
   } = NETWORK_TYPES
 
-  return [ MAINNET, ALAYA].includes(networkType)
+  return [ MAINNET, PLATON_DEV, ALAYA, ALAYA_DEV].includes(networkType)
 }
 
 export function getPreferences ({ metamask }) {

@@ -234,7 +234,7 @@
     "message": "Jungiamasi prie „Kovan“ bandomojo tinklo"
   },
   "connectingToMainnet": {
-    "message": "Jungiamasi prie pagrindinio „Alaya“ tinklo"
+    "message": "Jungiamasi prie pagrindinio „PlatON“ tinklo"
   },
   "connectingToRopsten": {
     "message": "Jungiamasi prie „Ropsten“ bandomojo tinklo"
@@ -408,7 +408,7 @@
     "message": "„Alaya“ viešasis adresas"
   },
   "etherscanView": {
-    "message": "Peržiūrėti paskyrą „Alayascan“ programoje"
+    "message": "Peržiūrėti paskyrą „PlatScan“ programoje"
   },
   "estimatedProcessingTimes": {
     "message": "Numatomos apdorojimo trukmės"
@@ -631,7 +631,7 @@
     "message": "Atsijungti"
   },
   "mainnet": {
-    "message": "Pagrindinis „Alaya“ tinklas"
+    "message": "Pagrindinis „PlatON“ tinklas"
   },
   "memorizePhrase": {
     "message": "Įsiminti šią frazę."
@@ -1272,7 +1272,7 @@
     "message": "Peržiūrėti $1"
   },
   "viewOnEtherscan": {
-    "message": "Peržiūrėti „Alayascan“"
+    "message": "Peržiūrėti „PlatScan“"
   },
   "visitWebSite": {
     "message": "Apsilankykite mūsų svetainėje"

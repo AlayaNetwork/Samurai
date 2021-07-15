@@ -6,6 +6,7 @@ import { updateSendToken } from '../../../../store/actions'
 function mapStateToProps (state) {
   return {
     tokens: state.metamask.tokens,
+    nativeCurrency: state.metamask.nativeCurrency,
     selectedAddress: state.metamask.selectedAddress,
     sendTokenAddress: getSendTokenAddress(state),
     accounts: getMetaMaskAccounts(state),

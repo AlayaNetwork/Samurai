@@ -234,7 +234,7 @@
     "message": "कोवन टेस्ट नेटवर्क से जोड़ रहा है\n"
   },
   "connectingToMainnet": {
-    "message": "मुख्य Alaya नेटवर्क से कनेक्ट हो रहा है"
+    "message": "मुख्य PlatON नेटवर्क से कनेक्ट हो रहा है"
   },
   "connectingToRopsten": {
     "message": "रोपस्टेन टेस्ट नेटवर्क से कनेक्ट करना"
@@ -408,7 +408,7 @@
     "message": "ईथरअम पब्लिक एड्रेस"
   },
   "etherscanView": {
-    "message": "Alayascan पर खाता दिखाएँ"
+    "message": "PlatScan पर खाता दिखाएँ"
   },
   "estimatedProcessingTimes": {
     "message": "प्रोसेस करने के अनुमानित समय"
@@ -628,7 +628,7 @@
     "message": "लॉग आउट"
   },
   "mainnet": {
-    "message": "मुख्य Alaya नेटवर्क"
+    "message": "मुख्य PlatON नेटवर्क"
   },
   "memorizePhrase": {
     "message": "इस फ़्रेज़ को याद कर लें।"

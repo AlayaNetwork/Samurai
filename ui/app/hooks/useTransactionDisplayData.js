@@ -127,6 +127,10 @@ export function useTransactionDisplayData (transactionGroup) {
   } else if (transactionCategory === SEND_ETHER_ACTION_KEY) {
     category = TRANSACTION_CATEGORY_SEND
     title = t('sendETH')
+    if (recipientAddress && (recipientAddress.startsWith('atp') || recipientAddress.startsWith('lat'))) {
+      const hrp = recipientAddress.slice(0, 3).toUpperCase();
+      title = t('send') + ' ' + hrp;
+    }
     subtitle = t('toAddress', [shortenAddress(recipientAddress)])
   }
 

@@ -1,7 +1,15 @@
 import ObservableStore from 'obs-store'
 import { addInternalMethodPrefix } from './permissions'
 import { normalize as normalizeAddress } from '@alayanetwork/eth-sig-util'
-import { isValidAddress, sha3, bufferToHex, isBech32Address, toBech32Address } from '@alayanetwork/ethereumjs-util'
+import {
+  isValidAddress,
+  sha3,
+  bufferToHex,
+  isBech32Address,
+  toBech32Address,
+  decodeBech32Address
+} from '@alayanetwork/ethereumjs-util'
+import {getSelectedAddress} from "../../../ui/app/selectors";
 
 export default class PreferencesController {
 
@@ -240,7 +248,7 @@ export default class PreferencesController {
    *
    */
   setAddresses (addresses) {
-    const oldIdentities = this.store.getState().identities
+    const oldIdentities = this.getIdentity()
     const oldAccountTokens = this.store.getState().accountTokens
 
     const identities = addresses.reduce((ids, address, index) => {
@@ -263,7 +271,7 @@ export default class PreferencesController {
    * @returns {string} - the address that was removed
    */
   removeAddress (address) {
-    const identities = this.store.getState().identities
+    const identities = this.getIdentity()
     const accountTokens = this.store.getState().accountTokens
     if (!identities[address]) {
       throw new Error(`${address} can't be deleted cause it was not found`)
@@ -289,7 +297,7 @@ export default class PreferencesController {
    *
    */
   addAddresses (addresses) {
-    const identities = this.store.getState().identities
+    const identities = this.getIdentity()
     const accountTokens = this.store.getState().accountTokens
     addresses.forEach((address) => {
       // skip if already exists
@@ -318,7 +326,8 @@ export default class PreferencesController {
       throw new Error('Expected non-empty array of addresses.')
     }
 
-    const { identities, lostIdentities } = this.store.getState()
+    const identities = this.getIdentity()
+    const { lostIdentities } = this.store.getState()
 
     const newlyLost = {}
     Object.keys(identities).forEach((identity) => {
@@ -377,7 +386,8 @@ export default class PreferencesController {
     }
     this._updateTokens(address)
 
-    const { identities, tokens } = this.store.getState()
+    const identities = this.getIdentity()
+    const { tokens } = this.store.getState()
     const selectedIdentity = identities[address]
     if (!selectedIdentity) {
       throw new Error(`Identity for '${address} not found`)
@@ -395,7 +405,34 @@ export default class PreferencesController {
    *
    */
   getSelectedAddress () {
-    return this.store.getState().selectedAddress
+    let selectedAddress = this.store.getState().selectedAddress
+    const hrp = this.network.providerStore.getState().hrp
+    if (selectedAddress && !selectedAddress.startsWith(hrp)) {
+      selectedAddress = toBech32Address(hrp, decodeBech32Address(selectedAddress))
+      this.store.updateState({ selectedAddress })
+    }
+    return selectedAddress
+  }
+
+  getIdentity () {
+    const identities = this.store.getState().identities
+    const newIdentities = {}
+    const hrp = this.network.providerStore.getState().hrp
+    Object.keys(identities).map((identity) => {
+      if (!identity.startsWith(hrp)) {
+        const addr = toBech32Address(hrp, decodeBech32Address(identity))
+        identities[identity].address = addr
+        newIdentities[addr] = identities[identity]
+        delete identities[identity]
+        return addr
+      }
+      return identity
+    })
+    if (Object.keys(newIdentities).length > 0) {
+      this.store.updateState({ identities: newIdentities })
+      return newIdentities
+    }
+    return identities
   }
 
   /**
@@ -476,7 +513,7 @@ export default class PreferencesController {
       throw new Error('setAccountLabel requires a valid address, got ' + String(account))
     }
     const address = normalizeAddress(account)
-    const { identities } = this.store.getState()
+    const identities = this.getIdentity()
     identities[address] = identities[address] || {}
     identities[address].name = label
     this.store.updateState({ identities })
@@ -691,7 +728,7 @@ export default class PreferencesController {
   _getTokenRelatedStates (selectedAddress) {
     const accountTokens = this.store.getState().accountTokens
     if (!selectedAddress) {
-      selectedAddress = this.store.getState().selectedAddress
+      selectedAddress = this.getSelectedAddress()
     }
     const providerType = this.network.providerStore.getState().type
     if (!(selectedAddress in accountTokens)) {

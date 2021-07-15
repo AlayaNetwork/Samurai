@@ -234,7 +234,7 @@
     "message": "Se conectează la rețeaua de test Kovan"
   },
   "connectingToMainnet": {
-    "message": "Se conectează la rețeaua Alaya principală"
+    "message": "Se conectează la rețeaua PlatON principală"
   },
   "connectingToRopsten": {
     "message": "Se conectează la rețeaua de test Ropsten"
@@ -408,7 +408,7 @@
     "message": "Adresa publică Alaya"
   },
   "etherscanView": {
-    "message": "Vizualizare cont pe Alayascan"
+    "message": "Vizualizare cont pe PlatScan"
   },
   "estimatedProcessingTimes": {
     "message": "Timpi estimativi de procesare"
@@ -618,7 +618,7 @@
     "message": "Deconectați-vă"
   },
   "mainnet": {
-    "message": "Rețeaua Alaya principală"
+    "message": "Rețeaua PlatON principală"
   },
   "memorizePhrase": {
     "message": "Memorați această expresie."
@@ -1253,7 +1253,7 @@
     "message": "Vizualizați la $1"
   },
   "viewOnEtherscan": {
-    "message": "Vizualizați pe Alayascan"
+    "message": "Vizualizați pe PlatScan"
   },
   "visitWebSite": {
     "message": "Accesați site-ul nostru"

@@ -408,7 +408,7 @@
     "message": "عنوان الإيثيريوم العمومي"
   },
   "etherscanView": {
-    "message": "عرض الحساب على Alayascan"
+    "message": "عرض الحساب على PlatScan"
   },
   "estimatedProcessingTimes": {
     "message": "أوقات المعالجة المقدرة"
@@ -1265,7 +1265,7 @@
     "message": "عرض في $1"
   },
   "viewOnEtherscan": {
-    "message": "عرضه على Alayascan"
+    "message": "عرضه على PlatScan"
   },
   "visitWebSite": {
     "message": "قم بزيارة موقعنا على الإنترنت"

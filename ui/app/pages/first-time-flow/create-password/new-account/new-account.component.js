@@ -208,7 +208,7 @@ export default class NewAccount extends PureComponent {
                 <a
                   onClick={(e) => e.stopPropagation()}
                   key="first-time-flow__link-text"
-                  href="https://samurai.alaya.network/samurai-agreement/agreement.html"
+                  href="https://samurai.platon.network/samurai-agreement/agreement.html"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

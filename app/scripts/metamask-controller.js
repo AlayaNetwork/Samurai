@@ -42,7 +42,7 @@ import PersonalMessageManager from './lib/personal-message-manager'
 import TypedMessageManager from './lib/typed-message-manager'
 import TransactionController from './controllers/transactions'
 import TokenRatesController from './controllers/token-rates'
-import DetectTokensController from './controllers/detect-tokens'
+// import DetectTokensController from './controllers/detect-tokens'
 import { PermissionsController } from './controllers/permissions'
 import getRestrictedMethods from './controllers/permissions/restrictedMethods'
 import nodeify from './lib/nodeify'
@@ -164,11 +164,11 @@ export default class MetamaskController extends EventEmitter {
     this.on('controllerConnectionChanged', (activeControllerConnections) => {
       if (activeControllerConnections > 0) {
         this.accountTracker.start()
-        this.incomingTransactionsController.start()
+        // this.incomingTransactionsController.start()
         this.tokenRatesController.start()
       } else {
         this.accountTracker.stop()
-        this.incomingTransactionsController.stop()
+        // this.incomingTransactionsController.stop()
         this.tokenRatesController.stop()
       }
     })
@@ -207,14 +207,15 @@ export default class MetamaskController extends EventEmitter {
       notifyDomain: this.notifyConnections.bind(this),
       notifyAllDomains: this.notifyAllConnections.bind(this),
       preferences: this.preferencesController.store,
+      network: this.networkController,
       showPermissionRequest: opts.showPermissionRequest,
     }, initState.PermissionsController, initState.PermissionsMetadata)
 
-    this.detectTokensController = new DetectTokensController({
-      preferences: this.preferencesController,
-      network: this.networkController,
-      keyringMemStore: this.keyringController.memStore,
-    })
+    // this.detectTokensController = new DetectTokensController({
+    //   preferences: this.preferencesController,
+    //   network: this.networkController,
+    //   keyringMemStore: this.keyringController.memStore,
+    // })
 
     this.addressBookController = new AddressBookController(undefined, initState.AddressBookController)
 
@@ -390,11 +391,12 @@ export default class MetamaskController extends EventEmitter {
       publicConfigStore.putState(selectPublicState(memState))
     }
 
-    function selectPublicState ({ isUnlocked, network, provider }) {
+    function selectPublicState ({ isUnlocked, hrp, network, provider }) {
       return {
         isUnlocked,
         networkVersion: network,
         chainId: selectChainId({ network, provider }),
+        hrp: provider ? provider.hrp : hrp,
       }
     }
     return publicConfigStore
@@ -1804,12 +1806,18 @@ export default class MetamaskController extends EventEmitter {
    */
   async _onKeyringControllerUpdate (state) {
     const { keyrings } = state
-    const addresses = keyrings.reduce((acc, { accounts }) => acc.concat(accounts), [])
+    let addresses = keyrings.reduce((acc, { accounts }) => acc.concat(accounts), [])
 
     if (!addresses.length) {
       return
     }
-
+    const hrp = this.networkController.getHrpState()
+    addresses = addresses.map((address) => {
+      if (!address.toString().startsWith(hrp)) {
+        return ethUtil.toBech32Address(hrp, ethUtil.decodeBech32Address(address))
+      }
+      return address
+    })
     // Ensure preferences + identities controller know about all addresses
     this.preferencesController.syncAddresses(addresses)
     this.accountTracker.syncWithAddresses(addresses)
@@ -2127,7 +2135,7 @@ export default class MetamaskController extends EventEmitter {
    */
   set isClientOpen (open) {
     this._isClientOpen = open
-    this.detectTokensController.isOpen = open
+    // this.detectTokensController.isOpen = open
   }
 
   /**

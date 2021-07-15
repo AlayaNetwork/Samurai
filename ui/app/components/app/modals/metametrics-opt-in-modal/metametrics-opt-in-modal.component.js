@@ -77,7 +77,7 @@ export default class MetaMetricsOptInModal extends Component {
             <div className="metametrics-opt-in__bottom-text">
               This data is aggregated and is therefore anonymous for the purposes of General Data Protection Regulation (EU) 2016/679. For more information in relation to our privacy practices, please see our&nbsp;
               <a
-                href="https://www.alaya.network/privacy-policy/"
+                href="https://samurai.platon.network/samurai-agreement/privacy-policy.html"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -34,12 +34,18 @@ function createNetworkAndChainIdMiddleware ({ network }) {
   switch (network) {
     case 'mainnet':
       netId = networkEnums.MAINNET_NETWORK_ID
-      chainId = '0x01'
+      chainId = networkEnums.MAINNET_CHAIN_ID
       break
+    case 'platon_dev':
+      netId = networkEnums.PLATON_DEV_NETWORK_ID
+      chainId = networkEnums.PLATON_DEV_CHAIN_ID
     case 'alaya':
       netId = networkEnums.ALAYA_NETWORK_ID
-      chainId = '0x3113A'
+      chainId = networkEnums.ALAYA_CHAIN_ID
       break
+    case 'alaya_dev':
+      netId = networkEnums.ALAYA_DEV_NETWORK_ID
+      chainId = networkEnums.ALAYA_DEV_CHAIN_ID
     default:
       throw new Error(`createInfuraClient - unknown network "${network}"`)
   }

@@ -214,7 +214,7 @@
     "message": "Amount:"
   },
   "appDescription": {
-    "message": "An Alaya Wallet in your Browser",
+    "message": "An PlatON Wallet in your Browser",
     "description": "The description of the application"
   },
   "appName": {
@@ -308,10 +308,10 @@
     "message": "Samurai is designed and built in Shenzhen."
   },
   "buyWithWyre": {
-    "message": "Buy ATP with Wyre"
+    "message": "Buy token with Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre lets you use a debit card to deposit ATP right in to your Samurai account."
+    "message": "Wyre lets you use a debit card to deposit token right in to your Samurai account."
   },
   "buyCoinSwitch": {
     "message": "Buy on CoinSwitch"
@@ -385,14 +385,14 @@
   "connectingTo": {
     "message": "Connecting to $1"
   },
-  "connectingToKovan": {
-    "message": "Connecting to Kovan Test Network"
+  "connectingToAlayaDev": {
+    "message": "Connecting to Alaya Dev Test Network"
   },
   "connectingToMainnet": {
-    "message": "Connecting to Alaya Network"
+    "message": "Connecting to PlatON Network"
   },
-  "connectingToRopsten": {
-    "message": "Connecting to Ropsten Test Network"
+  "connectingToPlatonDev": {
+    "message": "Connecting to Platon Dev Test Network"
   },
   "connectingToAlaya": {
     "message": "Connecting to Alaya Network"
@@ -485,7 +485,10 @@
     "message": "Decimals of Precision"
   },
   "defaultNetwork": {
-    "message": "The default network for ATP transactions is Main Net."
+    "message": "The default network for transactions is PlatON Main Net."
+  },
+  "defaultTips": {
+    "message": "Do not transfer assets between wallets on different networks!"
   },
   "delete": {
     "message": "Delete"
@@ -497,16 +500,16 @@
     "message": "Deposit"
   },
   "depositEther": {
-    "message": "Deposit ATP"
+    "message": "Deposit token"
   },
   "details": {
     "message": "Details"
   },
   "directDepositEther": {
-    "message": "Directly Deposit ATP"
+    "message": "Directly Deposit token"
   },
   "directDepositEtherExplainer": {
-    "message": "If you already have some ATP, the quickest way to get ATP in your new wallet by direct deposit."
+    "message": "If you already have some token, the quickest way to get token in your new wallet by direct deposit."
   },
   "done": {
     "message": "Done"
@@ -579,7 +582,7 @@
     "message": "Error in ENS name registration"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "ENS name not found on the current network. Try switching to Alaya Network."
+    "message": "ENS name not found on the current network. Try switching to PlatON Network."
   },
   "enterAnAlias": {
     "message": "Enter an alias"
@@ -626,7 +629,7 @@
     "description": "Title for error stack, which is displayed for debugging purposes"
   },
   "ethereumPublicAddress": {
-    "message": "Alaya Public Address"
+    "message": "PlatON Public Address"
   },
   "etherscanView": {
     "message": "View account on scan"
@@ -698,7 +701,7 @@
     "message": "Gas Price Extremely Low"
   },
   "gasPriceInfoModalContent": {
-    "message": "Gas price specifies the amount of ATP you are willing to pay for each unit of gas."
+    "message": "Gas price specifies the amount of token you are willing to pay for each unit of gas."
   },
   "gasPriceNoDenom": {
     "message": "Gas Price"
@@ -718,11 +721,11 @@
     "message": "Currency conversion, primary currency, language, blockies identicon"
   },
   "getEther": {
-    "message": "Get ATP"
+    "message": "Get test token"
   },
   "getEtherFromFaucet": {
-    "message": "Get ATP from a faucet for the $1",
-    "description": "Displays network name for ATP faucet"
+    "message": "Get test token from a faucet for the $1",
+    "description": "Displays network name for test token faucet"
   },
   "getHelp": {
     "message": "Get Help."
@@ -825,7 +828,7 @@
     "message": "A token here reuses a symbol from another token you watch, this can be confusing or deceptive."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Not ATP network, set to lowercase"
+    "message": "Not platon network, set to lowercase"
   },
   "invalidInput": {
     "message": "Invalid input."
@@ -901,7 +904,7 @@
     "message": "Lock time is too great"
   },
   "mainnet": {
-    "message": "Main Alaya Network"
+    "message": "PlatON Main Network"
   },
   "memorizePhrase": {
     "message": "Memorize this phrase."
@@ -922,7 +925,7 @@
     "message": "Click it to manage your connected accounts."
   },
   "metamaskDescription": {
-    "message": "Connecting you to Alaya and the Decentralized Web."
+    "message": "Connecting you to PlatON and the Decentralized Web."
   },
   "metamaskVersion": {
     "message": "Samurai Version"
@@ -943,14 +946,14 @@
     "message": "Must select at least 1 token."
   },
   "needEtherInWallet": {
-    "message": "To interact with decentralized applications using Samurai, you’ll need ATP in your wallet."
+    "message": "To interact with decentralized applications using Samurai, you’ll need token in your wallet."
   },
   "needImportFile": {
     "message": "You must select a file to import.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Can not send negative amounts of ATP."
+    "message": "Can not send negative amounts of token."
   },
   "networkName": {
     "message": "Network Name"
@@ -1008,7 +1011,7 @@
     "message": "Only connect with sites you trust."
   },
   "onlyAddTrustedNetworks": {
-    "message": "A malicious Alaya network provider can lie about the state of the blockchain and record your network activity. Only add custom networks you trust."
+    "message": "A malicious PlatON network provider can lie about the state of the blockchain and record your network activity. Only add custom networks you trust."
   },
   "optionalChainId": {
     "message": "ChainID (optional)"
@@ -1147,7 +1150,7 @@
     "message": "Recipient Address"
   },
   "recipientAddressPlaceholder": {
-    "message": "Search, public address (0x), or ENS"
+    "message": "Search, public address"
   },
   "rejectAll": {
     "message": "Reject All"
@@ -1228,6 +1231,12 @@
   "alaya": {
     "message": "Alaya Network"
   },
+  "alaya_dev": {
+    "message": "Alaya dev network"
+  },
+  "platon_dev": {
+    "message": "PlatON dev network"
+  },
   "ropsten": {
     "message": "Ropsten Test Network"
   },
@@ -1265,7 +1274,7 @@
     "message": "Your secret backup phrase makes it easy to back up and restore your account."
   },
   "secretBackupPhraseWarning": {
-    "message": "WARNING: Never disclose your backup phrase. Anyone with this phrase can take your ATP forever."
+    "message": "WARNING: Never disclose your backup phrase. Anyone with this phrase can take your token forever."
   },
   "secretPhrase": {
     "message": "Enter your secret twelve word phrase here to restore your vault."
@@ -1319,13 +1328,13 @@
     "message": "Send Amount"
   },
   "sendETH": {
-    "message": "Send ATP"
+    "message": "Send token"
   },
   "sendTokens": {
     "message": "Send Tokens"
   },
   "sentEther": {
-    "message": "sent ATP"
+    "message": "sent token"
   },
   "sentTokens": {
     "message": "sent tokens"
@@ -1465,7 +1474,7 @@
     "message": "3. Start using web3 sites and more!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Use your hardware account like you would with any Alaya account. Connect to web3 sites, send ATP, buy and store ERC20 tokens and non-fungible tokens like CryptoKitties."
+    "message": "Use your hardware account like you would with any PlatON account. Connect to web3 sites, send token, buy and store ERC20 tokens and non-fungible tokens like CryptoKitties."
   },
   "storePhrase": {
     "message": "Store this phrase in a password manager like 1Password."
@@ -1598,7 +1607,7 @@
     "message": "Transaction Time"
   },
   "showTransactionTimeDescription": {
-    "message": "Select this to display pending transaction time estimates in the activity tab while on the Alaya Network. Note: estimates are approximations based on network conditions."
+    "message": "Select this to display pending transaction time estimates in the activity tab while on the connected Network. Note: estimates are approximations based on network conditions."
   },
   "transfer": {
     "message": "Transfer"
@@ -1665,6 +1674,9 @@
   "urlExistsErrorMsg": {
     "message": "URL is already present in existing list of networks"
   },
+  "chainIdExistsErrorMsg": {
+    "message": "chainId is already present in existing list of networks"
+  },
   "usedByClients": {
     "message": "Used by a variety of different clients"
   },
@@ -1672,7 +1684,7 @@
     "message": "Use Phishing Detection"
   },
   "usePhishingDetectionDescription": {
-    "message": "Display a warning for phishing domains targeting Alaya users"
+    "message": "Display a warning for phishing domains targeting PlatON users"
   },
   "userName": {
     "message": "Username"
@@ -1690,7 +1702,7 @@
     "message": "View at $1"
   },
   "viewOnEtherscan": {
-    "message": "View on Alayascan"
+    "message": "View on PlatScan"
   },
   "retryTransaction": {
     "message": "Retry Transaction"

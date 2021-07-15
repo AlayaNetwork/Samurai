@@ -304,7 +304,7 @@ function generateTokenTransferData ({ toAddress = '0x0', amount = '0x0', sendTok
     return
   }
   return TOKEN_TRANSFER_FUNCTION_SIGNATURE + Array.prototype.map.call(
-    abi.rawEncode(['address', 'uint256'], [toAddress, ethUtil.addHexPrefix(amount)]),
+    abi.rawEncode(['address', 'uint256'], [ethUtil.decodeBech32Address(toAddress), ethUtil.addHexPrefix(amount)]),
     (x) => ('00' + x.toString(16)).slice(-2),
   ).join('')
 }

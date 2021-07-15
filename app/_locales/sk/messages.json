@@ -225,7 +225,7 @@
     "message": "Připojuji se k Kovan Test Network"
   },
   "connectingToMainnet": {
-    "message": "Připojuji se k Main Alaya Network"
+    "message": "Připojuji se k PlatON Main Network"
   },
   "connectingToRopsten": {
     "message": "Připojuji se k Ropsten Test Network"
@@ -399,7 +399,7 @@
     "message": "Verejná adresa Alaya"
   },
   "etherscanView": {
-    "message": "Prohlédněte si účet na Alayascan"
+    "message": "Prohlédněte si účet na PlatScan"
   },
   "estimatedProcessingTimes": {
     "message": "Odhadovaný čas spracovania"
@@ -1229,7 +1229,7 @@
     "message": "Zobraziť na $1"
   },
   "viewOnEtherscan": {
-    "message": "Zobraziť na Alayascan"
+    "message": "Zobraziť na PlatScan"
   },
   "visitWebSite": {
     "message": "Navštivte naši stránku"

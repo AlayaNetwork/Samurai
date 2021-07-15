@@ -22,6 +22,7 @@ import {
   NOTIFICATION_NAMES,
   CAVEAT_TYPES,
 } from './enums'
+import { isBech32Address, decodeBech32Address, toBech32Address } from '@alayanetwork/ethereumjs-util'
 
 export class PermissionsController {
 
@@ -33,6 +34,7 @@ export class PermissionsController {
       notifyDomain,
       notifyAllDomains,
       preferences,
+      network,
       showPermissionRequest,
     } = {},
     restoredPermissions = {},
@@ -63,6 +65,7 @@ export class PermissionsController {
     this._initializePermissions(restoredPermissions)
     this._lastSelectedAddress = preferences.getState().selectedAddress
     this.preferences = preferences
+    this.network = network
 
     this._initializeMetadataStore(restoredState)
 
@@ -162,7 +165,24 @@ export class PermissionsController {
    * @returns {Object} identities
    */
   _getIdentities () {
-    return this.preferences.getState().identities
+    const identities = this.preferences.getState().identities
+    const newIdentities = {}
+    const hrp = this.network.hrpStore.getState()
+    Object.keys(identities).map((identity) => {
+      if (!identity.startsWith(hrp)) {
+        const addr = toBech32Address(hrp, decodeBech32Address(identity))
+        identities[identity].address = addr
+        newIdentities[addr] = identities[identity]
+        delete identities[identity]
+        return addr
+      }
+      return identity
+    })
+    if (Object.keys(newIdentities).length > 0) {
+      this.preferences.updateState({ identities: newIdentities })
+      return newIdentities
+    }
+    return identities
   }
 
   /**
@@ -286,9 +306,15 @@ export class PermissionsController {
     this.validatePermittedAccounts([account])
 
     const oldPermittedAccounts = this._getPermittedAccounts(origin)
+    const oldPermittedAccountsHex = oldPermittedAccounts.map((acc) => {
+      if (isBech32Address(acc)) {
+        return decodeBech32Address(acc)
+      }
+      return acc
+    })
     if (!oldPermittedAccounts) {
       throw new Error(`Origin does not have 'platon_accounts' permission`)
-    } else if (oldPermittedAccounts.includes(account)) {
+    } else if (oldPermittedAccountsHex.includes(decodeBech32Address(account))) {
       throw new Error('Account is already permitted for origin')
     }
 
@@ -324,15 +350,20 @@ export class PermissionsController {
     this.validatePermittedAccounts([account])
 
     const oldPermittedAccounts = this._getPermittedAccounts(origin)
+    const oldPermittedAccountsHex = oldPermittedAccounts.map((acc) => {
+      if (isBech32Address(acc)) {
+        return decodeBech32Address(acc)
+      }
+      return acc
+    })
     if (!oldPermittedAccounts) {
       throw new Error(`Origin does not have 'platon_accounts' permission`)
-    } else if (!oldPermittedAccounts.includes(account)) {
+    } else if (!oldPermittedAccountsHex.includes(decodeBech32Address(account))) {
       throw new Error('Account is not permitted for origin')
     }
 
     let newPermittedAccounts = oldPermittedAccounts
-      .filter((acc) => acc !== account)
-
+      .filter((acc) => decodeBech32Address(acc) !== decodeBech32Address(account))
     if (newPermittedAccounts.length === 0) {
       this.removePermissionsFor({ [origin]: [ 'platon_accounts' ] })
     } else {
@@ -362,7 +393,16 @@ export class PermissionsController {
 
     const domains = this.permissions.getDomains()
     const connectedOrigins = Object.keys(domains)
-      .filter((origin) => this._getPermittedAccounts(origin).includes(account))
+      .filter((origin) => {
+        const permittedAccounts = this._getPermittedAccounts(origin)
+        const permittedAccountsHex = permittedAccounts.map((acc) => {
+          if (isBech32Address(acc)) {
+            return decodeBech32Address(acc)
+          }
+          return acc
+        })
+        return permittedAccountsHex.includes(decodeBech32Address(account))
+      })
 
     await Promise.all(connectedOrigins.map((origin) => this.removePermittedAccount(origin, account)))
   }
@@ -635,7 +675,13 @@ export class PermissionsController {
           ?.caveats
           .find((caveat) => caveat.name === 'exposedAccounts')
           ?.value
-        return exposedAccounts?.includes(account)
+        const accounts = exposedAccounts.map((acc) => {
+          if (isBech32Address(acc)) {
+            return decodeBech32Address(acc)
+          }
+          return acc
+        })
+        return accounts?.includes(decodeBech32Address(account))
       })
       .map(([domain]) => domain)
 

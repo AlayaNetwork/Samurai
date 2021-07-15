@@ -77,7 +77,7 @@
     "message": "Kovan Test Ağına bağlanıyor"
   },
   "connectingToMainnet": {
-    "message": "Main Alaya Ağına bağlanıyor"
+    "message": "PlatON Main Ağına bağlanıyor"
   },
   "connectingToRopsten": {
     "message": "Ropsten Test Ağına bağlanıyor"
@@ -155,7 +155,7 @@
     "message": "Parolanızı girin"
   },
   "etherscanView": {
-    "message": "Hesabı Alayascan üzerinde izle"
+    "message": "Hesabı PlatScan üzerinde izle"
   },
   "exportPrivateKey": {
     "message": "Özel anahtarı ver"
@@ -270,7 +270,7 @@
     "message": "Çıkış"
   },
   "mainnet": {
-    "message": "Main Alaya Ağı"
+    "message": "PlatON Main Ağı"
   },
   "message": {
     "message": "Mesaj"

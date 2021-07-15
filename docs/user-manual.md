@@ -9,7 +9,7 @@ Samurai基于metamask的8.0.10版本修改，主要是适配Alaya网络。由于
 
 ### 1. 安装
 
-+ 从[官方地址](https://github.com/AlayaNetwork/Samurai/releases/download/v8.0.11/samurai-chrome-8.0.11.zip)下载Samurai插件包
++ 从[官方地址](https://github.com/AlayaNetwork/Samurai/releases/download/v8.1.0/samurai-chrome-8.1.0.zip)下载Samurai插件包
 + 解压Samurai插件包
 + 打开chrome浏览器，在地址栏输入并回车，进入到chrome扩展程序管理页面。
 
@@ -149,7 +149,27 @@ chrome://extensions/
 
 ![](./images/samurai-home-import-account-end.jpg)
 
-### 5. 语言切换
+### 5. 网络管理
+默认情况下，Samurai 连接到PlatON主网，也可以连接到其他网络。
+
+#### 5.1 切换网络
+Samurai默认添加了PlatON主网、PlatON开发测试网、Alaya主网、Alaya开发测试网，您可以选择连接的网络。 单击“网络”并从四个网络中选择一个网络进行连接。
+![](./images/choose-network.jpg)
+
+#### 5.2 添加自定义网络
+点击 **网络**-> **自定义RPC**
+![](./images/choose-custom-network.jpg)
+
+进入新的网络配置界面，配置好表单后点击 **保存**。
+![](./images/custom-network-config.jpg)
+
+Samurai 会尝试连接节点，如果节点连接失败，会弹出相应的对话框提示。
+![](./images/custom-network-connect-failed.jpg)
+
+如果连接成功，网络列表中会增加一个网络列表选项。
+![](./images/custom-network-connect-success.jpg)
+
+### 6. 语言切换
 
 + 点击samurai主页右侧小图标，然后点击**设置**
 

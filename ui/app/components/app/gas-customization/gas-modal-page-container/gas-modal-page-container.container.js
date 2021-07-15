@@ -11,6 +11,7 @@ import {
   updateSendAmount,
   setGasTotal,
   updateTransaction,
+  fetchBasicGasAndTimeEstimatesAction,
 } from '../../../../store/actions'
 import {
   setCustomGasPrice,
@@ -208,7 +209,7 @@ const mapDispatchToProps = (dispatch) => {
     hideGasButtonGroup: () => dispatch(hideGasButtonGroup()),
     hideSidebar: () => dispatch(hideSidebar()),
     fetchGasEstimates: (blockTime) => dispatch(fetchGasEstimates(blockTime)),
-    fetchBasicGasAndTimeEstimates: () => dispatch(fetchBasicGasAndTimeEstimates()),
+    fetchBasicGasAndTimeEstimates: () => dispatch(fetchBasicGasAndTimeEstimatesAction()),
     setGasTotal: (total) => dispatch(setGasTotal(total)),
     setAmountToMax: (maxAmountDataObject) => {
       dispatch(updateSendErrors({ amount: null }))
