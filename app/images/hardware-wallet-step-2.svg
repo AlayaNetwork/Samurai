@@ -15,10 +15,10 @@
                 <tspan x="31" y="19">3</tspan>
             </text>
             <text font-family="Roboto-Regular, Roboto" font-size="12" fill="#ABB4BB">
-                <tspan x="50" y="19">OXz3…T3A4</tspan>
+                <tspan x="50" y="19">lat1z…a3f4</tspan>
             </text>
             <text font-family="Roboto-Regular, Roboto" font-size="12" fill="#ABB4BB">
-                <tspan x="142" y="19">0.020000 ETH</tspan>
+                <tspan x="142" y="19">0.020000 LAT</tspan>
             </text>
             <circle stroke="#AFDFFF" stroke-width="2" cx="16.5" cy="14.5" r="6.5"/>
         </g>
@@ -28,10 +28,10 @@
                 <tspan x="31" y="19">1</tspan>
             </text>
             <text font-family="Roboto-Regular, Roboto" font-size="12" fill="#ABB4BB">
-                <tspan x="50" y="19">OXa4…s0a2</tspan>
+                <tspan x="50" y="19">lat1a…d0s2</tspan>
             </text>
             <text font-family="Roboto-Regular, Roboto" font-size="12" fill="#ABB4BB">
-                <tspan x="142" y="19">0.01500 ETH</tspan>
+                <tspan x="142" y="19">0.01500 LAT</tspan>
             </text>
             <circle stroke="#AFDFFF" stroke-width="2" cx="16.5" cy="14.5" r="6.5"/>
         </g>
@@ -41,10 +41,10 @@
                 <tspan x="31" y="18">4</tspan>
             </text>
             <text font-family="Roboto-Regular, Roboto" font-size="12" fill="#ABB4BB">
-                <tspan x="50" y="18">OXd2…D0V4</tspan>
+                <tspan x="50" y="18">lat1d…e0c4</tspan>
             </text>
             <text font-family="Roboto-Regular, Roboto" font-size="12" fill="#ABB4BB">
-                <tspan x="142" y="18">0.030000 ETH</tspan>
+                <tspan x="142" y="18">0.030000 LAT</tspan>
             </text>
             <circle stroke="#AFDFFF" stroke-width="2" cx="16.5" cy="13.5" r="6.5"/>
         </g>
@@ -55,10 +55,10 @@
                 <tspan x="36" y="22">2</tspan>
             </text>
             <text font-family="Roboto-Regular, Roboto" font-size="16" fill="#4A4A4A">
-                <tspan x="58" y="22">OXe7…B0a1</tspan>
+                <tspan x="58" y="22">lat1e…p0e1</tspan>
             </text>
             <text font-family="Roboto-Regular, Roboto" font-size="16" fill="#4A4A4A">
-                <tspan x="166" y="22">0.041000 ETH</tspan>
+                <tspan x="166" y="22">0.041000 LAT</tspan>
             </text>
             <circle stroke="#3098DC" stroke-width="2" cx="19.5" cy="16.5" r="7.5"/>
             <path stroke="#3098DC" stroke-width="2" d="M15 17l2.55 2.55L24 13.904"/>
