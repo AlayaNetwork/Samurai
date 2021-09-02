@@ -353,6 +353,21 @@ export function checkHardwareStatus (deviceName, hdPath) {
   }
 }
 
+export function checkHardwareAddress (deviceName, address) {
+  log.debug(`background.checkHardwareStatus`, deviceName, address)
+  return async (dispatch) => {
+    let hdPath
+    try {
+      hdPath = await promisifiedBackground.checkHardwareAddress(deviceName, address)
+    } catch (error) {
+      log.error(error)
+      dispatch(displayWarning(error.message))
+      throw error
+    }
+    return hdPath
+  }
+}
+
 export function forgetDevice (deviceName) {
   log.debug(`background.forgetDevice`, deviceName)
   return async (dispatch) => {

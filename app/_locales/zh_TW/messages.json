@@ -440,6 +440,9 @@
   "exportPrivateKey": {
     "message": "導出私鑰"
   },
+  "verifyAddress": {
+    "message": "验证地址"
+  },
   "failed": {
     "message": "交易失败"
   },

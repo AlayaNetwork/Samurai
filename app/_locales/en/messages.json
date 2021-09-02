@@ -643,6 +643,9 @@
   "exportPrivateKey": {
     "message": "Export Private Key"
   },
+  "verifyAddress": {
+    "message": "Verify Address"
+  },
   "failed": {
     "message": "Failed"
   },

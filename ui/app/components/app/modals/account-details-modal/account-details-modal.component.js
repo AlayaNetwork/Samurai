@@ -11,6 +11,7 @@ export default class AccountDetailsModal extends Component {
     selectedIdentity: PropTypes.object,
     network: PropTypes.string,
     showExportPrivateKeyModal: PropTypes.func,
+    verifyAddress: PropTypes.func,
     setAccountLabel: PropTypes.func,
     keyrings: PropTypes.array,
     rpcPrefs: PropTypes.object,
@@ -25,6 +26,7 @@ export default class AccountDetailsModal extends Component {
       selectedIdentity,
       network,
       showExportPrivateKeyModal,
+      verifyAddress,
       setAccountLabel,
       keyrings,
       rpcPrefs,
@@ -81,7 +83,15 @@ export default class AccountDetailsModal extends Component {
               {this.context.t('exportPrivateKey')}
             </Button>
           )
-          : null
+          : (
+            <Button
+              type="secondary"
+              className="account-modal__button"
+              onClick={() => verifyAddress(keyring.type.split(' ')[0].toLowerCase(), address)}
+            >
+              {this.context.t('verifyAddress')}
+            </Button>
+          )
         }
       </AccountModalContainer>
     )
