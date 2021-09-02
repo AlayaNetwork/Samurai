@@ -9,7 +9,7 @@ export const defaultNetworksData = {
   },
   platon_dev: {
     providerType: 'platon_dev',
-    rpcTarget: 'http://47.241.98.219:6789',
+    rpcTarget: 'https://devnetopenapi.platon.network/rpc',
     chainId: '210309',
     hrp: 'lat',
     ticker: 'LAT',
@@ -25,7 +25,7 @@ export const defaultNetworksData = {
   },
   alaya_dev: {
     providerType: 'alaya_dev',
-    rpcTarget: 'http://47.241.91.2:6789',
+    rpcTarget: 'https://devnetopenapi.alaya.network/rpc',
     chainId: '201030',
     hrp: 'atp',
     ticker: 'ATP',
