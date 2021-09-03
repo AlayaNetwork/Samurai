@@ -108,7 +108,7 @@ Your account balance is shown on the middle position of the Samurai Wallet.
 
 ## Receiving LAT in the Samurai Wallet
 
-1. Make sure you have verified your Receive address as shown in Step 12 and 13 of “Connecting to the Samurai Wallet”.
+1. Make sure you have verified your Receive address as shown in Step 11 and 12 of “Connecting to the Samurai Wallet”.
 
 2. You can get your Receive address by simply copying the address to the clipboard or by scanning the QR Code.
    a. You can copy the address by clicking the  button next to the address.
