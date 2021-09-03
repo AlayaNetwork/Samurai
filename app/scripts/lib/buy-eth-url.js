@@ -22,7 +22,7 @@ export default function getBuyEthUrl ({ network, address, service }) {
     case 'metamask-faucet':
       return 'https://faucet.metamask.io/'
     case 'platon-faucet':
-      return 'https://faucet.platon.network/faucet/?id=39fa041c887f11eba4f000163e06ae15'
+      return 'https://faucet.platon.network/faucet/?id=e5d32df10aee11ec911142010a667c03'
     case 'alaya-faucet':
       return 'https://faucet.alaya.network/faucet/?id=f93426c0887f11eb83b900163e06151c'
     case 'kovan-faucet':
