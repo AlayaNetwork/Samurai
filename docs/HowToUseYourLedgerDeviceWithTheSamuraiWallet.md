@@ -38,7 +38,7 @@ Support
 ## Connecting to the Samurai Wallet
 
 1. First, connect and unlock your Ledger Device.
-2. Open the Elastos App on your Ledger Device
+2. Open the PlatON App on your Ledger Device
 
 ![image-20210903105750702](./images/image-20210903105750702.png)
 
