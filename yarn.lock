@@ -144,6 +144,17 @@
     loglevel "^1.5.0"
     obs-store "^4.0.3"
 
+"@alayanetwork/eth-ledger-bridge-keyring@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@alayanetwork/eth-ledger-bridge-keyring/-/eth-ledger-bridge-keyring-0.3.0.tgz#bb6014fae199f8d31b5a3bc8ab1449e995c618d6"
+  integrity sha512-6jXh2ez2tgYCYhGDzmjkSU7pP0hOe6D5i+aPX9Qo9fZLC0omjc0qjlb/SRaicvOtyWcdSPVi97LjiHyqi0ykIA==
+  dependencies:
+    eth-sig-util "^1.4.2"
+    ethereumjs-tx "^1.3.4"
+    ethereumjs-util "^5.1.5"
+    events "^2.0.0"
+    hdkey "0.8.0"
+
 "@alayanetwork/eth-method-registry@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@alayanetwork/eth-method-registry/-/eth-method-registry-1.2.0.tgz#9e0b32f87fcdeb9b0d3ddc467b5fa47515290a4e"
@@ -2021,17 +2032,6 @@
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@metamask/eslint-config/-/eslint-config-1.1.0.tgz#03c6fbec8ba3d95fa017d8b98ab5d0701f7458a4"
   integrity sha512-yFFHIxFn3cBd9brIW/+0fJGq16hT0xUyElP0YxiZHaY7j2T/l+X/414L9kqBOuPfPa9bIKulIcJJOfcrMJZp9w==
-
-"@metamask/eth-ledger-bridge-keyring@^0.2.6":
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/@metamask/eth-ledger-bridge-keyring/-/eth-ledger-bridge-keyring-0.2.6.tgz#2721c118a5eeb3685d372d0258f2a3b03dd01315"
-  integrity sha512-7OtX24lHSCioFZM+x4ZCsndT1wkI7cf8+ua3UntYqHFSRu/SDf6xVNBuD8isvWidNbVdcJKhfJuO3vFCDNsPBw==
-  dependencies:
-    eth-sig-util "^1.4.2"
-    ethereumjs-tx "^1.3.4"
-    ethereumjs-util "^5.1.5"
-    events "^2.0.0"
-    hdkey "0.8.0"
 
 "@metamask/test-dapp@^3.1.0":
   version "3.1.0"

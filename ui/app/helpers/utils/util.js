@@ -124,7 +124,7 @@ export function parseBalance (balance) {
 
 // Takes wei hex, returns an object with three properties.
 // Its "formatted" property is what we generally use to render values.
-export function formatBalance (balance, decimalsToKeep, needsParse = true, ticker = 'ATP') {
+export function formatBalance (balance, decimalsToKeep, needsParse = true, ticker = 'LAT') {
   const parsed = needsParse ? parseBalance(balance) : balance.split('.')
   const beforeDecimal = parsed[0]
   let afterDecimal = parsed[1]

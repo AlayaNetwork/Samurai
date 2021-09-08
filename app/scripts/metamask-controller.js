@@ -56,7 +56,7 @@ import ethUtil from '@alayanetwork/ethereumjs-util'
 import seedPhraseVerifier from './lib/seed-phrase-verifier'
 import log from 'loglevel'
 import TrezorKeyring from 'eth-trezor-keyring'
-import LedgerBridgeKeyring from '@metamask/eth-ledger-bridge-keyring'
+import LedgerBridgeKeyring from '@alayanetwork/eth-ledger-bridge-keyring'
 import EthQuery from '@alayanetwork/eth-query'
 import nanoid from 'nanoid'
 import contractMap from 'eth-contract-metadata'
@@ -468,6 +468,7 @@ export default class MetamaskController extends EventEmitter {
       connectHardware: nodeify(this.connectHardware, this),
       forgetDevice: nodeify(this.forgetDevice, this),
       checkHardwareStatus: nodeify(this.checkHardwareStatus, this),
+      checkHardwareAddress: nodeify(this.checkHardwareAddress, this),
       unlockHardwareWalletAccount: nodeify(this.unlockHardwareWalletAccount, this),
 
       // mobile
@@ -901,6 +902,16 @@ export default class MetamaskController extends EventEmitter {
   async checkHardwareStatus (deviceName, hdPath) {
     const keyring = await this.getKeyringForDevice(deviceName, hdPath)
     return keyring.isUnlocked()
+  }
+
+  /**
+   * Check if the address is right
+   *
+   * @returns {Promise<boolean>}
+   */
+  async checkHardwareAddress (deviceName, address) {
+    const keyring = await this.getKeyringForDevice(deviceName, address)
+    return keyring.unlockAccountByAddress(address, true)
   }
 
   /**

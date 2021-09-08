@@ -449,6 +449,9 @@
   "exportPrivateKey": {
     "message": "导出私钥"
   },
+  "verifyAddress": {
+    "message": "验证地址"
+  },
   "failed": {
     "message": "失败"
   },
