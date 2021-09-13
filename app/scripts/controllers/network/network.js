@@ -70,7 +70,7 @@ export default class NetworkController extends EventEmitter {
     // create stores
     this.providerStore = new ObservableStore(providerConfig)
     this.networkStore = new ObservableStore('loading')
-    this.hrpStore = new ObservableStore('loading')
+    this.hrpStore = new ObservableStore(defaultProviderConfigHrp)
     this.networkConfig = new ObservableStore(defaultNetworkConfig)
     this.store = new ComposedStore({ provider: this.providerStore, network: this.networkStore, hrp: this.hrpStore, settings: this.networkConfig })
     this.on('networkDidChange', this.lookupNetwork)
@@ -157,7 +157,7 @@ export default class NetworkController extends EventEmitter {
       const currentNetwork = this.getNetworkState()
       if (initialNetwork === currentNetwork) {
         if (err) {
-          return this.setHrpState('atp', type)
+          return this.setHrpState(defaultProviderConfigHrp, type)
         }
         if (defaultNetworksData[type]) {
           hrp = defaultNetworksData[type].hrp
@@ -236,7 +236,7 @@ export default class NetworkController extends EventEmitter {
     if (opts.hrp) {
       this.setHrpState(opts.hrp, opts.type)
     } else {
-      this.setHrpState('loading')
+      this.setHrpState(defaultProviderConfigHrp)
     }
     this._configureProvider(opts)
     this.emit('networkDidChange', opts.type)
