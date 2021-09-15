@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { hideModal } from '../../../../store/actions'
+import { hideModal, hideWarning } from '../../../../store/actions'
 import { getSelectedIdentity } from '../../../../selectors'
 import AccountModalContainer from './account-modal-container.component'
 
@@ -12,6 +12,7 @@ function mapStateToProps (state, ownProps) {
 function mapDispatchToProps (dispatch) {
   return {
     hideModal: () => {
+      dispatch(hideWarning())
       dispatch(hideModal())
     },
   }

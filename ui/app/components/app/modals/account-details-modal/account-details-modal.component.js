@@ -21,16 +21,27 @@ export default class AccountDetailsModal extends Component {
     t: PropTypes.func,
   }
 
+  state = {
+    isLoading: false,
+  }
+
+  verifyAddress = async (device, address) => {
+    this.setState({ isLoading: true })
+    this.props.verifyAddress(device, address).finally(() => {
+      this.setState({ isLoading: false })
+    })
+  }
+
   render () {
     const {
       selectedIdentity,
       network,
       showExportPrivateKeyModal,
-      verifyAddress,
       setAccountLabel,
       keyrings,
       rpcPrefs,
     } = this.props
+    const { isLoading } = this.state
     const { name, address } = selectedIdentity
 
     const keyring = keyrings.find((kr) => {
@@ -85,9 +96,11 @@ export default class AccountDetailsModal extends Component {
           )
           : (
             <Button
+              disabled={isLoading}
+              icon={isLoading ? <img src="images/loading.svg" width="20px" alt="" /> : null}
               type="secondary"
               className="account-modal__button"
-              onClick={() => verifyAddress(keyring.type.split(' ')[0].toLowerCase(), address)}
+              onClick={() => this.verifyAddress(keyring.type.split(' ')[0].toLowerCase(), address)}
             >
               {this.context.t('verifyAddress')}
             </Button>
