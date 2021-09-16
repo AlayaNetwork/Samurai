@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { showModal, setAccountLabel, checkHardwareAddress } from '../../../../store/actions'
+import { showModal, hideWarning, setAccountLabel, checkHardwareAddress } from '../../../../store/actions'
 import {
   getSelectedIdentity,
   getRpcPrefsForCurrentProvider,
@@ -18,7 +18,10 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     showExportPrivateKeyModal: () => dispatch(showModal({ name: 'EXPORT_PRIVATE_KEY' })),
-    verifyAddress: (deviceName, address) => dispatch(checkHardwareAddress(deviceName, address)),
+    verifyAddress: (deviceName, address) => {
+      dispatch(hideWarning())
+      return dispatch(checkHardwareAddress(deviceName, address))
+    },
     setAccountLabel: (address, label) => dispatch(setAccountLabel(address, label)),
   }
 }

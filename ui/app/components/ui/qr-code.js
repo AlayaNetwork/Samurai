@@ -45,7 +45,7 @@ function QrCodeView (props) {
       {
         props.warning
           ? (props.warning && (
-            <span className="error flex-center">
+            <span className="error flex-center text-align-center">
               {props.warning}
             </span>
           ))

@@ -168,6 +168,7 @@ const MODALS = {
 
   ACCOUNT_DETAILS: {
     contents: <AccountDetailsModal />,
+    onHide: (props) => props.hideWarning(),
     ...accountModalStyle,
   },
 

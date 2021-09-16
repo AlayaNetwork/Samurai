@@ -392,6 +392,16 @@ export function connectHardware (deviceName, page, hdPath) {
 
     let accounts
     try {
+      if (deviceName === 'ledger') {
+        let devices = await window.navigator.hid.getDevices()
+        if (!devices.length) {
+          devices = await window.navigator.hid.requestDevice({ filters: [{ vendorId: '0x2c97' }] })
+        }
+        if (!devices.length) {
+          dispatch(hideLoadingIndication())
+          return []
+        }
+      }
       accounts = await promisifiedBackground.connectHardware(deviceName, page, hdPath)
     } catch (error) {
       log.error(error)
