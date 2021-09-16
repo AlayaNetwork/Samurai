@@ -1,8 +1,9 @@
 import React, { Component, createContext, useEffect, useCallback, useState } from 'react'
-import { useSelector } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 import PropTypes from 'prop-types'
 import { useHistory } from 'react-router-dom'
 import { captureException } from '@sentry/browser'
+import { hideWarning } from '../store/actions'
 
 import {
   getCurrentNetworkId,
@@ -33,6 +34,7 @@ export function MetaMetricsProvider ({ children }) {
   const environmentType = getEnvironmentType()
   const activeCurrency = useSelector(getSendToken)?.symbol
   const accountType = useSelector(getAccountType)
+  const dispatch = useDispatch()
   const confirmTransactionOrigin = txData.origin
   const metaMetricsId = useSelector((state) => state.metamask.metaMetricsId)
   const participateInMetaMetrics = useSelector((state) => state.metamask.participateInMetaMetrics)
@@ -48,10 +50,13 @@ export function MetaMetricsProvider ({ children }) {
   const { previousPath, currentPath } = state
 
   useEffect(() => {
-    const unlisten = history.listen(() => setState((prevState) => ({
-      currentPath: (new URL(window.location.href)).pathname,
-      previousPath: prevState.currentPath,
-    })))
+    const unlisten = history.listen(() => setState((prevState) => {
+      dispatch(hideWarning())
+      return {
+        currentPath: (new URL(window.location.href)).pathname,
+        previousPath: prevState.currentPath,
+      }
+    }))
     // remove this listener if the component is no longer mounted
     return unlisten
   }, [history])

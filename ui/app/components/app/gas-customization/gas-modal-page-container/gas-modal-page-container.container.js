@@ -253,7 +253,7 @@ const mergeProps = (stateProps, dispatchProps, ownProps) => {
     ...otherDispatchProps,
     ...ownProps,
     onSubmit: (gasLimit, gasPrice) => {
-      if (isConfirm) {
+      if (!isRetry && isConfirm) {
         const updatedTx = {
           ...transaction,
           txParams: {

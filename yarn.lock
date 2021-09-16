@@ -144,10 +144,10 @@
     loglevel "^1.5.0"
     obs-store "^4.0.3"
 
-"@alayanetwork/eth-ledger-bridge-keyring@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@alayanetwork/eth-ledger-bridge-keyring/-/eth-ledger-bridge-keyring-0.4.0.tgz#0435626f10d8311f68a68077ddc9ef9860eecbab"
-  integrity sha512-LdkTnFTLrSYvL3w2spEtvs6RWgO/hlpTXmwDmPjOf1iEW5O6v+RIxNjadw036D+ipvJ4JinwLhp6LzjXjsPrWg==
+"@alayanetwork/eth-ledger-bridge-keyring@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@alayanetwork/eth-ledger-bridge-keyring/-/eth-ledger-bridge-keyring-0.4.1.tgz#8f16d33717a0f0ae94d2f59ce163894585f458c8"
+  integrity sha512-qWsvKvW7IBV7p0DK4n4Z28lztsWAGG/RUNHSPR0onO7E+/YP1nmNoR+9Zu8iOqobc+fwP39U24WSHDmyVsEswg==
   dependencies:
     "@alayanetwork/ethereumjs-util" "^5.2.0"
     "@ethereumjs/tx" "^3.1.1"

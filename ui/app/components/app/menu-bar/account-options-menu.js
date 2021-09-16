@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { useHistory } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 
-import { showModal } from '../../../store/actions'
+import { hideWarning, showModal } from '../../../store/actions'
 import { CONNECTED_ROUTE } from '../../../helpers/constants/routes'
 import { Menu, MenuItem } from '../../ui/menu'
 import genAccountLink from '../../../../lib/account-link'
@@ -79,6 +79,7 @@ export default function AccountOptionsMenu ({ anchorElement, onClose }) {
       <MenuItem
         data-testid="account-options-menu__account-details"
         onClick={() => {
+          dispatch(hideWarning())
           dispatch(showModal({ name: 'ACCOUNT_DETAILS' }))
           viewAccountDetailsEvent()
           onClose()
