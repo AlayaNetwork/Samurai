@@ -408,7 +408,7 @@
     "message": "Javni naslov Alaya"
   },
   "etherscanView": {
-    "message": "Poglej račun na Alayascan"
+    "message": "Poglej račun na PlatScan"
   },
   "estimatedProcessingTimes": {
     "message": "Predviden čas obdelave"
@@ -1254,7 +1254,7 @@
     "message": "Ogled na $1 "
   },
   "viewOnEtherscan": {
-    "message": "Poglej na Alayascan"
+    "message": "Poglej na PlatScan"
   },
   "visitWebSite": {
     "message": "Obiščite našo spletno stran"

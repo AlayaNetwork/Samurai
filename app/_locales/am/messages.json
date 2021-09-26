@@ -234,7 +234,7 @@
     "message": "ከ Kovan የሙከራ አውታረ መረብ መገናኘት"
   },
   "connectingToMainnet": {
-    "message": "ከዋናው የ Alaya አውታረ መረብ ጋር መገናኘት"
+    "message": "ከዋናው የ PlatON አውታረ መረብ ጋር መገናኘት"
   },
   "connectingToRopsten": {
     "message": "ከ Ropsten የሙከራ አውታረ መረብ ጋር በመገናኘት ላይ"
@@ -408,7 +408,7 @@
     "message": "Alaya ሕዝባዊ አድራሻ"
   },
   "etherscanView": {
-    "message": "መለያውን በ Alayascan ላይ ይመልከቱ"
+    "message": "መለያውን በ PlatScan ላይ ይመልከቱ"
   },
   "estimatedProcessingTimes": {
     "message": "የሚገመት የክወና ጊዜያት"
@@ -476,10 +476,10 @@
     "message": "የገንዘብ ልወጣ፣ ተቀዳሚ የገንዘብ ዓይነት፣ ቋንቋ፣ blockies identicon"
   },
   "getEther": {
-    "message": "ATP ያግኙ"
+    "message": "token ያግኙ"
   },
   "getEtherFromFaucet": {
-    "message": "ATP ከቧንቧ በ$1ያግኙ",
+    "message": "token ከቧንቧ በ$1ያግኙ",
     "description": "Displays network name for ATP faucet"
   },
   "getHelp": {
@@ -628,7 +628,7 @@
     "message": "ዘግተህ ውጣ"
   },
   "mainnet": {
-    "message": "ዋነኛ የ Alaya አውታረ መረብ "
+    "message": "ዋነኛ የ PlatON አውታረ መረብ "
   },
   "memorizePhrase": {
     "message": "ይህን ሐረግ ያስታውሱ።"
@@ -1269,7 +1269,7 @@
     "message": "በ $1ይመልከቱ"
   },
   "viewOnEtherscan": {
-    "message": "በ Alayascan ላይ ይመልከቱ"
+    "message": "በ PlatScan ላይ ይመልከቱ"
   },
   "visitWebSite": {
     "message": "ድረ ገጻችንን ይጎብኙ"

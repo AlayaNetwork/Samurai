@@ -402,7 +402,7 @@
     "message": "Endereço Público do Alaya"
   },
   "etherscanView": {
-    "message": "Ver conta no Alayascan"
+    "message": "Ver conta no PlatScan"
   },
   "estimatedProcessingTimes": {
     "message": "Tempos de Processamento Estimados"
@@ -619,7 +619,7 @@
     "message": "Sair"
   },
   "mainnet": {
-    "message": "Rede Alaya Principal"
+    "message": "Rede PlatON Principal"
   },
   "memorizePhrase": {
     "message": "Memorize esta frase."
@@ -1254,7 +1254,7 @@
     "message": "Ver em $1"
   },
   "viewOnEtherscan": {
-    "message": "Ver no Alayascan"
+    "message": "Ver no PlatScan"
   },
   "visitWebSite": {
     "message": "Visite nosso site"

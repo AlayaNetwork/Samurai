@@ -55,9 +55,10 @@ initProvider({
   connectionStream: metamaskStream,
 })
 
+window.platon = window.alaya
+
 // TODO:deprecate:2020
 // Setup web3
-
 
 if (typeof window.web3a !== 'undefined') {
   throw new Error(`Alaya-MetaMask detected another web3.

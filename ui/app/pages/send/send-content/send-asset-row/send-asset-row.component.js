@@ -95,7 +95,7 @@ export default class SendAssetRow extends Component {
 
   renderEth (insideDropdown = false) {
     const { t } = this.context
-    const { accounts, selectedAddress } = this.props
+    const { nativeCurrency, accounts, selectedAddress } = this.props
 
     const balanceValue = accounts[selectedAddress] ? accounts[selectedAddress].balance : ''
 
@@ -108,7 +108,7 @@ export default class SendAssetRow extends Component {
           <Identicon diameter={36} />
         </div>
         <div className="send-v2__asset-dropdown__asset-data">
-          <div className="send-v2__asset-dropdown__symbol">ATP</div>
+          <div className="send-v2__asset-dropdown__symbol">{nativeCurrency}</div>
           <div className="send-v2__asset-dropdown__name">
             <span className="send-v2__asset-dropdown__name__label">{`${t('balance')}:`}</span>
             <UserPreferencedCurrencyDisplay

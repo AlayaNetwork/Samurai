@@ -90,7 +90,7 @@
     "message": "数量"
   },
   "appDescription": {
-    "message": "Alaya浏览器插件",
+    "message": "PlatON浏览器插件",
     "description": "The description of the application"
   },
   "appName": {
@@ -174,10 +174,10 @@
     "message": "购买"
   },
   "buyWithWyre": {
-    "message": "使用 Wyre 购买 ATP"
+    "message": "使用 Wyre 购买 币"
   },
   "buyWithWyreDescription": {
-    "message": "您可以通过 Wyre 使用信用卡将 ATP 存入您的 Samurai 账户。"
+    "message": "您可以通过 Wyre 使用信用卡将 币 存入您的 Samurai 账户。"
   },
   "buyCoinSwitch": {
     "message": "在CoinSwitch上购买"
@@ -251,14 +251,14 @@
   "connectingTo": {
     "message": "正在连接 $1"
   },
-  "connectingToKovan": {
-    "message": "正在连接到Kovan测试网络"
+  "connectingToAlayaDev": {
+    "message": "正在连接到Alaya开发测试网络"
   },
   "connectingToMainnet": {
-    "message": "正在连接到Alaya网络"
+    "message": "正在连接到PlatON主网络"
   },
-  "connectingToRopsten": {
-    "message": "正在连接到Ropsten测试网络"
+  "connectingToPlatonDev": {
+    "message": "正在连接到platon开发测试网络"
   },
   "connectingToAlaya": {
     "message": "正在连接到Alaya网络"
@@ -339,7 +339,10 @@
     "message": "精确小数点"
   },
   "defaultNetwork": {
-    "message": "默认Alaya交易网络。"
+    "message": "默认交易网络为PlatON主网。"
+  },
+  "defaultTips": {
+    "message": "不同网络间的钱包切勿相互转账！"
   },
   "delete": {
     "message": "删除"
@@ -351,16 +354,16 @@
     "message": "存入"
   },
   "depositEther": {
-    "message": "存入 ATP"
+    "message": "存入 币"
   },
   "details": {
     "message": "详情"
   },
   "directDepositEther": {
-    "message": "直接存入 ATP"
+    "message": "直接存入 币"
   },
   "directDepositEtherExplainer": {
-    "message": "如果你已经有了一些 ATP，通过直接转入是你的新钱包获取 ATP 的最快捷方式。"
+    "message": "如果你已经有了一些 币，通过直接转入是你的新钱包获取 币 的最快捷方式。"
   },
   "done": {
     "message": "完成"
@@ -420,7 +423,7 @@
     "message": "ENS 名称登记错误"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "未在当前网络找到 ENS 名称。请尝试切换至主Alaya网络。"
+    "message": "未在当前网络找到 ENS 名称。请尝试切换至PlatON主网络。"
   },
   "enterAnAlias": {
     "message": "输入别名"
@@ -432,7 +435,7 @@
     "message": "请输入密码以继续"
   },
   "ethereumPublicAddress": {
-    "message": "Alaya公共地址"
+    "message": "PlatON公共地址"
   },
   "etherscanView": {
     "message": "在 scan 上查看账户"
@@ -488,7 +491,7 @@
     "message": "天然气价格极低"
   },
   "gasPriceInfoModalContent": {
-    "message": "天然气价格指定您愿意为每单位天然气支付的ATP数量。"
+    "message": "天然气价格指定您愿意为每单位天然气支付的币数量。"
   },
   "gasPriceNoDenom": {
     "message": " Gas 价格"
@@ -500,11 +503,11 @@
     "message": "货币兑换、主要货币、语言和块状身份头像"
   },
   "getEther": {
-    "message": "获取 ATP"
+    "message": "获取 测试币"
   },
   "getEtherFromFaucet": {
-    "message": "从水管获取$1网络的 ATP",
-    "description": "Displays network name for ATP faucet"
+    "message": "从水管获取$1网络的 测试币",
+    "description": "Displays network name for test token faucet"
   },
   "getHelp": {
     "message": "获取帮助。"
@@ -594,7 +597,7 @@
     "message": "已知联系人地址。"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "非 Alaya 网络，设置为小写"
+    "message": "非 PlatON 网络，设置为小写"
   },
   "invalidInput": {
     "message": "无效输入."
@@ -649,7 +652,7 @@
     "message": "锁定"
   },
   "mainnet": {
-    "message": "Alaya网络"
+    "message": "PlatON网络"
   },
   "memorizePhrase": {
     "message": "记住该密语。"
@@ -661,7 +664,7 @@
     "message": "消息"
   },
   "metamaskDescription": {
-    "message": "Samurai is a secure identity vault for Alaya."
+    "message": "Samurai is a secure identity vault for PlatON."
   },
   "metamaskVersion": {
     "message": "Samurai 版本"
@@ -682,7 +685,7 @@
     "message": "至少选择一种代币."
   },
   "needEtherInWallet": {
-    "message": "使用 Samurai 与 DAPP 交互，需要你的钱包里有 ATP。"
+    "message": "使用 Samurai 与 DAPP 交互，需要你的钱包里有 币。"
   },
   "needImportFile": {
     "message": "必须选择导入一个文件。",
@@ -748,6 +751,9 @@
   },
   "optionalChainId": {
     "message": "ChainID（选填）"
+  },
+  "optionalHrp": {
+    "message": "地址前缀"
   },
   "optionalSymbol": {
     "message": "符号（选填）"
@@ -851,7 +857,7 @@
     "message": "接收地址"
   },
   "recipientAddressPlaceholder": {
-    "message": "查找、公用地址 (atp)"
+    "message": "查找、公用地址"
   },
   "rejectAll": {
     "message": "拒绝所有"
@@ -928,6 +934,12 @@
   "alaya": {
     "message": "Alaya 网络"
   },
+  "alaya_dev": {
+    "message": "Alaya开发测试网"
+  },
+  "platon_dev": {
+    "message": "PlatON开发测试网"
+  },
   "ropsten": {
     "message": "Ropsten 测试网络"
   },
@@ -965,7 +977,7 @@
     "message": "您的个人私密备份密语可以帮助您轻松备份和恢复个人账户。"
   },
   "secretBackupPhraseWarning": {
-    "message": "警告：切勿向他人透露您的备份密语。任何人一旦持有该密语，即可取走您的ATP。"
+    "message": "警告：切勿向他人透露您的备份密语。任何人一旦持有该密语，即可取走您的币。"
   },
   "secretPhrase": {
     "message": "输入12位助记词以恢复金库."
@@ -1001,13 +1013,13 @@
     "message": "发送金额"
   },
   "sendETH": {
-    "message": "发送 ATP"
+    "message": "发送 币"
   },
   "sendTokens": {
     "message": "发送 代币"
   },
   "sentEther": {
-    "message": "ATP已发送"
+    "message": "币已发送"
   },
   "sentTokens": {
     "message": "代币已发送"
@@ -1064,7 +1076,7 @@
     "message": "请选择该选项，在发送页面显示十六进制数据字域"
   },
   "showTransactionTimeDescription": {
-    "message": "选择此选项可在Alaya Network上的“交易列表”选项卡中显示未确认的交易确认时间估计。 注意：估算值是根据网络状况得出的近似值"
+    "message": "选择此选项可在对应网络上的“交易列表”选项卡中显示未确认的交易确认时间估计。 注意：估算值是根据网络状况得出的近似值"
   },
   "sign": {
     "message": "签名"
@@ -1121,7 +1133,7 @@
     "message": "3. 开始体验 dApps 和更多功能！"
   },
   "step3HardwareWalletMsg": {
-    "message": "使用您的硬件钱包，操作与Alaya账户制作相同。登录 dApps，发送 ATP ，购买和保存 ERC20 代币和诸如 CryptoKitties 等不可替代代币。"
+    "message": "使用您的硬件钱包，操作与PlatON账户制作相同。登录 dApps，发送 币 ，购买和保存 ERC20 代币和诸如 CryptoKitties 等不可替代代币。"
   },
   "storePhrase": {
     "message": "通过如 1Password 等密码管家保存该密语。"
@@ -1250,6 +1262,15 @@
   "typePassword": {
     "message": "输入你的密码"
   },
+  "urlErrorMsg": {
+    "message": "URL需要HTTP/HTTPS前缀"
+  },
+  "urlExistsErrorMsg": {
+    "message": "URL已存在于现有网络列表中"
+  },
+  "chainIdExistsErrorMsg": {
+    "message": "ChainID已存在于现有网络列表中"
+  },
   "unapproved": {
     "message": "未批准"
   },
@@ -1287,7 +1308,7 @@
     "message": "使用网络钓鱼检测"
   },
   "usePhishingDetectionDescription": {
-    "message": "对针对Alaya用户的网络钓鱼域显示警告"
+    "message": "对针对PlatON用户的网络钓鱼域显示警告"
   },
   "userName": {
     "message": "用户名"
@@ -1305,7 +1326,7 @@
     "message": "在 $1 查看"
   },
   "viewOnEtherscan": {
-    "message": "在 Alayascan 上查看"
+    "message": "在 PlatScan 上查看"
   },
   "visitWebSite": {
     "message": "访问我们的网站"

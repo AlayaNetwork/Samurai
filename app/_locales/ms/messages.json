@@ -231,7 +231,7 @@
     "message": "Menyambungkan kepada Rangkaian Ujian Kovan"
   },
   "connectingToMainnet": {
-    "message": "Menyambung kepada Rangkaian Alaya Utama"
+    "message": "Menyambung kepada Rangkaian PlatON Utama"
   },
   "connectingToRopsten": {
     "message": "Menyambungkan kepada Rangkaian Ujian Ropsten"
@@ -396,7 +396,7 @@
     "message": "Alamat Awam Alaya"
   },
   "etherscanView": {
-    "message": "Lihat akaun di Alayascan"
+    "message": "Lihat akaun di PlatScan"
   },
   "estimatedProcessingTimes": {
     "message": "Masa Pemprosesan yang Dijangka"
@@ -608,7 +608,7 @@
     "message": "Log keluar"
   },
   "mainnet": {
-    "message": "Rangkaian Alaya Utama"
+    "message": "Rangkaian PlatON Utama"
   },
   "memorizePhrase": {
     "message": "Hafal ungkapan ini."
@@ -1243,7 +1243,7 @@
     "message": "Lihat pada $1"
   },
   "viewOnEtherscan": {
-    "message": "Lihat di Alayascan"
+    "message": "Lihat di PlatScan"
   },
   "visitWebSite": {
     "message": "Kunjungi laman web kami"

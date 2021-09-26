@@ -21,8 +21,10 @@ export default function getBuyEthUrl ({ network, address, service }) {
       return `https://metamask.coinswitch.co/?address=${address}&to=eth`
     case 'metamask-faucet':
       return 'https://faucet.metamask.io/'
+    case 'platon-faucet':
+      return 'https://faucet.platon.network/faucet/?id=e5d32df10aee11ec911142010a667c03'
     case 'alaya-faucet':
-      return 'https://www.alaya.io/'
+      return 'https://faucet.alaya.network/faucet/?id=f93426c0887f11eb83b900163e06151c'
     case 'kovan-faucet':
       return 'https://github.com/kovan-testnet/faucet'
     case 'goerli-faucet':
@@ -34,16 +36,10 @@ export default function getBuyEthUrl ({ network, address, service }) {
 
 function getDefaultServiceForNetwork (network) {
   switch (network) {
-    case '1':
-      return 'wyre'
-    case '3':
-      return 'metamask-faucet'
-    case '201018':
+    case '210309':
+      return 'platon-faucet'
+    case '201030':
       return 'alaya-faucet'
-    case '42':
-      return 'kovan-faucet'
-    case '5':
-      return 'goerli-faucet'
     default:
       throw new Error(`No default cryptocurrency exchange or faucet for networkId: "${network}"`)
   }

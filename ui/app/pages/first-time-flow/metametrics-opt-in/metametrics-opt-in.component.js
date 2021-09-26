@@ -146,7 +146,7 @@ export default class MetaMetricsOptIn extends Component {
               { t('gdprMessage', [
                 <a
                   key="metametrics-bottom-text-wrapper"
-                  href="https://www.alaya.network/privacy-policy/"
+                  href="https://samurai.platon.network/samurai-agreement/privacy-policy.html"
                   target="_blank"
                   rel="noopener noreferrer"
                 >{ t('gdprMessagePrivacyPolicy') }

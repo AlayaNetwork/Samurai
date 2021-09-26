@@ -74,7 +74,7 @@
     "message": "Připojuji se k Kovan Test Network"
   },
   "connectingToMainnet": {
-    "message": "Připojuji se k Main Alaya Network"
+    "message": "Připojuji se k PlatON Main Network"
   },
   "connectingToRopsten": {
     "message": "Připojuji se k Ropsten Test Network"
@@ -152,7 +152,7 @@
     "message": "Zadejte heslo"
   },
   "etherscanView": {
-    "message": "Prohlédněte si účet na Alayascan"
+    "message": "Prohlédněte si účet na PlatScan"
   },
   "exportPrivateKey": {
     "message": "Exportovat privátní klíč"
@@ -184,7 +184,7 @@
     "message": "Získejte ATP"
   },
   "getEtherFromFaucet": {
-    "message": "Získejte ATP z faucetu za $1.",
+    "message": "Získejte token z faucetu za $1.",
     "description": "Displays network name for ATP faucet"
   },
   "here": {

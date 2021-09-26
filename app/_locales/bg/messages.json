@@ -234,7 +234,7 @@
     "message": "Свързване с тестовата мрежа на Kovan"
   },
   "connectingToMainnet": {
-    "message": "Свързване с главната мрежа Alaya"
+    "message": "Свързване с главната мрежа PlatON"
   },
   "connectingToRopsten": {
     "message": "Свързване с тестова мрежа Ropsten"
@@ -408,7 +408,7 @@
     "message": "Публичен адрес за Alaya"
   },
   "etherscanView": {
-    "message": "Преглед на акаунта в Alayascan"
+    "message": "Преглед на акаунта в PlatScan"
   },
   "estimatedProcessingTimes": {
     "message": "Приблизителни времена за обработка"
@@ -472,11 +472,11 @@
     "message": "Конвертиране на валута, първична валута, език, блокчейн идентичност"
   },
   "getEther": {
-    "message": "Вземете ATP"
+    "message": "Вземете token"
   },
   "getEtherFromFaucet": {
-    "message": "Вземете ATP от фосет за $1",
-    "description": "Displays network name for ATP faucet"
+    "message": "Вземете token от фосет за $1",
+    "description": "Displays network name for token faucet"
   },
   "getHelp": {
     "message": "Получете помощ."
@@ -1268,7 +1268,7 @@
     "message": "Преглед на $1"
   },
   "viewOnEtherscan": {
-    "message": "Преглед на Alayascan"
+    "message": "Преглед на PlatScan"
   },
   "visitWebSite": {
     "message": "Посетете нашият уеб сайт"

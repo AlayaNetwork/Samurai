@@ -234,7 +234,7 @@
     "message": "কোভান টেস্ট নেটওয়ার্কের সাথে সংযোগ করছে"
   },
   "connectingToMainnet": {
-    "message": "মুখ্য Alaya নেটওয়ার্কের সাথে সংযোগ করছে"
+    "message": "মুখ্য PlatON নেটওয়ার্কের সাথে সংযোগ করছে"
   },
   "connectingToRopsten": {
     "message": "রপস্টেন টেস্ট নেটওয়ার্কের সাথে সংযোগ করছে"
@@ -408,7 +408,7 @@
     "message": "Alaya পাবলিক অ্যাড্রেস"
   },
   "etherscanView": {
-    "message": "Alayascan এ অ্যাকাউন্ট দেখুন"
+    "message": "PlatScan এ অ্যাকাউন্ট দেখুন"
   },
   "estimatedProcessingTimes": {
     "message": "আনুমানিক প্রক্রিয়াকরণের সময়"
@@ -631,7 +631,7 @@
     "message": "লগ আউট করুন"
   },
   "mainnet": {
-    "message": "মূল Alaya নেটওয়ার্ক"
+    "message": "মূল PlatON নেটওয়ার্ক"
   },
   "memorizePhrase": {
     "message": "এই ফ্রেজটি মুখস্থ করুন।"
@@ -1272,7 +1272,7 @@
     "message": "$1 এ দেখুন"
   },
   "viewOnEtherscan": {
-    "message": "Alayascan দেখুন"
+    "message": "PlatScan দেখুন"
   },
   "visitWebSite": {
     "message": "আমাদের ওয়েবসাইট দেখুন"

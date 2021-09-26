@@ -7,13 +7,13 @@ import {
 import { isValidAddress, checkExistingAddresses } from '../../../../helpers/utils/util'
 import contractMap from 'eth-contract-metadata'
 
-export function getToErrorObject (to, hasHexData = false, network) {
+export function getToErrorObject (to, hasHexData = false, hrp) {
   let toError = null
   if (!to) {
     if (!hasHexData) {
       toError = REQUIRED_ERROR
     }
-  } else if (!isValidAddress(to, network) && !toError) {
+  } else if (!isValidAddress(to, hrp) && !toError) {
     toError = INVALID_RECIPIENT_ADDRESS_ERROR
   }
 

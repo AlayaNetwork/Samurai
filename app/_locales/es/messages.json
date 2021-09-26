@@ -191,7 +191,7 @@
     "message": "Conectando a la red de test Kovan"
   },
   "connectingToMainnet": {
-    "message": "Conectando a la red principal de Alaya (Main Net)"
+    "message": "Conectando a la red principal de PlatON (Main Net)"
   },
   "connectingToRopsten": {
     "message": "Conectando a la red de test Ropsten"
@@ -326,7 +326,7 @@
     "message": "Introducir contraseña para seguir"
   },
   "etherscanView": {
-    "message": "Ver la cuenta en Alayascan"
+    "message": "Ver la cuenta en PlatScan"
   },
   "estimatedProcessingTimes": {
     "message": "Tiempo Previsto de procesamiento"
@@ -513,7 +513,7 @@
     "message": "Cerrar sesión"
   },
   "mainnet": {
-    "message": "Red principal de Alaya (Main Net)"
+    "message": "Red principal de PlatON (Main Net)"
   },
   "message": {
     "message": "Mensaje"
@@ -1004,7 +1004,7 @@
     "message": "Mirar cuenta"
   },
   "viewOnEtherscan": {
-    "message": "Ver en Alayascan"
+    "message": "Ver en PlatScan"
   },
   "visitWebSite": {
     "message": "Visita nuestro sitio web"

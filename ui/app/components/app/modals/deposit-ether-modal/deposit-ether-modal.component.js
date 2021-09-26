@@ -80,7 +80,7 @@ export default class DepositEtherModal extends Component {
   render () {
     const { network, toWyre, toCoinSwitch, address, toFaucet } = this.props
 
-    const isTestNetwork = ['3', '4', '5', '42'].find((n) => n === network)
+    const isTestNetwork = ['210309', '201030'].find((n) => n === network)
     const networkName = getNetworkDisplayName(network)
 
     return (
@@ -120,6 +120,14 @@ export default class DepositEtherModal extends Component {
               text: this.context.t('directDepositEtherExplainer'),
               buttonLabel: this.context.t('viewAccount'),
               onButtonClick: () => this.goToAccountDetailsModal(),
+            })}
+            {this.renderRow({
+              logo: <i className="fa fa-tint fa-2x" />,
+              title: this.context.t('testFaucet'),
+              text: this.faucetRowText(networkName),
+              buttonLabel: this.context.t('getEther'),
+              onButtonClick: () => toFaucet(network),
+              hide: !isTestNetwork,
             })}
           </div>
         </div>

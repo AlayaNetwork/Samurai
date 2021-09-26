@@ -19,6 +19,7 @@ import {
   getUnconnectedAccountAlertEnabledness,
   getUnconnectedAccountAlertShown,
 } from './app/ducks/metamask/metamask'
+import { decodeBech32Address, isBech32Address } from '@alayanetwork/ethereumjs-util'
 
 log.setLevel(global.METAMASK_DEBUG ? 'debug' : 'warn')
 
@@ -76,6 +77,12 @@ async function startApp (metamaskState, backgroundConnection, opts) {
   if (getEnvironmentType() === ENVIRONMENT_TYPE_POPUP) {
     const origin = draftInitialState.activeTab.origin
     const permittedAccountsForCurrentTab = getPermittedAccountsForCurrentTab(draftInitialState)
+    const permittedAccountsForCurrentTabHex = permittedAccountsForCurrentTab.map((acc) => {
+      if (isBech32Address(acc)) {
+        return decodeBech32Address(acc)
+      }
+      return acc
+    })
     const selectedAddress = getSelectedAddress(draftInitialState)
     const unconnectedAccountAlertShownOrigins = getUnconnectedAccountAlertShown(draftInitialState)
     const unconnectedAccountAlertIsEnabled = getUnconnectedAccountAlertEnabledness(draftInitialState)
@@ -84,8 +91,8 @@ async function startApp (metamaskState, backgroundConnection, opts) {
       origin &&
       unconnectedAccountAlertIsEnabled &&
       !unconnectedAccountAlertShownOrigins[origin] &&
-      permittedAccountsForCurrentTab.length > 0 &&
-      !permittedAccountsForCurrentTab.includes(selectedAddress)
+      permittedAccountsForCurrentTabHex.length > 0 &&
+      !permittedAccountsForCurrentTabHex.includes(decodeBech32Address(selectedAddress))
     ) {
       draftInitialState[ALERT_TYPES.unconnectedAccount] = { state: ALERT_STATE.OPEN }
       actions.setUnconnectedAccountAlertShown(origin)

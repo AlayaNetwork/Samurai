@@ -6,11 +6,10 @@ export const PRIMARY = 'PRIMARY'
 export const SECONDARY = 'SECONDARY'
 
 export const NETWORK_TYPES = {
-  // KOVAN: 'kovan',
   MAINNET: 'mainnet',
+  PLATON_DEV: 'platon_dev',
   ALAYA: 'alaya',
-  // ROPSTEN: 'ropsten',
-  // GOERLI: 'goerli',
+  ALAYA_DEV: 'alaya_dev',
 }
 
 export const GAS_ESTIMATE_TYPES = {
