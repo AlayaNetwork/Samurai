@@ -9,7 +9,7 @@ Samurai基于metamask的8.0.10版本修改，主要是适配Alaya网络。由于
 
 ### 1. 安装
 
-+ 从[官方地址](https://github.com/AlayaNetwork/Samurai/releases/download/v8.1.0/samurai-chrome-8.1.0.zip)下载Samurai插件包
++ 从[Release地址](https://github.com/AlayaNetwork/Samurai/releases)下载Samurai插件包
 + 解压Samurai插件包
 + 打开chrome浏览器，在地址栏输入并回车，进入到chrome扩展程序管理页面。
 
