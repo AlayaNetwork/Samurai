@@ -23,16 +23,22 @@ Support
 3. Ledger Live is ready to use.
 4. Install the latest version of Samurai Wallet
 
+## Video Guide
+
+[Click here to watch](https://www.youtube.com/watch?v=QM93yuByL2Q)
+
 ## Install The PlatON App
 
 1. Open the Manager in Ledger Live.
 2. Connect and unlock your Ledger Device.
 3. If asked, follow the onscreen instructions and Allow Ledger Manager.
 4. Find PlatON in the app catalog.
+![image-20211203171407212](./images/image-20211203171407212.png)
+
 5. Click the Install button.
-   An installation window will appear.
-   Your device will display Processing…
-   The app installation is confirmed.
+<br />An installation window will appear.
+<br />Your device will display Processing…
+<br />The app installation is confirmed.
 6. Close Ledger Live.
 
 ## Connecting to the Samurai Wallet
