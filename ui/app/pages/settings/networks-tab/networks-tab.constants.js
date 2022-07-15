@@ -5,7 +5,7 @@ const defaultNetworksData = [
     labelKey: 'mainnet',
     iconColor: '#29B6AF',
     providerType: 'mainnet',
-    rpcUrl: 'https://samurai.platon.network',
+    rpcUrl: 'https://openapi2.platon.network/rpc',
     chainId: MAINNET_NETWORK_ID,
     hrp: 'lat',
     ticker: 'LAT',
