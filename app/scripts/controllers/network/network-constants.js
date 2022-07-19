@@ -2,7 +2,7 @@ export const defaultNetworksData = {
   mainnet: {
     providerType: 'mainnet',
     rpcTarget: 'https://samurai.platon.network',
-    chainId: '100',
+    chainId: '210425',
     hrp: 'lat',
     ticker: 'LAT',
     blockExplorerUrl: 'https://scan.platon.network',
